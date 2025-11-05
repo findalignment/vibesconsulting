@@ -6,22 +6,22 @@ const services = [
   {
     title: 'Business Flow Consulting',
     slug: 'business-flow',
-    description: 'End-to-end process optimization using TQM principles. Identify friction, map ideal state, implement lasting change.',
-    bullets: ['Friction Audit', 'Flow Map (current vs ideal)', '90-Day Improvement Plan'],
-    investment: '$2,500'
+    description: 'Diagnose operational friction using TQM and structural alignment frameworks. Redesign workflows, rituals, and communication loops.',
+    bullets: ['Friction Audit Report', 'Flow Map (current vs ideal)', '90-Day Continuous Improvement Plan'],
+    investment: 'From $2,500'
   },
   {
     title: 'AI Integration for Small Business',
     slug: 'ai-integration',
-    description: 'Practical AI adoption that increases productivity without introducing risk. Safe tools, proper training, real results.',
-    bullets: ['AI Opportunity Scan', 'Safe AI stack + trainings', 'SOPs & quick-start library'],
-    investment: '$4,500'
+    description: 'Identify high-impact AI tools to streamline repetitive tasks. Train your team on responsible AI use with proper safety protocols.',
+    bullets: ['AI Opportunity Scan', 'Safe AI Integration Plan', 'Custom SOP Library + Quick-Start Guide'],
+    investment: 'Part of Flow Rebuild'
   },
   {
     title: 'Culture & Environment Optimization',
     slug: 'culture-optimization',
-    description: 'Design rituals, cadences, and spaces that help teams do their best work. Move from chaos to clarity.',
-    bullets: ['Culture Flow Report', 'Rituals & cadences', 'Quarterly Vibe Reset'],
+    description: 'Evaluate the "vibe" — morale, engagement, communication tone. Design cultural rituals that reinforce belonging and trust.',
+    bullets: ['Culture Flow Report', 'Leadership Coaching Session', 'Quarterly Vibe Reset Framework'],
     investment: 'From $5,500'
   }
 ]

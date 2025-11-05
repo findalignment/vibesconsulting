@@ -81,21 +81,21 @@ export default function PackagesPage() {
         <h2 className="mb-4">How It Works</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <div className="text-walnut font-semibold mb-2">1. Book Intro Call</div>
+            <div className="text-current-500 font-semibold mb-2">1. Book Intro Call</div>
             <p className="text-white/70 text-sm">30-minute conversation to understand your friction points and recommend the right package.</p>
           </div>
           <div>
-            <div className="text-walnut font-semibold mb-2">2. Start with Flow Check</div>
+            <div className="text-current-500 font-semibold mb-2">2. Start with Flow Check</div>
             <p className="text-white/70 text-sm">Most clients begin here. It's low-risk, high-insight, and credit applies to larger engagements.</p>
           </div>
           <div>
-            <div className="text-walnut font-semibold mb-2">3. Decide Next Steps</div>
+            <div className="text-current-500 font-semibold mb-2">3. Decide Next Steps</div>
             <p className="text-white/70 text-sm">After the Flow Check, you'll know exactly what needs fixing. Continue with Rebuild or Partnership as needed.</p>
           </div>
         </div>
       </section>
 
-      <section className="card p-8 bg-walnut/10">
+      <section className="card p-8 bg-current-600/10">
         <div className="text-center">
           <h2 className="mb-4">Not Sure Which Package Fits?</h2>
           <p className="text-white/80 max-w-2xl mx-auto mb-6">Most clients start with The Flow Check. It's a low-commitment way to diagnose what's really going on and build a roadmap. The $2,500 is fully credited if you continue.</p>

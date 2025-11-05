@@ -3,16 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0C1B2A; /* deep navy */
+  --bg: #0A1628; /* deep ocean */
   --fg: #FFFFFF;
 }
 
 html, body { height: 100%; }
 body {
   color: var(--fg);
-  background: radial-gradient(1200px 800px at 20% -10%, rgba(255,255,255,0.06), transparent),
-              radial-gradient(1200px 800px at 120% 10%, rgba(122,92,69,0.10), transparent),
-              var(--bg);
+  background: 
+    radial-gradient(ellipse 1400px 900px at 20% -5%, rgba(6, 182, 212, 0.08), transparent),
+    radial-gradient(ellipse 1200px 800px at 85% 50%, rgba(20, 184, 166, 0.06), transparent),
+    radial-gradient(circle 600px at 50% 100%, rgba(8, 145, 178, 0.05), transparent),
+    linear-gradient(180deg, var(--bg) 0%, #0F1F3A 100%);
 }
 
 .container {
@@ -20,14 +22,18 @@ body {
 }
 
 .card {
-  @apply bg-white/5 backdrop-blur border border-white/10 rounded-2xl shadow-soft;
+  @apply bg-white/[0.03] backdrop-blur-sm border border-current-600/20 rounded-2xl shadow-flow hover:border-current-600/40 transition-all duration-300;
 }
 
 .btn {
-  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium hover:opacity-90 transition;
+  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition-all duration-300;
 }
-.btn-primary { @apply bg-white text-navy-900; }
-.btn-ghost { @apply border border-white/20 text-white; }
+.btn-primary { 
+  @apply bg-gradient-to-r from-current-600 to-current-500 text-white hover:from-current-500 hover:to-current-400 shadow-flow;
+}
+.btn-ghost { 
+  @apply border border-current-600/30 text-current-400 hover:border-current-500 hover:text-current-300; 
+}
 
 h1 { @apply text-4xl md:text-5xl font-semibold tracking-tight; }
 h2 { @apply text-3xl md:text-4xl font-semibold tracking-tight; }

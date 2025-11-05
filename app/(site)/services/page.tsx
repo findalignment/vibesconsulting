@@ -39,9 +39,9 @@ export default function ServicesPage() {
           <Link 
             key={s.slug} 
             href={`/services/${s.slug}`}
-            className="card p-6 hover:border-walnut/50 transition-colors group"
+            className="card p-6 hover:border-current-600/50 transition-colors group"
           >
-            <h3 className="mb-2 group-hover:text-walnut transition-colors">{s.title}</h3>
+            <h3 className="mb-2 group-hover:text-current-500 transition-colors">{s.title}</h3>
             <p className="text-white/60 text-sm mb-4">{s.description}</p>
             <ul className="list-disc pl-5 text-white/80 space-y-2 text-sm mb-4">
               {s.bullets.map(b => <li key={b}>{b}</li>)}

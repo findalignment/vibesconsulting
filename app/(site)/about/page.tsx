@@ -10,12 +10,12 @@ export default function AboutPage() {
 
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div className="card p-8">
-          <h2 className="text-2xl mb-4 text-walnut">Mission</h2>
+          <h2 className="text-2xl mb-4 text-current-500">Mission</h2>
           <p className="text-white/80 leading-relaxed">Vibes Consulting helps small businesses operate with ease, alignment, and intelligence. We merge total quality management, human systems insight, and modern AI tools to create environments where people actually want to be — cohesive, efficient, and alive with purpose.</p>
         </div>
 
         <div className="card p-8">
-          <h2 className="text-2xl mb-4 text-walnut">Vision</h2>
+          <h2 className="text-2xl mb-4 text-current-500">Vision</h2>
           <p className="text-white/80 leading-relaxed">To make "flow" the new business metric — not just profit or productivity. When people enjoy how things move, everything works better.</p>
         </div>
       </div>
@@ -25,7 +25,7 @@ export default function AboutPage() {
         <div className="card p-8">
           <p className="text-white/90 text-lg mb-6">You can feel when a business works — and when it doesn't. Vibes Consulting identifies invisible friction, restores operational flow, and teaches leaders how to keep it that way.</p>
           
-          <h3 className="text-xl mb-4 text-walnut">We blend three disciplines:</h3>
+          <h3 className="text-xl mb-4 text-current-500">We blend three disciplines:</h3>
           <div className="space-y-4">
             <div>
               <h4 className="text-lg font-semibold text-white mb-2">TQM Principles</h4>
@@ -72,15 +72,15 @@ export default function AboutPage() {
           
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             <div>
-              <h3 className="text-lg mb-2 text-walnut">Boutique Businesses</h3>
+              <h3 className="text-lg mb-2 text-current-500">Boutique Businesses</h3>
               <p className="text-white/70 text-sm">Gyms, wellness studios, design agencies, retail, hospitality — places where culture matters as much as output.</p>
             </div>
             <div>
-              <h3 className="text-lg mb-2 text-walnut">Owner-Operators</h3>
+              <h3 className="text-lg mb-2 text-current-500">Owner-Operators</h3>
               <p className="text-white/70 text-sm">Founders who want less chaos and more joy. Leaders who know something's off but can't name it.</p>
             </div>
             <div>
-              <h3 className="text-lg mb-2 text-walnut">AI-Curious Teams</h3>
+              <h3 className="text-lg mb-2 text-current-500">AI-Curious Teams</h3>
               <p className="text-white/70 text-sm">Local businesses experimenting with AI but unsure how to start safely without exposing client data.</p>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="card p-8 bg-walnut/10 text-center">
+      <section className="card p-8 bg-current-600/10 text-center">
         <h2 className="mb-4">Ready to Fix Your Flow?</h2>
         <p className="text-white/80 max-w-2xl mx-auto mb-6">If your business feels harder than it should, let's talk. Book a 30-minute intro call to explore what flow could look like for your team.</p>
         <a href="/contact" className="btn btn-primary">Schedule Intro Call</a>

@@ -20,13 +20,13 @@ export default function AIIntegrationPage() {
 
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div className="card p-8">
-          <h3 className="mb-4 text-walnut">The Problem We Solve</h3>
+          <h3 className="mb-4 text-current-500">The Problem We Solve</h3>
           <p className="text-white/80 mb-4">AI is everywhere, but most small businesses don't know where to start. You've heard the hype. You've tried ChatGPT. But you haven't figured out how to <strong>systematically integrate AI</strong> into your operations.</p>
           <p className="text-white/80">The risk? Wasting time on tools that don't fit, exposing client data, or your team resisting adoption because they're scared or skeptical.</p>
         </div>
 
         <div className="card p-8">
-          <h3 className="mb-4 text-walnut">What Makes This Different</h3>
+          <h3 className="mb-4 text-current-500">What Makes This Different</h3>
           <p className="text-white/80 mb-4">We're not AI evangelists. We're <strong>pragmatists</strong>. We only recommend tools that have proven ROI, prioritize data safety, and actually get used.</p>
           <p className="text-white/80">You won't leave with a 50-page AI strategy doc. You'll leave with 3-5 automations running, SOPs written, and your team trained.</p>
         </div>
@@ -183,19 +183,19 @@ export default function AIIntegrationPage() {
       <section className="mb-16">
         <h2 className="mb-6">Real Results</h2>
         <div className="space-y-4">
-          <div className="card p-6 border-l-4 border-walnut">
+          <div className="card p-6 border-l-4 border-current-600">
             <p className="text-white/90 mb-2"><strong>Marketing agency, 6 people:</strong></p>
             <p className="text-white/70">"We were spending 8 hours a week on client reporting. Vibes built an automation that pulls data from our CRM and generates reports in 15 minutes. That's 30+ hours a month back."</p>
           </div>
 
-          <div className="card p-6 border-l-4 border-walnut">
+          <div className="card p-6 border-l-4 border-current-600">
             <p className="text-white/90 mb-2"><strong>Consulting firm, 10 people:</strong></p>
             <p className="text-white/70">"Our team was skeptical of AI. After the workshop, everyone had at least one use case they loved. Now AI is part of our normal workflow, not a side experiment."</p>
           </div>
         </div>
       </section>
 
-      <section className="mb-16 card p-8 bg-walnut/10">
+      <section className="mb-16 card p-8 bg-current-600/10">
         <h2 className="mb-4">Investment</h2>
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>

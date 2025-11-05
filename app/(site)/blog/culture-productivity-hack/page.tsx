@@ -290,7 +290,7 @@ export default function BlogPost() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10">
-          <div className="card p-8 bg-walnut/10">
+          <div className="card p-8 bg-current-600/10">
             <h3 className="text-xl mb-3">Want to Fix Your Culture?</h3>
             <p className="text-white/80 mb-6">We'll audit your team's rituals, communication patterns, and operating rhythms — then redesign them for sustainable flow.</p>
             <Link href="/services/culture-optimization" className="btn btn-primary">Learn About Culture Optimization</Link>

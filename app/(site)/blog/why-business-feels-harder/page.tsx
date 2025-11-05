@@ -198,7 +198,7 @@ export default function BlogPost() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10">
-          <div className="card p-8 bg-walnut/10">
+          <div className="card p-8 bg-current-600/10">
             <h3 className="text-xl mb-3">Want to Fix Your Friction?</h3>
             <p className="text-white/80 mb-6">Book a 30-minute intro call. We'll talk about where your business gets stuck and whether a Flow Check makes sense.</p>
             <Link href="/contact" className="btn btn-primary">Schedule Intro Call</Link>

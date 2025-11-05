@@ -307,7 +307,7 @@ export default function BlogPost() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10">
-          <div className="card p-8 bg-walnut/10">
+          <div className="card p-8 bg-current-600/10">
             <h3 className="text-xl mb-3">Need Help Adopting AI Safely?</h3>
             <p className="text-white/80 mb-6">We'll identify your highest-value AI opportunities, set up the tools, and train your team. No hype, just practical implementation.</p>
             <Link href="/services/ai-integration" className="btn btn-primary">Learn About AI Integration</Link>

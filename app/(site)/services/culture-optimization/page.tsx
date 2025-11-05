@@ -20,13 +20,13 @@ export default function CultureOptimizationPage() {
 
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div className="card p-8">
-          <h3 className="mb-4 text-walnut">The Problem We Solve</h3>
+          <h3 className="mb-4 text-current-500">The Problem We Solve</h3>
           <p className="text-white/80 mb-4">Your team is capable, but the <strong>environment isn't supporting them</strong>. Too many interruptions. Unclear expectations. Meetings that could've been emails. A vibe that feels off but you can't name why.</p>
           <p className="text-white/80">Culture isn't ping pong tables. It's the invisible scaffolding that determines whether people can do their best work.</p>
         </div>
 
         <div className="card p-8">
-          <h3 className="mb-4 text-walnut">What Makes This Different</h3>
+          <h3 className="mb-4 text-current-500">What Makes This Different</h3>
           <p className="text-white/80 mb-4">We don't run trust falls or personality tests. We <strong>redesign the operating system</strong> — the meetings, rituals, communication norms, and physical environment that shape how work feels.</p>
           <p className="text-white/80">You'll leave with new rhythms in place, not a manifesto no one follows.</p>
         </div>
@@ -183,24 +183,24 @@ export default function CultureOptimizationPage() {
       <section className="mb-16">
         <h2 className="mb-6">Real Results</h2>
         <div className="space-y-4">
-          <div className="card p-6 border-l-4 border-walnut">
+          <div className="card p-6 border-l-4 border-current-600">
             <p className="text-white/90 mb-2"><strong>Design studio, 14 people:</strong></p>
             <p className="text-white/70">"We were in 12 meetings a week and still felt out of sync. Vibes helped us cut it to 4 focused meetings and move everything else to async updates. Team satisfaction went up 40% in one quarter."</p>
           </div>
 
-          <div className="card p-6 border-l-4 border-walnut">
+          <div className="card p-6 border-l-4 border-current-600">
             <p className="text-white/90 mb-2"><strong>Tech startup, 18 people:</strong></p>
             <p className="text-white/70">"Our Slack was a nightmare — 24/7 pings, no boundaries. Vibes redesigned our communication norms and reorganized channels. Now people actually disconnect at night and we're more productive during the day."</p>
           </div>
 
-          <div className="card p-6 border-l-4 border-walnut">
+          <div className="card p-6 border-l-4 border-current-600">
             <p className="text-white/90 mb-2"><strong>Retail business, 9 people:</strong></p>
             <p className="text-white/70">"Our team turnover was high and exit interviews all mentioned 'unclear expectations.' Vibes ran a culture audit and helped us redesign onboarding and weekly check-ins. We haven't had a resignation in 8 months."</p>
           </div>
         </div>
       </section>
 
-      <section className="mb-16 card p-8 bg-walnut/10">
+      <section className="mb-16 card p-8 bg-current-600/10">
         <h2 className="mb-4">Investment</h2>
         
         <div className="mb-8">

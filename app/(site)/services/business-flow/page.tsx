@@ -20,13 +20,13 @@ export default function BusinessFlowPage() {
 
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div className="card p-8">
-          <h3 className="mb-4 text-walnut">The Problem We Solve</h3>
+          <h3 className="mb-4 text-current-500">The Problem We Solve</h3>
           <p className="text-white/80 mb-4">You're working harder than you should be. Tasks take too long. Information gets lost. Decisions stall. Your team is capable, but the <strong>systems aren't supporting them</strong>.</p>
           <p className="text-white/80">Most businesses live with invisible friction for years — until someone maps it, names it, and redesigns the flow.</p>
         </div>
 
         <div className="card p-8">
-          <h3 className="mb-4 text-walnut">What Makes This Different</h3>
+          <h3 className="mb-4 text-current-500">What Makes This Different</h3>
           <p className="text-white/80 mb-4">We don't just recommend changes. We <strong>walk the floor with you</strong>, watch how work actually moves, and co-design solutions your team will actually use.</p>
           <p className="text-white/80">No generic playbooks. No consulting theater. Just honest diagnosis and practical redesign.</p>
         </div>
@@ -136,19 +136,19 @@ export default function BusinessFlowPage() {
       <section className="mb-16">
         <h2 className="mb-6">Real Results</h2>
         <div className="space-y-4">
-          <div className="card p-6 border-l-4 border-walnut">
+          <div className="card p-6 border-l-4 border-current-600">
             <p className="text-white/90 mb-2"><strong>Creative agency, 12 people:</strong></p>
             <p className="text-white/70">"Onboarding used to take 6 weeks and involve 14 different documents. Now it's 2 weeks with one intake form and a kickoff call. Clients tell us we're easier to work with than our competitors."</p>
           </div>
 
-          <div className="card p-6 border-l-4 border-walnut">
+          <div className="card p-6 border-l-4 border-current-600">
             <p className="text-white/90 mb-2"><strong>Design studio, 8 people:</strong></p>
             <p className="text-white/70">"We were having 12 internal meetings a week. Vibes helped us redesign our cadence and clarify decision rights. Now we meet 4 times a week and finish projects 30% faster."</p>
           </div>
         </div>
       </section>
 
-      <section className="mb-16 card p-8 bg-walnut/10">
+      <section className="mb-16 card p-8 bg-current-600/10">
         <h2 className="mb-4">Investment</h2>
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>

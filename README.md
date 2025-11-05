@@ -139,4 +139,3 @@ Questions? hello@vibesconsulting.com
 **© 2025 Vibes Consulting — Santa Cruz, CA**
 
 We fix the flow.
-

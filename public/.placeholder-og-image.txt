@@ -1,0 +1,12 @@
+PLACEHOLDER: og-image.png
+-------------------------
+Recommended specs:
+- Dimensions: 1200x630px (exact)
+- Format: PNG or JPG
+- Content: Brand name + tagline + visual element
+- Text: Large, readable on mobile previews
+- File size: < 1MB
+
+This is your Open Graph image for social media sharing.
+Replace this file with: og-image.png
+

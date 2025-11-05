@@ -1,0 +1,11 @@
+PLACEHOLDER: flow-map.png
+-------------------------
+Recommended specs:
+- Dimensions: 1000x600px or higher
+- Format: PNG or SVG (preferred)
+- Content: Simple flow diagram showing process improvement
+- Style: Clean, minimal, branded colors
+- File size: < 200KB
+
+Replace this file with: flow-map.png
+

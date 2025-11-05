@@ -1,0 +1,11 @@
+PLACEHOLDER: hero.jpg
+---------------------
+Recommended specs:
+- Dimensions: 1200x800px or higher
+- Format: JPG or WebP
+- Content: A flowing space, abstract motion, or workspace in flow
+- Mood: Calm, dynamic, professional
+- File size: < 500KB (optimized for web)
+
+Replace this file with: hero.jpg
+

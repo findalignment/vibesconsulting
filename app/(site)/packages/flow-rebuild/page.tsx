@@ -38,8 +38,11 @@ export default function FlowRebuildPage() {
         <p className="text-white/80 mb-6">Choose one critical system that's causing the most friction:</p>
         
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Meeting & Decision OS</h3>
+          <Link 
+            href="/packages/flow-rebuild/systems/meeting-decision-os"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
+          >
+            <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">Meeting & Decision OS</h3>
             <p className="text-white/70 text-sm mb-4">Redesign your entire meeting cadence, clarify decision rights, implement async communication norms. Cut meeting time by 40-50% while improving alignment.</p>
             <div className="text-xs text-white/60">
               <p className="font-medium mb-1">Includes:</p>
@@ -50,10 +53,13 @@ export default function FlowRebuildPage() {
                 <li>• Template library</li>
               </ul>
             </div>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Client Onboarding</h3>
+          <Link 
+            href="/packages/flow-rebuild/systems/client-onboarding"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
+          >
+            <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">Client Onboarding</h3>
             <p className="text-white/70 text-sm mb-4">Streamline intake, clarify handoffs, automate repetitive steps, create a client experience that feels effortless. Reduce onboarding time by 30-40%.</p>
             <div className="text-xs text-white/60">
               <p className="font-medium mb-1">Includes:</p>
@@ -64,10 +70,13 @@ export default function FlowRebuildPage() {
                 <li>• Internal checklists</li>
               </ul>
             </div>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Project Delivery Workflow</h3>
+          <Link 
+            href="/packages/flow-rebuild/systems/project-delivery"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
+          >
+            <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">Project Delivery Workflow</h3>
             <p className="text-white/70 text-sm mb-4">Map current vs. ideal state, eliminate unnecessary handoffs, clarify ownership, build quality checkpoints. Make delivery predictable and smooth.</p>
             <div className="text-xs text-white/60">
               <p className="font-medium mb-1">Includes:</p>
@@ -78,7 +87,7 @@ export default function FlowRebuildPage() {
                 <li>• Handoff protocols</li>
               </ul>
             </div>
-          </div>
+          </Link>
         </div>
       </section>
 

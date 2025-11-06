@@ -36,8 +36,11 @@ export default function VibePartnershipPage() {
       <section className="mb-16">
         <h2 className="mb-6">What's Included</h2>
         <div className="space-y-4">
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">Quarterly Vibe Resets (90 min each)</h3>
+          <Link 
+            href="/packages/vibe-partnership/whats-included/quarterly-resets"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
+          >
+            <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">Quarterly Vibe Resets (90 min each)</h3>
             <p className="text-white/70 text-sm mb-3">Deep-dive strategy sessions every 3 months. We review what's working, what's slipping, and adjust your systems accordingly. Keeps culture and operations healthy as you grow.</p>
             <div className="text-xs text-white/60">
               <p className="font-medium mb-1">Includes:</p>
@@ -48,10 +51,13 @@ export default function VibePartnershipPage() {
                 <li>• Leadership coaching</li>
               </ul>
             </div>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">Monthly Pulse Surveys</h3>
+          <Link 
+            href="/packages/vibe-partnership/whats-included/pulse-surveys"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
+          >
+            <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">Monthly Pulse Surveys</h3>
             <p className="text-white/70 text-sm mb-3">Anonymous team surveys tracking engagement, clarity, and flow. We analyze the data and surface patterns before they become problems.</p>
             <div className="text-xs text-white/60">
               <p className="font-medium mb-1">Tracking:</p>
@@ -62,10 +68,13 @@ export default function VibePartnershipPage() {
                 <li>• Decision-making clarity</li>
               </ul>
             </div>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">On-Call Culture & Ops Support</h3>
+          <Link 
+            href="/packages/vibe-partnership/whats-included/on-call-support"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
+          >
+            <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">On-Call Culture & Ops Support</h3>
             <p className="text-white/70 text-sm mb-3">Slack/email access for questions as they come up. "Should we change this ritual?" "How do we handle this team dynamic?" "Is this process still serving us?" Fast, actionable guidance.</p>
             <div className="text-xs text-white/60">
               <p className="font-medium mb-1">Response time:</p>
@@ -75,10 +84,13 @@ export default function VibePartnershipPage() {
                 <li>• Strategic: 48-hour turnaround</li>
               </ul>
             </div>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">Continuous AI Strategy</h3>
+          <Link 
+            href="/packages/vibe-partnership/whats-included/ai-strategy"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
+          >
+            <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">Continuous AI Strategy</h3>
             <p className="text-white/70 text-sm mb-3">As AI tools evolve, we keep you updated on what's worth adopting. Monthly scan of new opportunities, quarterly implementation of 1-2 new automations.</p>
             <div className="text-xs text-white/60">
               <p className="font-medium mb-1">Includes:</p>
@@ -89,7 +101,7 @@ export default function VibePartnershipPage() {
                 <li>• Team training updates</li>
               </ul>
             </div>
-          </div>
+          </Link>
 
           <div className="card p-6">
             <h3 className="text-xl mb-2">Priority Access to Services</h3>

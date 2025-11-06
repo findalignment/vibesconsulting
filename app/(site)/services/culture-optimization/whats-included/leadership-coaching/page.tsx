@@ -93,7 +93,7 @@ export default function LeadershipCoachingPage() {
             </div>
             <div className="card p-4">
               <p className="text-white/80 text-sm mb-2">"I want a collaborative culture, but I keep making unilateral decisions."</p>
-              <p className="text-white/70 text-xs"><strong>Coaching:</strong> Behavior > stated values. Let's identify decisions you can delegate or co-create. Practice letting go of control.</p>
+              <p className="text-white/70 text-xs"><strong>Coaching:</strong> Behavior &gt; stated values. Let's identify decisions you can delegate or co-create. Practice letting go of control.</p>
             </div>
           </div>
         </section>

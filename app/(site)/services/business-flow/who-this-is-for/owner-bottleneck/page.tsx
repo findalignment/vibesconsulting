@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'For Owner-Operators (You're the Bottleneck) — Business Flow Consulting' }
+export const metadata = { title: "For Owner-Operators (You're the Bottleneck) — Business Flow Consulting" }
 
 export default function OwnerBottleneckPage() {
   return (

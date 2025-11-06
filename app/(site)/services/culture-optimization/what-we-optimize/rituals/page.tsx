@@ -147,7 +147,7 @@ export default function RitualsPage() {
             </div>
             <div className="card p-4 bg-red-500/10">
               <h4 className="text-white text-sm font-medium mb-2">Forcing Participation</h4>
-              <p className="text-white/70 text-xs">Opt-in > mandatory. If people don't want to participate, the ritual is probably wrong.</p>
+              <p className="text-white/70 text-xs">Opt-in &gt; mandatory. If people don't want to participate, the ritual is probably wrong.</p>
             </div>
             <div className="card p-4 bg-red-500/10">
               <h4 className="text-white text-sm font-medium mb-2">No Follow-Through</h4>

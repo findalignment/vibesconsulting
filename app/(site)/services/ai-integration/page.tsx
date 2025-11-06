@@ -35,148 +35,190 @@ export default function AIIntegrationPage() {
       <section className="mb-16">
         <h2 className="mb-6">What's Included</h2>
         <div className="space-y-6">
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">1. AI Opportunity Scan</h3>
+          <Link href="/services/ai-integration/whats-included/opportunity-scan" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4">
+              <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">1. AI Opportunity Scan</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 mb-3">We identify the highest-value, lowest-risk AI use cases in your business.</p>
-            <ul className="list-disc pl-6 text-white/80 space-y-2">
+            <ul className="list-disc pl-6 text-white/80 space-y-2 text-sm">
               <li><strong>Process walkthrough:</strong> Review your workflows to spot repetitive, manual tasks AI can handle</li>
               <li><strong>Use case ranking:</strong> Score opportunities by time saved, cost, implementation complexity, and risk</li>
-              <li><strong>Tool recommendations:</strong> Specific platforms (ChatGPT, Claude, Zapier, Make, etc.) matched to your needs</li>
+              <li><strong>Tool recommendations:</strong> Specific platforms matched to your needs</li>
               <li><strong>Data safety audit:</strong> Ensure no client info or IP leaks through public AI tools</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">2. Safe AI Stack + Implementation</h3>
+          <Link href="/services/ai-integration/whats-included/integration-plan" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4">
+              <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">2. Safe AI Stack + Implementation</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 mb-3">We set up your AI tools, test them, and make sure they're secure.</p>
-            <ul className="list-disc pl-6 text-white/80 space-y-2">
+            <ul className="list-disc pl-6 text-white/80 space-y-2 text-sm">
               <li><strong>Tool setup:</strong> Configure AI platforms with proper permissions and security settings</li>
-              <li><strong>Workflow automation:</strong> Build 3-5 automations (e.g., meeting notes, email drafts, client reporting)</li>
-              <li><strong>Prompt libraries:</strong> Pre-written prompts your team can reuse for common tasks</li>
+              <li><strong>Workflow automation:</strong> Build 3-5 automations</li>
+              <li><strong>Prompt libraries:</strong> Pre-written prompts your team can reuse</li>
               <li><strong>Data policies:</strong> Clear guidelines on what you can/can't put into AI tools</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">3. Team Training & SOPs</h3>
+          <Link href="/services/ai-integration/whats-included/sop-library" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4">
+              <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">3. Team Training & SOPs</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 mb-3">Your team learns how to use AI confidently and consistently.</p>
-            <ul className="list-disc pl-6 text-white/80 space-y-2">
-              <li><strong>Hands-on workshop (2 hours):</strong> Live demos of AI tools in action with your actual work</li>
-              <li><strong>SOPs for each use case:</strong> Step-by-step guides so anyone can replicate results</li>
+            <ul className="list-disc pl-6 text-white/80 space-y-2 text-sm">
+              <li><strong>Hands-on workshop (2 hours):</strong> Live demos of AI tools in action</li>
+              <li><strong>SOPs for each use case:</strong> Step-by-step guides</li>
               <li><strong>Quick-start video library:</strong> Screen recordings for future onboarding</li>
-              <li><strong>Office hours (4 weeks):</strong> Weekly Q&A sessions as your team starts using AI</li>
+              <li><strong>Office hours (4 weeks):</strong> Weekly Q&A sessions</li>
             </ul>
-          </div>
+          </Link>
         </div>
       </section>
 
       <section className="mb-16">
         <h2 className="mb-6">Common AI Use Cases We Implement</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">📝 Content & Communication</h3>
+          <Link href="/services/ai-integration/use-cases/content-creation" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">📝 Content & Communication</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Draft client emails and proposals</li>
               <li>• Summarize meeting notes automatically</li>
-              <li>• Generate social media content from long-form writing</li>
+              <li>• Generate social media content</li>
               <li>• Rewrite copy for tone/clarity</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">📊 Data & Reporting</h3>
+          <Link href="/services/ai-integration/use-cases/research-analysis" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">📊 Research & Analysis</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
-              <li>• Generate weekly client reports from CRM data</li>
+              <li>• Generate client reports from CRM data</li>
               <li>• Analyze survey responses for patterns</li>
-              <li>• Create data visualizations from spreadsheets</li>
+              <li>• Create data visualizations</li>
               <li>• Summarize long documents or research</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">🤖 Workflow Automation</h3>
+          <Link href="/services/ai-integration/use-cases/admin-automation" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">🤖 Admin Automation</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Auto-tag and route incoming emails</li>
               <li>• Generate invoice reminders and follow-ups</li>
-              <li>• Transcribe and summarize sales calls</li>
-              <li>• Create project briefs from client intake forms</li>
+              <li>• Transcribe and summarize calls</li>
+              <li>• Create project briefs from intake forms</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">🎨 Creative & Design</h3>
+          <Link href="/services/ai-integration/use-cases/customer-service" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">💬 Customer Service</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
-              <li>• Brainstorm campaign ideas and taglines</li>
-              <li>• Generate mood boards and concept drafts</li>
-              <li>• Create image variations for A/B testing</li>
-              <li>• Write first drafts of blog posts or case studies</li>
+              <li>• Draft FAQ responses</li>
+              <li>• Generate support templates</li>
+              <li>• Analyze customer feedback themes</li>
+              <li>• Create knowledge base articles</li>
             </ul>
-          </div>
+          </Link>
         </div>
       </section>
 
       <section className="mb-16">
         <h2 className="mb-6">What to Expect</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 1-2: Discovery & Prioritization</h3>
+          <Link href="/services/ai-integration/what-to-expect/weeks-1-2" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Week 1-2: Discovery & Prioritization</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Kickoff call (60 min)</li>
               <li>• Workflow review and opportunity mapping</li>
               <li>• AI Opportunity Scan delivered</li>
               <li>• Tool selection and security review</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 3-4: Implementation</h3>
+          <Link href="/services/ai-integration/what-to-expect/weeks-3-4" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Week 3-4: Implementation</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Tool setup and configuration</li>
               <li>• Build 3-5 automations</li>
               <li>• Create prompt libraries and templates</li>
               <li>• Write SOPs for each use case</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 5: Training & Launch</h3>
+          <Link href="/services/ai-integration/what-to-expect/weeks-5-6" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Week 5-6: Training & Launch</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• 2-hour team workshop</li>
               <li>• Hands-on practice with real tasks</li>
               <li>• Deliver SOP library and videos</li>
               <li>• Launch automations</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 6-9: Support & Optimization</h3>
+          <Link href="/services/ai-integration/what-to-expect/ongoing-support" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Ongoing Support</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Weekly office hours (30 min)</li>
               <li>• Troubleshoot issues and refine workflows</li>
               <li>• Measure time savings and ROI</li>
               <li>• Identify next phase opportunities</li>
             </ul>
-          </div>
+          </Link>
         </div>
       </section>
 
       <section className="mb-16">
         <h2 className="mb-6">Who This Is For</h2>
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-2">AI-Curious Teams</h3>
+          <Link href="/services/ai-integration/who-this-is-for/ai-curious" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-2">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">AI-Curious Teams</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 text-sm">You know AI could help, but you don't have time to experiment. You want someone to do the research and show you what works.</p>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-2">Overwhelmed Operators</h3>
+          <Link href="/services/ai-integration/who-this-is-for/overwhelmed-by-repetition" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-2">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Overwhelmed by Repetitive Tasks</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 text-sm">You're drowning in repetitive tasks (emails, reports, scheduling). AI can automate 30-40% of that.</p>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-2">Safety-First Businesses</h3>
+          <Link href="/services/ai-integration/who-this-is-for/non-technical-teams" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-2">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Non-Technical Teams</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 text-sm">You handle sensitive client data and need to adopt AI without exposing information or violating privacy policies.</p>
-          </div>
+          </Link>
         </div>
       </section>
 

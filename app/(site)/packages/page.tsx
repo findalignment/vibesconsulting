@@ -4,21 +4,24 @@ export const metadata = { title: 'Packages — Vibes Consulting' }
 
 const packages = [
   { 
-    name: 'The Flow Check', 
+    name: 'The Flow Check',
+    slug: 'flow-check',
     desc: 'A 2-week diagnostic identifying bottlenecks, cultural drag, and operational blind spots. Credit applied to any engagement.', 
     duration: '2 weeks', 
     price: '$2,500',
     highlights: ['Friction Audit', 'Flow Map', '90-Day Improvement Plan', 'Credit toward next engagement']
   },
   { 
-    name: 'The Flow Rebuild', 
+    name: 'The Flow Rebuild',
+    slug: 'flow-rebuild',
     desc: '6-week rebuild of one critical system: meetings, onboarding, or workflow. Includes AI enablement and custom SOPs.', 
     duration: '6 weeks', 
     price: '$8,000',
     highlights: ['System redesign', 'AI tool integration', 'Team training', 'SOP library']
   },
   { 
-    name: 'The Vibe Partnership', 
+    name: 'The Vibe Partnership',
+    slug: 'vibe-partnership',
     desc: 'Quarterly retainer for full ongoing support: ops flow, team culture, and AI strategy. For teams committed to continuous improvement.', 
     duration: '3 months', 
     price: '$3,500/mo',
@@ -27,9 +30,9 @@ const packages = [
 ]
 
 const addons = [
-  { name: 'AI Prompt Library', desc: 'Custom prompt templates for your most common tasks', price: '$1,000' },
-  { name: 'Meeting OS', desc: 'Complete meeting cadence redesign with templates and rituals', price: '$1,500' },
-  { name: 'Brand/Space Vibe Redesign', desc: 'Physical or digital environment optimization for flow', price: '$2,000' },
+  { name: 'AI Prompt Library', slug: 'addons/ai-prompt-library', desc: 'Custom prompt templates for your most common tasks', price: '$1,000' },
+  { name: 'Meeting OS', slug: 'addons/meeting-os', desc: 'Complete meeting cadence redesign with templates and rituals', price: '$1,500' },
+  { name: 'Brand/Space Vibe Redesign', slug: 'addons/vibe-redesign', desc: 'Physical or digital environment optimization for flow', price: '$2,000' },
 ]
 
 export default function PackagesPage() {
@@ -42,8 +45,12 @@ export default function PackagesPage() {
 
       <div className="grid md:grid-cols-3 gap-6 mb-16">
         {packages.map(p => (
-          <div key={p.name} className="card p-6 flex flex-col">
-            <h3 className="mb-3">{p.name}</h3>
+          <Link 
+            key={p.name} 
+            href={`/packages/${p.slug}`}
+            className="card p-6 flex flex-col group cursor-pointer hover:border-current-600/60 transition-all"
+          >
+            <h3 className="mb-3 group-hover:text-current-500 transition-colors">{p.name}</h3>
             <p className="text-white/70 text-sm mb-4 flex-1">{p.desc}</p>
             
             <div className="mb-4">
@@ -57,9 +64,12 @@ export default function PackagesPage() {
 
             <div className="mt-auto pt-4 border-t border-white/10 flex items-center justify-between">
               <span className="text-white/60 text-sm">{p.duration}</span>
-              <span className="text-white font-semibold text-lg">{p.price}</span>
+              <div className="flex items-center gap-2">
+                <span className="text-white font-semibold text-lg">{p.price}</span>
+                <span className="text-white/60 text-sm group-hover:text-current-500 transition-colors">→</span>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 
@@ -68,11 +78,18 @@ export default function PackagesPage() {
         <p className="text-white/80 mb-6 max-w-2xl">Extend any package with these focused deliverables.</p>
         <div className="grid md:grid-cols-3 gap-6">
           {addons.map(a => (
-            <div key={a.name} className="card p-6">
-              <h3 className="text-lg mb-2">{a.name}</h3>
+            <Link 
+              key={a.name} 
+              href={`/packages/${a.slug}`}
+              className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
+            >
+              <h3 className="text-lg mb-2 group-hover:text-current-500 transition-colors">{a.name}</h3>
               <p className="text-white/70 text-sm mb-4">{a.desc}</p>
-              <p className="text-white font-semibold">{a.price}</p>
-            </div>
+              <div className="flex items-center justify-between">
+                <p className="text-white font-semibold">{a.price}</p>
+                <span className="text-white/60 text-sm group-hover:text-current-500 transition-colors">→</span>
+              </div>
+            </Link>
           ))}
         </div>
       </section>
@@ -104,23 +121,23 @@ export default function PackagesPage() {
       </section>
 
       <section className="mt-12 card p-6">
-        <h3 className="mb-4">Frequently Asked Questions</h3>
-        <div className="space-y-4">
+        <h3 className="mb-4">Common Questions</h3>
+        <div className="grid md:grid-cols-2 gap-4">
           <div>
-            <h4 className="text-white font-medium mb-1">Can I customize a package?</h4>
-            <p className="text-white/70 text-sm">Yes. These are starting points. We adjust scope and pricing based on your specific needs.</p>
+            <h4 className="text-white font-medium mb-1 text-sm">Can I customize a package?</h4>
+            <p className="text-white/70 text-sm">Yes. We adjust scope and pricing to your needs.</p>
           </div>
           <div>
-            <h4 className="text-white font-medium mb-1">What if I only need one add-on?</h4>
-            <p className="text-white/70 text-sm">Add-ons work best when paired with a package, but we can scope standalone projects. Contact us to discuss.</p>
+            <h4 className="text-white font-medium mb-1 text-sm">Payment plans available?</h4>
+            <p className="text-white/70 text-sm">Yes. We split into milestone payments.</p>
           </div>
           <div>
-            <h4 className="text-white font-medium mb-1">Do you offer payment plans?</h4>
-            <p className="text-white/70 text-sm">Yes for The Flow Rebuild and Vibe Partnership. We can split payments across project milestones.</p>
+            <h4 className="text-white font-medium mb-1 text-sm">What's the typical ROI?</h4>
+            <p className="text-white/70 text-sm">10-20 hours reclaimed per week within 2 months.</p>
           </div>
           <div>
-            <h4 className="text-white font-medium mb-1">What's the typical ROI?</h4>
-            <p className="text-white/70 text-sm">Most clients reclaim 10-20 hours per week across their team within 2 months. That's $2,000-4,000/month in capacity at $50/hour rates.</p>
+            <h4 className="text-white font-medium mb-1 text-sm">Add-ons standalone?</h4>
+            <p className="text-white/70 text-sm">Yes, but work best paired with a package.</p>
           </div>
         </div>
       </section>

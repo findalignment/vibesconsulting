@@ -35,101 +35,132 @@ export default function BusinessFlowPage() {
       <section className="mb-16">
         <h2 className="mb-6">What's Included</h2>
         <div className="space-y-6">
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">1. Friction Audit</h3>
+          <Link href="/services/business-flow/whats-included/friction-audit" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4">
+              <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">1. Friction Audit</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 mb-3">Two-week deep dive into where your business gets stuck.</p>
-            <ul className="list-disc pl-6 text-white/80 space-y-2">
-              <li><strong>Process mapping:</strong> We shadow your team and document how work actually flows (not how you think it flows)</li>
-              <li><strong>Bottleneck analysis:</strong> Identify the 3-5 friction points costing you the most time and momentum</li>
-              <li><strong>Root cause discovery:</strong> Why is this happening? (Usually it's unclear ownership, missing info, or outdated rituals)</li>
-              <li><strong>Friction Report:</strong> A visual map showing exactly where work slows down and why</li>
+            <ul className="list-disc pl-6 text-white/80 space-y-2 text-sm">
+              <li><strong>Process mapping:</strong> We shadow your team and document how work actually flows</li>
+              <li><strong>Bottleneck analysis:</strong> Identify the 3-5 friction points costing you the most time</li>
+              <li><strong>Root cause discovery:</strong> Why is this happening?</li>
+              <li><strong>Friction Report:</strong> A visual map showing exactly where work slows down</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">2. Flow Map (Current vs. Ideal)</h3>
+          <Link href="/services/business-flow/whats-included/flow-map" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4">
+              <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">2. Flow Map (Current vs. Ideal)</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 mb-3">Side-by-side comparison of how things work now vs. how they should work.</p>
-            <ul className="list-disc pl-6 text-white/80 space-y-2">
+            <ul className="list-disc pl-6 text-white/80 space-y-2 text-sm">
               <li><strong>Current state diagram:</strong> Your actual workflow with pain points highlighted</li>
-              <li><strong>Ideal state design:</strong> Simplified, streamlined process that eliminates unnecessary steps</li>
+              <li><strong>Ideal state design:</strong> Simplified, streamlined process</li>
               <li><strong>Gap analysis:</strong> What needs to change to get from A to B</li>
               <li><strong>Decision rights matrix:</strong> Who owns what, who approves, who's informed</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">3. 90-Day Improvement Plan</h3>
+          <Link href="/services/business-flow/whats-included/improvement-plan" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4">
+              <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">3. 90-Day Improvement Plan</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 mb-3">Phased roadmap to implement changes without disrupting operations.</p>
-            <ul className="list-disc pl-6 text-white/80 space-y-2">
+            <ul className="list-disc pl-6 text-white/80 space-y-2 text-sm">
               <li><strong>Quick wins (Week 1-4):</strong> Immediate fixes you can implement right away</li>
-              <li><strong>System redesign (Week 5-8):</strong> Rebuild one critical workflow with new rituals and tools</li>
-              <li><strong>Stabilization (Week 9-12):</strong> Lock in habits, measure results, iterate as needed</li>
+              <li><strong>System redesign (Week 5-8):</strong> Rebuild one critical workflow</li>
+              <li><strong>Stabilization (Week 9-12):</strong> Lock in habits, measure results</li>
               <li><strong>Success metrics:</strong> Clear KPIs so you know what good looks like</li>
             </ul>
-          </div>
+          </Link>
         </div>
       </section>
 
       <section className="mb-16">
         <h2 className="mb-6">What to Expect</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 1-2: Discovery</h3>
+          <Link href="/services/business-flow/what-to-expect/discovery" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Week 1-2: Discovery</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Kickoff meeting (90 min)</li>
               <li>• On-site observation (3-4 hours)</li>
               <li>• Team interviews (30 min each, 5-7 people)</li>
               <li>• Process documentation review</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 3: Analysis & Design</h3>
+          <Link href="/services/business-flow/what-to-expect/analysis" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Week 2: Analysis & Design</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
-              <li>• Friction mapping session</li>
-              <li>• Ideal state co-design workshop (2 hours)</li>
-              <li>• Draft plan review</li>
+              <li>• Data synthesis and pattern analysis</li>
+              <li>• Visual flow mapping</li>
+              <li>• Ideal state design</li>
+              <li>• Mid-week check-in (15 min)</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 4: Delivery</h3>
+          <Link href="/services/business-flow/what-to-expect/presentation" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Week 2: Final Presentation</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
-              <li>• Final presentation (60 min)</li>
+              <li>• 60-minute presentation (findings + Q&A)</li>
               <li>• Friction Report + Flow Maps</li>
               <li>• 90-Day Implementation Plan</li>
-              <li>• Tool/template library</li>
+              <li>• Complete documentation package</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Post-Engagement Support</h3>
+          <Link href="/services/business-flow/what-to-expect/support" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Post-Engagement Support</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• 30-day email support</li>
               <li>• 60-day check-in call (optional)</li>
               <li>• Credit toward Flow Rebuild if you continue</li>
             </ul>
-          </div>
+          </Link>
         </div>
       </section>
 
       <section className="mb-16">
         <h2 className="mb-6">Who This Is For</h2>
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-2">Growing Teams (5-20 people)</h3>
+          <Link href="/services/business-flow/who-this-is-for/growing-teams" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-2">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Growing Teams (5-20 people)</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 text-sm">You've outgrown informal systems. Things that used to "just work" now require coordination and clarity.</p>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-2">Service Businesses</h3>
+          <Link href="/services/business-flow/who-this-is-for/service-businesses" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-2">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Service Businesses</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 text-sm">Agencies, studios, consultancies where client work flows through multiple hands and handoffs cause delays.</p>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-2">Owner-Operators</h3>
+          <Link href="/services/business-flow/who-this-is-for/owner-operators" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-2">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Owner-Operators</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 text-sm">You're the bottleneck. Every decision runs through you because systems don't exist yet.</p>
-          </div>
+          </Link>
         </div>
       </section>
 

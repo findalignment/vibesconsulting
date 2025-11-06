@@ -36,26 +36,38 @@ export default function FlowCheckPage() {
       <section className="mb-16">
         <h2 className="mb-6">What You Get</h2>
         <div className="space-y-4">
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">Friction Audit Report</h3>
+          <Link 
+            href="/packages/flow-check/whats-included/friction-audit"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
+          >
+            <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">Friction Audit Report</h3>
             <p className="text-white/70 mb-3">Visual map of where work slows down in your business. We identify the 3-5 highest-impact friction points costing you time and momentum.</p>
             <p className="text-white/60 text-sm">Includes: Process observation, team interviews, bottleneck analysis, root cause documentation</p>
-          </div>
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">Flow Map (Current vs. Ideal)</h3>
+          </Link>
+          <Link 
+            href="/packages/flow-check/whats-included/flow-map"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
+          >
+            <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">Flow Map (Current vs. Ideal)</h3>
             <p className="text-white/70 mb-3">Side-by-side comparison showing how your workflows operate now versus how they should work. Clear gap analysis with decision rights matrix.</p>
             <p className="text-white/60 text-sm">Includes: Current state diagram, ideal state design, implementation roadmap</p>
-          </div>
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">90-Day Continuous Improvement Plan</h3>
+          </Link>
+          <Link 
+            href="/packages/flow-check/whats-included/improvement-plan"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
+          >
+            <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">90-Day Continuous Improvement Plan</h3>
             <p className="text-white/70 mb-3">Phased action plan with quick wins (weeks 1-4), system redesign (weeks 5-8), and stabilization (weeks 9-12). Includes success metrics and accountability structure.</p>
             <p className="text-white/60 text-sm">Includes: Prioritized improvements, timeline, owner assignments, measurement framework</p>
-          </div>
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">Final Presentation + Strategy Session</h3>
+          </Link>
+          <Link 
+            href="/packages/flow-check/whats-included/final-presentation"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
+          >
+            <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">Final Presentation + Strategy Session</h3>
             <p className="text-white/70 mb-3">60-minute presentation of findings with your leadership team. We walk through the report, answer questions, and help you decide next steps.</p>
             <p className="text-white/60 text-sm">Plus: 30 days of email support for implementation questions</p>
-          </div>
+          </Link>
         </div>
       </section>
 
@@ -111,29 +123,41 @@ export default function FlowCheckPage() {
       <section className="mb-16">
         <h2 className="mb-6">Who This Is For</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">You're Growing (5-20 people)</h3>
+          <Link 
+            href="/packages/flow-check/who-this-is-for/growing-teams"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
+          >
+            <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">You're Growing (5-20 people)</h3>
             <p className="text-white/70 text-sm mb-4">Things that used to "just work" now require coordination. You've outgrown informal systems but haven't built formal ones yet. Everyone's busy but nothing feels smooth.</p>
             <p className="text-current-500 text-sm font-medium">Perfect fit if: You can feel the friction but can't name it</p>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">You're the Bottleneck</h3>
+          <Link 
+            href="/packages/flow-check/who-this-is-for/owner-bottleneck"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
+          >
+            <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">You're the Bottleneck</h3>
             <p className="text-white/70 text-sm mb-4">Every decision runs through you. Your team waits for your input. You work nights and weekends but the business still feels chaotic. You know this isn't sustainable.</p>
             <p className="text-current-500 text-sm font-medium">Perfect fit if: You need to delegate but don't know how</p>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Processes Feel Broken</h3>
+          <Link 
+            href="/packages/flow-check/who-this-is-for/broken-processes"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
+          >
+            <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">Processes Feel Broken</h3>
             <p className="text-white/70 text-sm mb-4">Onboarding takes too long. Client projects have too many handoffs. Information gets lost. Simple tasks require too many meetings. You know it should be easier.</p>
             <p className="text-current-500 text-sm font-medium">Perfect fit if: Your gut says "there's a better way"</p>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">You Want Proof Before Investing</h3>
+          <Link 
+            href="/packages/flow-check/who-this-is-for/proof-first"
+            className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
+          >
+            <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">You Want Proof Before Investing</h3>
             <p className="text-white/70 text-sm mb-4">You're not ready to commit to a full engagement without seeing the quality of work. You want a diagnostic that gives you value even if you implement it yourself.</p>
             <p className="text-current-500 text-sm font-medium">Perfect fit if: You prefer "try before you buy"</p>
-          </div>
+          </Link>
         </div>
       </section>
 

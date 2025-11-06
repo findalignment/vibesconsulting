@@ -35,148 +35,190 @@ export default function CultureOptimizationPage() {
       <section className="mb-16">
         <h2 className="mb-6">What's Included</h2>
         <div className="space-y-6">
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">1. Culture Flow Report</h3>
+          <Link href="/services/culture-optimization/whats-included/culture-flow-report" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4">
+              <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">1. Culture Flow Report</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 mb-3">A diagnostic of how your team actually operates vs. how you think they operate.</p>
-            <ul className="list-disc pl-6 text-white/80 space-y-2">
-              <li><strong>Anonymous team survey:</strong> Uncover what's really causing stress, confusion, or disengagement</li>
-              <li><strong>Ritual audit:</strong> Map all recurring meetings and evaluate which ones add value vs. drain energy</li>
-              <li><strong>Communication flow analysis:</strong> Where do decisions get stuck? Who's in too many loops?</li>
-              <li><strong>Environment assessment:</strong> Does your physical or digital workspace support focus and collaboration?</li>
+            <ul className="list-disc pl-6 text-white/80 space-y-2 text-sm">
+              <li><strong>Anonymous team survey:</strong> Uncover what's really causing stress</li>
+              <li><strong>Ritual audit:</strong> Evaluate which meetings add value vs. drain energy</li>
+              <li><strong>Communication flow analysis:</strong> Where do decisions get stuck?</li>
+              <li><strong>Environment assessment:</strong> Does your workspace support focus?</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">2. Rituals & Cadence Redesign</h3>
-            <p className="text-white/70 mb-3">Build a predictable rhythm that balances focus time with collaboration.</p>
-            <ul className="list-disc pl-6 text-white/80 space-y-2">
-              <li><strong>Meeting OS:</strong> Redesign your calendar to eliminate unnecessary meetings and improve the useful ones</li>
-              <li><strong>Communication norms:</strong> When to Slack vs. email vs. meet. When silence is okay.</li>
-              <li><strong>Decision-making rituals:</strong> Who decides what, and how quickly</li>
-              <li><strong>Feedback loops:</strong> Weekly check-ins, monthly retros, quarterly planning — done well</li>
+          <Link href="/services/culture-optimization/whats-included/leadership-coaching" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4">
+              <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">2. Leadership Coaching Session</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
+            <p className="text-white/70 mb-3">90-minute session with founders and managers to align on culture strategy and address blind spots.</p>
+            <ul className="list-disc pl-6 text-white/80 space-y-2 text-sm">
+              <li><strong>Report debrief:</strong> Walk through findings together</li>
+              <li><strong>Leadership blind spots:</strong> Self-awareness without blame</li>
+              <li><strong>Decision rights:</strong> Build systems so you're not the bottleneck</li>
+              <li><strong>Modeling culture:</strong> Align behaviors with values</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-xl mb-2">3. Quarterly Vibe Reset</h3>
+          <Link href="/services/culture-optimization/whats-included/vibe-reset-framework" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4">
+              <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">3. Quarterly Vibe Reset Framework</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 mb-3">Ongoing support to keep your culture healthy as you grow.</p>
-            <ul className="list-disc pl-6 text-white/80 space-y-2">
-              <li><strong>Quarterly check-ins (90 min):</strong> Review what's working, what's slipping, what needs adjustment</li>
-              <li><strong>Ritual tuning:</strong> Refine or retire rituals based on team feedback</li>
-              <li><strong>Onboarding refresh:</strong> Update processes as your team evolves</li>
-              <li><strong>Culture pulse surveys:</strong> Track engagement, clarity, and wellbeing over time</li>
+            <ul className="list-disc pl-6 text-white/80 space-y-2 text-sm">
+              <li><strong>Quarterly check-ins:</strong> Review what's working, what's slipping</li>
+              <li><strong>Ritual tuning:</strong> Refine or retire based on feedback</li>
+              <li><strong>Pulse surveys:</strong> Track engagement over time</li>
+              <li><strong>Self-sustaining:</strong> You can run this without us</li>
             </ul>
-          </div>
+          </Link>
         </div>
       </section>
 
       <section className="mb-16">
         <h2 className="mb-6">What We Optimize</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">🕐 Time & Attention</h3>
+          <Link href="/services/culture-optimization/what-we-optimize/communication" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">📢 Communication Patterns</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Reduce meeting load by 30-50%</li>
               <li>• Create protected focus blocks</li>
               <li>• Design async-first communication</li>
               <li>• Eliminate notification chaos</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">🤝 Collaboration Patterns</h3>
+          <Link href="/services/culture-optimization/what-we-optimize/rituals" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">🤝 Team Rituals</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
-              <li>• Clarify who owns what</li>
-              <li>• Design effective standups and retros</li>
-              <li>• Build peer feedback rituals</li>
-              <li>• Create space for brainstorming vs. execution</li>
+              <li>• Recognition systems</li>
+              <li>• Connection rituals</li>
+              <li>• Feedback loops</li>
+              <li>• Transition rituals</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">📍 Physical & Digital Space</h3>
+          <Link href="/services/culture-optimization/what-we-optimize/space" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">📍 Physical & Digital Space</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
-              <li>• Optimize office layout for focus + collaboration</li>
+              <li>• Optimize office layout</li>
               <li>• Design remote-friendly rituals</li>
               <li>• Organize Slack/tools to reduce noise</li>
               <li>• Create environments that support flow</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">🌱 Wellbeing & Momentum</h3>
+          <Link href="/services/culture-optimization/what-we-optimize/recognition" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">🌱 Recognition Systems</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
-              <li>• Prevent burnout through sustainable rhythms</li>
               <li>• Celebrate wins (not just deadlines)</li>
               <li>• Build psychological safety</li>
               <li>• Create clarity around expectations</li>
+              <li>• Prevent burnout through sustainable rhythms</li>
             </ul>
-          </div>
+          </Link>
         </div>
       </section>
 
       <section className="mb-16">
         <h2 className="mb-6">What to Expect</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 1-2: Discovery</h3>
+          <Link href="/services/culture-optimization/what-to-expect/assessment" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Week 1-2: Assessment</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Kickoff with leadership (90 min)</li>
               <li>• Anonymous team survey</li>
               <li>• Shadow observation (half day)</li>
               <li>• Calendar and communication audit</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 3: Analysis & Co-Design</h3>
+          <Link href="/services/culture-optimization/what-to-expect/design" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Week 3-4: Design</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Culture Flow Report delivered</li>
               <li>• Redesign workshop with team (2 hours)</li>
               <li>• Co-create new rituals and norms</li>
               <li>• Prioritize quick wins vs. longer changes</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Week 4-6: Implementation</h3>
+          <Link href="/services/culture-optimization/what-to-expect/implementation" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Week 5-6: Implementation</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
               <li>• Launch new meeting cadence</li>
               <li>• Roll out communication norms</li>
               <li>• Train team on new rituals</li>
               <li>• Adjust physical/digital workspace</li>
             </ul>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-3">Ongoing: Quarterly Vibe Resets</h3>
+          <Link href="/services/culture-optimization/what-to-expect/ongoing-support" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-3">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Ongoing Support</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <ul className="text-white/80 space-y-2 text-sm">
-              <li>• 90-minute check-in every 3 months</li>
-              <li>• Pulse survey and results review</li>
-              <li>• Ritual tuning and adjustments</li>
+              <li>• 60 days of email coaching</li>
+              <li>• 30-day and 60-day check-in calls</li>
+              <li>• First Vibe Reset facilitation (optional)</li>
               <li>• Continuous improvement mindset</li>
             </ul>
-          </div>
+          </Link>
         </div>
       </section>
 
       <section className="mb-16">
         <h2 className="mb-6">Who This Is For</h2>
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="card p-6">
-            <h3 className="text-lg mb-2">Fast-Growing Teams</h3>
+          <Link href="/services/culture-optimization/who-this-is-for/high-turnover" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-2">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">High-Turnover Teams</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
+            <p className="text-white/70 text-sm">People keep leaving. You're constantly hiring and onboarding. Turnover is expensive and demoralizing.</p>
+          </Link>
+
+          <Link href="/services/culture-optimization/who-this-is-for/growing-companies" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-2">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Growing Companies</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
             <p className="text-white/70 text-sm">You've doubled in size and the old informal vibe doesn't scale. You need intentional systems before chaos becomes culture.</p>
-          </div>
+          </Link>
 
-          <div className="card p-6">
-            <h3 className="text-lg mb-2">Meeting-Heavy Businesses</h3>
-            <p className="text-white/70 text-sm">Your calendar is packed but nothing gets done. You need to redesign how decisions happen and how teams coordinate.</p>
-          </div>
-
-          <div className="card p-6">
-            <h3 className="text-lg mb-2">Post-Burnout Recovery</h3>
-            <p className="text-white/70 text-sm">Your team hit the wall. You need to rebuild in a way that's sustainable, not just push harder with the same broken systems.</p>
-          </div>
+          <Link href="/services/culture-optimization/who-this-is-for/culture-first-leaders" className="card p-6 block group hover:border-current-600/60 transition-all">
+            <div className="flex items-start justify-between gap-4 mb-2">
+              <h3 className="text-lg group-hover:text-current-500 transition-colors">Culture-First Leaders</h3>
+              <span className="text-white/40 text-sm group-hover:text-current-500 transition-colors">→</span>
+            </div>
+            <p className="text-white/70 text-sm">You believe culture is a competitive advantage. You want to build a workplace people love. You're willing to invest.</p>
+          </Link>
         </div>
       </section>
 

@@ -25,13 +25,13 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Big chains get evaluated constantly. Small businesses rarely do. Here's what I learned evaluating thousands of them.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">Big chains invest millions in secret shopping programs. They get evaluated monthly, sometimes weekly. Every detail gets measured, tracked, and optimized.</p>
+          <p className="text-lg leading-relaxed">Big chains invest millions in secret shopping programs. They get evaluated monthly, sometimes weekly. Every detail gets measured, tracked, and optimized.</p>
 
           <p>Small businesses? They almost never get evaluated. And that's exactly why I've spent 25 years doing it - because the insights are just as valuable, maybe more so.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Why Small Businesses Need Evaluation More</h2>
           </div>
           
@@ -48,7 +48,7 @@ export default function BlogPost() {
 
           <p>Small businesses can't afford to ignore these issues. But without evaluation, they don't even know the issues exist.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What I Evaluate</h2>
           </div>
           
@@ -66,7 +66,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">The checkout/close.</strong> How's the transaction handled? Is there an attempt to build relationship? Do I leave feeling valued?</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Patterns I See Repeatedly</h2>
           </div>
           
@@ -82,7 +82,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">No recovery process.</strong> When something goes wrong, there's no standard way to make it right. It depends entirely on who's working.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What Separates the Best Small Businesses</h2>
           </div>
           
@@ -98,7 +98,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">They seek feedback.</strong> They actively ask customers how they're doing and actually act on the information.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Value of an Outside Perspective</h2>
           </div>
           
@@ -115,7 +115,7 @@ export default function BlogPost() {
 
           <p>This isn't about catching staff doing something wrong. It's about identifying systemic issues that nobody realized existed.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Small Fixes, Big Impact</h2>
           </div>
           
@@ -133,7 +133,7 @@ export default function BlogPost() {
 
           <p>None of these require massive investment. They require awareness and discipline.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Why This Matters</h2>
           </div>
           
@@ -145,13 +145,13 @@ export default function BlogPost() {
 
           <p>And once you see the gap, you can fix it.</p>
           
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
+          <div className="bg-current-600/10 p-6 rounded-lg mt-12">
             <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/employee-experience-secret-shopper" className="card p-6 hover:border-current-500/50 transition-colors group">

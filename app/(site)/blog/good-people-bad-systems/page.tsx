@@ -25,13 +25,13 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Your team is capable. But they're fighting against chaotic workflows.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">You hired good people. They're smart, capable, and motivated. Yet somehow, work isn't getting done efficiently, quality is inconsistent, and everyone seems frustrated.</p>
+          <p className="text-lg leading-relaxed">You hired good people. They're smart, capable, and motivated. Yet somehow, work isn't getting done efficiently, quality is inconsistent, and everyone seems frustrated.</p>
 
           <p>The problem usually isn't your people. It's the system they're working in.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What This Looks Like</h2>
           </div>
           
@@ -47,7 +47,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">Mistakes get repeated.</strong> There's no system for capturing and preventing recurring errors.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Systems That Are Probably Broken</h2>
           </div>
           
@@ -63,7 +63,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">No feedback loops.</strong> People don't know if they're doing well or poorly until it's a crisis. Course-correction happens too late.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">How to Fix the System</h2>
           </div>
           
@@ -81,7 +81,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">6. Empower decision-making.</strong> Give people clear authority within boundaries. Let them solve problems without escalating everything.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Mindset Shift</h2>
           </div>
           
@@ -91,7 +91,7 @@ export default function BlogPost() {
 
           <p>If your team is struggling, look at the system first. You might be surprised how much changes when you remove the obstacles to good work.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What Success Looks Like</h2>
           </div>
           
@@ -123,7 +123,7 @@ export default function BlogPost() {
             </div>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/knowledge-in-founders-head" className="card p-6 hover:border-current-500/50 transition-colors group">

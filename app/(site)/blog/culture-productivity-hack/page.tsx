@@ -296,7 +296,7 @@ export default function BlogPost() {
             <Link href="/services/culture-optimization" className="btn btn-primary">Learn About <Link href="/services/culture-optimization">culture optimization</Link></Link>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/team-siloed-not-collaborating" className="card p-6 hover:border-current-500/50 transition-colors group">

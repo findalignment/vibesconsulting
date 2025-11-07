@@ -25,13 +25,13 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Customer experience reflects employee experience. After 25 years, this pattern never changes.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">After 25 years of secret shopping, I can predict the customer experience before I even interact with staff. How? By watching how employees behave when they think nobody's paying attention.</p>
+          <p className="text-lg leading-relaxed">After 25 years of secret shopping, I can predict the customer experience before I even interact with staff. How? By watching how employees behave when they think nobody's paying attention.</p>
 
           <p>Customer experience and employee experience are inseparable. You cannot deliver a great customer experience if your employees are frustrated, confused, or burnt out.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Tell-Tale Signs</h2>
           </div>
           
@@ -45,7 +45,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">High energy from some, low energy from others.</strong> Inconsistent engagement across a team usually means favoritism, unclear expectations, or burnout that's not being addressed.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What Good Employee Experience Looks Like</h2>
           </div>
           
@@ -61,7 +61,7 @@ export default function BlogPost() {
 
           <p>These behaviors don't happen by accident. They're the result of good systems, clear communication, proper training, and leadership that actually supports the team.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Broken Systems That Kill Morale</h2>
           </div>
           
@@ -77,7 +77,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">No recognition.</strong> Good work goes unnoticed. Mistakes get immediate attention. Employees learn that effort doesn't matter.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Customer Pays the Price</h2>
           </div>
           
@@ -89,7 +89,7 @@ export default function BlogPost() {
 
           <p>And I've evaluated businesses where the product was average but the customer experience was exceptional - because the employees were happy, trained, and empowered.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">How to Improve Employee Experience (And Therefore Customer Experience)</h2>
           </div>
           
@@ -107,7 +107,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">6. Fix broken processes.</strong> When staff complain about a procedure that doesn't make sense, listen. They're on the front lines and often know better than management.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Pattern Never Changes</h2>
           </div>
           
@@ -119,13 +119,13 @@ export default function BlogPost() {
 
           <p>Fix the foundation first.</p>
           
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
+          <div className="bg-current-600/10 p-6 rounded-lg mt-12">
             <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/secret-shopper-reveals-training-gaps" className="card p-6 hover:border-current-500/50 transition-colors group">

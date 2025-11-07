@@ -25,13 +25,13 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You're the bottleneck. Every decision waits for you. Here's how Santa Cruz business owners are delegating without losing control.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">You've built a team, but every decision still waits for you. Staff ask permission for things they should handle themselves. Projects stall until you weigh in. Nothing moves forward without your approval.</p>
+          <p className="text-lg leading-relaxed">You've built a team, but every decision still waits for you. Staff ask permission for things they should handle themselves. Projects stall until you weigh in. Nothing moves forward without your approval.</p>
 
           <p>This isn't because your team is incompetent. It's because you haven't built a system that empowers them to decide.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Why Everything Runs Through You</h2>
           </div>
           
@@ -47,7 +47,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">You actually like being needed.</strong> Honest question: does being the go-to person validate your role? If so, you're incentivizing dependency.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Cost of Being the Bottleneck</h2>
           </div>
           
@@ -61,7 +61,7 @@ export default function BlogPost() {
             <li><strong className="text-white">Weak succession planning</strong> - Nobody's learning to lead</li>
           </ul>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">How to Delegate Decision-Making</h2>
           </div>
           
@@ -79,7 +79,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">6. Let them fail small.</strong> Some decisions won't be perfect. That's how people learn. Protect them from catastrophic failures, not from small mistakes.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What Good Delegation Looks Like</h2>
           </div>
           
@@ -91,7 +91,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">Owners</strong> focus on strategic decisions: hiring key roles, major investments, long-term direction. They're consulted, not involved in daily operations.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Mindset Shift</h2>
           </div>
           
@@ -105,13 +105,13 @@ export default function BlogPost() {
           
           <p className="text-white/70 mt-6">Explore our <Link href="/services">consulting services</Link> or <Link href="/packages">packages</Link> for comprehensive support.</p>
 
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
+          <div className="bg-current-600/10 p-6 rounded-lg mt-12">
             <p className="font-semibold text-white mb-2">Need help with your business operations?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to identify your biggest operational opportunities.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/team-working-late-accomplishing-less" className="card p-6 hover:border-current-500/50 transition-colors group">

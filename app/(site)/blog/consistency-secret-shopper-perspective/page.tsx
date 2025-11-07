@@ -25,15 +25,15 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">After 25 years evaluating businesses, consistency is the only thing that separates good from great. Here's how to build it.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">I've evaluated luxury hotels and budget motels, Michelin restaurants and fast food joints, high-end boutiques and dollar stores. Twenty-five years, thousands of businesses.</p>
+          <p className="text-lg leading-relaxed">I've evaluated luxury hotels and budget motels, Michelin restaurants and fast food joints, high-end boutiques and dollar stores. Twenty-five years, thousands of businesses.</p>
 
           <p>And here's the single thing that separates the great ones from the rest: consistency.</p>
 
           <p>Not quality. Not friendliness. Not fancy systems. Consistency.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Why Consistency Matters More Than Excellence</h2>
           </div>
           
@@ -45,7 +45,7 @@ export default function BlogPost() {
 
           <p>Consistency builds trust. Trust builds loyalty. Loyalty drives repeat business.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What Consistency Actually Means</h2>
           </div>
           
@@ -63,7 +63,7 @@ export default function BlogPost() {
 
           <p>That's what consistency looks like. And it's rare.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Where Consistency Breaks Down</h2>
           </div>
           
@@ -79,7 +79,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">Selective enforcement.</strong> Rules apply to some employees but not others. This creates confusion and resentment, both of which destroy consistency.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">How to Build Consistency</h2>
           </div>
           
@@ -95,7 +95,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">5. Update standards when needed.</strong> If a standard doesn't make sense anymore, change it. But change it officially, train everyone on the new way, and enforce the update.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Businesses That Get It Right</h2>
           </div>
           
@@ -111,7 +111,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">They reward consistency.</strong> The employees who follow standards reliably get recognized. Consistency becomes part of the culture.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Consistency Compounds</h2>
           </div>
           
@@ -121,7 +121,7 @@ export default function BlogPost() {
 
           <p>It's a mindset, not a tactic. Once you commit to operating the same way every time, that discipline spreads through the entire organization.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Why Most Businesses Fail at This</h2>
           </div>
           
@@ -131,7 +131,7 @@ export default function BlogPost() {
 
           <p>The basics need to be bulletproof. The customer-facing fundamentals need to be automatic. That's what creates the foundation for everything else.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Bottom Line</h2>
           </div>
           
@@ -162,7 +162,7 @@ export default function BlogPost() {
             </div>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/25-years-secret-shopping-operations" className="card p-6 hover:border-current-500/50 transition-colors group">

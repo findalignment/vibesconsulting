@@ -25,13 +25,13 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Your team is capable but won't make decisions without you. The problem isn't your people - it's your system.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">You've built a team, but every decision still waits for you. Staff ask permission for things they should handle themselves. Projects stall until you weigh in. Nothing moves forward without your approval.</p>
+          <p className="text-lg leading-relaxed">You've built a team, but every decision still waits for you. Staff ask permission for things they should handle themselves. Projects stall until you weigh in. Nothing moves forward without your approval.</p>
 
           <p>This isn't because your team is incompetent. It's because you haven't built a system that empowers them to decide.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Why Everything Runs Through You</h2>
           </div>
           
@@ -47,7 +47,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">You actually like being needed.</strong> Honest question: does being the go-to person validate your role? If so, you're incentivizing dependency.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Cost of Being the Bottleneck</h2>
           </div>
           
@@ -61,7 +61,7 @@ export default function BlogPost() {
             <li><strong className="text-white">Weak succession planning</strong> - Nobody's learning to lead</li>
           </ul>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">How to Delegate Decision-Making</h2>
           </div>
           
@@ -79,7 +79,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">6. Let them fail small.</strong> Some decisions won't be perfect. That's how people learn. Protect them from catastrophic failures, not from small mistakes.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What Good Delegation Looks Like</h2>
           </div>
           
@@ -91,7 +91,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">Owners</strong> focus on strategic decisions: hiring key roles, major investments, long-term direction. They're consulted, not involved in daily operations.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Mindset Shift</h2>
           </div>
           
@@ -119,7 +119,7 @@ export default function BlogPost() {
             </div>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/team-siloed-not-collaborating" className="card p-6 hover:border-current-500/50 transition-colors group">

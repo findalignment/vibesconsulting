@@ -25,13 +25,13 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You spend hours managing email. But the real issue is unclear communication norms and missing processes.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">AI feels intimidating. The headlines make it sound like you need a tech team and a huge budget to even start. Meanwhile, your competitors are quietly using AI to eliminate hours of repetitive work.</p>
+          <p className="text-lg leading-relaxed">AI feels intimidating. The headlines make it sound like you need a tech team and a huge budget to even start. Meanwhile, your competitors are quietly using AI to eliminate hours of repetitive work.</p>
 
           <p>The truth? Small businesses are perfect candidates for AI adoption - if you focus on the right problems.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What AI Actually Does for Small Businesses</h2>
           </div>
           
@@ -47,7 +47,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">Catching errors.</strong> Proofreading, formatting, data validation. AI spots mistakes humans miss.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Where to Start</h2>
           </div>
           
@@ -63,7 +63,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">5. Data organization.</strong> Use AI to categorize customer feedback, organize project notes, structure brainstorm sessions.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Data Privacy Concerns</h2>
           </div>
           
@@ -79,7 +79,7 @@ export default function BlogPost() {
             <li><strong className="text-white">Establish clear policies</strong> - Document what can and can't go into AI tools</li>
           </ul>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Common Mistakes to Avoid</h2>
           </div>
           
@@ -91,7 +91,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">Choosing complexity over simplicity.</strong> The best AI implementations are invisible. Staff uses them naturally, not as "projects."</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Reality Check</h2>
           </div>
           
@@ -117,7 +117,7 @@ export default function BlogPost() {
             </div>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/founder-cant-take-vacation" className="card p-6 hover:border-current-500/50 transition-colors group">

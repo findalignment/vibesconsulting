@@ -25,9 +25,9 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Santa Cruz business owners are curious about AI but worried about complexity and cost. Here\'s how local businesses are adopting AI safely and practically.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">Every Santa Cruz business owner is hearing about AI. Some of your competitors are already using it. You're wondering if you're falling behind.</p>
+          <p className="text-lg leading-relaxed">Every Santa Cruz business owner is hearing about AI. Some of your competitors are already using it. You're wondering if you're falling behind.</p>
 
           <p>But you're also thinking: "I'm not technical. I don't have time to learn complicated tools. What if it exposes our data? What if it's expensive?"</p>
 
@@ -92,7 +92,7 @@ export default function BlogPost() {
             </div>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/santa-cruz-gym-membership-retention" className="card p-6 hover:border-current-500/50 transition-colors group">

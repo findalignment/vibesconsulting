@@ -25,11 +25,11 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You handed off tasks. But they keep coming back to you. Here's why delegation fails.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">This problem shows up in every small business at some point. It feels like something you should be able to fix with a quick conversation or a new policy. But it keeps happening because it's not an isolated issue - it's a symptom of a deeper operational gap.</p>
+          <p className="text-lg leading-relaxed">This problem shows up in every small business at some point. It feels like something you should be able to fix with a quick conversation or a new policy. But it keeps happening because it's not an isolated issue - it's a symptom of a deeper operational gap.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Why This Keeps Happening</h2>
           </div>
           
@@ -45,7 +45,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">Competing priorities.</strong> If you reward speed over quality, people will prioritize speed even when you say you want quality.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Real Cost</h2>
           </div>
           
@@ -59,7 +59,7 @@ export default function BlogPost() {
             <li><strong className="text-white">Owner burnout</strong> - You become the bottleneck for everything</li>
           </ul>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">How to Actually Fix It</h2>
           </div>
           
@@ -77,7 +77,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">6. Update when needed.</strong> If the standard doesn't make sense anymore, change it officially. Don't let informal workarounds become the new normal.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Common Mistakes</h2>
           </div>
           
@@ -89,7 +89,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">Skipping the "why."</strong> People follow standards better when they understand the reasoning behind them.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What Good Looks Like</h2>
           </div>
           
@@ -105,7 +105,7 @@ export default function BlogPost() {
 
           <p>That's the difference between businesses that struggle to grow and businesses that scale smoothly.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Taking the First Step</h2>
           </div>
           
@@ -131,7 +131,7 @@ export default function BlogPost() {
             </div>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/information-scattered-everywhere" className="card p-6 hover:border-current-500/50 transition-colors group">

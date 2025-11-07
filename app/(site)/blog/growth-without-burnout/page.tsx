@@ -25,13 +25,13 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You want to grow. But you're already maxed out. Here's how local businesses are scaling sustainably.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">Santa Cruz businesses have a unique challenge: we want to grow, but we don't want to lose what makes us special. Big-company operations feel corporate and cold. But informal, "figure-it-out-as-we-go" operations don't scale.</p>
+          <p className="text-lg leading-relaxed">Santa Cruz businesses have a unique challenge: we want to grow, but we don't want to lose what makes us special. Big-company operations feel corporate and cold. But informal, "figure-it-out-as-we-go" operations don't scale.</p>
 
           <p>The businesses thriving here have found the middle ground: systems that create consistency without killing culture.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Santa Cruz Business Identity</h2>
           </div>
           
@@ -45,7 +45,7 @@ export default function BlogPost() {
 
           <p>The answer isn't choosing between culture and operations. It's designing operations that protect your culture.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Common Operational Struggles Locally</h2>
           </div>
           
@@ -61,7 +61,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">Reactive problem-solving.</strong> You're always putting out fires instead of preventing them. There's no time to improve because you're too busy surviving.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What Good Operations Look Like Here</h2>
           </div>
           
@@ -77,7 +77,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">They communicate consistently.</strong> Regular check-ins, clear expectations, feedback loops that actually work.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">How to Fix Operations Without Losing Your Soul</h2>
           </div>
           
@@ -93,7 +93,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">5. Measure what matters.</strong> Pick 3-5 key metrics that show if things are working. Track them. Adjust when they drift.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Why This Matters for Santa Cruz</h2>
           </div>
           
@@ -105,13 +105,13 @@ export default function BlogPost() {
           
           <p className="text-white/70 mt-6">Explore our <Link href="/services">consulting services</Link> or <Link href="/packages">packages</Link> for comprehensive support.</p>
 
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
+          <div className="bg-current-600/10 p-6 rounded-lg mt-12">
             <p className="font-semibold text-white mb-2">Need help with your business operations?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to identify your biggest operational opportunities.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/founder-cant-take-vacation" className="card p-6 hover:border-current-500/50 transition-colors group">

@@ -25,9 +25,9 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Santa Cruz teams are drowning in meetings. Here's how local businesses are cutting meeting time by 40% without losing alignment.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">Your calendar is a nightmare. Back-to-back meetings. No time for actual work. Your team spends more time talking about work than doing work.</p>
+          <p className="text-lg leading-relaxed">Your calendar is a nightmare. Back-to-back meetings. No time for actual work. Your team spends more time talking about work than doing work.</p>
 
           <p>This is the reality for most Santa Cruz small businesses once they hit 5-10 people. Meetings multiply. Calendars fill up. Deep work disappears.</p>
 
@@ -82,7 +82,7 @@ export default function BlogPost() {
             </div>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/santa-cruz-gym-membership-retention" className="card p-6 hover:border-current-500/50 transition-colors group">

@@ -25,9 +25,9 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">If onboarding new clients takes weeks, you're losing revenue. Here's how Santa Cruz businesses are fixing this friction point.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">A new client signs up. They're excited. Then... crickets for a week. Forms get lost. Intake calls keep rescheduling. By the time they actually start, momentum is gone.</p>
+          <p className="text-lg leading-relaxed">A new client signs up. They're excited. Then... crickets for a week. Forms get lost. Intake calls keep rescheduling. By the time they actually start, momentum is gone.</p>
 
           <p>If your onboarding takes more than 3-5 days, you're leaving money on the table. And you're frustrating clients before they even get started.</p>
 
@@ -82,7 +82,7 @@ export default function BlogPost() {
             </div>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/customer-experience-operations-disconnect" className="card p-6 hover:border-current-500/50 transition-colors group">

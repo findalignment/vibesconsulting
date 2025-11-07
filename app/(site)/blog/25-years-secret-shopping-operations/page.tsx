@@ -25,13 +25,13 @@ export default function BlogPost() {
           <p className="text-xl md:text-2xl text-white/70 leading-relaxed">I've evaluated thousands of businesses. The same operational patterns show up everywhere. Here's what actually matters.</p>
         </header>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">I've spent 25 years walking into businesses pretending to be a customer. Fast food chains, retail stores, fitness centers, hotels, banks, and mom-and-pop shops. Thousands of evaluations across every imaginable industry.</p>
+          <p className="text-lg leading-relaxed">I've spent 25 years walking into businesses pretending to be a customer. Fast food chains, retail stores, fitness centers, hotels, banks, and mom-and-pop shops. Thousands of evaluations across every imaginable industry.</p>
 
           <p>And here's what I've learned: the same operational problems show up everywhere. The names change, the products differ, but the underlying issues are identical.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Big Three That Never Change</h2>
           </div>
           
@@ -43,7 +43,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">3. Communication breakdowns.</strong> Information doesn't flow. The morning shift doesn't know what happened overnight. Managers make decisions but don't tell the team. Policies change but nobody updates the staff. The result? Customers experience chaos disguised as service.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What Separates Good from Great</h2>
           </div>
           
@@ -57,7 +57,7 @@ export default function BlogPost() {
 
           <p><strong className="text-white">They communicate deliberately.</strong> Shift changes include a handoff. Policy updates come with training. Questions get answered consistently because there's one source of truth.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Warning Signs I Look For</h2>
           </div>
           
@@ -71,7 +71,7 @@ export default function BlogPost() {
             <li><strong className="text-white">Whether the space is maintained during busy periods</strong> - Cleanliness under pressure reveals operational discipline</li>
           </ul>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Industry Doesn't Matter As Much As You Think</h2>
           </div>
           
@@ -89,7 +89,7 @@ export default function BlogPost() {
 
           <p>Every business that fails in my evaluations is failing at one or more of these five steps. And every business that excels is doing all five consistently.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Employee Experience Connection</h2>
           </div>
           
@@ -99,7 +99,7 @@ export default function BlogPost() {
 
           <p>Good employees can't overcome broken operations. But when you fix the operations, suddenly your average employees start looking exceptional.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Small Fixes, Big Impact</h2>
           </div>
           
@@ -117,7 +117,7 @@ export default function BlogPost() {
 
           <p>These aren't complicated fixes. They're just disciplined ones.</p>
 
-          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">What 25 Years Taught Me</h2>
           </div>
           
@@ -131,13 +131,13 @@ export default function BlogPost() {
 
           <p>Nothing more complicated than that.</p>
           
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
+          <div className="bg-current-600/10 p-6 rounded-lg mt-12">
             <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
           </div>
         
-          <div className="mt-20 pt-12 border-t border-white/10">
+          <div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/secret-shopper-reveals-training-gaps" className="card p-6 hover:border-current-500/50 transition-colors group">

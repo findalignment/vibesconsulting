@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Operations for Santa Cruz Boutique Fitness Studios",
-  description: "Small fitness studios in Santa Cruz have unique challenges. Here\'s how to build operations that support your vibe."
+  description: "Small fitness studios in Santa Cruz have unique challenges. Here's how to build operations that support your vibe."
 }
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
         <header className="mb-8">
           <time className="text-white/60 text-sm">October 04, 2024</time>
           <h1 className="mt-2 mb-4">Operations for Santa Cruz Boutique Fitness Studios</h1>
-          <p className="text-xl text-white/80">Small fitness studios in Santa Cruz have unique challenges. Here\'s how to build operations that support your vibe.</p>
+          <p className="text-xl text-white/80">Small fitness studios in Santa Cruz have unique challenges. Here's how to build operations that support your vibe.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

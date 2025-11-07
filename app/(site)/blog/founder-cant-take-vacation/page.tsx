@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: "Why You Can\'t Take a Vacation (And How to Fix It)",
-  description: "Your business stops when you\'re gone. Here\'s how to build systems that run without you."
+  title: "Why You Can't Take a Vacation (And How to Fix It)",
+  description: "Your business stops when you're gone. Here's how to build systems that run without you."
 }
 
 export default function BlogPost() {

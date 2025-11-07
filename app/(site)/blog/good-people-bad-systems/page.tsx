@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You Have Good People Working in Bad Systems",
-  description: "Your team is capable. But they\'re fighting against chaotic workflows."
+  description: "Your team is capable. But they're fighting against chaotic workflows."
 }
 
 export default function BlogPost() {

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: "You\'ve Lost What Made Your Business Special",
+  title: "You've Lost What Made Your Business Special",
   description: "You grew. But something feels off. The culture changed. Good systems preserve what matters while scaling."
 }
 
@@ -15,7 +15,7 @@ export default function BlogPost() {
       <article>
         <header className="mb-8">
           <time className="text-white/60 text-sm">September 03, 2024</time>
-          <h1 className="mt-2 mb-4">You\'ve Lost What Made Your Business Special</h1>
+          <h1 className="mt-2 mb-4">You've Lost What Made Your Business Special</h1>
           <p className="text-xl text-white/80">You grew. But something feels off. The culture changed. Good systems preserve what matters while scaling.</p>
         </header>
 

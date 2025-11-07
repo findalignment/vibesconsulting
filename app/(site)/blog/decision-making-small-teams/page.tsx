@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Decision-Making in Small Teams: Why Everything Runs Through You",
-  description: "You\'re the bottleneck. Every decision waits for you. Here\'s how Santa Cruz business owners are delegating without losing control."
+  description: "You're the bottleneck. Every decision waits for you. Here's how Santa Cruz business owners are delegating without losing control."
 }
 
 export default function BlogPost() {

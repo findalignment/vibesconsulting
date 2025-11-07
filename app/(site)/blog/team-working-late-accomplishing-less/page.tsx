@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Your Team Works Late But Accomplishes Less",
-  description: "Long hours don\'t equal productivity. When everyone\'s busy but output is low, look at your systems."
+  description: "Long hours don't equal productivity. When everyone's busy but output is low, look at your systems."
 }
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
         <header className="mb-8">
           <time className="text-white/60 text-sm">September 05, 2024</time>
           <h1 className="mt-2 mb-4">Your Team Works Late But Accomplishes Less</h1>
-          <p className="text-xl text-white/80">Long hours don\'t equal productivity. When everyone\'s busy but output is low, look at your systems.</p>
+          <p className="text-xl text-white/80">Long hours don't equal productivity. When everyone's busy but output is low, look at your systems.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

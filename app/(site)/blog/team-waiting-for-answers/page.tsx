@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Your Team Is Always Waiting for Answers From You",
-  description: "Work stalls because you\'re in meetings. Your calendar is the bottleneck."
+  description: "Work stalls because you're in meetings. Your calendar is the bottleneck."
 }
 
 export default function BlogPost() {

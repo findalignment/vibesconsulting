@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: "Systems for Santa Cruz Wellness Businesses That Don\'t Kill the Vibe",
-  description: "Yoga studios, training spaces, and wellness centers need structure that supports, not stifles. Here\'s how to build it."
+  title: "Systems for Santa Cruz Wellness Businesses That Don't Kill the Vibe",
+  description: "Yoga studios, training spaces, and wellness centers need structure that supports, not stifles. Here's how to build it."
 }
 
 export default function BlogPost() {

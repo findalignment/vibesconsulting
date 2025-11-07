@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: "You Delegated, But You\'re Still Doing Everything",
-  description: "You handed off tasks. But they keep coming back to you. Here\'s why delegation fails."
+  title: "You Delegated, But You're Still Doing Everything",
+  description: "You handed off tasks. But they keep coming back to you. Here's why delegation fails."
 }
 
 export default function BlogPost() {
@@ -15,8 +15,8 @@ export default function BlogPost() {
       <article>
         <header className="mb-8">
           <time className="text-white/60 text-sm">October 06, 2024</time>
-          <h1 className="mt-2 mb-4">You Delegated, But You\'re Still Doing Everything</h1>
-          <p className="text-xl text-white/80">You handed off tasks. But they keep coming back to you. Here\'s why delegation fails.</p>
+          <h1 className="mt-2 mb-4">You Delegated, But You're Still Doing Everything</h1>
+          <p className="text-xl text-white/80">You handed off tasks. But they keep coming back to you. Here's why delegation fails.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

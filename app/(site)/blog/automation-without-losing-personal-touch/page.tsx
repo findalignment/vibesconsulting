@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Automation Without Losing the Personal Touch",
-  description: "Santa Cruz businesses thrive on personal relationships. Here\'s how to automate admin work while staying human."
+  description: "Santa Cruz businesses thrive on personal relationships. Here's how to automate admin work while staying human."
 }
 
 export default function BlogPost() {

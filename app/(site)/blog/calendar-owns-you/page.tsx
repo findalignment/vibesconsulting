@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Your Calendar Owns You",
-  description: "You react to whatever\'s on your calendar. You never get time for strategic work. This is fixable."
+  description: "You react to whatever's on your calendar. You never get time for strategic work. This is fixable."
 }
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
         <header className="mb-8">
           <time className="text-white/60 text-sm">September 08, 2024</time>
           <h1 className="mt-2 mb-4">Your Calendar Owns You</h1>
-          <p className="text-xl text-white/80">You react to whatever\'s on your calendar. You never get time for strategic work. This is fixable.</p>
+          <p className="text-xl text-white/80">You react to whatever's on your calendar. You never get time for strategic work. This is fixable.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

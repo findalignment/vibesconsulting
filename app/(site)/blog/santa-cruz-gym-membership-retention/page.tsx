@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "How Santa Cruz Gyms and Studios Can Improve Membership Retention",
-  description: "Members don\'t leave because of price. They leave because of operational friction. Lessons from evaluating fitness facilities."
+  description: "Members don't leave because of price. They leave because of operational friction. Lessons from evaluating fitness facilities."
 }
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
         <header className="mb-8">
           <time className="text-white/60 text-sm">August 27, 2024</time>
           <h1 className="mt-2 mb-4">How Santa Cruz Gyms and Studios Can Improve Membership Retention</h1>
-          <p className="text-xl text-white/80">Members don\'t leave because of price. They leave because of operational friction. Lessons from evaluating fitness facilities.</p>
+          <p className="text-xl text-white/80">Members don't leave because of price. They leave because of operational friction. Lessons from evaluating fitness facilities.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

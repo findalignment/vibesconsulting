@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Your Business Runs on Reaction, Not Strategy",
-  description: "You\'re always firefighting. Never get time to plan. This is a system problem, not a time problem."
+  description: "You're always firefighting. Never get time to plan. This is a system problem, not a time problem."
 }
 
 export default function BlogPost() {

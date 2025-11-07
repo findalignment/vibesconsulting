@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Sustainable Growth vs Growth at All Costs",
-  description: "Santa Cruz businesses want to grow responsibly. But growth without systems creates chaos. Here\'s the sustainable path."
+  description: "Santa Cruz businesses want to grow responsibly. But growth without systems creates chaos. Here's the sustainable path."
 }
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
         <header className="mb-8">
           <time className="text-white/60 text-sm">November 07, 2024</time>
           <h1 className="mt-2 mb-4">Sustainable Growth vs Growth at All Costs</h1>
-          <p className="text-xl text-white/80">Santa Cruz businesses want to grow responsibly. But growth without systems creates chaos. Here\'s the sustainable path.</p>
+          <p className="text-xl text-white/80">Santa Cruz businesses want to grow responsibly. But growth without systems creates chaos. Here's the sustainable path.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

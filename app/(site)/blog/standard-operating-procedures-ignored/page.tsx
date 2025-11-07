@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You Have SOPs. Nobody Follows Them.",
-  description: "You documented everything. But your team still asks questions. Documentation alone doesn\'t fix process."
+  description: "You documented everything. But your team still asks questions. Documentation alone doesn't fix process."
 }
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
         <header className="mb-8">
           <time className="text-white/60 text-sm">August 20, 2024</time>
           <h1 className="mt-2 mb-4">You Have SOPs. Nobody Follows Them.</h1>
-          <p className="text-xl text-white/80">You documented everything. But your team still asks questions. Documentation alone doesn\'t fix process.</p>
+          <p className="text-xl text-white/80">You documented everything. But your team still asks questions. Documentation alone doesn't fix process.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

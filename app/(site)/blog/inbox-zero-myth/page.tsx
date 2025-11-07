@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: "The Inbox Zero Myth: Why Email Isn\'t Your Real Problem",
+  title: "The Inbox Zero Myth: Why Email Isn't Your Real Problem",
   description: "You spend hours managing email. But the real issue is unclear communication norms and missing processes."
 }
 
@@ -15,7 +15,7 @@ export default function BlogPost() {
       <article>
         <header className="mb-8">
           <time className="text-white/60 text-sm">October 08, 2024</time>
-          <h1 className="mt-2 mb-4">The Inbox Zero Myth: Why Email Isn\'t Your Real Problem</h1>
+          <h1 className="mt-2 mb-4">The Inbox Zero Myth: Why Email Isn't Your Real Problem</h1>
           <p className="text-xl text-white/80">You spend hours managing email. But the real issue is unclear communication norms and missing processes.</p>
         </header>
 

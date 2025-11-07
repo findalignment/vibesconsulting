@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: "Everyone\'s Busy But Nothing Gets Done",
+  title: "Everyone's Busy But Nothing Gets Done",
   description: "Your team is working hard. But projects drag on forever. The problem is interruption, not effort."
 }
 

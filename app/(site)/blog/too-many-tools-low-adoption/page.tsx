@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You Have 12 Software Tools and Nobody Uses Them Right",
-  description: "More tools don\'t solve problems. Clear processes do."
+  description: "More tools don't solve problems. Clear processes do."
 }
 
 export default function BlogPost() {

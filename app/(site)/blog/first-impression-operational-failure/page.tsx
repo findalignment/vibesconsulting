@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "When First Impressions Are Actually Operational Failures",
-  description: "Bad first impressions aren\'t about personality. They\'re about broken systems. Insights from thousands of evaluations."
+  description: "Bad first impressions aren't about personality. They're about broken systems. Insights from thousands of evaluations."
 }
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
         <header className="mb-8">
           <time className="text-white/60 text-sm">August 14, 2024</time>
           <h1 className="mt-2 mb-4">When First Impressions Are Actually Operational Failures</h1>
-          <p className="text-xl text-white/80">Bad first impressions aren\'t about personality. They\'re about broken systems. Insights from thousands of evaluations.</p>
+          <p className="text-xl text-white/80">Bad first impressions aren't about personality. They're about broken systems. Insights from thousands of evaluations.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

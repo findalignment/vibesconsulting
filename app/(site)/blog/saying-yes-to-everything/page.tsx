@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "The Cost of Saying Yes to Everything",
-  description: "Your team can\'t say no. So they take on too much and deliver late."
+  description: "Your team can't say no. So they take on too much and deliver late."
 }
 
 export default function BlogPost() {

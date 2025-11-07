@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "When All the Knowledge Lives in Your Head",
-  description: "You\'re the only one who knows how things work. This makes you essential and exhausted."
+  description: "You're the only one who knows how things work. This makes you essential and exhausted."
 }
 
 export default function BlogPost() {

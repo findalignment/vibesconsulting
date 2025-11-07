@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Revenue Is Up But Profits Are Flat",
-  description: "You\'re making more money but not keeping more. The problem is operational efficiency."
+  description: "You're making more money but not keeping more. The problem is operational efficiency."
 }
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
         <header className="mb-8">
           <time className="text-white/60 text-sm">August 19, 2024</time>
           <h1 className="mt-2 mb-4">Revenue Is Up But Profits Are Flat</h1>
-          <p className="text-xl text-white/80">You\'re making more money but not keeping more. The problem is operational efficiency.</p>
+          <p className="text-xl text-white/80">You're making more money but not keeping more. The problem is operational efficiency.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

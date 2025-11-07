@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: "When Feedback Loops Don\'t Exist",
-  description: "You find out about problems too late. By the time you know, it\'s already a crisis."
+  title: "When Feedback Loops Don't Exist",
+  description: "You find out about problems too late. By the time you know, it's already a crisis."
 }
 
 export default function BlogPost() {
@@ -15,8 +15,8 @@ export default function BlogPost() {
       <article>
         <header className="mb-8">
           <time className="text-white/60 text-sm">November 02, 2024</time>
-          <h1 className="mt-2 mb-4">When Feedback Loops Don\'t Exist</h1>
-          <p className="text-xl text-white/80">You find out about problems too late. By the time you know, it\'s already a crisis.</p>
+          <h1 className="mt-2 mb-4">When Feedback Loops Don't Exist</h1>
+          <p className="text-xl text-white/80">You find out about problems too late. By the time you know, it's already a crisis.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

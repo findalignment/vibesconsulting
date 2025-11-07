@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "The Onboarding Bottleneck Killing Santa Cruz Business Growth",
-  description: "If onboarding new clients takes weeks, you\'re losing revenue. Here\'s how Santa Cruz businesses are fixing this friction point."
+  description: "If onboarding new clients takes weeks, you're losing revenue. Here's how Santa Cruz businesses are fixing this friction point."
 }
 
 export default function BlogPost() {

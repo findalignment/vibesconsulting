@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Why Santa Cruz Wellness Businesses Struggle With Client Intake",
-  description: "First impressions matter. But most wellness businesses in Santa Cruz lose clients during onboarding. Here\'s how to fix it."
+  description: "First impressions matter. But most wellness businesses in Santa Cruz lose clients during onboarding. Here's how to fix it."
 }
 
 export default function BlogPost() {
@@ -16,7 +16,7 @@ export default function BlogPost() {
         <header className="mb-8">
           <time className="text-white/60 text-sm">October 27, 2024</time>
           <h1 className="mt-2 mb-4">Why Santa Cruz Wellness Businesses Struggle With Client Intake</h1>
-          <p className="text-xl text-white/80">First impressions matter. But most wellness businesses in Santa Cruz lose clients during onboarding. Here\'s how to fix it.</p>
+          <p className="text-xl text-white/80">First impressions matter. But most wellness businesses in Santa Cruz lose clients during onboarding. Here's how to fix it.</p>
         </header>
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80">

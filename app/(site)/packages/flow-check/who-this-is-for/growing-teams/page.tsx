@@ -3,7 +3,7 @@ import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
   title: 'For Growing Teams (5-20 People) — Flow Check — Vibes Consulting',
-  description: 'Things that used to work now require coordination. You've outgrown informal systems but haven't built formal ones yet. The Flow Check helps you see where to add structure without losing agility.'
+  description: "Things that used to work now require coordination. You've outgrown informal systems but haven't built formal ones yet. The Flow Check helps you see where to add structure without losing agility."
 }
 
 export default function GrowingTeamsPage() {

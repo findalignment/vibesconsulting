@@ -144,11 +144,22 @@ export default function BlogPost() {
           <p>Because customers don't remember your best day. They remember whether they can trust you to deliver every time.</p>
 
           <p>Build that trust through consistency, and everything else gets easier.</p>
+          </div>
           
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
-            <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
-            <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
-            <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+          <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div className="flex-1">
+                <p className="text-2xl font-bold text-white mb-3">Want operational insights for your business?</p>
+                <p className="text-white/80 text-lg">Get an expert evaluation of your systems with 25 years of secret shopping experience behind it.</p>
+              </div>
+              <Link 
+                href="/packages/flow-check" 
+                className="btn btn-primary whitespace-nowrap group"
+              >
+                Learn about Flow Check
+                <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+              </Link>
+            </div>
           </div>
         
           <div className="mt-20 pt-12 border-t border-white/10">

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Decision-Making in Small Teams: Why Everything Runs Through You",
-  description: "<Link href="/packages/flow-check/who-this-is-for/owner-bottleneck">you\'re the bottleneck</Link>. Every decision waits for you. Here's how Santa Cruz business owners are delegating without losing control."
+  description: "you\'re the bottleneck. Every decision waits for you. Here's how Santa Cruz business owners are delegating without losing control."
 }
 
 export default function BlogPost() {
@@ -99,7 +99,7 @@ export default function BlogPost() {
 
           <p>Your job isn't to make every decision. Your job is to build a system where good decisions get made consistently, whether you're there or not.</p>
 
-          <p>That's how you scale. That's how you take a vacation. That's how you build a business, not a job.
+          <p>That's how you scale. That's how you take a vacation. That's how you build a business, not a job.</p>
 
           <p>Learn how our <Link href="/services/business-flow">Business Flow service</Link> helps you build these systems.</p>
           

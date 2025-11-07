@@ -99,7 +99,7 @@ export default function BlogPost() {
 
           <p>Your job isn't to make every decision. Your job is to build a system where good decisions get made consistently, whether you're there or not.</p>
 
-          <p>That's how you scale. That's how you take a vacation. That's how you build a business, not a job.
+          <p>That's how you scale. That's how you take a vacation. That's how you build a business, not a job.</p>
 
           <p>Learn how our <Link href="/services/business-flow">Business Flow service</Link> helps you build these systems.</p>
           

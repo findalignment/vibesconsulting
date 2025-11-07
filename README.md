@@ -132,7 +132,7 @@ Works with Netlify, Railway, or any Node.js host.
 
 ## 📧 Contact
 
-Questions? hello@vibes.consulting
+Questions? info@vibes.consulting
 
 ---
 

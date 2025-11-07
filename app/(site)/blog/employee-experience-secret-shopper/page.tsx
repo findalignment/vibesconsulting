@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 8, 2025</time>
+          <time className="text-white/60 text-sm">October 23, 2024</time>
           <h1 className="mt-2 mb-4">What Secret Shopping Reveals About Employee Experience</h1>
           <p className="text-xl text-white/80">Customer experience reflects employee experience. After 25 years, this pattern never changes.</p>
         </header>

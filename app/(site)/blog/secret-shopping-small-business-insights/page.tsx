@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 16, 2025</time>
+          <time className="text-white/60 text-sm">November 03, 2024</time>
           <h1 className="mt-2 mb-4">Secret Shopping Small Businesses: What 25 Years Taught Me</h1>
           <p className="text-xl text-white/80">Big chains get evaluated constantly. Small businesses rarely do. Here\'s what I learned evaluating thousands of them.</p>
         </header>

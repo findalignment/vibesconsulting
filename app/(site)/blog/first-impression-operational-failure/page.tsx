@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 29, 2025</time>
+          <time className="text-white/60 text-sm">August 14, 2024</time>
           <h1 className="mt-2 mb-4">When First Impressions Are Actually Operational Failures</h1>
           <p className="text-xl text-white/80">Bad first impressions aren\'t about personality. They\'re about broken systems. Insights from thousands of evaluations.</p>
         </header>

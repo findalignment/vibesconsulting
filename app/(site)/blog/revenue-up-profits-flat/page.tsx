@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 13, 2024</time>
+          <time className="text-white/60 text-sm">August 19, 2024</time>
           <h1 className="mt-2 mb-4">Revenue Is Up But Profits Are Flat</h1>
           <p className="text-xl text-white/80">You\'re making more money but not keeping more. The problem is operational efficiency.</p>
         </header>

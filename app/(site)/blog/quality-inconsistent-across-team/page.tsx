@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 19, 2024</time>
+          <time className="text-white/60 text-sm">August 11, 2024</time>
           <h1 className="mt-2 mb-4">Quality Is Inconsistent Across Your Team</h1>
           <p className="text-xl text-white/80">Some team members deliver great work. Others need heavy revision. The issue is unclear standards.</p>
         </header>

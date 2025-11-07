@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">November 21, 2024</time>
+          <time className="text-white/60 text-sm">August 30, 2024</time>
           <h1 className="mt-2 mb-4">Why New Hires Take 3 Months to Get Up to Speed</h1>
           <p className="text-xl text-white/80">Onboarding shouldn't be shadowing someone for 12 weeks. Your knowledge needs a system.</p>
         </header>

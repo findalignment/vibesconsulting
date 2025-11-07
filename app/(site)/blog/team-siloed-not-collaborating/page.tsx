@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 23, 2024</time>
+          <time className="text-white/60 text-sm">August 21, 2024</time>
           <h1 className="mt-2 mb-4">Your Team Is Siloed and Not Collaborating</h1>
           <p className="text-xl text-white/80">Everyone works in their lane. Cross-functional work is painful. Structure creates these silos.</p>
         </header>

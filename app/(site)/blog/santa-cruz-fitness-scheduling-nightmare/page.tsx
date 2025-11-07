@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 25, 2025</time>
+          <time className="text-white/60 text-sm">September 27, 2024</time>
           <h1 className="mt-2 mb-4">The Santa Cruz Fitness Studio Scheduling Nightmare</h1>
           <p className="text-xl text-white/80">Local fitness businesses lose revenue to bad scheduling systems. This is fixable with better operations.</p>
         </header>

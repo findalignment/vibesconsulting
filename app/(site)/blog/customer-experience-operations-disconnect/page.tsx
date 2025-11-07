@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 11, 2025</time>
+          <time className="text-white/60 text-sm">September 20, 2024</time>
           <h1 className="mt-2 mb-4">The Customer Experience and Operations Disconnect</h1>
           <p className="text-xl text-white/80">After evaluating thousands of businesses, the pattern is clear: poor customer experience is always an operations problem.</p>
         </header>

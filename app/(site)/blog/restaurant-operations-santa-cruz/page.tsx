@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 4, 2024</time>
+          <time className="text-white/60 text-sm">August 10, 2024</time>
           <h1 className="mt-2 mb-4">Santa Cruz Restaurant Operations: Front of House, Back of House, and Everything Between</h1>
           <p className="text-xl text-white/80">Santa Cruz restaurants are juggling reservations, inventory, staff scheduling, and delivery platforms. Here's how to bring order to the chaos.</p>
         </header>

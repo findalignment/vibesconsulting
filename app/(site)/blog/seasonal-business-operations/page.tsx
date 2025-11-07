@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 25, 2024</time>
+          <time className="text-white/60 text-sm">August 18, 2024</time>
           <h1 className="mt-2 mb-4">Operations for Seasonal Santa Cruz Businesses</h1>
           <p className="text-xl text-white/80">Summer slammed, winter's slow. How do you build systems when volume fluctuates? Lessons from local seasonal businesses.</p>
         </header>

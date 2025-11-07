@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 14, 2025</time>
+          <time className="text-white/60 text-sm">October 29, 2024</time>
           <h1 className="mt-2 mb-4">The Evolution of Santa Cruz Wellness Industry Operations</h1>
           <p className="text-xl text-white/80">Santa Cruz wellness businesses are maturing. The ones that systematize will thrive. The ones that stay informal will struggle.</p>
         </header>

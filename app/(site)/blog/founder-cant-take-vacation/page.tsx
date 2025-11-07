@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">November 1, 2024</time>
+          <time className="text-white/60 text-sm">August 09, 2024</time>
           <h1 className="mt-2 mb-4">Why You Can't Take a Vacation (And How to Fix It)</h1>
           <p className="text-xl text-white/80">Your business stops when you're gone. Here's how to build systems that run without you.</p>
         </header>

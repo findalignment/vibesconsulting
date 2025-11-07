@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 2, 2024</time>
+          <time className="text-white/60 text-sm">October 30, 2024</time>
           <h1 className="mt-2 mb-4">Operations for Santa Cruz Creative Agencies: Creativity Needs Structure</h1>
           <p className="text-xl text-white/80">Creative agencies think structure kills creativity. But chaos kills delivery. Here's how Santa Cruz agencies are building systems that support great work.</p>
         </header>

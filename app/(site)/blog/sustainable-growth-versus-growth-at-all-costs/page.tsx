@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 27, 2025</time>
+          <time className="text-white/60 text-sm">November 07, 2024</time>
           <h1 className="mt-2 mb-4">Sustainable Growth vs Growth at All Costs</h1>
           <p className="text-xl text-white/80">Santa Cruz businesses want to grow responsibly. But growth without systems creates chaos. Here\'s the sustainable path.</p>
         </header>

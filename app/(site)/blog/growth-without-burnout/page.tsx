@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 31, 2024</time>
+          <time className="text-white/60 text-sm">September 28, 2024</time>
           <h1 className="mt-2 mb-4">Growing Your Santa Cruz Business Without Burning Out</h1>
           <p className="text-xl text-white/80">You want to grow. But you're already maxed out. Here's how local businesses are scaling sustainably.</p>
         </header>

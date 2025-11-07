@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">November 7, 2024</time>
+          <time className="text-white/60 text-sm">September 19, 2024</time>
           <h1 className="mt-2 mb-4">Signs You're Micromanaging (Even If You Don't Think You Are)</h1>
           <p className="text-xl text-white/80">You hired people to help. But you're still reviewing everything. Here's what's actually happening.</p>
         </header>

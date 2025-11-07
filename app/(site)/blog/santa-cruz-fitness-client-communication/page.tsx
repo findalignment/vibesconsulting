@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 10, 2025</time>
+          <time className="text-white/60 text-sm">November 06, 2024</time>
           <h1 className="mt-2 mb-4">How Santa Cruz Fitness Businesses Can Fix Client Communication</h1>
           <p className="text-xl text-white/80">Missed messages, unclear expectations, forgotten check-ins. Communication systems make or break fitness businesses.</p>
         </header>

@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 8, 2024</time>
+          <time className="text-white/60 text-sm">October 02, 2024</time>
           <h1 className="mt-2 mb-4">Data Privacy and AI: What Santa Cruz Business Owners Need to Know</h1>
           <p className="text-xl text-white/80">AI tools are powerful but can expose your data. Here's how to adopt AI safely without putting your Santa Cruz business or clients at risk.</p>
         </header>

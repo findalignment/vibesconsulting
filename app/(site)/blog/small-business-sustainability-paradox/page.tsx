@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 21, 2025</time>
+          <time className="text-white/60 text-sm">November 05, 2024</time>
           <h1 className="mt-2 mb-4">The Small Business Sustainability Paradox</h1>
           <p className="text-xl text-white/80">You care about the environment. But your business operations are unsustainable. How to fix both.</p>
         </header>

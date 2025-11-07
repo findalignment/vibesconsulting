@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 5, 2025</time>
+          <time className="text-white/60 text-sm">August 08, 2024</time>
           <h1 className="mt-2 mb-4">What 25 Years of Secret Shopping Taught Me About Operations</h1>
           <p className="text-xl text-white/80">I\'ve evaluated thousands of businesses. The same operational patterns show up everywhere. Here\'s what actually matters.</p>
         </header>

@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 13, 2024</time>
+          <time className="text-white/60 text-sm">October 03, 2024</time>
           <h1 className="mt-2 mb-4">Santa Cruz Retail Operations: Beyond the POS System</h1>
           <p className="text-xl text-white/80">Your POS handles transactions. But what about inventory, staff scheduling, and customer follow-up? Here's the full picture.</p>
         </header>

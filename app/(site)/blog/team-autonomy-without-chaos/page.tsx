@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 23, 2024</time>
+          <time className="text-white/60 text-sm">August 13, 2024</time>
           <h1 className="mt-2 mb-4">Building Team Autonomy Without Creating Chaos</h1>
           <p className="text-xl text-white/80">You want your Santa Cruz team to make decisions independently. But you're worried about mistakes. Here's how to do both.</p>
         </header>

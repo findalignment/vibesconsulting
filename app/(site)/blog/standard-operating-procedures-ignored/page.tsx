@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 11, 2024</time>
+          <time className="text-white/60 text-sm">August 20, 2024</time>
           <h1 className="mt-2 mb-4">You Have SOPs. Nobody Follows Them.</h1>
           <p className="text-xl text-white/80">You documented everything. But your team still asks questions. Documentation alone doesn\'t fix process.</p>
         </header>

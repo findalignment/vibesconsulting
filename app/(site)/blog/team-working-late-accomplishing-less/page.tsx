@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 4, 2024</time>
+          <time className="text-white/60 text-sm">September 05, 2024</time>
           <h1 className="mt-2 mb-4">Your Team Works Late But Accomplishes Less</h1>
           <p className="text-xl text-white/80">Long hours don\'t equal productivity. When everyone\'s busy but output is low, look at your systems.</p>
         </header>

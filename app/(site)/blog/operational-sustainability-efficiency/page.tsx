@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 15, 2025</time>
+          <time className="text-white/60 text-sm">September 15, 2024</time>
           <h1 className="mt-2 mb-4">Operational Sustainability: Doing More With Less</h1>
           <p className="text-xl text-white/80">Sustainable operations aren\'t about being green. They\'re about building systems that last without burning out your team.</p>
         </header>

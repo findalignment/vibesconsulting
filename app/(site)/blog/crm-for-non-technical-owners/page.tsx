@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 21, 2024</time>
+          <time className="text-white/60 text-sm">August 12, 2024</time>
           <h1 className="mt-2 mb-4">CRM Systems for Non-Technical Santa Cruz Business Owners</h1>
           <p className="text-xl text-white/80">You know you need a CRM. But which one? And how do you actually use it? A practical guide for local businesses.</p>
         </header>

@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 6, 2025</time>
+          <time className="text-white/60 text-sm">October 25, 2024</time>
           <h1 className="mt-2 mb-4">The Hidden Waste in Your Business Operations</h1>
           <p className="text-xl text-white/80">Sustainability starts with eliminating operational waste. Most businesses waste 30% of their effort on unnecessary tasks.</p>
         </header>

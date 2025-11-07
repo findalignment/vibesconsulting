@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 2, 2024</time>
+          <time className="text-white/60 text-sm">October 13, 2024</time>
           <h1 className="mt-2 mb-4">Trapped Between Client Work and Business Building</h1>
           <p className="text-xl text-white/80">You need to work on the business. But client work always comes first. How to break this cycle.</p>
         </header>

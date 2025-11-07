@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">November 9, 2024</time>
+          <time className="text-white/60 text-sm">September 18, 2024</time>
           <h1 className="mt-2 mb-4">Why 'Good Enough' Keeps Causing Rework</h1>
           <p className="text-xl text-white/80">Your team doesn't know what quality looks like. So everything needs your review.</p>
         </header>

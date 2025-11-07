@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 17, 2025</time>
+          <time className="text-white/60 text-sm">October 21, 2024</time>
           <h1 className="mt-2 mb-4">What Secret Shopping Reveals About Training Gaps</h1>
           <p className="text-xl text-white/80">Staff don\'t follow processes because they were never properly trained. 25 years of evaluation proves this pattern.</p>
         </header>

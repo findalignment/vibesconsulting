@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 31, 2025</time>
+          <time className="text-white/60 text-sm">October 04, 2024</time>
           <h1 className="mt-2 mb-4">Operations for Santa Cruz Boutique Fitness Studios</h1>
           <p className="text-xl text-white/80">Small fitness studios in Santa Cruz have unique challenges. Here\'s how to build operations that support your vibe.</p>
         </header>

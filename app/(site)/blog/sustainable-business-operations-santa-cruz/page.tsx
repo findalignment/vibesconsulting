@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 9, 2025</time>
+          <time className="text-white/60 text-sm">September 24, 2024</time>
           <h1 className="mt-2 mb-4">Sustainable Business Operations in Santa Cruz: More Than Just Green Marketing</h1>
           <p className="text-xl text-white/80">Santa Cruz businesses care about sustainability. But sustainable operations mean efficiency, not just eco-friendly products.</p>
         </header>

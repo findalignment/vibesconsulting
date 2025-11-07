@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 11, 2024</time>
+          <time className="text-white/60 text-sm">October 15, 2024</time>
           <h1 className="mt-2 mb-4">Systems for Santa Cruz Wellness Businesses That Don't Kill the Vibe</h1>
           <p className="text-xl text-white/80">Yoga studios, training spaces, and wellness centers need structure that supports, not stifles. Here's how to build it.</p>
         </header>

@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 5, 2024</time>
+          <time className="text-white/60 text-sm">October 05, 2024</time>
           <h1 className="mt-2 mb-4">Meeting Overload? How Santa Cruz Businesses Are Reclaiming Their Calendars</h1>
           <p className="text-xl text-white/80">Santa Cruz teams are drowning in meetings. Here's how local businesses are cutting meeting time by 40% without losing alignment.</p>
         </header>

@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 15, 2024</time>
+          <time className="text-white/60 text-sm">October 22, 2024</time>
           <h1 className="mt-2 mb-4">How to Create Business Documentation That Your Team Actually Uses</h1>
           <p className="text-xl text-white/80">Most SOPs sit in a folder untouched. Here's how to document processes in a way that actually helps your Santa Cruz team.</p>
         </header>

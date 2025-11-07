@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 25, 2024</time>
+          <time className="text-white/60 text-sm">October 19, 2024</time>
           <h1 className="mt-2 mb-4">Urgent Always Beats Important</h1>
           <p className="text-xl text-white/80">You plan to work on strategy. Then urgent tasks take over. This pattern is a system design flaw.</p>
         </header>

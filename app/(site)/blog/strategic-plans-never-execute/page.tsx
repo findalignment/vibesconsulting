@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 21, 2024</time>
+          <time className="text-white/60 text-sm">September 29, 2024</time>
           <h1 className="mt-2 mb-4">You Make Strategic Plans. They Never Get Executed.</h1>
           <p className="text-xl text-white/80">Quarterly planning feels productive. Then nothing changes. Execution requires systems, not just plans.</p>
         </header>

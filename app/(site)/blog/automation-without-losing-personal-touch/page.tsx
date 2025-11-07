@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 29, 2024</time>
+          <time className="text-white/60 text-sm">September 11, 2024</time>
           <h1 className="mt-2 mb-4">Automation Without Losing the Personal Touch</h1>
           <p className="text-xl text-white/80">Santa Cruz businesses thrive on personal relationships. Here's how to automate admin work while staying human.</p>
         </header>

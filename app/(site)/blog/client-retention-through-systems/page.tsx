@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 27, 2024</time>
+          <time className="text-white/60 text-sm">August 29, 2024</time>
           <h1 className="mt-2 mb-4">How Santa Cruz Businesses Improve Retention Through Better Systems</h1>
           <p className="text-xl text-white/80">Clients don't leave because of your service - they leave because of friction in the experience. Here's how to fix it.</p>
         </header>

@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 9, 2024</time>
+          <time className="text-white/60 text-sm">September 02, 2024</time>
           <h1 className="mt-2 mb-4">Why Client Expectations Keep Getting Misaligned</h1>
           <p className="text-xl text-white/80">Every project starts clear and ends confused. The problem is how you set expectations upfront.</p>
         </header>

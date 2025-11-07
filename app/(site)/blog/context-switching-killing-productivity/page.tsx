@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">September 7, 2024</time>
+          <time className="text-white/60 text-sm">October 18, 2024</time>
           <h1 className="mt-2 mb-4">Context Switching Is Killing Your Team\'s Productivity</h1>
           <p className="text-xl text-white/80">Your team jumps between tasks all day. Deep work never happens. This is a structure problem.</p>
         </header>

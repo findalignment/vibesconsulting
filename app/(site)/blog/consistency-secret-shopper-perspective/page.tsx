@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">January 23, 2025</time>
+          <time className="text-white/60 text-sm">October 24, 2024</time>
           <h1 className="mt-2 mb-4">Consistency: The One Thing Every Great Business Gets Right</h1>
           <p className="text-xl text-white/80">After 25 years evaluating businesses, consistency is the only thing that separates good from great. Here\'s how to build it.</p>
         </header>

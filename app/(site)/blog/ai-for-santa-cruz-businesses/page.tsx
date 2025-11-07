@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 3, 2024</time>
+          <time className="text-white/60 text-sm">October 11, 2024</time>
           <h1 className="mt-2 mb-4">AI for Santa Cruz Businesses: A Practical Guide for Non-Technical Owners</h1>
           <p className="text-xl text-white/80">Santa Cruz business owners are curious about AI but worried about complexity and cost. Here's how local businesses are adopting AI safely and practically.</p>
         </header>

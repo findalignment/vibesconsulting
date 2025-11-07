@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 17, 2024</time>
+          <time className="text-white/60 text-sm">August 23, 2024</time>
           <h1 className="mt-2 mb-4">Preparing for Holiday Hiring Season in Santa Cruz</h1>
           <p className="text-xl text-white/80">Q4 is coming. If your onboarding isn't smooth, new hires will struggle. Here's how to prepare now.</p>
         </header>

@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 19, 2024</time>
+          <time className="text-white/60 text-sm">September 16, 2024</time>
           <h1 className="mt-2 mb-4">Async Communication for Santa Cruz Small Businesses</h1>
           <p className="text-xl text-white/80">Not everything needs a meeting. Here's how local businesses are moving to async communication and getting hours back.</p>
         </header>

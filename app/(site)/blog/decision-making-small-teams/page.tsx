@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">October 9, 2024</time>
+          <time className="text-white/60 text-sm">August 07, 2024</time>
           <h1 className="mt-2 mb-4">Decision-Making in Small Teams: Why Everything Runs Through You</h1>
           <p className="text-xl text-white/80">You're the bottleneck. Every decision waits for you. Here's how Santa Cruz business owners are delegating without losing control.</p>
         </header>

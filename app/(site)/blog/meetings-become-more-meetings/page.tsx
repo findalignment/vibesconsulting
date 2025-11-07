@@ -14,7 +14,7 @@ export default function BlogPost() {
 
       <article>
         <header className="mb-8">
-          <time className="text-white/60 text-sm">December 1, 2024</time>
+          <time className="text-white/60 text-sm">September 13, 2024</time>
           <h1 className="mt-2 mb-4">Meetings That Create More Meetings</h1>
           <p className="text-xl text-white/80">You meet to discuss. Then meet again to decide. Then meet to update. It never ends.</p>
         </header>

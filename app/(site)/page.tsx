@@ -1,4 +1,5 @@
 import CTAButton from '@/components/CTAButton'
+import Link from 'next/link'
 
 export default function HomePage() {
   return (
@@ -26,18 +27,26 @@ export default function HomePage() {
         <div className="grid md:grid-cols-3 gap-6">
           {[{
             title: 'TQM Principles',
+            slug: 'tqm-principles',
             text: 'Continuous improvement, customer focus, and process optimization. We diagnose friction using proven quality management frameworks.'
           },{
             title: 'Human-Centered Systems',
+            slug: 'human-centered-systems',
             text: 'Structure, rituals, and communication loops that work with how people actually operate - not against them.'
           },{
             title: 'Safe AI Enablement',
+            slug: 'safe-ai-enablement',
             text: 'Practical, low-risk adoption of automation tools that reduce noise and error without exposing data.'
           }].map((b) => (
-            <div key={b.title} className="card p-6">
-              <h3 className="mb-2">{b.title}</h3>
-              <p className="text-white/70">{b.text}</p>
-            </div>
+            <Link 
+              key={b.title} 
+              href={`/approach/${b.slug}`}
+              className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
+            >
+              <h3 className="mb-2 group-hover:text-current-500 transition-colors">{b.title}</h3>
+              <p className="text-white/70 mb-3">{b.text}</p>
+              <span className="text-white/60 text-sm group-hover:text-current-500 transition-colors">Learn more →</span>
+            </Link>
           ))}
         </div>
       </section>

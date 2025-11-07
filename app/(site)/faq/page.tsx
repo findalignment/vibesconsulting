@@ -54,7 +54,7 @@ export default function FAQPage() {
       content: (
         <>
           <p>Both. For Santa Cruz County clients, we can do in-person kickoffs and workshops. For everyone else (or if you prefer), we work entirely remotely via Zoom, Loom, and async collaboration.</p>
-          <p>Most of our work happens async anyway—we observe your workflows, interview your team, and design systems that work for you. We don't need to be in your office every day to do that well.</p>
+          <p>Most of our work happens async anyway-we observe your workflows, interview your team, and design systems that work for you. We don't need to be in your office every day to do that well.</p>
         </>
       )
     }
@@ -128,7 +128,7 @@ export default function FAQPage() {
             <li><strong className="text-white">Vibe Partnership:</strong> 12 weeks (full transformation)</li>
             <li><strong className="text-white">Ongoing services:</strong> 3-6 month engagements</li>
           </ul>
-          <p>Most of this is async work on your end—interviews, feedback, testing. We're not in your way.</p>
+          <p>Most of this is async work on your end-interviews, feedback, testing. We're not in your way.</p>
         </>
       )
     },
@@ -208,7 +208,7 @@ export default function FAQPage() {
             <li>Better tool adoption</li>
             <li>Integration between systems they already have</li>
           </ul>
-          <p>If you truly need custom software, we'll tell you—and refer you to someone who can build it.</p>
+          <p>If you truly need custom software, we'll tell you-and refer you to someone who can build it.</p>
         </>
       )
     },

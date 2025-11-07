@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-          <p>© 2025 Rock Hudson — Santa Cruz, CA</p>
+          <p>© 2025 Rock Hudson - Santa Cruz, CA</p>
           <a href="mailto:hello@vibes.consulting" className="hover:text-white">hello@vibes.consulting</a>
         </div>
       </div>

@@ -116,7 +116,7 @@ export default function FiveSignsPage() {
           <div className="space-y-8 max-w-3xl mx-auto">
             <div className="border-l-4 border-current-500 pl-6 py-2">
               <h3 className="text-xl font-bold text-white mb-3">Sign #1: You Can't Take a Vacation</h3>
-              <p className="text-white/70">When the business stops without you, that's not dedication—that's dependency. Learn what this really means and the specific systems missing.</p>
+              <p className="text-white/70">When the business stops without you, that's not dedication-that's dependency. Learn what this really means and the specific systems missing.</p>
             </div>
 
             <div className="border-l-4 border-current-500 pl-6 py-2">
@@ -136,7 +136,7 @@ export default function FiveSignsPage() {
 
             <div className="border-l-4 border-current-500 pl-6 py-2">
               <h3 className="text-xl font-bold text-white mb-3">Sign #5: Revenue Up, Profits Flat</h3>
-              <p className="text-white/70">Making more but keeping less. This is the clearest sign of operational inefficiency—and the most fixable.</p>
+              <p className="text-white/70">Making more but keeping less. This is the clearest sign of operational inefficiency-and the most fixable.</p>
             </div>
           </div>
         </section>

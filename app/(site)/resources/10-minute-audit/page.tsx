@@ -15,7 +15,7 @@ export default function TenMinuteAuditPage() {
           </div>
           <h1 className="mb-6">The 10-Minute Operations Audit</h1>
           <p className="text-xl text-white/70 max-w-2xl mx-auto">
-            Answer 20 quick questions to pinpoint exactly where your business operations are breaking down—and what to fix first.
+            Answer 20 quick questions to pinpoint exactly where your business operations are breaking down-and what to fix first.
           </p>
         </header>
 

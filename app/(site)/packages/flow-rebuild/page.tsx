@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'The Flow Rebuild — Vibes Consulting',
+  title: 'The Flow Rebuild - Vibes Consulting',
   description: '6-week implementation to rebuild one critical system. Includes AI enablement, team training, and custom SOPs. $8,000 total ($5,500 after Flow Check credit).'
 }
 
@@ -15,7 +15,7 @@ export default function FlowRebuildPage() {
 
       <header className="mb-12">
         <h1 className="mb-4">The Flow Rebuild</h1>
-        <p className="text-xl text-white/90 max-w-3xl">We don't just tell you what to fix — we rebuild it with you. One critical system, reimagined and implemented over 6 weeks.</p>
+        <p className="text-xl text-white/90 max-w-3xl">We don't just tell you what to fix - we rebuild it with you. One critical system, reimagined and implemented over 6 weeks.</p>
       </header>
 
       <div className="grid md:grid-cols-3 gap-6 mb-16">
@@ -98,7 +98,7 @@ export default function FlowRebuildPage() {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="card p-6">
             <h3 className="text-lg mb-2">AI Opportunity Scan</h3>
-            <p className="text-white/70 text-sm">We identify 3-5 high-value, low-risk automations specific to the system we're rebuilding. No generic recommendations — only what will actually save your team time.</p>
+            <p className="text-white/70 text-sm">We identify 3-5 high-value, low-risk automations specific to the system we're rebuilding. No generic recommendations - only what will actually save your team time.</p>
           </div>
 
           <div className="card p-6">
@@ -123,7 +123,7 @@ export default function FlowRebuildPage() {
         <div className="space-y-4">
           <div className="card p-6">
             <h3 className="text-lg mb-2">Weeks 1-2: Deep Dive & Redesign</h3>
-            <p className="text-white/70 text-sm mb-3">We map the current system in detail, identify every friction point, and co-design the ideal state with your team. This isn't consultant-imposed — it's collaborative.</p>
+            <p className="text-white/70 text-sm mb-3">We map the current system in detail, identify every friction point, and co-design the ideal state with your team. This isn't consultant-imposed - it's collaborative.</p>
             <p className="text-white/60 text-sm italic">Your time: 3 hours total (kickoff, check-ins, design workshop)</p>
           </div>
 

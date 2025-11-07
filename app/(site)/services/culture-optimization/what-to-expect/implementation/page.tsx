@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Implementation Phase — Culture & Environment Optimization' }
+export const metadata = { title: 'Implementation Phase - Culture & Environment Optimization' }
 
 export default function ImplementationPage() {
   return (
@@ -25,7 +25,7 @@ export default function ImplementationPage() {
                   <li>• Here's what we learned from the culture assessment</li>
                   <li>• Here's what we're changing and why</li>
                   <li>• Here's how you'll be involved</li>
-                  <li>• Your feedback matters — we'll check in regularly</li>
+                  <li>• Your feedback matters - we'll check in regularly</li>
                 </ul>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Research & Data Analysis — AI Use Case' }
+export const metadata = { title: 'Research & Data Analysis - AI Use Case' }
 
 export default function ResearchAnalysisPage() {
   return (
@@ -77,50 +77,7 @@ export default function ResearchAnalysisPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Retail Shop Analysis</h2>
-          <div className="card p-6 bg-current-600/10">
-            <p className="text-white/90 font-medium mb-3">Boutique Retail Store (Online + Physical)</p>
-            
-            <div className="space-y-4">
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">Challenge:</h4>
-                <p className="text-white/70 text-xs">Owner wanted to understand why online sales were flat despite growing traffic. Had 300+ customer reviews and 2 years of sales data but no time to analyze.</p>
-              </div>
-              
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">AI Process:</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Fed all reviews into ChatGPT (anonymized)</li>
-                  <li>• Asked: "What are the most common complaints?"</li>
-                  <li>• Asked: "What do customers praise most?"</li>
-                  <li>• Cross-referenced with sales data in spreadsheet</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">AI Findings (in 20 minutes):</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Customers loved product quality but found checkout confusing</li>
-                  <li>• Shipping costs mentioned negatively 47 times</li>
-                  <li>• "Wish I could see this in person first" appeared 23 times</li>
-                  <li>• Cart abandonment correlated with shipping cost display timing</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">Actions Taken:</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Simplified checkout flow</li>
-                  <li>• Added free shipping threshold</li>
-                  <li>• Created "try before you buy" local pickup option</li>
-                </ul>
-              </div>
-            </div>
-            
-            <p className="text-white/60 text-xs mt-4"><strong>Result:</strong> Online sales increased 23% over next quarter. Owner would have spent 15+ hours doing this analysis manually.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">Tools We Recommend</h2>

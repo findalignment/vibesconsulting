@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Admin Task Automation — AI Use Case' }
+export const metadata = { title: 'Admin Task Automation - AI Use Case' }
 
 export default function AdminAutomationPage() {
   return (
@@ -77,38 +77,7 @@ export default function AdminAutomationPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Law Office Admin</h2>
-          <div className="card p-6 bg-current-600/10">
-            <p className="text-white/90 font-medium mb-3">Small Law Firm (3 attorneys, 1 admin assistant)</p>
-            
-            <div className="space-y-4">
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">Before AI Automation:</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Admin spends 6 hours/week on meeting scheduling</li>
-                  <li>• 4 hours/week transcribing client call notes</li>
-                  <li>• 3 hours/week formatting case documents</li>
-                  <li>• 2 hours/week filing and organizing emails</li>
-                  <li>• <strong>Total:</strong> 15 hours/week on admin tasks</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">After AI Automation:</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Scheduling automated with Calendly + AI (1 hour/week)</li>
-                  <li>• Transcription automated with Otter.ai (30 min/week review)</li>
-                  <li>• Document formatting via ChatGPT templates (45 min/week)</li>
-                  <li>• Email sorting via AI filters (30 min/week)</li>
-                  <li>• <strong>Total:</strong> 3 hours/week on admin tasks</li>
-                </ul>
-              </div>
-            </div>
-            
-            <p className="text-white/60 text-xs mt-4"><strong>Result:</strong> Admin assistant freed up 12 hours/week to focus on client communication and case research. Firm didn't need to hire second admin despite growing caseload.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">Tools We Recommend</h2>

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'AI Prompt Library Add-On — Vibes Consulting',
+  title: 'AI Prompt Library Add-On - Vibes Consulting',
   description: 'Custom prompt templates for your most common tasks. Stop guessing, start getting consistent AI results. $1,000.'
 }
 
@@ -15,7 +15,7 @@ export default function AIPromptLibraryPage() {
 
       <header className="mb-12">
         <h1 className="mb-4">AI Prompt Library</h1>
-        <p className="text-xl text-white/90 max-w-3xl">Custom prompt templates built for your specific business. Stop experimenting with AI — start getting consistent, high-quality results every time.</p>
+        <p className="text-xl text-white/90 max-w-3xl">Custom prompt templates built for your specific business. Stop experimenting with AI - start getting consistent, high-quality results every time.</p>
       </header>
 
       <div className="grid md:grid-cols-3 gap-6 mb-16">
@@ -38,7 +38,7 @@ export default function AIPromptLibraryPage() {
         <div className="space-y-4">
           <div className="card p-6">
             <h3 className="text-lg mb-2">15-20 Battle-Tested Prompts</h3>
-            <p className="text-white/70 text-sm mb-3">We interview your team, identify repetitive tasks, and build prompts that actually work for your specific business. Not generic templates — tailored to your voice, industry, and needs.</p>
+            <p className="text-white/70 text-sm mb-3">We interview your team, identify repetitive tasks, and build prompts that actually work for your specific business. Not generic templates - tailored to your voice, industry, and needs.</p>
           </div>
 
           <div className="card p-6">
@@ -128,7 +128,7 @@ export default function AIPromptLibraryPage() {
         <div className="card p-6 bg-white/5">
           <p className="text-white/80 mb-4">Most teams waste hours experimenting with AI prompts. "How do I phrase this?" "Why isn't this working?" "The output is inconsistent."</p>
           <p className="text-white/80 mb-4">A custom prompt library eliminates that friction. Your team copies the prompt, fills in variables, gets good output. No guessing. No experimentation.</p>
-          <p className="text-white/80">This isn't just convenience — it's how you actually get ROI from AI. Adoption happens when tools are frictionless.</p>
+          <p className="text-white/80">This isn't just convenience - it's how you actually get ROI from AI. Adoption happens when tools are frictionless.</p>
         </div>
       </section>
 
@@ -141,7 +141,7 @@ export default function AIPromptLibraryPage() {
           </div>
           <div>
             <h4 className="text-white font-medium mb-1 text-sm">What AI tools do these work with?</h4>
-            <p className="text-white/70 text-sm">ChatGPT, Claude, Gemini — any text-based AI. We specify which tool works best for each prompt.</p>
+            <p className="text-white/70 text-sm">ChatGPT, Claude, Gemini - any text-based AI. We specify which tool works best for each prompt.</p>
           </div>
           <div>
             <h4 className="text-white font-medium mb-1 text-sm">Is this included in Flow Rebuild?</h4>

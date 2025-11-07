@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Weeks 1-2: AI Opportunity Discovery — AI Integration' }
+export const metadata = { title: 'Weeks 1-2: AI Opportunity Discovery - AI Integration' }
 
 export default function Weeks12Page() {
   return (

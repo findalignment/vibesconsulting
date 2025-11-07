@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'AI-Curious Teams — AI Integration Service' }
+export const metadata = { title: 'AI-Curious Teams - AI Integration Service' }
 
 export default function AICuriousPage() {
   return (
@@ -109,7 +109,7 @@ export default function AICuriousPage() {
           <div className="space-y-3">
             <div className="card p-4">
               <h4 className="text-white text-sm font-medium mb-1">"I don't understand the technology"</h4>
-              <p className="text-white/70 text-xs">You don't need to. We teach you how to use it, not how to build it. Think of it like driving a car — you don't need to know how the engine works.</p>
+              <p className="text-white/70 text-xs">You don't need to. We teach you how to use it, not how to build it. Think of it like driving a car - you don't need to know how the engine works.</p>
             </div>
             <div className="card p-4">
               <h4 className="text-white text-sm font-medium mb-1">"What if it makes mistakes?"</h4>
@@ -128,7 +128,7 @@ export default function AICuriousPage() {
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Ready to Adopt AI Safely?</h2>
-          <p className="text-white/80 mb-4">AI Integration is part of our Flow Rebuild package ($8,000). We help you identify use cases, implement tools, and train your team — all with data privacy baked in.</p>
+          <p className="text-white/80 mb-4">AI Integration is part of our Flow Rebuild package ($8,000). We help you identify use cases, implement tools, and train your team - all with data privacy baked in.</p>
           <div className="flex gap-4">
             <Link href="/packages/flow-rebuild" className="btn btn-primary">Learn About Flow Rebuild</Link>
             <Link href="/contact" className="btn btn-ghost">Schedule Intro Call</Link>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Growing Companies — Culture & Environment Optimization' }
+export const metadata = { title: 'Growing Companies - Culture & Environment Optimization' }
 
 export default function GrowingCompaniesPage() {
   return (
@@ -43,7 +43,7 @@ export default function GrowingCompaniesPage() {
             <div className="card p-6">
               <h3 className="text-lg mb-2">Culture Becomes Accidental</h3>
               <p className="text-white/70 text-sm mb-3">When you're small, culture emerges naturally. As you grow, it fragments. Different teams develop different norms. Cliques form. Silos appear.</p>
-              <p className="text-white/60 text-xs">If you don't design it, it designs itself — and not always well.</p>
+              <p className="text-white/60 text-xs">If you don't design it, it designs itself - and not always well.</p>
             </div>
 
             <div className="card p-6">
@@ -92,23 +92,7 @@ export default function GrowingCompaniesPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Design Agency</h2>
-          <div className="card p-6 border-l-4 border-current-600">
-            <p className="text-white/90 mb-3"><strong>Problem:</strong> Grew from 8 to 20 people in 18 months. Culture felt chaotic. Early employees frustrated with new hires. Morale dropping.</p>
-
-            <p className="text-white/90 mb-2 mt-4"><strong>What we did:</strong></p>
-            <ul className="text-white/70 text-xs space-y-2 pl-3 mb-4">
-              <li><strong>• Codified values:</strong> Turned implicit norms into explicit values ("ship fast, iterate," "client comes first," "no ego").</li>
-              <li><strong>• Designed rituals:</strong> Weekly all-hands (15 min), monthly team retros (90 min), quarterly offsites.</li>
-              <li><strong>• Built communication systems:</strong> Clear meeting cadence, decision documentation in Notion, Slack channel strategy.</li>
-              <li><strong>• Trained managers:</strong> 3 new team leads got 1-on-1 coaching on feedback, delegation, and culture modeling.</li>
-              <li><strong>• Redesigned onboarding:</strong> 30-day onboarding plan with buddy system, culture immersion, and milestone check-ins.</li>
-            </ul>
-
-            <p className="text-current-500 text-xs font-medium">Result: Morale rebounded from 6/10 to 9/10. New hires integrated in half the time. Culture felt intentional, not chaotic.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">The Right Time to Design Culture</h2>

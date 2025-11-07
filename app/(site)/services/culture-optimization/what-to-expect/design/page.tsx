@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Design Phase — Culture & Environment Optimization' }
+export const metadata = { title: 'Design Phase - Culture & Environment Optimization' }
 
 export default function DesignPage() {
   return (

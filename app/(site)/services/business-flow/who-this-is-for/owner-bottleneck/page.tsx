@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: "For Owner-Operators (You're the Bottleneck) — Business Flow Consulting" }
+export const metadata = { title: "For Owner-Operators (You're the Bottleneck) - Business Flow Consulting" }
 
 export default function OwnerBottleneckPage() {
   return (
@@ -118,15 +118,7 @@ export default function OwnerBottleneckPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Marketing agency, 10 people, founder-led</p>
-            <p className="text-white/70 text-sm mb-4"><strong>Problem:</strong> Founder reviewed every client deliverable, approved every email, made every project decision. Working 60-hour weeks. Team felt micromanaged but didn't know what they could decide.</p>
-            <p className="text-white/70 text-sm mb-4"><strong>Solution:</strong> Documented decision rights, created quality checklists, built escalation framework, empowered project leads.</p>
-            <p className="text-current-500 text-sm font-medium"><strong>Result:</strong> Founder's approval queue dropped 80%. Team made decisions confidently. Work weeks dropped to 40 hours.</p>
-          </div>
-        </section>
+        
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Ready to Stop Being the Bottleneck?</h2>

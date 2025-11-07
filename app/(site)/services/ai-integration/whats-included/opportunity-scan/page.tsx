@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'AI Opportunity Scan — AI Integration' }
+export const metadata = { title: 'AI Opportunity Scan - AI Integration' }
 
 export default function OpportunityScanPage() {
   return (
@@ -25,7 +25,7 @@ export default function OpportunityScanPage() {
             <div className="card p-6">
               <h3 className="text-lg mb-2">Time-Waste Analysis</h3>
               <p className="text-white/70 text-sm mb-3">For each task, we estimate: how often it happens, how long it takes, how much value it creates. This tells us where AI offers highest ROI.</p>
-              <p className="text-white/60 text-xs">Example: If you spend 3 hours/week writing similar client emails, that's 156 hours/year — prime AI target.</p>
+              <p className="text-white/60 text-xs">Example: If you spend 3 hours/week writing similar client emails, that's 156 hours/year - prime AI target.</p>
             </div>
 
             <div className="card p-6">
@@ -71,30 +71,7 @@ export default function OpportunityScanPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example</h2>
-          <div className="card p-6 bg-current-600/10">
-            <p className="text-white/90 font-medium mb-3">Boutique Design Agency (8-person team)</p>
-            
-            <div className="space-y-3 text-sm">
-              <div>
-                <h4 className="text-white font-medium mb-1">Top AI Opportunities We Found:</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Client status email templates (saves 2 hrs/week)</li>
-                  <li>• Meeting notes summarization (saves 1.5 hrs/week)</li>
-                  <li>• Social media caption drafts (saves 3 hrs/week)</li>
-                  <li>• Proposal formatting automation (saves 1 hr/week)</li>
-                  <li>• Design brief intake form analysis (saves 45 min/week)</li>
-                </ul>
-              </div>
-              
-              <div className="pt-3 border-t border-current-600/20">
-                <p className="text-white/80"><strong>Total annual time savings:</strong> 400+ hours</p>
-                <p className="text-white/60 text-xs">Equivalent to adding a part-time team member, but with zero HR overhead.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">How We Gather Information</h2>
@@ -108,7 +85,7 @@ export default function OpportunityScanPage() {
             <div className="card p-6">
               <h3 className="text-lg mb-3">Tool/Process Observation</h3>
               <p className="text-white/70 text-sm mb-3">We review your current tools (email, PM software, spreadsheets) to see workflow patterns.</p>
-              <p className="text-white/60 text-xs">No access to sensitive data needed — we're observing structure, not content.</p>
+              <p className="text-white/60 text-xs">No access to sensitive data needed - we're observing structure, not content.</p>
             </div>
           </div>
         </section>

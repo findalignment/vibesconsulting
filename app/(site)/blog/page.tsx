@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Blog — Vibes Consulting' }
+export const metadata = { title: 'Blog - Vibes Consulting' }
 
 const posts = [
   { 

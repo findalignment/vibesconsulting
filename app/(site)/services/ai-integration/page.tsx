@@ -2,7 +2,7 @@ import CTAButton from '@/components/CTAButton'
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'AI Integration for Small Business — Vibes Consulting',
+  title: 'AI Integration for Small Business - Vibes Consulting',
   description: 'Practical AI adoption for teams who want efficiency without risk. Identify opportunities, implement safe tools, train your team.'
 }
 

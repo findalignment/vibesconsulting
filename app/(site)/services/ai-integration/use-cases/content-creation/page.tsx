@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Content Creation & Copywriting — AI Use Case' }
+export const metadata = { title: 'Content Creation & Copywriting - AI Use Case' }
 
 export default function ContentCreationPage() {
   return (
@@ -10,7 +10,7 @@ export default function ContentCreationPage() {
       </Link>
 
       <h1 className="mb-4">Content Creation & Copywriting</h1>
-      <p className="text-xl text-white/90 mb-8">Use AI to draft emails, social posts, blog outlines, and marketing copy — without sounding robotic.</p>
+      <p className="text-xl text-white/90 mb-8">Use AI to draft emails, social posts, blog outlines, and marketing copy - without sounding robotic.</p>
 
       <div className="space-y-8">
         <section>
@@ -72,40 +72,12 @@ export default function ContentCreationPage() {
             <div className="card p-6">
               <h3 className="text-lg mb-2">4. Final Quality Check</h3>
               <p className="text-white/70 text-sm mb-3">Read it aloud. Does it sound like you? Is everything accurate? Then publish/send.</p>
-              <p className="text-white/60 text-xs">Never skip this step. AI makes mistakes — you're the final filter.</p>
+              <p className="text-white/60 text-xs">Never skip this step. AI makes mistakes - you're the final filter.</p>
             </div>
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Email Campaign</h2>
-          <div className="card p-6 bg-current-600/10">
-            <p className="text-white/90 font-medium mb-3">Fitness Studio: New Class Launch Email</p>
-            
-            <div className="space-y-4">
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">Old Process (45 minutes):</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Stare at blank screen for 10 minutes</li>
-                  <li>• Write rough draft (20 minutes)</li>
-                  <li>• Rewrite 3 times to get tone right (15 minutes)</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">New Process with AI (10 minutes):</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Input prompt with class details (2 minutes)</li>
-                  <li>• AI generates 3 email options (30 seconds)</li>
-                  <li>• Pick best option, personalize (5 minutes)</li>
-                  <li>• Final check and send (2 minutes)</li>
-                </ul>
-              </div>
-            </div>
-            
-            <p className="text-white/60 text-xs mt-4"><strong>Time saved:</strong> 35 minutes per email. Over 20 campaigns/year = 12+ hours saved.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">Tools We Recommend</h2>
@@ -154,7 +126,7 @@ export default function ContentCreationPage() {
             
             <ul className="space-y-2 text-sm text-white/70">
               <li>• <strong>Don't input client-specific sensitive data.</strong> Use placeholders like [CLIENT NAME].</li>
-              <li>• <strong>Always fact-check.</strong> AI can hallucinate details — verify before publishing.</li>
+              <li>• <strong>Always fact-check.</strong> AI can hallucinate details - verify before publishing.</li>
               <li>• <strong>Maintain your voice.</strong> Don't copy-paste AI output verbatim. Add personality.</li>
               <li>• <strong>Disclose if required.</strong> Some industries require AI disclosure. Check your rules.</li>
             </ul>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Physical & Digital Space — Culture & Environment Optimization' }
+export const metadata = { title: 'Physical & Digital Space - Culture & Environment Optimization' }
 
 export default function SpacePage() {
   return (
@@ -142,22 +142,7 @@ export default function SpacePage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Wellness Studio</h2>
-          <div className="card p-6 border-l-4 border-current-600">
-            <p className="text-white/90 mb-3"><strong>Problem:</strong> Staff felt stressed and disconnected. Physical space was cramped and uninspiring.</p>
-
-            <p className="text-white/90 mb-2 mt-4"><strong>Changes we made:</strong></p>
-            <ul className="text-white/70 text-xs space-y-2 pl-3 mb-4">
-              <li><strong>• Physical:</strong> Created staff lounge (comfortable seating, plants, natural light). Added lockers for personal storage.</li>
-              <li><strong>• Physical:</strong> Improved acoustics (sound panels in noisy zones).</li>
-              <li><strong>• Digital:</strong> Consolidated 4 scheduling tools into 1. Built internal knowledge base for class protocols.</li>
-              <li><strong>• Digital:</strong> Established "no Slack after 7pm" norm to prevent burnout.</li>
-            </ul>
-
-            <p className="text-current-500 text-xs font-medium">Result: Staff satisfaction up 40%. Turnover dropped from 30%/year to 10%/year.</p>
-          </div>
-        </section>
+        
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Part of Culture Optimization</h2>

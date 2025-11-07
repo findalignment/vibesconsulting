@@ -1,6 +1,6 @@
 import CaseStudyCard from '@/components/CaseStudyCard'
 
-export const metadata = { title: 'Case Studies — Vibes Consulting' }
+export const metadata = { title: 'Case Studies - Vibes Consulting' }
 
 const cases = [
   { title: 'Boutique Studio', result: 'Onboarding 30% faster', description: 'Simplified intake, clarified roles, built a meeting OS.' },

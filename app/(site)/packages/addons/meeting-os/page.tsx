@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Meeting OS Add-On — Vibes Consulting',
+  title: 'Meeting OS Add-On - Vibes Consulting',
   description: 'Complete meeting cadence redesign with templates and rituals. Cut meeting time by 40% while improving alignment. $1,500.'
 }
 

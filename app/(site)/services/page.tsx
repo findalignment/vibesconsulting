@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Services — Vibes Consulting' }
+export const metadata = { title: 'Services - Vibes Consulting' }
 
 const services = [
   {
@@ -20,7 +20,7 @@ const services = [
   {
     title: 'Culture & Environment Optimization',
     slug: 'culture-optimization',
-    description: 'Evaluate the "vibe" — morale, engagement, communication tone. Design cultural rituals that reinforce belonging and trust.',
+    description: 'Evaluate the "vibe" - morale, engagement, communication tone. Design cultural rituals that reinforce belonging and trust.',
     bullets: ['Culture Flow Report', 'Leadership Coaching Session', 'Quarterly Vibe Reset Framework'],
     investment: 'From $5,500'
   }

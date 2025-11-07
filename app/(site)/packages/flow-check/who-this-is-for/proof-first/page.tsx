@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'For Proof-First Buyers — Flow Check — Vibes Consulting',
+  title: 'For Proof-First Buyers - Flow Check - Vibes Consulting',
   description: 'You want to see the quality of work before committing to a full engagement. The Flow Check delivers value whether you continue or not.'
 }
 
@@ -22,7 +22,7 @@ export default function ProofFirstPage() {
           <div className="card p-6 bg-white/5">
             <p className="text-white/80 mb-4">Most consulting engagements ask for a big commitment upfront. $10K, $20K, $50K. You're supposed to trust the process and hope for results.</p>
             <p className="text-white/80 mb-4">That's backwards. Why commit to implementation before you know if the consultant actually understands your business?</p>
-            <p className="text-white/80">The Flow Check is our "try before you buy." For $2,500, you get real deliverables that prove value — whether you continue with us or not.</p>
+            <p className="text-white/80">The Flow Check is our "try before you buy." For $2,500, you get real deliverables that prove value - whether you continue with us or not.</p>
           </div>
         </section>
 
@@ -88,25 +88,7 @@ export default function ProofFirstPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Consulting Firm, Risk-Averse</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Situation:</p>
-            <p className="text-white/70 text-sm mb-4">Managing partner wanted help with operations but had hired 2 consultants in the past who delivered generic templates and disappeared. Skeptical of spending more.</p>
-
-            <p className="text-white/90 mb-2 font-medium">Flow Check Process:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• We interviewed 6 team members, observed their project kickoff process</li>
-              <li>• Friction Audit identified client onboarding as biggest bottleneck (2-week delay per client)</li>
-              <li>• Flow Map showed how to cut onboarding to 3-5 days with better intake process</li>
-              <li>• 90-Day Plan laid out phased implementation with clear owners</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 font-medium">Outcome:</p>
-            <p className="text-white/70 text-sm mb-4">Managing partner: "This is the first time a consultant actually understood our business. The plan is specific to us, not generic best practices."</p>
-            <p className="text-current-500 text-sm font-medium">They continued with Flow Rebuild. But they would've been happy with just the Flow Check — it was that useful.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">How to Decide If You Continue</h2>
@@ -126,15 +108,15 @@ export default function ProofFirstPage() {
           <div className="space-y-3">
             <div className="card p-4 bg-white/5">
               <p className="text-white/80 text-sm italic mb-2">"I was skeptical of consultants, but the Flow Check proved its value in week 1. The insights were specific to our business, not generic frameworks."</p>
-              <p className="text-white/60 text-xs">— Founder, Design Agency</p>
+              <p className="text-white/60 text-xs">- Founder, Design Agency</p>
             </div>
             <div className="card p-4 bg-white/5">
               <p className="text-white/80 text-sm italic mb-2">"We implemented the 90-Day Plan ourselves. It worked. Saved us $5,500 and we got exactly what we needed."</p>
-              <p className="text-white/60 text-xs">— COO, Tech Startup</p>
+              <p className="text-white/60 text-xs">- COO, Tech Startup</p>
             </div>
             <div className="card p-4 bg-white/5">
               <p className="text-white/80 text-sm italic mb-2">"The Flow Check was our test. They passed. We immediately booked Flow Rebuild and haven't looked back."</p>
-              <p className="text-white/60 text-xs">— Operations Manager, Marketing Firm</p>
+              <p className="text-white/60 text-xs">- Operations Manager, Marketing Firm</p>
             </div>
           </div>
         </section>

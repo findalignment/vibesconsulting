@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'For Broken Processes — Flow Check — Vibes Consulting',
+  title: 'For Broken Processes - Flow Check - Vibes Consulting',
   description: 'Onboarding takes too long. Projects have too many handoffs. Information gets lost. Simple tasks require too many meetings. The Flow Check shows you what to fix first.'
 }
 
@@ -81,7 +81,7 @@ export default function BrokenProcessesPage() {
           <div className="space-y-4">
             <div className="card p-6">
               <h3 className="text-lg mb-2">We Map the Mess</h3>
-              <p className="text-white/70 text-sm">The Friction Audit documents every step in your broken processes. Not how it should work — how it actually works. This reveals why things are slow.</p>
+              <p className="text-white/70 text-sm">The Friction Audit documents every step in your broken processes. Not how it should work - how it actually works. This reveals why things are slow.</p>
             </div>
 
             <div className="card p-6">
@@ -96,31 +96,7 @@ export default function BrokenProcessesPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Tech Startup, 15 People</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Broken Process:</p>
-            <p className="text-white/70 text-sm mb-4">Feature development took 6 weeks start-to-finish: idea → spec → design → dev → QA → deploy. Each handoff required meetings, context was lost, rework was common.</p>
-
-            <p className="text-white/90 mb-2 font-medium">Flow Check Found:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• No standard spec template (everyone did it differently)</li>
-              <li>• Design-to-dev handoff was verbal (details forgotten)</li>
-              <li>• QA had no checklist (missed edge cases)</li>
-              <li>• 8 hours per week spent in "sync meetings" to clarify what was already documented</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 font-medium">90-Day Plan Fixed:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• Created feature spec template</li>
-              <li>• Built design handoff doc with Figma links + implementation notes</li>
-              <li>• Made QA checklist for common scenarios</li>
-              <li>• Moved 80% of "sync meetings" to async updates</li>
-            </ul>
-
-            <p className="text-current-500 text-sm font-medium">Result: Feature development down to 3-4 weeks, 8 hours per week saved, fewer bugs</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">What You'll Learn</h2>

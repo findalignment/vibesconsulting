@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: '90-Day Continuous Improvement Plan — Business Flow Consulting' }
+export const metadata = { title: '90-Day Continuous Improvement Plan - Business Flow Consulting' }
 
 export default function ImprovementPlanPage() {
   return (

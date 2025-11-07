@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Ongoing Support — Culture & Environment Optimization' }
+export const metadata = { title: 'Ongoing Support - Culture & Environment Optimization' }
 
 export default function OngoingSupportPage() {
   return (
@@ -10,7 +10,7 @@ export default function OngoingSupportPage() {
       </Link>
 
       <h1 className="mb-4">Post-Engagement Support</h1>
-      <p className="text-xl text-white/90 mb-8">60 days of coaching and check-ins to ensure changes stick. We don't disappear after implementation — we help you sustain momentum.</p>
+      <p className="text-xl text-white/90 mb-8">60 days of coaching and check-ins to ensure changes stick. We don't disappear after implementation - we help you sustain momentum.</p>
 
       <div className="space-y-8">
         <section>

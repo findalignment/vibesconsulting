@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Friction Audit Report — Flow Check — Vibes Consulting',
+  title: 'Friction Audit Report - Flow Check - Vibes Consulting',
   description: 'Visual map of where work slows down in your business. We identify the 3-5 highest-impact friction points costing you time and momentum.'
 }
 
@@ -14,14 +14,14 @@ export default function FrictionAuditPage() {
       </Link>
 
       <h1 className="mb-4">Friction Audit Report</h1>
-      <p className="text-xl text-white/90 mb-8">A visual diagnostic that shows exactly where your business gets stuck — and why.</p>
+      <p className="text-xl text-white/90 mb-8">A visual diagnostic that shows exactly where your business gets stuck - and why.</p>
 
       <div className="space-y-8">
         <section>
           <h2 className="mb-4">What It Is</h2>
           <div className="card p-6 bg-white/5">
             <p className="text-white/80 mb-4">The Friction Audit is a comprehensive analysis of where work slows down in your business. We map every major workflow, identify bottlenecks, and document the root causes behind each friction point.</p>
-            <p className="text-white/80">Think of it as an MRI for your operations — it reveals problems you can feel but couldn't see.</p>
+            <p className="text-white/80">Think of it as an MRI for your operations - it reveals problems you can feel but couldn't see.</p>
           </div>
         </section>
 
@@ -45,13 +45,13 @@ export default function FrictionAuditPage() {
             </div>
             <div className="card p-4">
               <h3 className="text-white text-sm font-medium mb-2">Root Cause Documentation</h3>
-              <p className="text-white/70 text-xs mb-2">Surface symptoms vs. actual problems. We don't just say "communication is bad" — we identify *why* (no decision rights? Unclear escalation paths? Too many meetings?).</p>
+              <p className="text-white/70 text-xs mb-2">Surface symptoms vs. actual problems. We don't just say "communication is bad" - we identify *why* (no decision rights? Unclear escalation paths? Too many meetings?).</p>
               <p className="text-white/60 text-xs italic">Example: "Team waits for founder approval not because they lack skills, but because decision thresholds were never documented."</p>
             </div>
             <div className="card p-4">
               <h3 className="text-white text-sm font-medium mb-2">Visual Friction Map</h3>
               <p className="text-white/70 text-xs mb-2">A diagram showing where work flows smoothly (green), where it slows (yellow), and where it stops completely (red). Makes the invisible visible.</p>
-              <p className="text-white/60 text-xs italic">Example: Your project workflow shows green until "client review" — then it turns red because reviews take 5-7 days due to unclear feedback expectations.</p>
+              <p className="text-white/60 text-xs italic">Example: Your project workflow shows green until "client review" - then it turns red because reviews take 5-7 days due to unclear feedback expectations.</p>
             </div>
           </div>
         </section>
@@ -83,26 +83,7 @@ export default function FrictionAuditPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Examples</h2>
-          <div className="space-y-3">
-            <div className="card p-4 bg-white/5">
-              <p className="text-white/90 mb-2 font-medium">Marketing agency, 12 people</p>
-              <p className="text-white/70 text-sm mb-2"><strong>Friction Found:</strong> Client feedback loops taking 5-7 days because expectations weren't clear upfront</p>
-              <p className="text-current-500 text-sm"><strong>Time Cost:</strong> 8-10 hours per project wasted on back-and-forth</p>
-            </div>
-            <div className="card p-4 bg-white/5">
-              <p className="text-white/90 mb-2 font-medium">Tech startup, 8 people</p>
-              <p className="text-white/70 text-sm mb-2"><strong>Friction Found:</strong> Every decision waiting for founder approval, even $50 software purchases</p>
-              <p className="text-current-500 text-sm"><strong>Time Cost:</strong> 15+ hours per week of team waiting time</p>
-            </div>
-            <div className="card p-4 bg-white/5">
-              <p className="text-white/90 mb-2 font-medium">Consulting firm, 15 people</p>
-              <p className="text-white/70 text-sm mb-2"><strong>Friction Found:</strong> Onboarding new clients required knowledge in founder's head, causing delays</p>
-              <p className="text-current-500 text-sm"><strong>Time Cost:</strong> 2-week delay for every new client</p>
-            </div>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">What You Learn</h2>

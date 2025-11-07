@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'On-Call Support — Vibe Partnership — Vibes Consulting',
+  title: 'On-Call Support - Vibe Partnership - Vibes Consulting',
   description: 'Slack/email access for questions as they come up. Fast, actionable guidance on culture and operations.'
 }
 
@@ -20,7 +20,7 @@ export default function OnCallSupportPage() {
         <section>
           <h2 className="mb-4">What It Is</h2>
           <div className="card p-6 bg-white/5">
-            <p className="text-white/80 mb-4">Slack or email access to us for questions as they come up. Not hourly consulting — just fast, practical guidance on culture and operations decisions.</p>
+            <p className="text-white/80 mb-4">Slack or email access to us for questions as they come up. Not hourly consulting - just fast, practical guidance on culture and operations decisions.</p>
             <p className="text-white/80">"Should we change this ritual?" "How do we handle this team dynamic?" "Is this process still serving us?" We help you make better decisions in real-time.</p>
           </div>
         </section>
@@ -75,28 +75,13 @@ export default function OnCallSupportPage() {
         <section>
           <h2 className="mb-4">Why This Matters</h2>
           <div className="card p-6 bg-white/5">
-            <p className="text-white/80 mb-4">Most consultants disappear after delivering a report. You're left implementing alone, second-guessing decisions, or worse — not implementing at all.</p>
+            <p className="text-white/80 mb-4">Most consultants disappear after delivering a report. You're left implementing alone, second-guessing decisions, or worse - not implementing at all.</p>
             <p className="text-white/80 mb-4">On-call support means you have a trusted advisor in your pocket. When questions come up (and they always do), you get fast, practical guidance.</p>
             <p className="text-white/80">It's the difference between theory and actual implementation.</p>
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Tech Startup, Vibe Partner for 9 Months</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Typical Month:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• 3-4 quick questions via Slack ("Does this sound right?")</li>
-              <li>• 1-2 deeper questions via email (process review, team dynamic advice)</li>
-              <li>• Occasional urgent question (employee issue, client crisis)</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 font-medium">Value:</p>
-            <p className="text-white/70 text-sm mb-4">"Having on-call support means I make better decisions faster. I'm not paralyzed wondering if I'm doing the right thing. I ask, get guidance, move forward."</p>
-
-            <p className="text-current-500 text-sm font-medium">Result: Faster decisions, fewer mistakes, more confident leadership.</p>
-          </div>
-        </section>
+        
 
         <section className="card p-8 bg-current-600/10 text-center">
           <h2 className="mb-4">Ready for On-Demand Guidance?</h2>

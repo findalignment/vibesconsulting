@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'Culture Is the Real Productivity Hack — Vibes Consulting',
+  title: 'Culture Is the Real Productivity Hack - Vibes Consulting',
   description: 'Why optimizing workflows won\'t fix burnout, disengagement, or turnover. And what will.'
 }
 
@@ -115,7 +115,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            When people know where the guardrails are, they can move fast without constantly checking in. That's not just efficient — it's energizing.
+            When people know where the guardrails are, they can move fast without constantly checking in. That's not just efficient - it's energizing.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">3. Sustainable Rhythms</h3>
@@ -292,7 +292,7 @@ export default function BlogPost() {
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="card p-8 bg-current-600/10">
             <h3 className="text-xl mb-3">Want to Fix Your Culture?</h3>
-            <p className="text-white/80 mb-6">We'll audit your team's rituals, communication patterns, and operating rhythms — then redesign them for sustainable flow.</p>
+            <p className="text-white/80 mb-6">We'll audit your team's rituals, communication patterns, and operating rhythms - then redesign them for sustainable flow.</p>
             <Link href="/services/culture-optimization" className="btn btn-primary">Learn About Culture Optimization</Link>
           </div>
         </div>

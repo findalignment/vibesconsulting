@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Meeting & Decision OS Rebuild — Flow Rebuild — Vibes Consulting',
+  title: 'Meeting & Decision OS Rebuild - Flow Rebuild - Vibes Consulting',
   description: 'Redesign your entire meeting cadence and decision rights. Cut meeting time by 40-50% while improving alignment and clarity.'
 }
 
@@ -85,28 +85,7 @@ export default function MeetingDecisionOSPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Tech Startup, 15 People</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Before:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• 12 recurring meetings per week (18 hours total)</li>
-              <li>• Every decision escalated to founders</li>
-              <li>• "Quick sync" calls that lasted 45 minutes</li>
-              <li>• No clear decision-making authority</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 font-medium">After Flow Rebuild:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• 6 recurring meetings (8 hours total)</li>
-              <li>• Project leads empowered to make decisions under $5K</li>
-              <li>• Status updates moved to async Loom videos</li>
-              <li>• Decision rights matrix posted in Notion</li>
-            </ul>
-
-            <p className="text-current-500 text-sm font-medium">Result: 10 hours per week saved, decisions 3x faster, team feels more autonomous</p>
-          </div>
-        </section>
+        
 
         <section className="card p-8 bg-current-600/10 text-center">
           <h2 className="mb-4">Ready to Reclaim Your Calendar?</h2>

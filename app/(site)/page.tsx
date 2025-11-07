@@ -7,7 +7,7 @@ export default function HomePage() {
         <div>
           <h1>We fix the flow.</h1>
           <p className="mt-4 max-w-xl text-lg">Vibes Consulting helps small businesses in Santa Cruz operate with ease, alignment, and intelligence. We merge total quality management, human systems insight, and modern AI tools to create environments where people actually want to be.</p>
-          <p className="mt-3 text-white/70 max-w-xl">You can feel when a business works — and when it doesn't. We identify invisible friction, restore operational flow, and teach you how to keep it that way.</p>
+          <p className="mt-3 text-white/70 max-w-xl">You can feel when a business works - and when it doesn't. We identify invisible friction, restore operational flow, and teach you how to keep it that way.</p>
           <div className="mt-8 flex gap-4 items-center">
             <CTAButton>Get Your Flow Check</CTAButton>
             <a href="#how" className="btn btn-ghost">How it works</a>
@@ -29,7 +29,7 @@ export default function HomePage() {
             text: 'Continuous improvement, customer focus, and process optimization. We diagnose friction using proven quality management frameworks.'
           },{
             title: 'Human-Centered Systems',
-            text: 'Structure, rituals, and communication loops that work with how people actually operate — not against them.'
+            text: 'Structure, rituals, and communication loops that work with how people actually operate - not against them.'
           },{
             title: 'Safe AI Enablement',
             text: 'Practical, low-risk adoption of automation tools that reduce noise and error without exposing data.'

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Brand/Space Vibe Redesign Add-On — Vibes Consulting',
+  title: 'Brand/Space Vibe Redesign Add-On - Vibes Consulting',
   description: 'Physical or digital environment optimization for flow. Make your workspace support deep work and collaboration. $2,000.'
 }
 
@@ -55,7 +55,7 @@ export default function VibeRedesignPage() {
 
           <div className="card p-6">
             <h3 className="text-xl mb-3">Digital Environment Optimization</h3>
-            <p className="text-white/70 text-sm mb-4">For remote or hybrid teams. We redesign your digital workspace — Slack, Notion, Drive structure, tool stack — to reduce noise and improve findability.</p>
+            <p className="text-white/70 text-sm mb-4">For remote or hybrid teams. We redesign your digital workspace - Slack, Notion, Drive structure, tool stack - to reduce noise and improve findability.</p>
             <div className="text-xs text-white/60">
               <p className="font-medium mb-1">What we optimize:</p>
               <ul className="space-y-1 pl-3">

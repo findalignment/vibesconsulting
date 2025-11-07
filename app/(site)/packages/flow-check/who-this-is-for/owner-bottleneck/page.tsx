@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'For Owner-Bottlenecks — Flow Check — Vibes Consulting',
+  title: 'For Owner-Bottlenecks - Flow Check - Vibes Consulting',
   description: 'Every decision runs through you. Your team waits for your input. You work nights and weekends but the business still feels chaotic. The Flow Check shows you how to delegate without losing control.'
 }
 
@@ -88,30 +88,7 @@ export default function OwnerBottleneckPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Marketing Agency, Founder-Led</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Problem:</p>
-            <p className="text-white/70 text-sm mb-4">Founder reviewed every client deliverable, approved every email, made every project decision. Working 60-hour weeks. Team felt micromanaged but didn't know what they could decide.</p>
-
-            <p className="text-white/90 mb-2 font-medium">Flow Check Revealed:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• 90% of "approvals" were rubber stamps (team knew what to do)</li>
-              <li>• Team was asking permission, not because they needed it, but because expectations weren't clear</li>
-              <li>• No documented quality standards, so team played it safe</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 font-medium">Solution (90-Day Plan):</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• Documented decision rights matrix</li>
-              <li>• Created quality checklists for deliverables</li>
-              <li>• Empowered project leads to make client decisions under $2K</li>
-              <li>• Built escalation framework for edge cases</li>
-            </ul>
-
-            <p className="text-current-500 text-sm font-medium">Result: Founder's approval queue dropped 80%. Work weeks went to 40 hours. Team more confident.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">What You'll Learn</h2>

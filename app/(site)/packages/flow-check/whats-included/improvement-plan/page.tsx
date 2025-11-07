@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: '90-Day Improvement Plan — Flow Check — Vibes Consulting',
+  title: '90-Day Improvement Plan - Flow Check - Vibes Consulting',
   description: 'Phased action plan with quick wins, system redesign, and stabilization. Includes success metrics and accountability structure.'
 }
 
@@ -14,7 +14,7 @@ export default function ImprovementPlanPage() {
       </Link>
 
       <h1 className="mb-4">90-Day Continuous Improvement Plan</h1>
-      <p className="text-xl text-white/90 mb-8">A phased roadmap that turns insights into action — with clear priorities, owners, and success metrics.</p>
+      <p className="text-xl text-white/90 mb-8">A phased roadmap that turns insights into action - with clear priorities, owners, and success metrics.</p>
 
       <div className="space-y-8">
         <section>
@@ -93,7 +93,7 @@ export default function ImprovementPlanPage() {
             </div>
             <div className="card p-4">
               <h4 className="text-white text-sm font-medium mb-2">Week-by-Week Timeline</h4>
-              <p className="text-white/70 text-xs">Specific tasks for each week. Not overwhelming — 2-3 improvements per week that fit around your actual work.</p>
+              <p className="text-white/70 text-xs">Specific tasks for each week. Not overwhelming - 2-3 improvements per week that fit around your actual work.</p>
             </div>
             <div className="card p-4">
               <h4 className="text-white text-sm font-medium mb-2">Owner Assignments</h4>
@@ -110,49 +110,7 @@ export default function ImprovementPlanPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Marketing Agency Plan</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-4 font-medium">Agency with 10 people, main friction: client feedback loops taking too long</p>
-            
-            <div className="space-y-4">
-              <div>
-                <h4 className="text-current-500 text-sm font-medium mb-2">Weeks 1-4: Quick Wins</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-4">
-                  <li>• Week 1: Create client feedback template with clear expectations</li>
-                  <li>• Week 2: Document "what good feedback looks like" guide</li>
-                  <li>• Week 3: Train team on how to request specific, actionable feedback</li>
-                  <li>• Week 4: Pilot new process with 3 clients</li>
-                </ul>
-                <p className="text-white/60 text-xs mt-2 italic">Result: Feedback loops cut from 5-7 days to 2-3 days</p>
-              </div>
-
-              <div>
-                <h4 className="text-current-500 text-sm font-medium mb-2">Weeks 5-8: System Redesign</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-4">
-                  <li>• Week 5: Redesign entire project kickoff to set feedback expectations upfront</li>
-                  <li>• Week 6: Create "feedback milestones" in project timeline</li>
-                  <li>• Week 7: Build async feedback tool (Loom + comments)</li>
-                  <li>• Week 8: Roll out to all clients</li>
-                </ul>
-                <p className="text-white/60 text-xs mt-2 italic">Result: Feedback loops now 1-2 days, client satisfaction up 30%</p>
-              </div>
-
-              <div>
-                <h4 className="text-current-500 text-sm font-medium mb-2">Weeks 9-12: Stabilization</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-4">
-                  <li>• Week 9: Document edge cases (client doesn't respond, unclear feedback, etc.)</li>
-                  <li>• Week 10: Train new hires on feedback process</li>
-                  <li>• Week 11: Measure time savings (8 hours per project saved)</li>
-                  <li>• Week 12: Identify next system to improve (onboarding)</li>
-                </ul>
-                <p className="text-white/60 text-xs mt-2 italic">Result: New system running independently, ready for next improvement</p>
-              </div>
-            </div>
-
-            <p className="text-current-500 text-sm mt-4 font-medium">Total Impact: 40+ hours saved per month, faster delivery, happier clients</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">Why 90 Days?</h2>
@@ -173,7 +131,7 @@ export default function ImprovementPlanPage() {
           <div className="card p-6 bg-current-600/10">
             <p className="text-white/90 mb-3">Yes. The 90-Day Plan is designed to be self-executable.</p>
             <p className="text-white/80 mb-3">Some clients take the plan and run with it. They have internal bandwidth and just needed a clear roadmap. That works great.</p>
-            <p className="text-white/80">Others continue with <Link href="/packages/flow-rebuild" className="text-current-500 hover:underline">Flow Rebuild</Link> — we implement it with you over 6 weeks. The $2,500 Flow Check fee is fully credited, so you only pay $5,500 more.</p>
+            <p className="text-white/80">Others continue with <Link href="/packages/flow-rebuild" className="text-current-500 hover:underline">Flow Rebuild</Link> - we implement it with you over 6 weeks. The $2,500 Flow Check fee is fully credited, so you only pay $5,500 more.</p>
           </div>
         </section>
 

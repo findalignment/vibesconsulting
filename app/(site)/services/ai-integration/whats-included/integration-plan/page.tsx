@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Safe AI Integration Plan — AI Integration' }
+export const metadata = { title: 'Safe AI Integration Plan - AI Integration' }
 
 export default function IntegrationPlanPage() {
   return (
@@ -118,7 +118,7 @@ export default function IntegrationPlanPage() {
             <div className="card p-6">
               <h3 className="text-lg mb-3">The Document</h3>
               <p className="text-white/70 text-sm mb-3">15-20 page Google Doc or Notion page. Organized by phase, with tool links, training resources, and safety protocols.</p>
-              <p className="text-white/60 text-xs">Living document — you can edit and adapt as you go.</p>
+              <p className="text-white/60 text-xs">Living document - you can edit and adapt as you go.</p>
             </div>
             
             <div className="card p-6">

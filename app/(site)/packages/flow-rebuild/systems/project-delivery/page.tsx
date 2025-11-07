@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Project Delivery Workflow Rebuild — Flow Rebuild — Vibes Consulting',
+  title: 'Project Delivery Workflow Rebuild - Flow Rebuild - Vibes Consulting',
   description: 'Map current vs ideal state, eliminate unnecessary handoffs, clarify ownership. Make delivery predictable and smooth.'
 }
 
@@ -85,28 +85,7 @@ export default function ProjectDeliveryPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Marketing Agency, 12 People</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Before:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• Projects had 8 handoffs, details lost at each one</li>
-              <li>• No standard quality review process</li>
-              <li>• Last-minute client feedback required rework</li>
-              <li>• Team unclear on who owned what</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 font-medium">After Flow Rebuild:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• Streamlined to 4 handoffs with clear documentation</li>
-              <li>• Quality checkpoints at design, draft, and pre-delivery stages</li>
-              <li>• Client expectations set upfront, fewer surprises</li>
-              <li>• RACI matrix clarified ownership, reduced confusion</li>
-            </ul>
-
-            <p className="text-current-500 text-sm font-medium">Result: 30% faster delivery, 50% less rework, happier team and clients</p>
-          </div>
-        </section>
+        
 
         <section className="card p-8 bg-current-600/10 text-center">
           <h2 className="mb-4">Ready to Fix Your Delivery Workflow?</h2>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'High-Turnover Teams — Culture & Environment Optimization' }
+export const metadata = { title: 'High-Turnover Teams - Culture & Environment Optimization' }
 
 export default function HighTurnoverPage() {
   return (
@@ -88,30 +88,7 @@ export default function HighTurnoverPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Wellness Studio</h2>
-          <div className="card p-6 border-l-4 border-current-600">
-            <p className="text-white/90 mb-3"><strong>Problem:</strong> 40% annual turnover. Instructors left after 6-9 months. Constant hiring and training was draining leadership.</p>
-
-            <p className="text-white/90 mb-2 mt-4"><strong>What we found:</strong></p>
-            <ul className="text-white/70 text-xs space-y-1 pl-3 mb-4">
-              <li>• Instructors felt isolated (no community, just transactional work)</li>
-              <li>• Good work went unrecognized</li>
-              <li>• No growth path or development opportunities</li>
-              <li>• Communication was one-way (leadership → staff, not vice versa)</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 mt-4"><strong>What we changed:</strong></p>
-            <ul className="text-white/70 text-xs space-y-1 pl-3 mb-4">
-              <li>• Created instructor community ritual (monthly lunch + learning session)</li>
-              <li>• Launched peer recognition system (instructors nominate each other for monthly MVP)</li>
-              <li>• Built growth path (lead instructor → master trainer → curriculum designer)</li>
-              <li>• Established feedback loop (quarterly check-ins + anonymous pulse surveys)</li>
-            </ul>
-
-            <p className="text-current-500 text-xs font-medium">Result: Turnover dropped from 40% to 10% within 12 months. Saved $50K+ in hiring costs.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">The Cost of Turnover</h2>

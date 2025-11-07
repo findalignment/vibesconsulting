@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Continuous AI Strategy — Vibe Partnership — Vibes Consulting',
+  title: 'Continuous AI Strategy - Vibe Partnership - Vibes Consulting',
   description: 'Stay ahead of AI evolution. Monthly opportunity scans, quarterly implementations, ongoing tool evaluation.'
 }
 
@@ -31,7 +31,7 @@ export default function AIStrategyPage() {
           <div className="space-y-4">
             <div className="card p-6">
               <h3 className="text-lg mb-2">Monthly AI Opportunity Scan</h3>
-              <p className="text-white/70 text-sm mb-3">We review new AI tools and identify 1-2 opportunities specific to your business. Not "here's what's new in AI" — "here's what could save your team 5 hours this week."</p>
+              <p className="text-white/70 text-sm mb-3">We review new AI tools and identify 1-2 opportunities specific to your business. Not "here's what's new in AI" - "here's what could save your team 5 hours this week."</p>
               <p className="text-white/60 text-xs italic">Delivered as a short brief via email or Slack.</p>
             </div>
 
@@ -67,21 +67,7 @@ export default function AIStrategyPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Marketing Agency, Vibe Partner for 6 Months</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Q1 Implementation:</p>
-            <p className="text-white/70 text-sm mb-4">AI meeting note-taker (Fireflies). Captures action items automatically. Saves 3 hours per week on note-taking and follow-up.</p>
-
-            <p className="text-white/90 mb-2 font-medium">Q2 Implementation:</p>
-            <p className="text-white/70 text-sm mb-4">Custom ChatGPT prompt library for client communications (proposals, follow-ups, project updates). Cuts drafting time by 50%.</p>
-
-            <p className="text-white/90 mb-2 font-medium">Monthly Scans:</p>
-            <p className="text-white/70 text-sm mb-4">We flagged 2 tools that didn't make sense (too expensive, not mature enough). Saved them from wasting time testing bad fits.</p>
-
-            <p className="text-current-500 text-sm font-medium">Result: 10+ hours per week saved from AI adoption. No tool overwhelm. Team actually uses the tools.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">What You Avoid</h2>

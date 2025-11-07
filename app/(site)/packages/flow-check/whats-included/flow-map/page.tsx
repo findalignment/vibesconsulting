@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Flow Map (Current vs Ideal) — Flow Check — Vibes Consulting',
+  title: 'Flow Map (Current vs Ideal) - Flow Check - Vibes Consulting',
   description: 'Side-by-side comparison showing how your workflows operate now versus how they should work. Clear gap analysis with decision rights matrix.'
 }
 
@@ -14,13 +14,13 @@ export default function FlowMapPage() {
       </Link>
 
       <h1 className="mb-4">Flow Map (Current vs. Ideal)</h1>
-      <p className="text-xl text-white/90 mb-8">A side-by-side comparison that shows how work happens now — and how it should happen.</p>
+      <p className="text-xl text-white/90 mb-8">A side-by-side comparison that shows how work happens now - and how it should happen.</p>
 
       <div className="space-y-8">
         <section>
           <h2 className="mb-4">What It Is</h2>
           <div className="card p-6 bg-white/5">
-            <p className="text-white/80 mb-4">The Flow Map is a visual blueprint of your operations. We diagram your current workflows (with all their messiness), then design the ideal state — cleaner, faster, with clear ownership.</p>
+            <p className="text-white/80 mb-4">The Flow Map is a visual blueprint of your operations. We diagram your current workflows (with all their messiness), then design the ideal state - cleaner, faster, with clear ownership.</p>
             <p className="text-white/80">It's like having "before and after" photos, but for how work gets done.</p>
           </div>
         </section>
@@ -43,7 +43,7 @@ export default function FlowMapPage() {
             </div>
             <div className="card p-4">
               <h3 className="text-white text-sm font-medium mb-2">Time Costs</h3>
-              <p className="text-white/70 text-xs mb-2">How long each step takes. Not "should take" — actually takes. This reveals where time disappears.</p>
+              <p className="text-white/70 text-xs mb-2">How long each step takes. Not "should take" - actually takes. This reveals where time disappears.</p>
             </div>
           </div>
         </section>
@@ -86,37 +86,7 @@ export default function FlowMapPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Client Onboarding</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            <div className="card p-4 bg-red-500/10">
-              <h4 className="text-white text-sm font-medium mb-3">Current State (12-15 days)</h4>
-              <ul className="text-white/60 text-xs space-y-1">
-                <li>1. Sales sends incomplete intake form</li>
-                <li>2. Project team requests missing info (2-3 day delay)</li>
-                <li>3. Client responds with partial info</li>
-                <li>4. Another round of back-and-forth (2 days)</li>
-                <li>5. Founder reviews and adds context</li>
-                <li>6. PM creates project brief (1 day)</li>
-                <li>7. Kickoff scheduled (3-5 days out)</li>
-                <li>8. Team realizes missing info during kickoff</li>
-              </ul>
-              <p className="text-red-400 text-xs mt-3 font-medium">Total: 12-15 days, 8+ hours of back-and-forth</p>
-            </div>
-            <div className="card p-4 bg-green-500/10">
-              <h4 className="text-white text-sm font-medium mb-3">Ideal State (3-5 days)</h4>
-              <ul className="text-white/60 text-xs space-y-1">
-                <li>1. Sales uses comprehensive intake form</li>
-                <li>2. Form auto-populates project brief template</li>
-                <li>3. PM reviews brief (1 day)</li>
-                <li>4. Kickoff scheduled within 2 days</li>
-                <li>5. Team has everything they need from day 1</li>
-              </ul>
-              <p className="text-green-400 text-xs mt-3 font-medium">Total: 3-5 days, 2 hours of work</p>
-              <p className="text-current-500 text-xs mt-2 font-medium">↓ 60% faster, 75% less back-and-forth</p>
-            </div>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">What's Included in Your Flow Map</h2>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Communication Patterns — Culture & Environment Optimization' }
+export const metadata = { title: 'Communication Patterns - Culture & Environment Optimization' }
 
 export default function CommunicationPage() {
   return (
@@ -99,28 +99,7 @@ export default function CommunicationPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Agency Overhaul</h2>
-          <div className="card p-6 border-l-4 border-current-600">
-            <p className="text-white/90 mb-3"><strong>Before:</strong></p>
-            <ul className="text-white/70 text-xs space-y-1 pl-3 mb-4">
-              <li>• 12 meetings per week (8 hours of team time)</li>
-              <li>• 4 Slack channels with overlapping purposes</li>
-              <li>• Important updates buried in email</li>
-              <li>• No clear decision-making process</li>
-            </ul>
-
-            <p className="text-white/90 mb-3"><strong>After:</strong></p>
-            <ul className="text-white/70 text-xs space-y-1 pl-3 mb-4">
-              <li>• 4 standing meetings per week (3 hours of team time)</li>
-              <li>• 2 Slack channels with clear purposes</li>
-              <li>• All updates posted in #announcements + weekly email digest</li>
-              <li>• Decision log in Notion (who decided what and why)</li>
-            </ul>
-
-            <p className="text-current-500 text-xs font-medium">Result: 5 hours/week reclaimed per person. Less confusion. Faster decisions.</p>
-          </div>
-        </section>
+        
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Part of Culture Optimization</h2>

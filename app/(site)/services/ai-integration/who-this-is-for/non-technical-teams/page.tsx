@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Non-Technical Teams — AI Integration Service' }
+export const metadata = { title: 'Non-Technical Teams - AI Integration Service' }
 
 export default function NonTechnicalPage() {
   return (
@@ -142,7 +142,7 @@ export default function NonTechnicalPage() {
 
             <div className="card p-6">
               <h3 className="text-lg mb-2">Custom Prompt Library</h3>
-              <p className="text-white/70 text-sm">We build a library of copy-paste prompts for your specific use cases. Your team doesn't need to figure out how to ask AI for help — we give them the exact wording.</p>
+              <p className="text-white/70 text-sm">We build a library of copy-paste prompts for your specific use cases. Your team doesn't need to figure out how to ask AI for help - we give them the exact wording.</p>
             </div>
 
             <div className="card p-6">
@@ -157,42 +157,11 @@ export default function NonTechnicalPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Boutique Gym Owner</h2>
-          <div className="card p-6 border-l-4 border-current-600">
-            <p className="text-white/80 mb-4"><strong>Background:</strong> Owner has zero technical background. Manages class schedules, member communications, and social media manually. Spending 15 hours/week on admin work.</p>
-            
-            <div className="space-y-3">
-              <div>
-                <p className="text-white/90 text-sm font-medium mb-1">What we implemented:</p>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• ChatGPT for class descriptions and member emails</li>
-                  <li>• Otter.ai for staff meeting notes</li>
-                  <li>• Grammarly for social media posts</li>
-                </ul>
-              </div>
-
-              <div>
-                <p className="text-white/90 text-sm font-medium mb-1">Training provided:</p>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• 2-hour hands-on workshop</li>
-                  <li>• Custom prompt library for gym-specific tasks</li>
-                  <li>• 1-page quick-start guide for each tool</li>
-                  <li>• 60 days of email support</li>
-                </ul>
-              </div>
-
-              <div>
-                <p className="text-white/90 text-sm font-medium mb-1">Result:</p>
-                <p className="text-current-500 text-xs">Admin work reduced from 15 hours/week to 6 hours/week. Owner now spends saved time coaching members and growing the business.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Ready to Adopt AI Without the Tech Overwhelm?</h2>
-          <p className="text-white/80 mb-4">AI Integration is part of our Flow Rebuild package ($8,000). We handle the setup, train your team in plain language, and provide ongoing support — no technical background required.</p>
+          <p className="text-white/80 mb-4">AI Integration is part of our Flow Rebuild package ($8,000). We handle the setup, train your team in plain language, and provide ongoing support - no technical background required.</p>
           <div className="flex gap-4">
             <Link href="/packages/flow-rebuild" className="btn btn-primary">Learn About Flow Rebuild</Link>
             <Link href="/contact" className="btn btn-ghost">Schedule Intro Call</Link>

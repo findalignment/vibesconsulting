@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'For Growing Teams (5-20 People) — Flow Check — Vibes Consulting',
+  title: 'For Growing Teams (5-20 People) - Flow Check - Vibes Consulting',
   description: "Things that used to work now require coordination. You've outgrown informal systems but haven't built formal ones yet. The Flow Check helps you see where to add structure without losing agility."
 }
 
@@ -55,7 +55,7 @@ export default function GrowingTeamsPage() {
           <div className="space-y-4">
             <div className="card p-4">
               <h3 className="text-white text-sm font-medium mb-2">1. You Crossed the "Everyone Knows" Threshold</h3>
-              <p className="text-white/70 text-xs">At 5 people, everyone's in the loop naturally. At 12, information silos form. Not intentionally — it just happens.</p>
+              <p className="text-white/70 text-xs">At 5 people, everyone's in the loop naturally. At 12, information silos form. Not intentionally - it just happens.</p>
             </div>
             <div className="card p-4">
               <h3 className="text-white text-sm font-medium mb-2">2. Tribal Knowledge Doesn't Scale</h3>
@@ -77,7 +77,7 @@ export default function GrowingTeamsPage() {
           <div className="space-y-4">
             <div className="card p-6">
               <h3 className="text-lg mb-2">We Show You Where to Add Structure</h3>
-              <p className="text-white/70 text-sm mb-3">Not everywhere — just where it matters. The Friction Audit pinpoints the 3-5 places where lack of systems is costing you the most time.</p>
+              <p className="text-white/70 text-sm mb-3">Not everywhere - just where it matters. The Friction Audit pinpoints the 3-5 places where lack of systems is costing you the most time.</p>
               <p className="text-white/60 text-xs italic">Example: You need a client intake checklist, but you don't need a formal approval process for Slack purchases.</p>
             </div>
 
@@ -95,30 +95,7 @@ export default function GrowingTeamsPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Design Agency, 10 People</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Before Flow Check:</p>
-            <ul className="text-white/70 text-sm space-y-2 mb-4">
-              <li>• Client projects had inconsistent kickoffs</li>
-              <li>• Design revisions took forever (unclear expectations)</li>
-              <li>• New designers struggled for first 2 months</li>
-              <li>• Founder involved in every decision</li>
-              <li>• Team working 50+ hour weeks but behind</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 font-medium">After Flow Check (and 90-Day Plan implementation):</p>
-            <ul className="text-white/70 text-sm space-y-2 mb-4">
-              <li>• Standard project kickoff template (30 min vs. 2 hours)</li>
-              <li>• Client expectation doc reduced revisions by 40%</li>
-              <li>• Designer onboarding checklist cut ramp time to 3 weeks</li>
-              <li>• Project Managers empowered to make $500 decisions</li>
-              <li>• Founder works 35 hours, team feels less chaotic</li>
-            </ul>
-
-            <p className="text-current-500 text-sm font-medium">Result: 15+ hours saved per week, faster delivery, less stress</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">What You'll Learn</h2>

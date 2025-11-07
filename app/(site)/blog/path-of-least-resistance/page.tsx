@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'The Path of Least Resistance — Vibes Consulting',
+  title: 'The Path of Least Resistance - Vibes Consulting',
   description: 'How natural forces shape systems. Why friction compounds. And what carving canyons teaches us about organizational change.'
 }
 
@@ -38,11 +38,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-semibold text-white mt-10 mb-4">How Natural Forces Shape Systems</h2>
 
           <p>
-            In nature, forces don't fight resistance — they find the path around it.
+            In nature, forces don't fight resistance - they find the path around it.
           </p>
 
           <p>
-            Rivers don't try to flow uphill. They find the lowest point and move there. When they encounter rock, they don't stop — they probe for cracks, for weak points, for any gap that allows movement. Over time, that gap becomes a channel. That channel becomes a canyon.
+            Rivers don't try to flow uphill. They find the lowest point and move there. When they encounter rock, they don't stop - they probe for cracks, for weak points, for any gap that allows movement. Over time, that gap becomes a channel. That channel becomes a canyon.
           </p>
 
           <p>
@@ -104,7 +104,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Floods erode soil. They undermine foundations. They carve paths that destabilize entire landscapes. Not because the force is inherently malicious, but because <strong>when flow has no channel, it goes everywhere — and erodes everything.</strong>
+            Floods erode soil. They undermine foundations. They carve paths that destabilize entire landscapes. Not because the force is inherently malicious, but because <strong>when flow has no channel, it goes everywhere - and erodes everything.</strong>
           </p>
 
           <p>
@@ -134,7 +134,7 @@ export default function BlogPost() {
           <div className="card p-6 bg-white/5 my-6">
             <p className="text-white/90 text-sm mb-2"><strong>Example:</strong></p>
             <p className="text-white/70 text-sm">
-              A growing agency has an approval process that takes three days. So the team starts using a "quick Slack approval" shortcut. It works great — until someone approves the wrong thing. Then another. Then a client gets the wrong deliverable. 
+              A growing agency has an approval process that takes three days. So the team starts using a "quick Slack approval" shortcut. It works great - until someone approves the wrong thing. Then another. Then a client gets the wrong deliverable. 
             </p>
             <p className="text-white/70 text-sm mt-3">
               The workaround carved a new path. But that path had no guardrails. No documentation. No way to audit what happened. The short-term relief created long-term chaos.
@@ -260,11 +260,11 @@ export default function BlogPost() {
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">2. Are you channeling it, or is it eroding you?</h3>
 
           <p>
-            If the current is flowing through documented, intentional channels — great. That's life-giving flow. It nourishes your organization. It enables growth.
+            If the current is flowing through documented, intentional channels - great. That's life-giving flow. It nourishes your organization. It enables growth.
           </p>
 
           <p>
-            But if the current is carving its own unpredictable paths — creating silos, informal hierarchies, undocumented processes — that's erosion. It might feel like momentum, but it's destabilizing your foundation.
+            But if the current is carving its own unpredictable paths - creating silos, informal hierarchies, undocumented processes - that's erosion. It might feel like momentum, but it's destabilizing your foundation.
           </p>
 
           <p>
@@ -290,7 +290,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            The Grand Canyon took 17 million years to form. Your organizational culture can shift in six months — if you understand the forces at work and direct them intentionally.
+            The Grand Canyon took 17 million years to form. Your organizational culture can shift in six months - if you understand the forces at work and direct them intentionally.
           </p>
 
           <p>

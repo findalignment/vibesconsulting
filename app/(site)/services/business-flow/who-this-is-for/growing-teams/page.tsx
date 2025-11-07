@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'For Growing Teams (5-20 people) — Business Flow Consulting' }
+export const metadata = { title: 'For Growing Teams (5-20 people) - Business Flow Consulting' }
 
 export default function GrowingTeamsPage() {
   return (
@@ -17,7 +17,7 @@ export default function GrowingTeamsPage() {
           <h2 className="mb-4">The Growth Inflection Point</h2>
           <div className="card p-6 bg-white/5">
             <p className="text-white/80 mb-4">At 5-7 people, you hit the coordination threshold. Everyone can't be in every conversation anymore. Informal norms break down. What used to flow naturally now requires intentional systems.</p>
-            <p className="text-white/70 text-sm">But you haven't built those systems yet. You're caught between startup chaos and enterprise structure — and it feels messy.</p>
+            <p className="text-white/70 text-sm">But you haven't built those systems yet. You're caught between startup chaos and enterprise structure - and it feels messy.</p>
           </div>
         </section>
 
@@ -96,15 +96,7 @@ export default function GrowingTeamsPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Design studio, 12 people, 3 years old</p>
-            <p className="text-white/70 text-sm mb-4"><strong>Problem:</strong> Every new designer took 6 weeks to ramp up. Project processes were different depending on who led them. Founders were bottlenecks for every decision.</p>
-            <p className="text-white/70 text-sm mb-4"><strong>Solution:</strong> Documented core workflows, created project templates, clarified decision rights for project leads.</p>
-            <p className="text-current-500 text-sm font-medium"><strong>Result:</strong> Onboarding dropped to 2 weeks. Project consistency improved. Founders freed up 10 hours/week.</p>
-          </div>
-        </section>
+        
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Ready to Build Your Foundation?</h2>

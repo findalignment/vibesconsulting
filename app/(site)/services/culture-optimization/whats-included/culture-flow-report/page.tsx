@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Culture Flow Report — Culture & Environment Optimization' }
+export const metadata = { title: 'Culture Flow Report - Culture & Environment Optimization' }
 
 export default function CultureFlowReportPage() {
   return (

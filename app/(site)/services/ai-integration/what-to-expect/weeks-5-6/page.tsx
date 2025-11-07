@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Weeks 5-6: Optimization & Support — AI Integration' }
+export const metadata = { title: 'Weeks 5-6: Optimization & Support - AI Integration' }
 
 export default function Weeks56Page() {
   return (
@@ -147,9 +147,9 @@ export default function Weeks56Page() {
               <p><strong>Common questions we answer:</strong></p>
               <ul className="pl-3 space-y-1">
                 <li>• "How do I adapt this prompt for a new use case?"</li>
-                <li>• "Tool isn't working as expected — what's wrong?"</li>
+                <li>• "Tool isn't working as expected - what's wrong?"</li>
                 <li>• "Can we add AI to this new task?"</li>
-                <li>• "Team member needs refresher training — any tips?"</li>
+                <li>• "Team member needs refresher training - any tips?"</li>
               </ul>
             </div>
           </div>

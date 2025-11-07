@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Overwhelmed by Repetitive Tasks — AI Integration Service' }
+export const metadata = { title: 'Overwhelmed by Repetitive Tasks - AI Integration Service' }
 
 export default function OverwhelmedPage() {
   return (
@@ -10,7 +10,7 @@ export default function OverwhelmedPage() {
       </Link>
 
       <h1 className="mb-4">Overwhelmed by Repetitive Tasks</h1>
-      <p className="text-xl text-white/90 mb-8">You're spending hours on work that doesn't require deep expertise: email drafts, meeting notes, data entry, research synthesis. AI can handle most of this — and you can supervise it.</p>
+      <p className="text-xl text-white/90 mb-8">You're spending hours on work that doesn't require deep expertise: email drafts, meeting notes, data entry, research synthesis. AI can handle most of this - and you can supervise it.</p>
 
       <div className="space-y-8">
         <section>
@@ -105,38 +105,14 @@ export default function OverwhelmedPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Examples</h2>
-          <div className="space-y-4">
-            <div className="card p-6 border-l-4 border-current-600">
-              <h4 className="text-white font-medium mb-2 text-sm">Creative Agency Owner</h4>
-              <p className="text-white/70 text-xs mb-3"><strong>Before:</strong> Spent 6 hours/week drafting client proposals and project summaries. Hired a part-time admin ($2,000/month) to help with documentation.</p>
-              <p className="text-white/70 text-xs mb-3"><strong>After:</strong> Uses AI to draft proposals in 15 minutes. Reviews and customizes in 10 minutes. Reallocated admin budget to design tools.</p>
-              <p className="text-current-500 text-xs font-medium">Result: 5 hours/week saved + $24,000/year budget freed up</p>
-            </div>
-
-            <div className="card p-6 border-l-4 border-current-600">
-              <h4 className="text-white font-medium mb-2 text-sm">Wellness Studio Manager</h4>
-              <p className="text-white/70 text-xs mb-3"><strong>Before:</strong> Spent 4 hours/week responding to class inquiries, writing class descriptions, and creating social media posts.</p>
-              <p className="text-white/70 text-xs mb-3"><strong>After:</strong> Uses AI to draft all routine communications. Reviews for tone and accuracy. Now spends 1 hour/week on comms.</p>
-              <p className="text-current-500 text-xs font-medium">Result: 3 hours/week saved for client-facing work</p>
-            </div>
-
-            <div className="card p-6 border-l-4 border-current-600">
-              <h4 className="text-white font-medium mb-2 text-sm">Retail Owner</h4>
-              <p className="text-white/70 text-xs mb-3"><strong>Before:</strong> Spent 8 hours/week writing product descriptions, managing customer email responses, and analyzing sales data manually.</p>
-              <p className="text-white/70 text-xs mb-3"><strong>After:</strong> AI generates product copy and email drafts. Uses AI to spot sales trends and inventory issues.</p>
-              <p className="text-current-500 text-xs font-medium">Result: 6 hours/week saved + better inventory decisions</p>
-            </div>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">What We Do for You</h2>
           <div className="space-y-4">
             <div className="card p-6">
               <h3 className="text-lg mb-2">1. Identify Your Biggest Time Drains</h3>
-              <p className="text-white/70 text-sm">We audit where your time goes and rank tasks by automation potential. Not everything should be automated — we focus on the right wins.</p>
+              <p className="text-white/70 text-sm">We audit where your time goes and rank tasks by automation potential. Not everything should be automated - we focus on the right wins.</p>
             </div>
             <div className="card p-6">
               <h3 className="text-lg mb-2">2. Build Custom AI Workflows</h3>
@@ -173,7 +149,7 @@ export default function OverwhelmedPage() {
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Ready to Automate the Busywork?</h2>
-          <p className="text-white/80 mb-4">AI Integration is part of our Flow Rebuild package ($8,000). We identify your highest-value use cases, set up tools, and train your team — all with safety and privacy protocols built in.</p>
+          <p className="text-white/80 mb-4">AI Integration is part of our Flow Rebuild package ($8,000). We identify your highest-value use cases, set up tools, and train your team - all with safety and privacy protocols built in.</p>
           <div className="flex gap-4">
             <Link href="/packages/flow-rebuild" className="btn btn-primary">Learn About Flow Rebuild</Link>
             <Link href="/contact" className="btn btn-ghost">Schedule Intro Call</Link>

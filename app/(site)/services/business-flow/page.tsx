@@ -2,7 +2,7 @@ import CTAButton from '@/components/CTAButton'
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'Business Flow Consulting — Vibes Consulting',
+  title: 'Business Flow Consulting - Vibes Consulting',
   description: 'End-to-end process optimization using TQM principles. Identify friction, map ideal state, implement lasting change.'
 }
 
@@ -22,7 +22,7 @@ export default function BusinessFlowPage() {
         <div className="card p-8">
           <h3 className="mb-4 text-current-500">The Problem We Solve</h3>
           <p className="text-white/80 mb-4">You're working harder than you should be. Tasks take too long. Information gets lost. Decisions stall. Your team is capable, but the <strong>systems aren't supporting them</strong>.</p>
-          <p className="text-white/80">Most businesses live with invisible friction for years — until someone maps it, names it, and redesigns the flow.</p>
+          <p className="text-white/80">Most businesses live with invisible friction for years - until someone maps it, names it, and redesigns the flow.</p>
         </div>
 
         <div className="card p-8">

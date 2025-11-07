@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Quarterly Vibe Resets — Vibe Partnership — Vibes Consulting',
+  title: 'Quarterly Vibe Resets - Vibe Partnership - Vibes Consulting',
   description: 'Deep-dive strategy sessions every 3 months to keep culture and operations healthy as you grow.'
 }
 
@@ -58,26 +58,12 @@ export default function QuarterlyResetsPage() {
               <li>• <strong>Long enough</strong> to see trends and measure impact</li>
               <li>• <strong>Short enough</strong> to catch problems before they compound</li>
               <li>• <strong>Natural rhythm</strong> that aligns with business planning cycles</li>
-              <li>• <strong>Prevents drift</strong> — keeps you intentional as you grow</li>
+              <li>• <strong>Prevents drift</strong> - keeps you intentional as you grow</li>
             </ul>
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Tech Startup, 12 People</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Q1 Reset:</p>
-            <p className="text-white/70 text-sm mb-4">Pulse surveys showed team felt unclear on priorities. We helped clarify OKRs and communication cadence. Added weekly 15-min all-hands.</p>
-
-            <p className="text-white/90 mb-2 font-medium">Q2 Reset:</p>
-            <p className="text-white/70 text-sm mb-4">Team grew from 8 to 12. Old rituals felt forced. We killed 2 unnecessary meetings, redesigned retro format. Satisfaction scores improved 25%.</p>
-
-            <p className="text-white/90 mb-2 font-medium">Q3 Reset:</p>
-            <p className="text-white/70 text-sm mb-4">New manager struggling with delegation. Coaching session helped clarify decision rights. Built escalation framework.</p>
-
-            <p className="text-current-500 text-sm font-medium">Result: Continuous adaptation prevented major culture issues. Team stayed aligned through growth.</p>
-          </div>
-        </section>
+        
 
         <section className="card p-8 bg-current-600/10 text-center">
           <h2 className="mb-4">Ready for Continuous Improvement?</h2>

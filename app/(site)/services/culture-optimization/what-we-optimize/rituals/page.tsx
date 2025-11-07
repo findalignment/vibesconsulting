@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Team Rituals — Culture & Environment Optimization' }
+export const metadata = { title: 'Team Rituals - Culture & Environment Optimization' }
 
 export default function RitualsPage() {
   return (
@@ -118,21 +118,7 @@ export default function RitualsPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Design Studio</h2>
-          <div className="card p-6 border-l-4 border-current-600">
-            <p className="text-white/90 mb-3"><strong>Problem:</strong> High-performing team, but people felt isolated and unappreciated.</p>
-
-            <p className="text-white/90 mb-2 mt-4"><strong>Rituals we designed:</strong></p>
-            <ul className="text-white/70 text-xs space-y-2 pl-3 mb-4">
-              <li><strong>• Friday Wins (5 min):</strong> Everyone shares one win from the week. Creates visibility and celebration.</li>
-              <li><strong>• Monthly Peer Shoutouts:</strong> Team members nominate each other for MVP. Winner gets lunch on the company.</li>
-              <li><strong>• Quarterly Offsite:</strong> Full-day retreat to reflect, plan, and bond. No work talk allowed after 2pm.</li>
-            </ul>
-
-            <p className="text-current-500 text-xs font-medium">Result: Morale jumped from 6/10 to 9/10 in 3 months. Turnover dropped to zero.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">Common Mistakes to Avoid</h2>

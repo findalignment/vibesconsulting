@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Final Presentation & Strategy Session — Flow Check — Vibes Consulting',
+  title: 'Final Presentation & Strategy Session - Flow Check - Vibes Consulting',
   description: '60-minute presentation of findings with your leadership team. We walk through the report, answer questions, and help you decide next steps.'
 }
 
@@ -30,7 +30,7 @@ export default function FinalPresentationPage() {
           <div className="space-y-4">
             <div className="card p-6">
               <h3 className="text-lg mb-2">Friction Audit Walkthrough (15 min)</h3>
-              <p className="text-white/70 text-sm mb-3">We review the top 3-5 friction points we found, why they exist, and how much time they're costing. This often surfaces surprises — things you felt but couldn't name.</p>
+              <p className="text-white/70 text-sm mb-3">We review the top 3-5 friction points we found, why they exist, and how much time they're costing. This often surfaces surprises - things you felt but couldn't name.</p>
               <p className="text-white/60 text-xs italic">Common reaction: "That explains why everyone's so frustrated with [that process]."</p>
             </div>
 
@@ -48,7 +48,7 @@ export default function FinalPresentationPage() {
 
             <div className="card p-6">
               <h3 className="text-lg mb-2">Next Steps Strategy (10 min)</h3>
-              <p className="text-white/70 text-sm mb-3">We help you decide: implement yourself, continue with Flow Rebuild, or pause and return later. No pressure — just honest guidance on what makes sense for your team.</p>
+              <p className="text-white/70 text-sm mb-3">We help you decide: implement yourself, continue with Flow Rebuild, or pause and return later. No pressure - just honest guidance on what makes sense for your team.</p>
               <p className="text-white/60 text-xs italic">Plus: 30 days of email support for implementation questions</p>
             </div>
           </div>

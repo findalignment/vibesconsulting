@@ -1,4 +1,4 @@
-export const metadata = { title: 'Contact — Vibes Consulting' }
+export const metadata = { title: 'Contact - Vibes Consulting' }
 
 export default function ContactPage() {
   return (

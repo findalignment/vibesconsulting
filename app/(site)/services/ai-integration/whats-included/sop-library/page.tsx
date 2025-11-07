@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Custom SOP Library + Quick-Start Guide — AI Integration' }
+export const metadata = { title: 'Custom SOP Library + Quick-Start Guide - AI Integration' }
 
 export default function SOPLibraryPage() {
   return (
@@ -42,47 +42,13 @@ export default function SOPLibraryPage() {
 
             <div className="card p-6">
               <h3 className="text-lg mb-2">Troubleshooting Guide</h3>
-              <p className="text-white/70 text-sm mb-3">Common issues and how to fix them. "AI output sounds robotic — what to do?" "Tool not working — try this."</p>
+              <p className="text-white/70 text-sm mb-3">Common issues and how to fix them. "AI output sounds robotic - what to do?" "Tool not working - try this."</p>
               <p className="text-white/60 text-xs">Reduces support requests. Empowers team to solve problems independently.</p>
             </div>
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Email Drafting SOP</h2>
-          <div className="card p-6 bg-current-600/10">
-            <p className="text-white/90 font-medium mb-3">How to Draft Client Emails with AI (Safe Process)</p>
-            
-            <div className="space-y-3 text-sm">
-              <div>
-                <h4 className="text-white font-medium mb-1">Step 1: Anonymize</h4>
-                <p className="text-white/70 text-xs">Replace client name with [CLIENT]. Remove all email addresses, phone numbers, project details.</p>
-              </div>
-              
-              <div>
-                <h4 className="text-white font-medium mb-1">Step 2: Use Prompt Template</h4>
-                <p className="text-white/70 text-xs">Copy prompt: "Write a professional follow-up email to [CLIENT] regarding [TOPIC]. Tone: friendly but concise."</p>
-              </div>
-              
-              <div>
-                <h4 className="text-white font-medium mb-1">Step 3: Review & Personalize</h4>
-                <p className="text-white/70 text-xs">AI draft is 80% there. Add specific details, adjust tone, fix any awkward phrasing.</p>
-              </div>
-              
-              <div>
-                <h4 className="text-white font-medium mb-1">Step 4: Re-insert Real Info</h4>
-                <p className="text-white/70 text-xs">Replace [CLIENT] with actual name. Add correct contact info. Double-check accuracy.</p>
-              </div>
-              
-              <div>
-                <h4 className="text-white font-medium mb-1">Step 5: Send</h4>
-                <p className="text-white/70 text-xs">Final human check: Does this sound like me? Is everything accurate? Hit send.</p>
-              </div>
-            </div>
-            
-            <p className="text-white/60 text-xs mt-4"><strong>Time saved:</strong> ~5 minutes per email. Over 100 emails/month = 8+ hours saved.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">Prompt Template Library Examples</h2>
@@ -174,7 +140,7 @@ export default function SOPLibraryPage() {
               </div>
             </div>
             
-            <p className="text-white/60 text-xs mt-4">That's 200+ hours per year — equivalent to adding a part-time team member without payroll costs.</p>
+            <p className="text-white/60 text-xs mt-4">That's 200+ hours per year - equivalent to adding a part-time team member without payroll costs.</p>
           </div>
         </section>
 

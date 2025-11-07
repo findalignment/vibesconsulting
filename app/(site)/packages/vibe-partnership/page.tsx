@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'The Vibe Partnership — Vibes Consulting',
+  title: 'The Vibe Partnership - Vibes Consulting',
   description: 'Quarterly retainer for ongoing flow optimization, culture coaching, and AI strategy. $3,500/month for continuous improvement.'
 }
 

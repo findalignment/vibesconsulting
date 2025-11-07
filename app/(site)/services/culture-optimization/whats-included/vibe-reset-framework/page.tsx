@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Vibe Reset Framework — Culture & Environment Optimization' }
+export const metadata = { title: 'Vibe Reset Framework - Culture & Environment Optimization' }
 
 export default function VibeResetPage() {
   return (
@@ -171,7 +171,7 @@ export default function VibeResetPage() {
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Part of Culture Optimization Service</h2>
-          <p className="text-white/80 mb-4">The Vibe Reset Framework is delivered at the end of every Culture & Environment Optimization engagement. It's designed to be self-sustaining — you can run it without us.</p>
+          <p className="text-white/80 mb-4">The Vibe Reset Framework is delivered at the end of every Culture & Environment Optimization engagement. It's designed to be self-sustaining - you can run it without us.</p>
           <Link href="/services/culture-optimization" className="text-current-500 hover:text-current-400 text-sm">Learn more about the full service →</Link>
         </section>
       </div>

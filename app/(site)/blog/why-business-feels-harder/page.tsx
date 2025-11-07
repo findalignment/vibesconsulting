@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'Why Your Business Feels Harder Than It Should — Vibes Consulting',
+  title: 'Why Your Business Feels Harder Than It Should - Vibes Consulting',
   description: 'Most friction in small businesses is invisible. Here\'s how to spot it and what to do about it.'
 }
 
@@ -24,7 +24,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            It's not that your team is incapable. It's not that you lack tools or ambition. The problem is <strong>invisible friction</strong> — small inefficiencies that compound into exhaustion.
+            It's not that your team is incapable. It's not that you lack tools or ambition. The problem is <strong>invisible friction</strong> - small inefficiencies that compound into exhaustion.
           </p>
 
           <p>
@@ -63,7 +63,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>Fix:</strong> Whenever you say "just ask [person]," that's a sign you need documentation. Not a 50-page manual — just a one-pager that captures the steps, the exceptions, and who to contact if something breaks.
+            <strong>Fix:</strong> Whenever you say "just ask [person]," that's a sign you need documentation. Not a 50-page manual - just a one-pager that captures the steps, the exceptions, and who to contact if something breaks.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">3. Meetings That Should Be Emails</h3>
@@ -181,7 +181,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-semibold text-white mt-10 mb-4">When to Get Help</h2>
 
           <p>
-            Some friction you can fix yourself. Clear communication norms, better meeting hygiene, documented decision rights — these are within reach if you have the time and discipline.
+            Some friction you can fix yourself. Clear communication norms, better meeting hygiene, documented decision rights - these are within reach if you have the time and discipline.
           </p>
 
           <p>

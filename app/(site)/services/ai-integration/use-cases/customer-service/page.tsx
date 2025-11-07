@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Customer Service Support — AI Use Case' }
+export const metadata = { title: 'Customer Service Support - AI Use Case' }
 
 export default function CustomerServicePage() {
   return (
@@ -66,7 +66,7 @@ export default function CustomerServicePage() {
             <div className="card p-6">
               <h3 className="text-lg mb-2">3. Team Reviews AI Drafts</h3>
               <p className="text-white/70 text-sm mb-3">For complex inquiries, AI provides a draft response. Your team edits for accuracy and adds personal touch before sending.</p>
-              <p className="text-white/60 text-xs">AI doesn't replace humans — it makes them faster and more consistent.</p>
+              <p className="text-white/60 text-xs">AI doesn't replace humans - it makes them faster and more consistent.</p>
             </div>
 
             <div className="card p-6">
@@ -77,45 +77,7 @@ export default function CustomerServicePage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Wellness Studio</h2>
-          <div className="card p-6 bg-current-600/10">
-            <p className="text-white/90 font-medium mb-3">Yoga & Wellness Studio (25 classes/week, 300 members)</p>
-            
-            <div className="space-y-4">
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">Before AI Support:</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• 50-70 emails/day asking class schedules, pricing, first-timer info</li>
-                  <li>• Front desk staff spent 3-4 hours/day answering repetitive questions</li>
-                  <li>• Average email response time: 4-8 hours</li>
-                  <li>• Frustrated customers: "Why don't you have this info on your website?"</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">AI Implementation:</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Added chatbot to website trained on class info, policies, pricing</li>
-                  <li>• Set up AI email assistant to draft responses for booking questions</li>
-                  <li>• Created auto-categorization for urgent vs. routine inquiries</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="text-white text-sm font-medium mb-1">After AI Support:</h4>
-                <ul className="text-white/70 text-xs space-y-1 pl-3">
-                  <li>• Chatbot handles 60% of inquiries instantly (class schedule, first visit info, pricing)</li>
-                  <li>• Remaining emails get AI-drafted responses, staff reviews and sends</li>
-                  <li>• Average email response time: Under 1 hour</li>
-                  <li>• Staff time on email: 1 hour/day (down from 3-4 hours)</li>
-                </ul>
-              </div>
-            </div>
-            
-            <p className="text-white/60 text-xs mt-4"><strong>Result:</strong> Front desk team freed up 2-3 hours/day to focus on in-person member experience. Customer satisfaction scores increased 15%. No new hires needed despite 20% membership growth.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">Tools We Recommend</h2>

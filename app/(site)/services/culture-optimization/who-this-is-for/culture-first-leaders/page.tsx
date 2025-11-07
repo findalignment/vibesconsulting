@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Culture-First Leaders — Culture & Environment Optimization' }
+export const metadata = { title: 'Culture-First Leaders - Culture & Environment Optimization' }
 
 export default function CultureFirstLeadersPage() {
   return (
@@ -85,7 +85,7 @@ export default function CultureFirstLeadersPage() {
             </div>
             <div className="card p-4">
               <h4 className="text-white text-sm font-medium mb-2">You Invest in Rituals</h4>
-              <p className="text-white/70 text-xs">Team offsites, recognition programs, feedback loops — you make time for culture-building.</p>
+              <p className="text-white/70 text-xs">Team offsites, recognition programs, feedback loops - you make time for culture-building.</p>
             </div>
             <div className="card p-4">
               <h4 className="text-white text-sm font-medium mb-2">You Measure Morale</h4>
@@ -102,30 +102,7 @@ export default function CultureFirstLeadersPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Boutique Gym Owner</h2>
-          <div className="card p-6 border-l-4 border-current-600">
-            <p className="text-white/90 mb-3"><strong>Profile:</strong> Founder who cares deeply about team well-being. Already runs team lunches, celebrates wins, and values transparency. But felt like something was missing.</p>
-
-            <p className="text-white/90 mb-2 mt-4"><strong>What we found:</strong></p>
-            <ul className="text-white/70 text-xs space-y-1 pl-3 mb-4">
-              <li>• Team loved the owner but felt unclear on expectations</li>
-              <li>• Recognition was ad-hoc (some people felt overlooked)</li>
-              <li>• No formal feedback loops (people didn't know how to voice concerns)</li>
-              <li>• Great culture, but not designed for scale</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 mt-4"><strong>What we built:</strong></p>
-            <ul className="text-white/70 text-xs space-y-2 pl-3 mb-4">
-              <li><strong>• Clarified expectations:</strong> Created role clarity docs and decision rights matrix</li>
-              <li><strong>• Systemized recognition:</strong> Weekly wins ritual + monthly peer-nominated MVP</li>
-              <li><strong>• Built feedback loops:</strong> Quarterly 1-on-1s + anonymous suggestion box</li>
-              <li><strong>• Designed for scale:</strong> Vibe Reset framework for ongoing culture maintenance</li>
-            </ul>
-
-            <p className="text-current-500 text-xs font-medium">Result: Team engagement jumped to 9.5/10. Owner felt confident culture would stay strong as they grew.</p>
-          </div>
-        </section>
+        
 
         <section>
           <h2 className="mb-4">You Don't Need to Be Perfect</h2>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'For Businesses with Broken Processes — Business Flow Consulting' }
+export const metadata = { title: 'For Businesses with Broken Processes - Business Flow Consulting' }
 
 export default function BrokenProcessesPage() {
   return (
@@ -31,7 +31,7 @@ export default function BrokenProcessesPage() {
             </div>
             <div className="card p-4">
               <h3 className="text-white text-sm font-medium mb-2">The Approval Gauntlet</h3>
-              <p className="text-white/70 text-xs">Everything requires 3-4 approvals. Work sits in queues waiting for reviews. The people approving often don't add real value — they just need to be "in the loop."</p>
+              <p className="text-white/70 text-xs">Everything requires 3-4 approvals. Work sits in queues waiting for reviews. The people approving often don't add real value - they just need to be "in the loop."</p>
             </div>
             <div className="card p-4">
               <h3 className="text-white text-sm font-medium mb-2">The Template Graveyard</h3>
@@ -99,15 +99,7 @@ export default function BrokenProcessesPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Creative studio, 15 people</p>
-            <p className="text-white/70 text-sm mb-4"><strong>Problem:</strong> Client onboarding required 14 steps, 6 handoffs, 4 approval points, and took 3 weeks. Information was lost at every handoff. Quality was inconsistent.</p>
-            <p className="text-white/70 text-sm mb-4"><strong>Solution:</strong> Streamlined to 7 steps, 2 handoffs, 1 approval. Created intake form that captured all info upfront. Built quality checklist so approvals were faster.</p>
-            <p className="text-current-500 text-sm font-medium"><strong>Result:</strong> Onboarding dropped to 1 week. Client satisfaction scores up 35%. Team spends 60% less time on admin.</p>
-          </div>
-        </section>
+        
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Ready to Fix Your Processes?</h2>

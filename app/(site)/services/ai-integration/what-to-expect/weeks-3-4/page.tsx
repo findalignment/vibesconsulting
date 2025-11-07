@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Weeks 3-4: Tool Implementation & Training — AI Integration' }
+export const metadata = { title: 'Weeks 3-4: Tool Implementation & Training - AI Integration' }
 
 export default function Weeks34Page() {
   return (
@@ -84,7 +84,7 @@ export default function Weeks34Page() {
         <section>
           <h2 className="mb-4">Training Philosophy</h2>
           <div className="card p-6 bg-white/5">
-            <p className="text-white/80 mb-3">We don't just show you tools — we teach principles.</p>
+            <p className="text-white/80 mb-3">We don't just show you tools - we teach principles.</p>
             <ul className="space-y-2 text-sm text-white/70">
               <li>• <strong>Prompt design:</strong> How to ask AI for what you need</li>
               <li>• <strong>Quality control:</strong> How to spot AI errors before they become problems</li>

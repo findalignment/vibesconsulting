@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Monthly Pulse Surveys — Vibe Partnership — Vibes Consulting',
+  title: 'Monthly Pulse Surveys - Vibe Partnership - Vibes Consulting',
   description: 'Anonymous team surveys tracking engagement, clarity, and flow. Surface patterns before they become problems.'
 }
 
@@ -60,24 +60,7 @@ export default function PulseSurveysPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Design Agency, 10 People</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Month 1:</p>
-            <p className="text-white/70 text-sm mb-4">Satisfaction score: 7.2/10. One comment: "Not sure who to ask for approval on small things."</p>
-
-            <p className="text-white/90 mb-2 font-medium">Month 2:</p>
-            <p className="text-white/70 text-sm mb-4">Satisfaction drops to 6.8. Three comments about approval delays. Pattern detected. We flag it.</p>
-
-            <p className="text-white/90 mb-2 font-medium">Action Taken:</p>
-            <p className="text-white/70 text-sm mb-4">During quarterly reset, we build decision rights matrix. Clear thresholds documented.</p>
-
-            <p className="text-white/90 mb-2 font-medium">Month 3:</p>
-            <p className="text-white/70 text-sm mb-4">Satisfaction back up to 7.8. Comments: "Feels better now that I know what I can decide."</p>
-
-            <p className="text-current-500 text-sm font-medium">Result: Caught and fixed issue before it became turnover risk.</p>
-          </div>
-        </section>
+        
 
         <section className="card p-8 bg-current-600/10 text-center">
           <h2 className="mb-4">Ready for Real-Time Team Insights?</h2>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Recognition Systems — Culture & Environment Optimization' }
+export const metadata = { title: 'Recognition Systems - Culture & Environment Optimization' }
 
 export default function RecognitionPage() {
   return (
@@ -148,22 +148,7 @@ export default function RecognitionPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Creative Agency</h2>
-          <div className="card p-6 border-l-4 border-current-600">
-            <p className="text-white/90 mb-3"><strong>Problem:</strong> Team felt underappreciated. Good work went unnoticed. High performers were leaving.</p>
-
-            <p className="text-white/90 mb-2 mt-4"><strong>Recognition system we designed:</strong></p>
-            <ul className="text-white/70 text-xs space-y-2 pl-3 mb-4">
-              <li><strong>• Weekly:</strong> Friday "wins" ritual (5 min, everyone shares one win)</li>
-              <li><strong>• Monthly:</strong> Peer-nominated MVP (winner chooses team lunch spot)</li>
-              <li><strong>• Quarterly:</strong> Founder writes personalized thank-you notes to each team member</li>
-              <li><strong>• Project-based:</strong> Post-launch celebration (team dinner, recognition of specific contributions)</li>
-            </ul>
-
-            <p className="text-current-500 text-xs font-medium">Result: Engagement scores up 35%. Zero turnover in 12 months. Top performers stayed and recruited others.</p>
-          </div>
-        </section>
+        
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Part of Culture Optimization</h2>

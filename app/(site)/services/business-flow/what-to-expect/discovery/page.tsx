@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Discovery Phase — Business Flow Consulting' }
+export const metadata = { title: 'Discovery Phase - Business Flow Consulting' }
 
 export default function DiscoveryPage() {
   return (
@@ -10,7 +10,7 @@ export default function DiscoveryPage() {
       </Link>
 
       <h1 className="mb-4">Week 1-2: Discovery Phase</h1>
-      <p className="text-xl text-white/90 mb-8">We conduct interviews, observe operations, and review documentation. You keep running your business — we work around your schedule.</p>
+      <p className="text-xl text-white/90 mb-8">We conduct interviews, observe operations, and review documentation. You keep running your business - we work around your schedule.</p>
 
       <div className="space-y-8">
         <section>
@@ -95,7 +95,7 @@ export default function DiscoveryPage() {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="card p-4">
               <h3 className="text-white text-sm font-medium mb-2">Flexible Scheduling</h3>
-              <p className="text-white/70 text-xs">We book interviews at your team's convenience. Early morning, lunch breaks, end of day — whatever works.</p>
+              <p className="text-white/70 text-xs">We book interviews at your team's convenience. Early morning, lunch breaks, end of day - whatever works.</p>
             </div>
             <div className="card p-4">
               <h3 className="text-white text-sm font-medium mb-2">Minimal Disruption</h3>

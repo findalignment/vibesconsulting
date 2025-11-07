@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Friction Audit Report — Business Flow Consulting' }
+export const metadata = { title: 'Friction Audit Report - Business Flow Consulting' }
 
 export default function FrictionAuditPage() {
   return (
@@ -18,7 +18,7 @@ export default function FrictionAuditPage() {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="card p-4">
               <h3 className="text-lg mb-2">Process Observation</h3>
-              <p className="text-white/70 text-sm">We shadow your team for 3-4 hours, watching how work actually flows. Not how you think it flows — how it really moves through your business.</p>
+              <p className="text-white/70 text-sm">We shadow your team for 3-4 hours, watching how work actually flows. Not how you think it flows - how it really moves through your business.</p>
             </div>
             <div className="card p-4">
               <h3 className="text-lg mb-2">Team Interviews</h3>

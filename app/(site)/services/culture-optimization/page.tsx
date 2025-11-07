@@ -2,7 +2,7 @@ import CTAButton from '@/components/CTAButton'
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'Culture & Environment Optimization — Vibes Consulting',
+  title: 'Culture & Environment Optimization - Vibes Consulting',
   description: 'Design rituals, cadences, and spaces that help teams do their best work. Move from chaos to clarity with intentional culture design.'
 }
 
@@ -27,7 +27,7 @@ export default function CultureOptimizationPage() {
 
         <div className="card p-8">
           <h3 className="mb-4 text-current-500">What Makes This Different</h3>
-          <p className="text-white/80 mb-4">We don't run trust falls or personality tests. We <strong>redesign the operating system</strong> — the meetings, rituals, communication norms, and physical environment that shape how work feels.</p>
+          <p className="text-white/80 mb-4">We don't run trust falls or personality tests. We <strong>redesign the operating system</strong> - the meetings, rituals, communication norms, and physical environment that shape how work feels.</p>
           <p className="text-white/80">You'll leave with new rhythms in place, not a manifesto no one follows.</p>
         </div>
       </div>
@@ -232,7 +232,7 @@ export default function CultureOptimizationPage() {
 
           <div className="card p-6 border-l-4 border-current-600">
             <p className="text-white/90 mb-2"><strong>Tech startup, 18 people:</strong></p>
-            <p className="text-white/70">"Our Slack was a nightmare — 24/7 pings, no boundaries. Vibes redesigned our communication norms and reorganized channels. Now people actually disconnect at night and we're more productive during the day."</p>
+            <p className="text-white/70">"Our Slack was a nightmare - 24/7 pings, no boundaries. Vibes redesigned our communication norms and reorganized channels. Now people actually disconnect at night and we're more productive during the day."</p>
           </div>
 
           <div className="card p-6 border-l-4 border-current-600">
@@ -284,7 +284,7 @@ export default function CultureOptimizationPage() {
 
           <div>
             <h3 className="text-lg mb-2">What if our team resists change?</h3>
-            <p className="text-white/70">We involve the team in the design process so they feel ownership, not imposition. And we start with experiments — try it for 4 weeks, then decide if it stays.</p>
+            <p className="text-white/70">We involve the team in the design process so they feel ownership, not imposition. And we start with experiments - try it for 4 weeks, then decide if it stays.</p>
           </div>
 
           <div>

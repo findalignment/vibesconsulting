@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Post-Engagement Support — Business Flow Consulting' }
+export const metadata = { title: 'Post-Engagement Support - Business Flow Consulting' }
 
 export default function SupportPage() {
   return (

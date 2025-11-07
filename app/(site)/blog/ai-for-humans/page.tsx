@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'AI for Humans: Low-Risk Wins — Vibes Consulting',
+  title: 'AI for Humans: Low-Risk Wins - Vibes Consulting',
   description: 'How to adopt AI without exposing client data, overwhelming your team, or wasting money on tools nobody uses.'
 }
 
@@ -20,7 +20,7 @@ export default function BlogPost() {
 
         <div className="prose prose-invert max-w-none space-y-6 text-white/80 leading-relaxed">
           <p className="text-lg text-white/90">
-            Every small business owner I talk to has the same AI question: "Should we be using this?" The answer is yes — but not the way you think.
+            Every small business owner I talk to has the same AI question: "Should we be using this?" The answer is yes - but not the way you think.
           </p>
 
           <p>
@@ -189,7 +189,7 @@ export default function BlogPost() {
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">Rule 1: Never Paste Sensitive Info</h3>
 
           <p>
-            Client names, contract details, financial data, proprietary strategies — none of this goes into public AI tools (ChatGPT free tier, standard Claude, etc.).
+            Client names, contract details, financial data, proprietary strategies - none of this goes into public AI tools (ChatGPT free tier, standard Claude, etc.).
           </p>
 
           <p>
@@ -275,8 +275,8 @@ export default function BlogPost() {
 
           <ul className="list-disc pl-6 space-y-2 text-white/80">
             <li><strong>Complex reasoning:</strong> Don't trust it to make strategic decisions or evaluate tradeoffs.</li>
-            <li><strong>Accuracy-critical tasks:</strong> Financial calculations, legal language, technical specifications — all need human verification.</li>
-            <li><strong>Sensitive judgment calls:</strong> Performance reviews, client escalations, hiring decisions — these need human nuance.</li>
+            <li><strong>Accuracy-critical tasks:</strong> Financial calculations, legal language, technical specifications - all need human verification.</li>
+            <li><strong>Sensitive judgment calls:</strong> Performance reviews, client escalations, hiring decisions - these need human nuance.</li>
           </ul>
 
           <p>
@@ -290,7 +290,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Pick the most annoying repetitive task in your business. The thing you do every week that feels like busy work. Meeting summaries, client email drafts, data formatting — whatever it is.
+            Pick the most annoying repetitive task in your business. The thing you do every week that feels like busy work. Meeting summaries, client email drafts, data formatting - whatever it is.
           </p>
 
           <p>

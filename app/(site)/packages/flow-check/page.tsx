@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'The Flow Check — Vibes Consulting',
+  title: 'The Flow Check - Vibes Consulting',
   description: 'A 2-week diagnostic that identifies bottlenecks, cultural drag, and operational blind spots. $2,500, credited to any future engagement.'
 }
 
@@ -15,7 +15,7 @@ export default function FlowCheckPage() {
 
       <header className="mb-12">
         <h1 className="mb-4">The Flow Check</h1>
-        <p className="text-xl text-white/90 max-w-3xl">The low-risk diagnostic that shows you exactly where your business gets stuck — and how to fix it.</p>
+        <p className="text-xl text-white/90 max-w-3xl">The low-risk diagnostic that shows you exactly where your business gets stuck - and how to fix it.</p>
       </header>
 
       <div className="grid md:grid-cols-3 gap-6 mb-16">
@@ -90,7 +90,7 @@ export default function FlowCheckPage() {
               <div className="text-3xl font-bold text-current-500">2</div>
               <div className="flex-1">
                 <h3 className="text-lg mb-2">Discovery Phase (Week 1)</h3>
-                <p className="text-white/70 text-sm mb-3">We conduct 5-7 team interviews (30 min each), observe operations for 3-4 hours, and review your existing documentation. You keep running your business — we work around your schedule.</p>
+                <p className="text-white/70 text-sm mb-3">We conduct 5-7 team interviews (30 min each), observe operations for 3-4 hours, and review your existing documentation. You keep running your business - we work around your schedule.</p>
                 <p className="text-white/60 text-sm italic">Your time: 30-minute interviews, optional observation participation</p>
               </div>
             </div>

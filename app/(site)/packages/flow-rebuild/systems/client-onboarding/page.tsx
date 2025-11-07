@@ -2,7 +2,7 @@ import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata = { 
-  title: 'Client Onboarding Rebuild — Flow Rebuild — Vibes Consulting',
+  title: 'Client Onboarding Rebuild - Flow Rebuild - Vibes Consulting',
   description: 'Streamline intake, clarify handoffs, automate repetitive steps. Reduce onboarding time by 30-40% and create a client experience that feels effortless.'
 }
 
@@ -85,28 +85,7 @@ export default function ClientOnboardingPage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4">Real Example: Design Agency, 10 People</h2>
-          <div className="card p-6 bg-white/5">
-            <p className="text-white/90 mb-2 font-medium">Before:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• Client onboarding took 12-15 days</li>
-              <li>• 3-4 rounds of back-and-forth for missing info</li>
-              <li>• Kickoff meetings often revealed surprises</li>
-              <li>• Clients felt confused about timeline and process</li>
-            </ul>
-
-            <p className="text-white/90 mb-2 font-medium">After Flow Rebuild:</p>
-            <ul className="text-white/70 text-sm space-y-1 mb-4">
-              <li>• Onboarding down to 3-5 days</li>
-              <li>• Comprehensive intake form captures everything upfront</li>
-              <li>• Kickoffs run smoothly with all context documented</li>
-              <li>• Clients receive welcome kit explaining entire process</li>
-            </ul>
-
-            <p className="text-current-500 text-sm font-medium">Result: 60% faster onboarding, happier clients, 6 hours saved per client</p>
-          </div>
-        </section>
+        
 
         <section className="card p-8 bg-current-600/10 text-center">
           <h2 className="mb-4">Ready to Fix Your Onboarding?</h2>

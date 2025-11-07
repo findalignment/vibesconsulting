@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const metadata = { title: 'Ongoing AI Support — AI Integration' }
+export const metadata = { title: 'Ongoing AI Support - AI Integration' }
 
 export default function OngoingSupportPage() {
   return (
@@ -117,15 +117,15 @@ export default function OngoingSupportPage() {
         </section>
 
         <section>
-          <h2 className="mb-4">AI Tools Evolve — We Keep You Updated</h2>
+          <h2 className="mb-4">AI Tools Evolve - We Keep You Updated</h2>
           <div className="card p-6 bg-white/5">
             <p className="text-white/80 mb-3">The AI landscape changes fast. New tools emerge, existing tools add features, pricing models shift.</p>
             <p className="text-white/70 text-sm mb-3">If you're on Vibe Partnership, we monitor these changes for you and recommend updates:</p>
             
             <ul className="space-y-2 text-xs text-white/70">
-              <li>• "ChatGPT added a feature that replaces the Zapier workflow we built — let's switch."</li>
-              <li>• "A new tool launched that's better for your specific use case — here's why."</li>
-              <li>• "The tool you're using increased pricing 3x — here's a cost-effective alternative."</li>
+              <li>• "ChatGPT added a feature that replaces the Zapier workflow we built - let's switch."</li>
+              <li>• "A new tool launched that's better for your specific use case - here's why."</li>
+              <li>• "The tool you're using increased pricing 3x - here's a cost-effective alternative."</li>
             </ul>
             
             <p className="text-white/60 text-xs mt-4">You stay optimized without spending hours researching AI news.</p>

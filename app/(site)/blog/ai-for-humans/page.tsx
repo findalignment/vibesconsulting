@@ -180,7 +180,7 @@ export default function BlogPost() {
             <strong>Risk level:</strong> Low. You're creating new content, not exposing existing data.
           </p>
 
-          <h2 className="text-2xl font-semibold text-white mt-10 mb-4">The Three Rules for Safe AI Adoption</h2>
+          <h2 className="text-2xl font-semibold text-white mt-10 mb-4">The Three Rules for <Link href="/approach/safe-ai-enablement">safe AI adoption</Link></h2>
 
           <p>
             Before your team starts using AI tools, establish these three rules:

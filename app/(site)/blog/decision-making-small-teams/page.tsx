@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Decision-Making in Small Teams: Why Everything Runs Through You",
-  description: "You're the bottleneck. Every decision waits for you. Here's how Santa Cruz business owners are delegating without losing control."
+  description: "<Link href="/packages/flow-check/who-this-is-for/owner-bottleneck">you\'re the bottleneck</Link>. Every decision waits for you. Here's how Santa Cruz business owners are delegating without losing control."
 }
 
 export default function BlogPost() {
@@ -86,6 +86,8 @@ export default function BlogPost() {
 
           <p>Learn how our <Link href="/services/business-flow">Business Flow service</Link> helps you build these systems.</p>
           
+          <p className="text-white/70 mt-6">Explore our <Link href="/services">consulting services</Link> or <Link href="/packages">packages</Link> for comprehensive support.</p>
+
           <div className="bg-current-600/10 p-6 rounded-lg mt-8">
             <p className="font-semibold text-white mb-2">Need help with your business operations?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to identify your biggest operational opportunities.</p>

@@ -86,6 +86,8 @@ export default function BlogPost() {
 
           <p>That's the Santa Cruz way: professional without being corporate. Structured without being rigid. Scalable without losing soul.</p>
           
+          <p className="text-white/70 mt-6">Explore our <Link href="/services">consulting services</Link> or <Link href="/packages">packages</Link> for comprehensive support.</p>
+
           <div className="bg-current-600/10 p-6 rounded-lg mt-8">
             <p className="font-semibold text-white mb-2">Need help with your business operations?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to identify your biggest operational opportunities.</p>

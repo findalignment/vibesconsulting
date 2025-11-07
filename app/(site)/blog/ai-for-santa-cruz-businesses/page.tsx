@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "AI for Santa Cruz Businesses: A Practical Guide for Non-Technical Owners",
-  description: "Santa Cruz business owners are curious about AI but worried about complexity and cost. Here\'s how local businesses are adopting AI safely and practically."
+  description: "Santa Cruz business owners are curious about AI but worried about complexity and cost. Here's how local businesses are adopting AI safely and practically."
 }
 
 export default function BlogPost() {

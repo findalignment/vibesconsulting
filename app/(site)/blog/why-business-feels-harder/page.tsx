@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = { 
   title: "Why Your Business Feels Harder Than It Should - Vibes Consulting",
-  description: "Most friction in small businesses is invisible. Here\'s how to spot it and what to do about it."
+  description: "Most friction in small businesses is invisible. Here's how to spot it and what to do about it."
 }
 
 export default function BlogPost() {

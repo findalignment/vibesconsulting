@@ -24,7 +24,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Not because of a single catastrophic event. Not because someone designed them. But because of something far more powerful: <strong>the relentless movement of a natural force following the path of least resistance.</strong>
+            Not because of a single catastrophic event. Not because someone designed them. But because of something far more powerful: <strong className="text-white">the relentless movement of a natural force following the path of least resistance.</strong>
           </p>
 
           <p>
@@ -54,7 +54,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>Behavior flows like gravity toward the path of least resistance.</strong>
+            <strong className="text-white">Behavior flows like gravity toward the path of least resistance.</strong>
           </p>
 
           <p>
@@ -68,7 +68,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Rivers carve valleys that become fertile plains. They distribute nutrients. They create ecosystems. Entire civilizations formed along riverbanks not because rivers were convenient, but because <strong>consistent, predictable flow enables growth.</strong>
+            Rivers carve valleys that become fertile plains. They distribute nutrients. They create ecosystems. Entire civilizations formed along riverbanks not because rivers were convenient, but because <strong className="text-white">consistent, predictable flow enables growth.</strong>
           </p>
 
           <p>
@@ -88,7 +88,7 @@ export default function BlogPost() {
           </p>
 
           <div className="card p-6 bg-white/5 my-6">
-            <p className="text-white/90 text-sm mb-2"><strong>Example:</strong></p>
+            <p className="text-white/90 text-sm mb-2"><strong className="text-white">Example:</strong></p>
             <p className="text-white/70 text-sm">
               A design studio documents their client onboarding process in a single shared doc. Every step is clear. Every handoff is explicit. New team members reference it. Clients know what to expect. The process runs itself.
             </p>
@@ -104,7 +104,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Floods erode soil. They undermine foundations. They carve paths that destabilize entire landscapes. Not because the force is inherently malicious, but because <strong>when flow has no channel, it goes everywhere - and erodes everything.</strong>
+            Floods erode soil. They undermine foundations. They carve paths that destabilize entire landscapes. Not because the force is inherently malicious, but because <strong className="text-white">when flow has no channel, it goes everywhere - and erodes everything.</strong>
           </p>
 
           <p>
@@ -128,11 +128,11 @@ export default function BlogPost() {
           </p>
 
           <p>
-            And here's the danger: <strong>these informal paths work in the short term.</strong> They relieve immediate friction. But over time, they erode the structure you built. They create silos. They make knowledge transfer impossible. They turn your organization into a maze only veterans can navigate.
+            And here's the danger: <strong className="text-white">these informal paths work in the short term.</strong> They relieve immediate friction. But over time, they erode the structure you built. They create silos. They make knowledge transfer impossible. They turn your organization into a maze only veterans can navigate.
           </p>
 
           <div className="card p-6 bg-white/5 my-6">
-            <p className="text-white/90 text-sm mb-2"><strong>Example:</strong></p>
+            <p className="text-white/90 text-sm mb-2"><strong className="text-white">Example:</strong></p>
             <p className="text-white/70 text-sm">
               A growing agency has an approval process that takes three days. So the team starts using a "quick Slack approval" shortcut. It works great - until someone approves the wrong thing. Then another. Then a client gets the wrong deliverable. 
             </p>
@@ -152,7 +152,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            But <strong>small, consistent changes, repeated over time, reshape everything.</strong>
+            But <strong className="text-white">small, consistent changes, repeated over time, reshape everything.</strong>
           </p>
 
           <p>
@@ -208,7 +208,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            A better approach: <strong>Design channels that align with the path of least resistance.</strong>
+            A better approach: <strong className="text-white">Design channels that align with the path of least resistance.</strong>
           </p>
 
           <p>
@@ -224,7 +224,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>You don't fight gravity. You build aqueducts.</strong>
+            <strong className="text-white">You don't fight gravity. You build aqueducts.</strong>
           </p>
 
           <p>
@@ -244,7 +244,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <em>Where is it actually going?</em>
+            <em className="text-white/90">Where is it actually going?</em>
           </p>
 
           <ul className="list-disc pl-6 space-y-2 text-white/80">
@@ -268,7 +268,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            The fix isn't to dam the flow. It's to <strong>design better channels.</strong>
+            The fix isn't to dam the flow. It's to <strong className="text-white">design better channels.</strong>
           </p>
 
           <h2 className="text-2xl font-semibold text-white mt-10 mb-4">What This Means For You</h2>

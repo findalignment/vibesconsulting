@@ -24,7 +24,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            It's not that your team is incapable. It's not that you lack tools or ambition. The problem is <strong>invisible friction</strong> - small inefficiencies that compound into exhaustion.
+            It's not that your team is incapable. It's not that you lack tools or ambition. The problem is <strong className="text-white">invisible friction</strong> - small inefficiencies that compound into exhaustion.
           </p>
 
           <p>
@@ -43,14 +43,14 @@ export default function BlogPost() {
           </p>
 
           <div className="card p-6 bg-white/5 my-6">
-            <p className="text-white/90 text-sm mb-2"><strong>Example:</strong></p>
+            <p className="text-white/90 text-sm mb-2"><strong className="text-white">Example:</strong></p>
             <p className="text-white/70 text-sm">
               A design studio with 8 people was approving every client email before it went out. The founder thought this maintained quality. In reality, it created a 24-hour delay on every response and trained the team not to think for themselves.
             </p>
           </div>
 
-          <p>
-            <strong>Fix:</strong> Write down who owns what. Use a simple matrix: Who decides? Who approves? Who's just informed? When you make it explicit, half the meetings disappear.
+          <p className="text-lg leading-relaxed text-white/80">
+            <strong className="text-white">Fix:</strong> Write down who owns what. Use a simple matrix: Who decides? Who approves? Who's just informed? When you make it explicit, half the meetings disappear.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">2. Information Living in People's Heads</h3>
@@ -63,7 +63,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>Fix:</strong> Whenever you say "just ask [person]," that's a sign you need documentation. Not a 50-page manual - just a one-pager that captures the steps, the exceptions, and who to contact if something breaks.
+            <strong className="text-white">Fix:</strong> Whenever you say "just ask [person]," that's a sign you need documentation. Not a 50-page manual - just a one-pager that captures the steps, the exceptions, and who to contact if something breaks.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">3. Meetings That Should Be Emails</h3>
@@ -76,14 +76,14 @@ export default function BlogPost() {
           </p>
 
           <div className="card p-6 bg-white/5 my-6">
-            <p className="text-white/90 text-sm mb-2"><strong>Test:</strong></p>
+            <p className="text-white/90 text-sm mb-2"><strong className="text-white">Test:</strong></p>
             <p className="text-white/70 text-sm">
               Look at your calendar. For each recurring meeting, ask: "Could this be an async update with a 24-hour response window?" If yes, kill the meeting.
             </p>
           </div>
 
-          <p>
-            <strong>Fix:</strong> Default to async updates in a shared doc or Slack channel. Only meet when you need to decide something together or work through a complex problem in real-time.
+          <p className="text-lg leading-relaxed text-white/80">
+            <strong className="text-white">Fix:</strong> Default to async updates in a shared doc or Slack channel. Only meet when you need to decide something together or work through a complex problem in real-time.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">4. Too Many Communication Channels</h3>
@@ -96,7 +96,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>Fix:</strong> Pick two channels max. One for urgent ("respond today") and one for async ("respond this week"). Make the rule explicit. Enforce it gently but consistently.
+            <strong className="text-white">Fix:</strong> Pick two channels max. One for urgent ("respond today") and one for async ("respond this week"). Make the rule explicit. Enforce it gently but consistently.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">5. Workflows Built for the Past</h3>
@@ -109,7 +109,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>Fix:</strong> Pick one workflow that annoys everyone and map it. Draw boxes and arrows showing how work actually moves. Then ask: "If we were designing this from scratch today, what would it look like?" The gap between current and ideal is your roadmap.
+            <strong className="text-white">Fix:</strong> Pick one workflow that annoys everyone and map it. Draw boxes and arrows showing how work actually moves. Then ask: "If we were designing this from scratch today, what would it look like?" The gap between current and ideal is your roadmap.
           </p>
 
           <h2 className="text-2xl font-semibold text-white mt-10 mb-4">Why You Can't See Your Own Friction</h2>

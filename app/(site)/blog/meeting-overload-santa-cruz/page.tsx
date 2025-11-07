@@ -45,10 +45,10 @@ export default function BlogPost() {
           <p>The most effective local businesses we work with have cut their meeting load by 30-50%. Here's how:</p>
 
           <ul className="space-y-2">
-            <li><strong>Async status updates:</strong> Loom videos or written updates replace standup meetings</li>
-            <li><strong>Decision rights frameworks:</strong> Clear criteria for who decides what without a meeting</li>
-            <li><strong>Meeting minimums:</strong> Every meeting must have a clear decision to make or problem to solve</li>
-            <li><strong>Default to 25 minutes:</strong> Not 30. Not 60. Forces focus.</li>
+            <li><strong className="text-white">Async status updates:</strong> Loom videos or written updates replace standup meetings</li>
+            <li><strong className="text-white">Decision rights frameworks:</strong> Clear criteria for who decides what without a meeting</li>
+            <li><strong className="text-white">Meeting minimums:</strong> Every meeting must have a clear decision to make or problem to solve</li>
+            <li><strong className="text-white">Default to 25 minutes:</strong> Not 30. Not 60. Forces focus.</li>
           </ul>
 
           <h2 className="text-white text-2xl font-semibold mt-8 mb-4">The Audit That Changes Everything</h2>

@@ -36,11 +36,11 @@ export default function BlogPost() {
           <p>Forget the hype. Here's what's actually working for local businesses:</p>
 
           <ul className="space-y-2">
-            <li><strong>Drafting client emails:</strong> AI writes the first draft, you add the personal touch</li>
-            <li><strong>Meeting notes:</strong> AI transcribes and summarizes, you review and send</li>
-            <li><strong>Social media posts:</strong> AI generates variations, you pick the best one</li>
-            <li><strong>Client intake:</strong> AI processes form responses and populates your CRM</li>
-            <li><strong>Follow-up reminders:</strong> AI drafts personalized check-ins automatically</li>
+            <li><strong className="text-white">Drafting client emails:</strong> AI writes the first draft, you add the personal touch</li>
+            <li><strong className="text-white">Meeting notes:</strong> AI transcribes and summarizes, you review and send</li>
+            <li><strong className="text-white">Social media posts:</strong> AI generates variations, you pick the best one</li>
+            <li><strong className="text-white">Client intake:</strong> AI processes form responses and populates your CRM</li>
+            <li><strong className="text-white">Follow-up reminders:</strong> AI drafts personalized check-ins automatically</li>
           </ul>
 
           <p>These aren't theoretical. These are tools Santa Cruz training studios, consultancies, and retail spaces are using right now.</p>

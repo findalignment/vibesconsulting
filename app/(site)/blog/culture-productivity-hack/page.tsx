@@ -28,7 +28,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Here's what most business owners miss: <strong>culture isn't perks or values posters. It's the operating system that determines whether people can actually do their best work.</strong>
+            Here's what most business owners miss: <strong className="text-white">culture isn't perks or values posters. It's the operating system that determines whether people can actually do their best work.</strong>
           </p>
 
           <h2 className="text-2xl font-semibold text-white mt-10 mb-4">What Culture Actually Is</h2>
@@ -68,7 +68,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>You can't tool your way out of a culture problem.</strong>
+            <strong className="text-white">You can't tool your way out of a culture problem.</strong>
           </p>
 
           <h2 className="text-2xl font-semibold text-white mt-10 mb-4">The Five Culture Levers That Actually Matter</h2>
@@ -94,7 +94,7 @@ export default function BlogPost() {
           </p>
 
           <div className="card p-6 bg-white/5 my-6">
-            <p className="text-white/90 text-sm mb-2"><strong>Quick fix:</strong></p>
+            <p className="text-white/90 text-sm mb-2"><strong className="text-white">Quick fix:</strong></p>
             <p className="text-white/70 text-sm">
               Every Monday, share the top 3 priorities for the week. Not 10. Not "everything is important." Three. This alone will reduce half the "urgent" Slack messages.
             </p>
@@ -107,7 +107,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            The sweet spot: <strong>Clear boundaries with freedom inside them.</strong>
+            The sweet spot: <strong className="text-white">Clear boundaries with freedom inside them.</strong>
           </p>
 
           <p>
@@ -140,7 +140,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>If your culture rewards responsiveness over results, you're training people to be busy, not effective.</strong>
+            <strong className="text-white">If your culture rewards responsiveness over results, you're training people to be busy, not effective.</strong>
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">4. Psychological Safety</h3>
@@ -170,7 +170,7 @@ export default function BlogPost() {
           </ul>
 
           <div className="card p-6 bg-white/5 my-6">
-            <p className="text-white/90 text-sm mb-2"><strong>How to build it:</strong></p>
+            <p className="text-white/90 text-sm mb-2"><strong className="text-white">How to build it:</strong></p>
             <p className="text-white/70 text-sm">
               When someone admits a mistake or says "I don't know," reward it. Literally say, "Thank you for flagging that early." Do this consistently for 3 months and watch the culture shift.
             </p>
@@ -203,12 +203,12 @@ export default function BlogPost() {
           </p>
 
           <ul className="list-disc pl-6 space-y-2 text-white/80">
-            <li><strong>High turnover:</strong> People leave not because of the work, but because of "the vibe"</li>
-            <li><strong>Quiet quitting:</strong> Team members do the bare minimum and nothing more</li>
-            <li><strong>Meeting overload:</strong> Everyone's calendar is packed but nothing gets decided</li>
-            <li><strong>Constant firefighting:</strong> Every week feels like a crisis</li>
-            <li><strong>Communication breakdowns:</strong> Things slip through the cracks regularly</li>
-            <li><strong>Leadership as bottleneck:</strong> Every decision has to go through one person</li>
+            <li><strong className="text-white">High turnover:</strong> People leave not because of the work, but because of "the vibe"</li>
+            <li><strong className="text-white">Quiet quitting:</strong> Team members do the bare minimum and nothing more</li>
+            <li><strong className="text-white">Meeting overload:</strong> Everyone's calendar is packed but nothing gets decided</li>
+            <li><strong className="text-white">Constant firefighting:</strong> Every week feels like a crisis</li>
+            <li><strong className="text-white">Communication breakdowns:</strong> Things slip through the cracks regularly</li>
+            <li><strong className="text-white">Leadership as bottleneck:</strong> Every decision has to go through one person</li>
           </ul>
 
           <p>
@@ -238,7 +238,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            It's not about trust falls or vision boards. It's about <strong>designing the systems that shape how work feels.</strong>
+            It's not about trust falls or vision boards. It's about <strong className="text-white">designing the systems that shape how work feels.</strong>
           </p>
 
           <h2 className="text-2xl font-semibold text-white mt-10 mb-4">How to Start</h2>

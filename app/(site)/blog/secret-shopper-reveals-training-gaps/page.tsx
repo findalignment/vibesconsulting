@@ -100,12 +100,12 @@ export default function BlogPost() {
             <h2 className="text-3xl font-bold text-white mb-4">Why Training Fails</h2>
           </div>
           
-          <p className="text-lg leading-relaxed text-white/80 italic">Most businesses <em>think</em> they're training their staff. But what they're actually doing is:</p>
+          <p className="text-lg leading-relaxed text-white/80 italic">Most businesses <em className="text-white/90">think</em> they're training their staff. But what they're actually doing is:</p>
 
           <div className="space-y-4 my-8 pl-6 border-l-2 border-white/10">
             <p className="text-white/80"><span className="text-white font-semibold">Talking at people instead of teaching.</span> A verbal walkthrough on day one isn't training. Training requires demonstration, practice, feedback, and repetition.</p>
 
-            <p className="text-white/80"><span className="text-white font-semibold">Assuming skills transfer automatically.</span> Just because someone has worked in retail before doesn't mean they know <em>your</em> retail process.</p>
+            <p className="text-white/80"><span className="text-white font-semibold">Assuming skills transfer automatically.</span> Just because someone has worked in retail before doesn't mean they know <em className="text-white/90">your</em> retail process.</p>
 
             <p className="text-white/80"><span className="text-white font-semibold">Skipping documentation.</span> If the procedure only exists in someone's head, it's not a procedure - it's a guess.</p>
 

@@ -38,12 +38,12 @@ export default function BlogPost() {
           </p>
 
           <ol className="list-decimal pl-6 space-y-2 text-white/80">
-            <li><strong>They ignore it</strong> because it feels too complicated, too risky, or too futuristic.</li>
-            <li><strong>They over-adopt</strong> by subscribing to five tools, forcing the team to use them, and then wondering why nobody is.</li>
+            <li><strong className="text-white">They ignore it</strong> because it feels too complicated, too risky, or too futuristic.</li>
+            <li><strong className="text-white">They over-adopt</strong> by subscribing to five tools, forcing the team to use them, and then wondering why nobody is.</li>
           </ol>
 
           <p>
-            Both approaches waste time. The right path is narrow but effective: <strong>Find 3-5 repetitive tasks, automate them with AI, train your team on exactly how to use it.</strong>
+            Both approaches waste time. The right path is narrow but effective: <strong className="text-white">Find 3-5 repetitive tasks, automate them with AI, train your team on exactly how to use it.</strong>
           </p>
 
           <h2 className="text-2xl font-semibold text-white mt-10 mb-4">Where AI Actually Helps (Right Now)</h2>
@@ -65,119 +65,119 @@ export default function BlogPost() {
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">1. Meeting Notes & Summaries</h3>
           
           <p>
-            <strong>The problem:</strong> Someone has to take notes, and then those notes sit in a doc no one reads.
+            <strong className="text-white">The problem:</strong> Someone has to take notes, and then those notes sit in a doc no one reads.
           </p>
 
           <p>
-            <strong>The AI fix:</strong> Use a tool like Otter.ai, Fireflies, or Fathom to auto-transcribe meetings. Then feed the transcript into ChatGPT with a prompt like:
+            <strong className="text-white">The AI fix:</strong> Use a tool like Otter.ai, Fireflies, or Fathom to auto-transcribe meetings. Then feed the transcript into ChatGPT with a prompt like:
           </p>
 
           <div className="card p-4 bg-white/5 my-6 font-mono text-sm text-white/70">
             "Summarize this meeting transcript. Include: (1) Key decisions made, (2) Action items with owners, (3) Unresolved questions."
           </div>
 
-          <p>
-            <strong>Time saved:</strong> 30 minutes per meeting. If you have 5 meetings a week, that's 2.5 hours back.
+          <p className="text-lg leading-relaxed text-white/80">
+            <strong className="text-white">Time saved:</strong> 30 minutes per meeting. If you have 5 meetings a week, that's 2.5 hours back.
           </p>
 
           <p>
-            <strong>Risk level:</strong> Low. Transcripts stay in your account. You review the summary before sharing.
+            <strong className="text-white">Risk level:</strong> Low. Transcripts stay in your account. You review the summary before sharing.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">2. Email Drafts & Client Communication</h3>
 
           <p>
-            <strong>The problem:</strong> Every client email takes 15 minutes to write because you're overthinking tone and clarity.
+            <strong className="text-white">The problem:</strong> Every client email takes 15 minutes to write because you're overthinking tone and clarity.
           </p>
 
           <p>
-            <strong>The AI fix:</strong> Write bullet points of what you want to say. Paste into ChatGPT or Claude with:
+            <strong className="text-white">The AI fix:</strong> Write bullet points of what you want to say. Paste into ChatGPT or Claude with:
           </p>
 
           <div className="card p-4 bg-white/5 my-6 font-mono text-sm text-white/70">
             "Turn these bullets into a professional but warm client email. Keep it under 150 words."
           </div>
 
-          <p>
+          <p className="text-lg leading-relaxed text-white/80">
             You review, tweak the tone, hit send. What used to take 15 minutes now takes 3.
           </p>
 
           <p>
-            <strong>Time saved:</strong> 10-15 emails/week = 2 hours reclaimed.
+            <strong className="text-white">Time saved:</strong> 10-15 emails/week = 2 hours reclaimed.
           </p>
 
           <p>
-            <strong>Risk level:</strong> Low. Never paste sensitive client info. Use "[Client Name]" and "[Project Details]" as placeholders, then fill in manually.
+            <strong className="text-white">Risk level:</strong> Low. Never paste sensitive client info. Use "[Client Name]" and "[Project Details]" as placeholders, then fill in manually.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">3. Data Formatting & Report Generation</h3>
 
           <p>
-            <strong>The problem:</strong> You have spreadsheet data that needs to become a client-friendly report. Formatting it manually takes an hour.
+            <strong className="text-white">The problem:</strong> You have spreadsheet data that needs to become a client-friendly report. Formatting it manually takes an hour.
           </p>
 
           <p>
-            <strong>The AI fix:</strong> Export the data as a CSV (anonymized if needed). Paste into ChatGPT:
+            <strong className="text-white">The AI fix:</strong> Export the data as a CSV (anonymized if needed). Paste into ChatGPT:
           </p>
 
           <div className="card p-4 bg-white/5 my-6 font-mono text-sm text-white/70">
             "Create a summary report from this data. Highlight the top 3 insights and format as a table and 3 bullet points."
           </div>
 
-          <p>
-            <strong>Time saved:</strong> 1 hour per report. Do this weekly? That's 4 hours/month.
+          <p className="text-lg leading-relaxed text-white/80">
+            <strong className="text-white">Time saved:</strong> 1 hour per report. Do this weekly? That's 4 hours/month.
           </p>
 
           <p>
-            <strong>Risk level:</strong> Medium. Make sure client-identifying info is removed before pasting into AI.
+            <strong className="text-white">Risk level:</strong> Medium. Make sure client-identifying info is removed before pasting into AI.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">4. Social Media Content Repurposing</h3>
 
           <p>
-            <strong>The problem:</strong> You wrote a great blog post or case study. Now you need to turn it into 5 LinkedIn posts, 10 tweets, and an email.
+            <strong className="text-white">The problem:</strong> You wrote a great blog post or case study. Now you need to turn it into 5 LinkedIn posts, 10 tweets, and an email.
           </p>
 
           <p>
-            <strong>The AI fix:</strong> Paste the long-form content into ChatGPT:
+            <strong className="text-white">The AI fix:</strong> Paste the long-form content into ChatGPT:
           </p>
 
           <div className="card p-4 bg-white/5 my-6 font-mono text-sm text-white/70">
             "Break this into 5 LinkedIn posts (150 words each) and 10 tweet-length insights. Keep the tone [direct/conversational/professional]."
           </div>
 
-          <p>
-            <strong>Time saved:</strong> What used to take 2 hours now takes 20 minutes.
+          <p className="text-lg leading-relaxed text-white/80">
+            <strong className="text-white">Time saved:</strong> What used to take 2 hours now takes 20 minutes.
           </p>
 
           <p>
-            <strong>Risk level:</strong> Low. Public content only.
+            <strong className="text-white">Risk level:</strong> Low. Public content only.
           </p>
 
           <h3 className="text-xl font-semibold text-white mt-8 mb-3">5. First-Draft Writing (SOPs, Proposals, Job Descriptions)</h3>
 
           <p>
-            <strong>The problem:</strong> Blank page syndrome. Starting from zero is slow.
+            <strong className="text-white">The problem:</strong> Blank page syndrome. Starting from zero is slow.
           </p>
 
           <p>
-            <strong>The AI fix:</strong> Give AI the structure and let it create the first draft:
+            <strong className="text-white">The AI fix:</strong> Give AI the structure and let it create the first draft:
           </p>
 
           <div className="card p-4 bg-white/5 my-6 font-mono text-sm text-white/70">
             "Write a job description for a [role]. Include: responsibilities, qualifications, and our company culture (values: [X, Y, Z])."
           </div>
 
-          <p>
+          <p className="text-lg leading-relaxed text-white/80">
             You'll rewrite 40% of it, but having something to edit is 5x faster than starting from scratch.
           </p>
 
           <p>
-            <strong>Time saved:</strong> 30-60 minutes per document.
+            <strong className="text-white">Time saved:</strong> 30-60 minutes per document.
           </p>
 
           <p>
-            <strong>Risk level:</strong> Low. You're creating new content, not exposing existing data.
+            <strong className="text-white">Risk level:</strong> Low. You're creating new content, not exposing existing data.
           </p>
 
           <h2 className="text-2xl font-semibold text-white mt-10 mb-4">The Three Rules for <Link href="/approach/safe-ai-enablement">safe AI adoption</Link></h2>
@@ -244,22 +244,22 @@ export default function BlogPost() {
 
           <ol className="list-decimal pl-6 space-y-3 text-white/80">
             <li>
-              <strong>Pick one use case.</strong> Start with the task that annoys everyone (meeting notes, email drafts, etc.).
+              <strong className="text-white">Pick one use case.</strong> Start with the task that annoys everyone (meeting notes, email drafts, etc.).
             </li>
             <li>
-              <strong>Test it yourself first.</strong> Use it for 2 weeks. Refine the prompt. Make sure it actually saves time.
+              <strong className="text-white">Test it yourself first.</strong> Use it for 2 weeks. Refine the prompt. Make sure it actually saves time.
             </li>
             <li>
-              <strong>Create a 1-page SOP.</strong> Show the exact prompt, where to paste it, what to review before using the output.
+              <strong className="text-white">Create a 1-page SOP.</strong> Show the exact prompt, where to paste it, what to review before using the output.
             </li>
             <li>
-              <strong>Train the team (30 min session).</strong> Live demo. Let them try it with you watching. Answer questions.
+              <strong className="text-white">Train the team (30 min session).</strong> Live demo. Let them try it with you watching. Answer questions.
             </li>
             <li>
-              <strong>Use it for 4 weeks.</strong> Don't add new AI tools during this period. Let the habit settle.
+              <strong className="text-white">Use it for 4 weeks.</strong> Don't add new AI tools during this period. Let the habit settle.
             </li>
             <li>
-              <strong>Measure the impact.</strong> How much time did we save? What still feels clunky? Then pick the next use case.
+              <strong className="text-white">Measure the impact.</strong> How much time did we save? What still feels clunky? Then pick the next use case.
             </li>
           </ol>
 
@@ -274,9 +274,9 @@ export default function BlogPost() {
           </p>
 
           <ul className="list-disc pl-6 space-y-2 text-white/80">
-            <li><strong>Complex reasoning:</strong> Don't trust it to make strategic decisions or evaluate tradeoffs.</li>
-            <li><strong>Accuracy-critical tasks:</strong> Financial calculations, legal language, technical specifications - all need human verification.</li>
-            <li><strong>Sensitive judgment calls:</strong> Performance reviews, client escalations, hiring decisions - these need human nuance.</li>
+            <li><strong className="text-white">Complex reasoning:</strong> Don't trust it to make strategic decisions or evaluate tradeoffs.</li>
+            <li><strong className="text-white">Accuracy-critical tasks:</strong> Financial calculations, legal language, technical specifications - all need human verification.</li>
+            <li><strong className="text-white">Sensitive judgment calls:</strong> Performance reviews, client escalations, hiring decisions - these need human nuance.</li>
           </ul>
 
           <p>

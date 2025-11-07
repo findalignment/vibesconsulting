@@ -33,67 +33,67 @@ export default function BlogPost() {
             <h2 className="text-3xl font-bold text-white mb-4">What AI Actually Does for Small Businesses</h2>
           </div>
           
-          <p>Forget the hype. Here's what AI is actually good at for small businesses:</p>
+          <p className="text-lg leading-relaxed text-white/80">Forget the hype. Here's what AI is actually good at for small businesses:</p>
 
-          <p><strong>Drafting repetitive communications.</strong> Client onboarding emails, follow-ups, proposal templates, FAQ responses. AI can generate first drafts in seconds.</p>
+          <p><strong className="text-white">Drafting repetitive communications.</strong> Client onboarding emails, follow-ups, proposal templates, FAQ responses. AI can generate first drafts in seconds.</p>
 
-          <p><strong>Summarizing information.</strong> Meeting notes, customer feedback, long email threads. AI can extract key points and action items.</p>
+          <p><strong className="text-white">Summarizing information.</strong> Meeting notes, customer feedback, long email threads. AI can extract key points and action items.</p>
 
-          <p><strong>Structuring unstructured data.</strong> Voice notes, brainstorms, messy documents. AI can organize chaos into usable formats.</p>
+          <p><strong className="text-white">Structuring unstructured data.</strong> Voice notes, brainstorms, messy documents. AI can organize chaos into usable formats.</p>
 
-          <p><strong>Answering routine questions.</strong> Internal knowledge bases, customer FAQs, policy lookups. AI can serve information faster than humans.</p>
+          <p><strong className="text-white">Answering routine questions.</strong> Internal knowledge bases, customer FAQs, policy lookups. AI can serve information faster than humans.</p>
 
-          <p><strong>Catching errors.</strong> Proofreading, formatting, data validation. AI spots mistakes humans miss.</p>
+          <p><strong className="text-white">Catching errors.</strong> Proofreading, formatting, data validation. AI spots mistakes humans miss.</p>
 
           <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Where to Start</h2>
           </div>
           
-          <p>Don't try to automate everything. Start with these high-value, low-risk applications:</p>
+          <p className="text-lg leading-relaxed text-white/80">Don't try to automate everything. Start with these high-value, low-risk applications:</p>
 
-          <p><strong>1. Email drafting.</strong> Use AI to generate first drafts of common emails. Client onboarding, project updates, follow-ups. You edit before sending, so there's no risk.</p>
+          <p><strong className="text-white">1. Email drafting.</strong> Use AI to generate first drafts of common emails. Client onboarding, project updates, follow-ups. You edit before sending, so there's no risk.</p>
 
-          <p><strong>2. Meeting summaries.</strong> Record meetings (with permission) and use AI to generate notes and action items. Saves 15-20 minutes per meeting.</p>
+          <p><strong className="text-white">2. Meeting summaries.</strong> Record meetings (with permission) and use AI to generate notes and action items. Saves 15-20 minutes per meeting.</p>
 
-          <p><strong>3. Knowledge base creation.</strong> Turn your process documents, SOPs, and FAQs into a searchable AI assistant. Your team gets instant answers.</p>
+          <p><strong className="text-white">3. Knowledge base creation.</strong> Turn your process documents, SOPs, and FAQs into a searchable AI assistant. Your team gets instant answers.</p>
 
-          <p><strong>4. Content repurposing.</strong> Take one piece of content and have AI help you create variations for different channels. Blog post becomes social posts, newsletter, etc.</p>
+          <p><strong className="text-white">4. Content repurposing.</strong> Take one piece of content and have AI help you create variations for different channels. Blog post becomes social posts, newsletter, etc.</p>
 
-          <p><strong>5. Data organization.</strong> Use AI to categorize customer feedback, organize project notes, structure brainstorm sessions.</p>
+          <p><strong className="text-white">5. Data organization.</strong> Use AI to categorize customer feedback, organize project notes, structure brainstorm sessions.</p>
 
           <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Data Privacy Concerns</h2>
           </div>
           
-          <p>The biggest objection I hear: "What about our data?"</p>
+          <p className="text-lg leading-relaxed text-white/80">The biggest objection I hear: "What about our data?"</p>
 
           <p>Valid concern. Here's how to be safe:</p>
 
-          <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Never input client-identifying information</strong> - Remove names, emails, specific details before using AI</li>
-            <li><strong>Use business-tier services</strong> - Consumer versions often train on your data; business versions don't</li>
-            <li><strong>Keep sensitive data out</strong> - Financial info, health data, legal documents stay human-processed</li>
-            <li><strong>Review everything</strong> - AI is a first draft tool, not a final product</li>
-            <li><strong>Establish clear policies</strong> - Document what can and can't go into AI tools</li>
+          <ul className="list-disc pl-8 space-y-3 my-6 text-white/80">
+            <li><strong className="text-white">Never input client-identifying information</strong> - Remove names, emails, specific details before using AI</li>
+            <li><strong className="text-white">Use business-tier services</strong> - Consumer versions often train on your data; business versions don't</li>
+            <li><strong className="text-white">Keep sensitive data out</strong> - Financial info, health data, legal documents stay human-processed</li>
+            <li><strong className="text-white">Review everything</strong> - AI is a first draft tool, not a final product</li>
+            <li><strong className="text-white">Establish clear policies</strong> - Document what can and can't go into AI tools</li>
           </ul>
 
           <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Common Mistakes to Avoid</h2>
           </div>
           
-          <p><strong>Starting too big.</strong> Don't try to automate your entire business. Pick one annoying task and automate it well.</p>
+          <p><strong className="text-white">Starting too big.</strong> Don't try to automate your entire business. Pick one annoying task and automate it well.</p>
 
-          <p><strong>Trusting AI blindly.</strong> AI makes mistakes. Always review output before using it.</p>
+          <p><strong className="text-white">Trusting AI blindly.</strong> AI makes mistakes. Always review output before using it.</p>
 
-          <p><strong>Skipping training.</strong> Your team needs to know what AI can do and how to use it safely. Don't assume they'll figure it out.</p>
+          <p><strong className="text-white">Skipping training.</strong> Your team needs to know what AI can do and how to use it safely. Don't assume they'll figure it out.</p>
 
-          <p><strong>Choosing complexity over simplicity.</strong> The best AI implementations are invisible. Staff uses them naturally, not as "projects."</p>
+          <p><strong className="text-white">Choosing complexity over simplicity.</strong> The best AI implementations are invisible. Staff uses them naturally, not as "projects."</p>
 
           <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Reality Check</h2>
           </div>
           
-          <p>AI won't replace your team. It won't magically fix broken processes. It won't make strategic decisions for you.</p>
+          <p className="text-lg leading-relaxed text-white/80">AI won't replace your team. It won't magically fix broken processes. It won't make strategic decisions for you.</p>
 
           <p>What it will do: eliminate hours of repetitive, low-value work so your team can focus on what actually requires human judgment, creativity, and relationship skills.</p>
 

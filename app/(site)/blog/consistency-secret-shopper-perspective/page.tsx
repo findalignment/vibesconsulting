@@ -35,7 +35,7 @@ export default function BlogPost() {
             <h2 className="text-3xl font-bold text-white mb-4">Why Consistency Matters More Than Excellence</h2>
           </div>
           
-          <p>Would you rather visit a business that's excellent 60% of the time, or one that's good 95% of the time?</p>
+          <p className="text-lg leading-relaxed text-white/80">Would you rather visit a business that's excellent 60% of the time, or one that's good 95% of the time?</p>
 
           <p>Most people choose the predictable option. Because unpredictability creates anxiety. You don't know what you're going to get, so you can't trust the business.</p>
 
@@ -47,16 +47,16 @@ export default function BlogPost() {
             <h2 className="text-3xl font-bold text-white mb-4">What Consistency Actually Means</h2>
           </div>
           
-          <p>Consistency isn't about being robotic or scripted. It's about delivering your standard regardless of variables.</p>
+          <p className="text-lg leading-relaxed text-white/80">Consistency isn't about being robotic or scripted. It's about delivering your standard regardless of variables.</p>
 
           <p>Consistent businesses deliver the same quality experience:</p>
 
-          <ul className="list-disc pl-6 space-y-2">
-            <li><strong>No matter who's working</strong> - New hire or veteran, the customer gets the same treatment</li>
-            <li><strong>No matter what time it is</strong> - Morning, afternoon, evening - the standards don't change</li>
-            <li><strong>No matter how busy it is</strong> - Peak hours shouldn't mean degraded service</li>
-            <li><strong>No matter what location</strong> - If you have multiple sites, they should feel connected</li>
-            <li><strong>No matter the customer</strong> - Everyone gets the same level of attention and care</li>
+          <ul className="list-disc pl-8 space-y-3 my-6 text-white/80">
+            <li><strong className="text-white">No matter who's working</strong> - New hire or veteran, the customer gets the same treatment</li>
+            <li><strong className="text-white">No matter what time it is</strong> - Morning, afternoon, evening - the standards don't change</li>
+            <li><strong className="text-white">No matter how busy it is</strong> - Peak hours shouldn't mean degraded service</li>
+            <li><strong className="text-white">No matter what location</strong> - If you have multiple sites, they should feel connected</li>
+            <li><strong className="text-white">No matter the customer</strong> - Everyone gets the same level of attention and care</li>
           </ul>
 
           <p>That's what consistency looks like. And it's rare.</p>
@@ -65,55 +65,55 @@ export default function BlogPost() {
             <h2 className="text-3xl font-bold text-white mb-4">Where Consistency Breaks Down</h2>
           </div>
           
-          <p>In my evaluations, I see the same consistency killers repeatedly:</p>
+          <p className="text-lg leading-relaxed text-white/80">In my evaluations, I see the same consistency killers repeatedly:</p>
 
-          <p><strong>No documented standards.</strong> If the procedure only exists in someone's head, every person will do it differently. You can't be consistent without knowing what consistent looks like.</p>
+          <p><strong className="text-white">No documented standards.</strong> If the procedure only exists in someone's head, every person will do it differently. You can't be consistent without knowing what consistent looks like.</p>
 
-          <p><strong>Inconsistent training.</strong> One new hire gets a full onboarding, another gets a 20-minute walkthrough. They'll never perform the same way because they weren't taught the same way.</p>
+          <p><strong className="text-white">Inconsistent training.</strong> One new hire gets a full onboarding, another gets a 20-minute walkthrough. They'll never perform the same way because they weren't taught the same way.</p>
 
-          <p><strong>No accountability.</strong> Standards exist but nobody enforces them. Staff do what's easiest, not what's right. Consistency requires discipline.</p>
+          <p><strong className="text-white">No accountability.</strong> Standards exist but nobody enforces them. Staff do what's easiest, not what's right. Consistency requires discipline.</p>
 
-          <p><strong>Owner dependency.</strong> The business runs great when the owner's there, falls apart when they're not. That's not a business - it's a job.</p>
+          <p><strong className="text-white">Owner dependency.</strong> The business runs great when the owner's there, falls apart when they're not. That's not a business - it's a job.</p>
 
-          <p><strong>Selective enforcement.</strong> Rules apply to some employees but not others. This creates confusion and resentment, both of which destroy consistency.</p>
+          <p><strong className="text-white">Selective enforcement.</strong> Rules apply to some employees but not others. This creates confusion and resentment, both of which destroy consistency.</p>
 
           <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">How to Build Consistency</h2>
           </div>
           
-          <p>Based on 25 years of observing what works and what doesn't, here's how to create consistency:</p>
+          <p className="text-lg leading-relaxed text-white/80">Based on 25 years of observing what works and what doesn't, here's how to create consistency:</p>
 
-          <p><strong>1. Define your standard.</strong> Write down exactly how things should be done. Be specific. "Provide great service" isn't a standard. "Greet every customer within 30 seconds with eye contact and a smile" is a standard.</p>
+          <p><strong className="text-white">1. Define your standard.</strong> Write down exactly how things should be done. Be specific. "Provide great service" isn't a standard. "Greet every customer within 30 seconds with eye contact and a smile" is a standard.</p>
 
-          <p><strong>2. Train to the standard.</strong> Don't assume people know what you want. Teach it. Demonstrate it. Have them practice it. Test their understanding before they're customer-facing.</p>
+          <p><strong className="text-white">2. Train to the standard.</strong> Don't assume people know what you want. Teach it. Demonstrate it. Have them practice it. Test their understanding before they're customer-facing.</p>
 
-          <p><strong>3. Measure against the standard.</strong> You need to know if standards are being followed. That means observation, mystery shopping, or feedback systems. What gets measured gets managed.</p>
+          <p><strong className="text-white">3. Measure against the standard.</strong> You need to know if standards are being followed. That means observation, mystery shopping, or feedback systems. What gets measured gets managed.</p>
 
-          <p><strong>4. Correct deviations immediately.</strong> When someone doesn't follow the standard, address it right away. Not to punish, but to maintain consistency. Small deviations become big problems if ignored.</p>
+          <p><strong className="text-white">4. Correct deviations immediately.</strong> When someone doesn't follow the standard, address it right away. Not to punish, but to maintain consistency. Small deviations become big problems if ignored.</p>
 
-          <p><strong>5. Update standards when needed.</strong> If a standard doesn't make sense anymore, change it. But change it officially, train everyone on the new way, and enforce the update.</p>
+          <p><strong className="text-white">5. Update standards when needed.</strong> If a standard doesn't make sense anymore, change it. But change it officially, train everyone on the new way, and enforce the update.</p>
 
           <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">The Businesses That Get It Right</h2>
           </div>
           
-          <p>The businesses that score consistently high in my evaluations share a few traits:</p>
+          <p className="text-lg leading-relaxed text-white/80">The businesses that score consistently high in my evaluations share a few traits:</p>
 
-          <p><strong>They have systems for everything.</strong> Opening procedures, closing procedures, customer greeting protocols, complaint resolution steps. Everything is documented and followed.</p>
+          <p><strong className="text-white">They have systems for everything.</strong> Opening procedures, closing procedures, customer greeting protocols, complaint resolution steps. Everything is documented and followed.</p>
 
-          <p><strong>They treat training as ongoing.</strong> It's not a day-one activity. It's a continuous process with refreshers, role-playing, and skill development.</p>
+          <p><strong className="text-white">They treat training as ongoing.</strong> It's not a day-one activity. It's a continuous process with refreshers, role-playing, and skill development.</p>
 
-          <p><strong>They observe and coach constantly.</strong> Managers spend time watching staff work. They give real-time feedback. They catch small issues before they become habits.</p>
+          <p><strong className="text-white">They observe and coach constantly.</strong> Managers spend time watching staff work. They give real-time feedback. They catch small issues before they become habits.</p>
 
-          <p><strong>They measure what matters.</strong> They track key metrics - greeting times, wait times, complaint resolution, customer feedback. They use data to spot inconsistency.</p>
+          <p><strong className="text-white">They measure what matters.</strong> They track key metrics - greeting times, wait times, complaint resolution, customer feedback. They use data to spot inconsistency.</p>
 
-          <p><strong>They reward consistency.</strong> The employees who follow standards reliably get recognized. Consistency becomes part of the culture.</p>
+          <p><strong className="text-white">They reward consistency.</strong> The employees who follow standards reliably get recognized. Consistency becomes part of the culture.</p>
 
           <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
             <h2 className="text-3xl font-bold text-white mb-4">Consistency Compounds</h2>
           </div>
           
-          <p>Here's what I've observed: businesses that achieve consistency in one area tend to achieve it everywhere.</p>
+          <p className="text-lg leading-relaxed text-white/80">Here's what I've observed: businesses that achieve consistency in one area tend to achieve it everywhere.</p>
 
           <p>If your greeting is consistent, you probably train consistently. If you train consistently, you probably communicate consistently. If you communicate consistently, you probably execute consistently.</p>
 
@@ -123,7 +123,7 @@ export default function BlogPost() {
             <h2 className="text-3xl font-bold text-white mb-4">Why Most Businesses Fail at This</h2>
           </div>
           
-          <p>Consistency is boring. It's not sexy. It's not innovative. It's just showing up and doing the same thing the right way, day after day.</p>
+          <p className="text-lg leading-relaxed text-white/80">Consistency is boring. It's not sexy. It's not innovative. It's just showing up and doing the same thing the right way, day after day.</p>
 
           <p>Business owners want to be creative, to experiment, to try new things. And that's fine - but not with your core operations.</p>
 
@@ -133,7 +133,9 @@ export default function BlogPost() {
             <h2 className="text-3xl font-bold text-white mb-4">The Bottom Line</h2>
           </div>
           
-          <p>After 25 years, I can tell you with certainty: consistency beats excellence.</p>
+          <div className="my-12 p-8 rounded-xl bg-gradient-to-br from-current-600/20 to-current-800/20 border border-current-500/30">
+          
+          <p className="text-lg leading-relaxed text-white/80">After 25 years, I can tell you with certainty: consistency beats excellence.</p>
 
           <p>A business that delivers "good" every single time will outlast a business that delivers "amazing" inconsistently.</p>
 

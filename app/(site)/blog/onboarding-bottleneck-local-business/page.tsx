@@ -46,11 +46,11 @@ export default function BlogPost() {
           <p>The best Santa Cruz businesses we work with onboard clients in 48-72 hours. Here's their system:</p>
 
           <ul className="space-y-2">
-            <li><strong>Automated intake:</strong> Form submission triggers welcome email and scheduling link</li>
-            <li><strong>Pre-populated templates:</strong> Client info flows into your system automatically</li>
-            <li><strong>Self-service scheduling:</strong> Clients book their own kickoff call</li>
-            <li><strong>Clear handoff protocol:</strong> Sales-to-delivery transition is documented</li>
-            <li><strong>Async welcome packet:</strong> Video orientation clients can watch anytime</li>
+            <li><strong className="text-white">Automated intake:</strong> Form submission triggers welcome email and scheduling link</li>
+            <li><strong className="text-white">Pre-populated templates:</strong> Client info flows into your system automatically</li>
+            <li><strong className="text-white">Self-service scheduling:</strong> Clients book their own kickoff call</li>
+            <li><strong className="text-white">Clear handoff protocol:</strong> Sales-to-delivery transition is documented</li>
+            <li><strong className="text-white">Async welcome packet:</strong> Video orientation clients can watch anytime</li>
           </ul>
 
           <h2 className="text-white text-2xl font-semibold mt-8 mb-4">The Revenue Impact</h2>

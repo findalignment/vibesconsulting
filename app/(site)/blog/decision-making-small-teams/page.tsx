@@ -82,11 +82,13 @@ export default function BlogPost() {
 
           <p>Your job isn't to make every decision. Your job is to build a system where good decisions get made consistently, whether you're there or not.</p>
 
-          <p>That's how you scale. That's how you take a vacation. That's how you build a business, not a job.</p>
+          <p>That's how you scale. That's how you take a vacation. That's how you build a business, not a job.
+
+          <p>Learn how our <Link href="/services/business-flow">Business Flow service</Link> helps you build these systems.</p>
           
           <div className="bg-current-600/10 p-6 rounded-lg mt-8">
             <p className="font-semibold text-white mb-2">Need help with your business operations?</p>
-            <p className="text-white/70 text-sm">Book a Flow Check to identify your biggest operational opportunities.</p>
+            <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to identify your biggest operational opportunities.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
           </div>
         </div>

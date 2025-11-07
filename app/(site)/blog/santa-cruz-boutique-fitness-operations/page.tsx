@@ -88,7 +88,7 @@ export default function BlogPost() {
           
           <div className="bg-current-600/10 p-6 rounded-lg mt-8">
             <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
-            <p className="text-white/70 text-sm">Book a Flow Check to get an expert evaluation of your systems.</p>
+            <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
           </div>
         </div>

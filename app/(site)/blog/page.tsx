@@ -7,28 +7,28 @@ const posts = [
     title: "The path of least resistance",
     slug: 'path-of-least-resistance',
     date: '2024-11-07',
-    excerpt: 'How natural forces shape systems. Why friction compounds. And what carving canyons teaches us about organizational change.',
+    excerpt: "How natural forces shape systems. Why friction compounds. And what carving canyons teaches us about organizational change.",
     readTime: '8 min'
   },
   { 
     title: "Culture is the real productivity hack",
     slug: 'culture-productivity-hack',
     date: '2024-10-28',
-    excerpt: 'Why optimizing workflows won't fix burnout, disengagement, or turnover. And what will.',
+    excerpt: "Why optimizing workflows won't fix burnout, disengagement, or turnover. And what will.",
     readTime: '6 min'
   },
   { 
     title: "AI for humans: low-risk wins",
     slug: 'ai-for-humans',
     date: '2024-10-12',
-    excerpt: 'How to adopt AI without exposing client data, overwhelming your team, or wasting money on tools nobody uses.',
+    excerpt: "How to adopt AI without exposing client data, overwhelming your team, or wasting money on tools nobody uses.",
     readTime: '7 min'
   },
   { 
     title: "Why your business feels harder than it should",
     slug: 'why-business-feels-harder',
     date: '2024-09-25',
-    excerpt: 'Most friction in small businesses is invisible. Here's how to spot it and what to do about it.',
+    excerpt: "Most friction in small businesses is invisible. Here's how to spot it and what to do about it.",
     readTime: '6 min'
   }
 ]

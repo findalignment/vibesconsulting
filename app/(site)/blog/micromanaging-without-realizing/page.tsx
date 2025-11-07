@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Signs You're Micromanaging (Even If You Don't Think You Are)',
-  description: 'You hired people to help. But you're still reviewing everything. Here's what's actually happening.'
+  title: "Signs You\'re Micromanaging (Even If You Don\'t Think You Are)",
+  description: "You hired people to help. But you\'re still reviewing everything. Here\'s what\'s actually happening.",
 }
 
 export default function BlogPost() {

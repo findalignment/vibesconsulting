@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'AI for Humans: Low-Risk Wins - Vibes Consulting',
-  description: 'How to adopt AI without exposing client data, overwhelming your team, or wasting money on tools nobody uses.'
+  title: "AI for Humans: Low-Risk Wins - Vibes Consulting",
+  description: "How to adopt AI without exposing client data, overwhelming your team, or wasting money on tools nobody uses.",
 }
 
 export default function BlogPost() {

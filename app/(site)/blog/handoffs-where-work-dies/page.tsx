@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Handoffs: Where Work Goes to Die',
-  description: 'Projects stall between people. Handoffs are where momentum disappears.'
+  title: "Handoffs: Where Work Goes to Die",
+  description: "Projects stall between people. Handoffs are where momentum disappears.",
 }
 
 export default function BlogPost() {

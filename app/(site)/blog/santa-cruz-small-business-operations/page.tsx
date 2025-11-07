@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Why Santa Cruz Small Businesses Struggle With Operations (And How to Fix It)',
-  description: 'Santa Cruz businesses are thriving creatively but drowning in operational chaos. Learn how local businesses are fixing their systems without losing their vibe.'
+  title: "Why Santa Cruz Small Businesses Struggle With Operations (And How to Fix It)",
+  description: "Santa Cruz businesses are thriving creatively but drowning in operational chaos. Learn how local businesses are fixing their systems without losing their vibe.",
 }
 
 export default function BlogPost() {

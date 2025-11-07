@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'The Path of Least Resistance - Vibes Consulting',
-  description: 'How natural forces shape systems. Why friction compounds. And what carving canyons teaches us about organizational change.'
+  title: "The Path of Least Resistance - Vibes Consulting",
+  description: "How natural forces shape systems. Why friction compounds. And what carving canyons teaches us about organizational change.",
 }
 
 export default function BlogPost() {

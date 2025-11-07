@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Scope Creep on Every Single Project',
-  description: 'Projects start clear and end messy. The problem is boundaries, not clients.'
+  title: "Scope Creep on Every Single Project",
+  description: "Projects start clear and end messy. The problem is boundaries, not clients.",
 }
 
 export default function BlogPost() {

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Preparing for Holiday Hiring Season in Santa Cruz',
-  description: 'Q4 is coming. If your onboarding isn't smooth, new hires will struggle. Here's how to prepare now.'
+  title: "Preparing for Holiday Hiring Season in Santa Cruz",
+  description: "Q4 is coming. If your onboarding isn\'t smooth, new hires will struggle. Here\'s how to prepare now.",
 }
 
 export default function BlogPost() {

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Async Communication for Santa Cruz Small Businesses',
-  description: 'Not everything needs a meeting. Here's how local businesses are moving to async communication and getting hours back.'
+  title: "Async Communication for Santa Cruz Small Businesses",
+  description: "Not everything needs a meeting. Here\'s how local businesses are moving to async communication and getting hours back.",
 }
 
 export default function BlogPost() {

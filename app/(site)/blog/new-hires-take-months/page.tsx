@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Why New Hires Take 3 Months to Get Up to Speed',
-  description: 'Onboarding shouldn't be shadowing someone for 12 weeks. Your knowledge needs a system.'
+  title: "Why New Hires Take 3 Months to Get Up to Speed",
+  description: "Onboarding shouldn\'t be shadowing someone for 12 weeks. Your knowledge needs a system.",
 }
 
 export default function BlogPost() {

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Building Team Autonomy Without Creating Chaos',
-  description: 'You want your Santa Cruz team to make decisions independently. But you're worried about mistakes. Here's how to do both.'
+  title: "Building Team Autonomy Without Creating Chaos",
+  description: "You want your Santa Cruz team to make decisions independently. But you\'re worried about mistakes. Here\'s how to do both.",
 }
 
 export default function BlogPost() {

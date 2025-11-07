@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Growing Your Santa Cruz Business Without Burning Out',
-  description: 'You want to grow. But you're already maxed out. Here's how local businesses are scaling sustainably.'
+  title: "Growing Your Santa Cruz Business Without Burning Out",
+  description: "You want to grow. But you\'re already maxed out. Here\'s how local businesses are scaling sustainably.",
 }
 
 export default function BlogPost() {

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'How Santa Cruz Businesses Improve Retention Through Better Systems',
-  description: 'Clients don't leave because of your service - they leave because of friction in the experience. Here's how to fix it.'
+  title: "How Santa Cruz Businesses Improve Retention Through Better Systems",
+  description: "Clients don\'t leave because of your service - they leave because of friction in the experience. Here\'s how to fix it.",
 }
 
 export default function BlogPost() {

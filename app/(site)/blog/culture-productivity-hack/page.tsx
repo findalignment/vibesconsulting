@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = { 
-  title: 'Culture Is the Real Productivity Hack - Vibes Consulting',
-  description: 'Why optimizing workflows won\'t fix burnout, disengagement, or turnover. And what will.'
+  title: "Culture Is the Real Productivity Hack - Vibes Consulting",
+  description: "Why optimizing workflows won\\'t fix burnout, disengagement, or turnover. And what will.",
 }
 
 export default function BlogPost() {

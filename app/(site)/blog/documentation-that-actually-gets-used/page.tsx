@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'How to Create Business Documentation That Your Team Actually Uses',
+  title: "How to Create Business Documentation That Your Team Actually Uses",
   description: "Most SOPs sit in a folder untouched. Here's how to document processes in a way that actually helps your Santa Cruz team."
 }
 

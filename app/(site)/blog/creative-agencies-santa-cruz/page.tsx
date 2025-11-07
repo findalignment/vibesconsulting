@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Operations for Santa Cruz Creative Agencies: Creativity Needs Structure',
-  description: 'Creative agencies think structure kills creativity. But chaos kills delivery. Here\'s how Santa Cruz agencies are building systems that support great work.',
+  title: "Operations for Santa Cruz Creative Agencies: Creativity Needs Structure",
+  description: "Creative agencies think structure kills creativity. But chaos kills delivery. Here\\'s how Santa Cruz agencies are building systems that support great work.",
 }
 
 export default function BlogPost() {

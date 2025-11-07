@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Operations for Seasonal Santa Cruz Businesses',
-  description: 'Summer slammed, winter's slow. How do you build systems when volume fluctuates? Lessons from local seasonal businesses.'
+  title: "Operations for Seasonal Santa Cruz Businesses",
+  description: "Summer slammed, winter\'s slow. How do you build systems when volume fluctuates? Lessons from local seasonal businesses.",
 }
 
 export default function BlogPost() {

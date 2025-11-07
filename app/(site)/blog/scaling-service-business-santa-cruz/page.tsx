@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Scaling a Service Business in Santa Cruz: From Solo to Team',
-  description: 'You started solo. Now you have 5-10 people. Everything that used to work is breaking. Here\'s how to scale without losing what makes you special.',
+  title: "Scaling a Service Business in Santa Cruz: From Solo to Team",
+  description: "You started solo. Now you have 5-10 people. Everything that used to work is breaking. Here\\'s how to scale without losing what makes you special.",
 }
 
 export default function BlogPost() {

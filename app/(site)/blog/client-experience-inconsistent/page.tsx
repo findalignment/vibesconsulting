@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Why Every Client Gets a Different Experience',
-  description: 'Some clients love you. Others feel neglected. The difference is who managed their project.'
+  title: "Why Every Client Gets a Different Experience",
+  description: "Some clients love you. Others feel neglected. The difference is who managed their project.",
 }
 
 export default function BlogPost() {

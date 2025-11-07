@@ -4,28 +4,28 @@ export const metadata = { title: 'Blog - Vibes Consulting' }
 
 const posts = [
   { 
-    title: 'The path of least resistance', 
+  title: "The path of least resistance\', ",
     slug: 'path-of-least-resistance',
     date: '2025-11-22',
     excerpt: 'How natural forces shape systems. Why friction compounds. And what carving canyons teaches us about organizational change.',
     readTime: '8 min'
   },
   { 
-    title: 'Culture is the real productivity hack', 
+  title: "Culture is the real productivity hack\', ",
     slug: 'culture-productivity-hack',
     date: '2025-11-15',
     excerpt: 'Why optimizing workflows won\'t fix burnout, disengagement, or turnover. And what will.',
     readTime: '6 min'
   },
   { 
-    title: 'AI for humans: low-risk wins', 
+  title: "AI for humans: low-risk wins\', ",
     slug: 'ai-for-humans',
     date: '2025-11-08',
     excerpt: 'How to adopt AI without exposing client data, overwhelming your team, or wasting money on tools nobody uses.',
     readTime: '7 min'
   },
   { 
-    title: 'Why your business feels harder than it should', 
+  title: "Why your business feels harder than it should\', ",
     slug: 'why-business-feels-harder',
     date: '2025-11-01',
     excerpt: 'Most friction in small businesses is invisible. Here\'s how to spot it and what to do about it.',

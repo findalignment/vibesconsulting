@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Why \'Good Enough\' Keeps Causing Rework",
-  description: "Your team doesn\'t know what quality looks like. So everything needs your review.",
+  description: "Your team doesn\'t know what quality looks like. So everything needs your review."
 }
 
 export default function BlogPost() {

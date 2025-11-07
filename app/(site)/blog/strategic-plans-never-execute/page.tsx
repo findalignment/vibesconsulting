@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You Make Strategic Plans. They Never Get Executed.",
-  description: "Quarterly planning feels productive. Then nothing changes. Execution requires systems, not just plans.",
+  description: "Quarterly planning feels productive. Then nothing changes. Execution requires systems, not just plans."
 }
 
 export default function BlogPost() {

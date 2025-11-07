@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Context Switching Is Killing Your Team\'s Productivity",
-  description: "Your team jumps between tasks all day. Deep work never happens. This is a structure problem.",
+  description: "Your team jumps between tasks all day. Deep work never happens. This is a structure problem."
 }
 
 export default function BlogPost() {

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You\'ve Grown Past Your Informal Systems",
-  description: "What worked at 3 people doesn\'t work at 10. You need structure without bureaucracy.",
+  description: "What worked at 3 people doesn\'t work at 10. You need structure without bureaucracy."
 }
 
 export default function BlogPost() {

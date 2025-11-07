@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Operational Sustainability: Doing More With Less",
-  description: "Sustainable operations aren\'t about being green. They\'re about building systems that last without burning out your team.",
+  description: "Sustainable operations aren\'t about being green. They\'re about building systems that last without burning out your team."
 }
 
 export default function BlogPost() {

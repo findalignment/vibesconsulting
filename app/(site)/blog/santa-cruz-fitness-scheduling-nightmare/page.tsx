@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "The Santa Cruz Fitness Studio Scheduling Nightmare",
-  description: "Local fitness businesses lose revenue to bad scheduling systems. This is fixable with better operations.",
+  description: "Local fitness businesses lose revenue to bad scheduling systems. This is fixable with better operations."
 }
 
 export default function BlogPost() {

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "What Secret Shopping Reveals About Training Gaps",
-  description: "Staff don\'t follow processes because they were never properly trained. 25 years of evaluation proves this pattern.",
+  description: "Staff don\'t follow processes because they were never properly trained. 25 years of evaluation proves this pattern."
 }
 
 export default function BlogPost() {

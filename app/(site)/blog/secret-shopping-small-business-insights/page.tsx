@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Secret Shopping Small Businesses: What 25 Years Taught Me",
-  description: "Big chains get evaluated constantly. Small businesses rarely do. Here\'s what I learned evaluating thousands of them.",
+  description: "Big chains get evaluated constantly. Small businesses rarely do. Here\'s what I learned evaluating thousands of them."
 }
 
 export default function BlogPost() {

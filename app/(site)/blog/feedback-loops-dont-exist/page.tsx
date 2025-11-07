@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "When Feedback Loops Don\'t Exist",
-  description: "You find out about problems too late. By the time you know, it\'s already a crisis.",
+  description: "You find out about problems too late. By the time you know, it\'s already a crisis."
 }
 
 export default function BlogPost() {

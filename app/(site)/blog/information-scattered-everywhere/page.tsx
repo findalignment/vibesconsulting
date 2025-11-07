@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "When Client Information Lives in 5 Different Places",
-  description: "Email, Slack, spreadsheets, your brain. Finding information shouldn\'t be a treasure hunt.",
+  description: "Email, Slack, spreadsheets, your brain. Finding information shouldn\'t be a treasure hunt."
 }
 
 export default function BlogPost() {

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "When Your Team Asks Permission for Everything",
-  description: "Your team is capable but won\'t make decisions without you. The problem isn\'t your people - it\'s your system.",
+  description: "Your team is capable but won\'t make decisions without you. The problem isn\'t your people - it\'s your system."
 }
 
 export default function BlogPost() {

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Data Privacy and AI: What Santa Cruz Business Owners Need to Know",
-  description: "AI tools are powerful but can expose your data. Here\\'s how to adopt AI safely without putting your Santa Cruz business or clients at risk.",
+  description: "AI tools are powerful but can expose your data. Here\\'s how to adopt AI safely without putting your Santa Cruz business or clients at risk."
 }
 
 export default function BlogPost() {

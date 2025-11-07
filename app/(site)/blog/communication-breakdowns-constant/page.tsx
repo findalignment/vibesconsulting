@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Communication Breakdowns Happen Constantly",
-  description: "Important information gets missed. People work on the wrong things. This isn\'t a people problem.",
+  description: "Important information gets missed. People work on the wrong things. This isn\'t a people problem."
 }
 
 export default function BlogPost() {

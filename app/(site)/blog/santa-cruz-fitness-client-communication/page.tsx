@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "How Santa Cruz Fitness Businesses Can Fix Client Communication",
-  description: "Missed messages, unclear expectations, forgotten check-ins. Communication systems make or break fitness businesses.",
+  description: "Missed messages, unclear expectations, forgotten check-ins. Communication systems make or break fitness businesses."
 }
 
 export default function BlogPost() {

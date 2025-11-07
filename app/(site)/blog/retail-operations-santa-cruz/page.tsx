@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Santa Cruz Retail Operations: Beyond the POS System",
-  description: "Your POS handles transactions. But what about inventory, staff scheduling, and customer follow-up? Here\'s the full picture.",
+  description: "Your POS handles transactions. But what about inventory, staff scheduling, and customer follow-up? Here\'s the full picture."
 }
 
 export default function BlogPost() {

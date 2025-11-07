@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Why Client Expectations Keep Getting Misaligned",
-  description: "Every project starts clear and ends confused. The problem is how you set expectations upfront.",
+  description: "Every project starts clear and ends confused. The problem is how you set expectations upfront."
 }
 
 export default function BlogPost() {

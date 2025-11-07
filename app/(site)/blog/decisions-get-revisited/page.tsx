@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Decisions Keep Getting Revisited",
-  description: "You decide something. Then it gets questioned again. Nothing sticks. This is about decision documentation.",
+  description: "You decide something. Then it gets questioned again. Nothing sticks. This is about decision documentation."
 }
 
 export default function BlogPost() {

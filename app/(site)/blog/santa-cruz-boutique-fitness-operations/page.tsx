@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Operations for Santa Cruz Boutique Fitness Studios",
-  description: "Small fitness studios in Santa Cruz have unique challenges. Here\'s how to build operations that support your vibe.",
+  description: "Small fitness studios in Santa Cruz have unique challenges. Here\'s how to build operations that support your vibe."
 }
 
 export default function BlogPost() {

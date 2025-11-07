@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You\'ve Lost What Made Your Business Special",
-  description: "You grew. But something feels off. The culture changed. Good systems preserve what matters while scaling.",
+  description: "You grew. But something feels off. The culture changed. Good systems preserve what matters while scaling."
 }
 
 export default function BlogPost() {

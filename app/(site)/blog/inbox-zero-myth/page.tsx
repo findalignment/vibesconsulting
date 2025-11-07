@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "The Inbox Zero Myth: Why Email Isn\'t Your Real Problem",
-  description: "You spend hours managing email. But the real issue is unclear communication norms and missing processes.",
+  description: "You spend hours managing email. But the real issue is unclear communication norms and missing processes."
 }
 
 export default function BlogPost() {

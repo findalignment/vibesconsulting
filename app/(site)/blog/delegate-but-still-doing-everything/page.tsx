@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You Delegated, But You\'re Still Doing Everything",
-  description: "You handed off tasks. But they keep coming back to you. Here\'s why delegation fails.",
+  description: "You handed off tasks. But they keep coming back to you. Here\'s why delegation fails."
 }
 
 export default function BlogPost() {

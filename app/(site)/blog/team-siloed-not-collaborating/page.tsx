@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Your Team Is Siloed and Not Collaborating",
-  description: "Everyone works in their lane. Cross-functional work is painful. Structure creates these silos.",
+  description: "Everyone works in their lane. Cross-functional work is painful. Structure creates these silos."
 }
 
 export default function BlogPost() {

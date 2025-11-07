@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Your Team Keeps Asking the Same Questions",
-  description: "If you\'re answering the same question three times, it should be documented.",
+  description: "If you\'re answering the same question three times, it should be documented."
 }
 
 export default function BlogPost() {

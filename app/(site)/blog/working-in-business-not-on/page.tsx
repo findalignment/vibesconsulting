@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You\'re Working IN Your Business, Not ON It",
-  description: "You started this business to build something. But you\'re stuck doing everything.",
+  description: "You started this business to build something. But you\'re stuck doing everything."
 }
 
 export default function BlogPost() {

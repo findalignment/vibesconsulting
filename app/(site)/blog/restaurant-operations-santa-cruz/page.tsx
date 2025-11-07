@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Santa Cruz Restaurant Operations: Front of House, Back of House, and Everything Between",
-  description: "Santa Cruz restaurants are juggling reservations, inventory, staff scheduling, and delivery platforms. Here\\'s how to bring order to the chaos.",
+  description: "Santa Cruz restaurants are juggling reservations, inventory, staff scheduling, and delivery platforms. Here\\'s how to bring order to the chaos."
 }
 
 export default function BlogPost() {

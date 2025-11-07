@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Growing Pains That Feel Permanent",
-  description: "You thought these issues were temporary. But months pass and nothing improves. Growth doesn\'t fix bad systems.",
+  description: "You thought these issues were temporary. But months pass and nothing improves. Growth doesn\'t fix bad systems."
 }
 
 export default function BlogPost() {

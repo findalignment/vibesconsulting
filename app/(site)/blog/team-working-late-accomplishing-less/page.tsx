@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Your Team Works Late But Accomplishes Less",
-  description: "Long hours don\'t equal productivity. When everyone\'s busy but output is low, look at your systems.",
+  description: "Long hours don\'t equal productivity. When everyone\'s busy but output is low, look at your systems."
 }
 
 export default function BlogPost() {

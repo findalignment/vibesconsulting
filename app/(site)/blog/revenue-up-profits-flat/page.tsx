@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Revenue Is Up But Profits Are Flat",
-  description: "You\'re making more money but not keeping more. The problem is operational efficiency.",
+  description: "You\'re making more money but not keeping more. The problem is operational efficiency."
 }
 
 export default function BlogPost() {

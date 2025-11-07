@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "When First Impressions Are Actually Operational Failures",
-  description: "Bad first impressions aren\'t about personality. They\'re about broken systems. Insights from thousands of evaluations.",
+  description: "Bad first impressions aren\'t about personality. They\'re about broken systems. Insights from thousands of evaluations."
 }
 
 export default function BlogPost() {

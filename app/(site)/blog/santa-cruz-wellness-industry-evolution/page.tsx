@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "The Evolution of Santa Cruz Wellness Industry Operations",
-  description: "Santa Cruz wellness businesses are maturing. The ones that systematize will thrive. The ones that stay informal will struggle.",
+  description: "Santa Cruz wellness businesses are maturing. The ones that systematize will thrive. The ones that stay informal will struggle."
 }
 
 export default function BlogPost() {

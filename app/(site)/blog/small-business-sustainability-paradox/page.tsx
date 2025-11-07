@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "The Small Business Sustainability Paradox",
-  description: "You care about the environment. But your business operations are unsustainable. How to fix both.",
+  description: "You care about the environment. But your business operations are unsustainable. How to fix both."
 }
 
 export default function BlogPost() {

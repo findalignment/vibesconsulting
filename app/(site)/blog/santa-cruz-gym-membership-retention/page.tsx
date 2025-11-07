@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "How Santa Cruz Gyms and Studios Can Improve Membership Retention",
-  description: "Members don\'t leave because of price. They leave because of operational friction. Lessons from evaluating fitness facilities.",
+  description: "Members don\'t leave because of price. They leave because of operational friction. Lessons from evaluating fitness facilities."
 }
 
 export default function BlogPost() {

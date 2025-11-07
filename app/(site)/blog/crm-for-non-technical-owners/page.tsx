@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "CRM Systems for Non-Technical Santa Cruz Business Owners",
-  description: "You know you need a CRM. But which one? And how do you actually use it? A practical guide for local businesses.",
+  description: "You know you need a CRM. But which one? And how do you actually use it? A practical guide for local businesses."
 }
 
 export default function BlogPost() {

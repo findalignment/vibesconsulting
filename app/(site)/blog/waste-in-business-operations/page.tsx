@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "The Hidden Waste in Your Business Operations",
-  description: "Sustainability starts with eliminating operational waste. Most businesses waste 30% of their effort on unnecessary tasks.",
+  description: "Sustainability starts with eliminating operational waste. Most businesses waste 30% of their effort on unnecessary tasks."
 }
 
 export default function BlogPost() {

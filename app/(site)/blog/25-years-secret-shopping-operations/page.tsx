@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "What 25 Years of Secret Shopping Taught Me About Operations",
-  description: "I\'ve evaluated thousands of businesses. The same operational patterns show up everywhere. Here\'s what actually matters.",
+  description: "I\'ve evaluated thousands of businesses. The same operational patterns show up everywhere. Here\'s what actually matters."
 }
 
 export default function BlogPost() {

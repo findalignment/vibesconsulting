@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "What Santa Cruz Fitness Facilities Get Right (And Wrong) About Operations",
-  description: "From yoga studios to training centers, local fitness businesses face unique operational challenges. Insights from 25 years of evaluation.",
+  description: "From yoga studios to training centers, local fitness businesses face unique operational challenges. Insights from 25 years of evaluation."
 }
 
 export default function BlogPost() {

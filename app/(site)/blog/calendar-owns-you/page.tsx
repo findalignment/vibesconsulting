@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Your Calendar Owns You",
-  description: "You react to whatever\'s on your calendar. You never get time for strategic work. This is fixable.",
+  description: "You react to whatever\'s on your calendar. You never get time for strategic work. This is fixable."
 }
 
 export default function BlogPost() {

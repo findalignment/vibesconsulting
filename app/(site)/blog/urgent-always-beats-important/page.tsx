@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Urgent Always Beats Important",
-  description: "You plan to work on strategy. Then urgent tasks take over. This pattern is a system design flaw.",
+  description: "You plan to work on strategy. Then urgent tasks take over. This pattern is a system design flaw."
 }
 
 export default function BlogPost() {

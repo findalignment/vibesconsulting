@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Meetings That Create More Meetings",
-  description: "You meet to discuss. Then meet again to decide. Then meet to update. It never ends.",
+  description: "You meet to discuss. Then meet again to decide. Then meet to update. It never ends."
 }
 
 export default function BlogPost() {

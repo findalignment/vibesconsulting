@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You Have SOPs. Nobody Follows Them.",
-  description: "You documented everything. But your team still asks questions. Documentation alone doesn\'t fix process.",
+  description: "You documented everything. But your team still asks questions. Documentation alone doesn\'t fix process."
 }
 
 export default function BlogPost() {

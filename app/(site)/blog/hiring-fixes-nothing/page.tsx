@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "You Keep Hiring But Nothing Gets Easier",
-  description: "More people should mean less work. But you\'re busier than ever. Broken systems don\'t scale.",
+  description: "More people should mean less work. But you\'re busier than ever. Broken systems don\'t scale."
 }
 
 export default function BlogPost() {

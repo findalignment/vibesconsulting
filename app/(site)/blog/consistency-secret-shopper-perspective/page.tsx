@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Consistency: The One Thing Every Great Business Gets Right",
-  description: "After 25 years evaluating businesses, consistency is the only thing that separates good from great. Here\'s how to build it.",
+  description: "After 25 years evaluating businesses, consistency is the only thing that separates good from great. Here\'s how to build it."
 }
 
 export default function BlogPost() {

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "What Secret Shopping Reveals About Employee Experience",
-  description: "Customer experience reflects employee experience. After 25 years, this pattern never changes.",
+  description: "Customer experience reflects employee experience. After 25 years, this pattern never changes."
 }
 
 export default function BlogPost() {

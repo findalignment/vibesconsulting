@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Why Your Project Timelines Always Slip",
-  description: "You estimate well. But projects still run late. Hidden friction points are the culprit.",
+  description: "You estimate well. But projects still run late. Hidden friction points are the culprit."
 }
 
 export default function BlogPost() {

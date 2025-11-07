@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "The Customer Experience and Operations Disconnect",
-  description: "After evaluating thousands of businesses, the pattern is clear: poor customer experience is always an operations problem.",
+  description: "After evaluating thousands of businesses, the pattern is clear: poor customer experience is always an operations problem."
 }
 
 export default function BlogPost() {

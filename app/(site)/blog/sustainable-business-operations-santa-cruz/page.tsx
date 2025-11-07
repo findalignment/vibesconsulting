@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Sustainable Business Operations in Santa Cruz: More Than Just Green Marketing",
-  description: "Santa Cruz businesses care about sustainability. But sustainable operations mean efficiency, not just eco-friendly products.",
+  description: "Santa Cruz businesses care about sustainability. But sustainable operations mean efficiency, not just eco-friendly products."
 }
 
 export default function BlogPost() {

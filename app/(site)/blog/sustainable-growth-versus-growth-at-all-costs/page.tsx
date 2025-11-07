@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Sustainable Growth vs Growth at All Costs",
-  description: "Santa Cruz businesses want to grow responsibly. But growth without systems creates chaos. Here\'s the sustainable path.",
+  description: "Santa Cruz businesses want to grow responsibly. But growth without systems creates chaos. Here\'s the sustainable path."
 }
 
 export default function BlogPost() {

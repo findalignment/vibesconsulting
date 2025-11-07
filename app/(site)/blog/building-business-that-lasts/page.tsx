@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Building a Business That Lasts: Lessons From 25 Years",
-  description: "The businesses that survive have one thing in common: sustainable operations that don\'t depend on heroic effort.",
+  description: "The businesses that survive have one thing in common: sustainable operations that don\'t depend on heroic effort."
 }
 
 export default function BlogPost() {

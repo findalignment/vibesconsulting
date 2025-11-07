@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Quality Is Inconsistent Across Your Team",
-  description: "Some team members deliver great work. Others need heavy revision. The issue is unclear standards.",
+  description: "Some team members deliver great work. Others need heavy revision. The issue is unclear standards."
 }
 
 export default function BlogPost() {

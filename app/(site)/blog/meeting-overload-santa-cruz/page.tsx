@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Meeting Overload? How Santa Cruz Businesses Are Reclaiming Their Calendars",
-  description: "Santa Cruz teams are drowning in meetings. Here\'s how local businesses are cutting meeting time by 40% without losing alignment.",
+  description: "Santa Cruz teams are drowning in meetings. Here\'s how local businesses are cutting meeting time by 40% without losing alignment."
 }
 
 export default function BlogPost() {

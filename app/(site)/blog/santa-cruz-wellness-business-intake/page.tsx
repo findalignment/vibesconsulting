@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Why Santa Cruz Wellness Businesses Struggle With Client Intake",
-  description: "First impressions matter. But most wellness businesses in Santa Cruz lose clients during onboarding. Here\'s how to fix it.",
+  description: "First impressions matter. But most wellness businesses in Santa Cruz lose clients during onboarding. Here\'s how to fix it."
 }
 
 export default function BlogPost() {

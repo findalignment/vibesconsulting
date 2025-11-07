@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: "Trapped Between Client Work and Business Building",
-  description: "You need to work on the business. But client work always comes first. How to break this cycle.",
+  description: "You need to work on the business. But client work always comes first. How to break this cycle."
 }
 
 export default function BlogPost() {

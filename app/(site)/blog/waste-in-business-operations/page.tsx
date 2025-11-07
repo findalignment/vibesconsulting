@@ -7,22 +7,29 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">October 25, 2024</time>
-          <h1 className="mt-2 mb-4">The Hidden Waste in Your Business Operations</h1>
-          <p className="text-xl text-white/80">Sustainability starts with eliminating operational waste. Most businesses waste 30% of their effort on unnecessary tasks.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>October 25, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Operations</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">The Hidden Waste in Your Business Operations</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>This problem shows up in every small business at some point. It feels like something you should be able to fix with a quick conversation or a new policy. But it keeps happening because it's not an isolated issue - it's a symptom of a deeper operational gap.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">This problem shows up in every small business at some point. It feels like something you should be able to fix with a quick conversation or a new policy. But it keeps happening because it's not an isolated issue - it's a symptom of a deeper operational gap.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Why This Keeps Happening</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Why This Keeps Happening</h2>
+          </div>
           
           <p>The same operational problems repeat for predictable reasons:</p>
 
@@ -36,7 +43,9 @@ export default function BlogPost() {
 
           <p><strong>Competing priorities.</strong> If you reward speed over quality, people will prioritize speed even when you say you want quality.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Real Cost</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Real Cost</h2>
+          </div>
           
           <p>These operational gaps have actual business costs:</p>
 
@@ -48,7 +57,9 @@ export default function BlogPost() {
             <li><strong>Owner burnout</strong> - You become the bottleneck for everything</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">How to Actually Fix It</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">How to Actually Fix It</h2>
+          </div>
           
           <p>Here's the systematic approach that works:</p>
 
@@ -64,7 +75,9 @@ export default function BlogPost() {
 
           <p><strong>6. Update when needed.</strong> If the standard doesn't make sense anymore, change it officially. Don't let informal workarounds become the new normal.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Common Mistakes</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Common Mistakes</h2>
+          </div>
           
           <p><strong>Assuming once is enough.</strong> Telling people once doesn't create lasting change. You need repetition and reinforcement.</p>
 
@@ -74,7 +87,9 @@ export default function BlogPost() {
 
           <p><strong>Skipping the "why."</strong> People follow standards better when they understand the reasoning behind them.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">What Good Looks Like</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">What Good Looks Like</h2>
+          </div>
           
           <p>When you fix operational gaps properly:</p>
 
@@ -88,7 +103,9 @@ export default function BlogPost() {
 
           <p>That's the difference between businesses that struggle to grow and businesses that scale smoothly.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Taking the First Step</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Taking the First Step</h2>
+          </div>
           
           <p>Pick one operational problem that's costing you time or money. Just one. Document the standard. Train your team. Measure compliance. Give feedback.</p>
 
@@ -100,6 +117,22 @@ export default function BlogPost() {
             <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/micromanaging-without-realizing" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Operations</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Micromanaging Without Realizing</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/feedback-loops-dont-exist" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Operations</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Feedback Loops Dont Exist</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

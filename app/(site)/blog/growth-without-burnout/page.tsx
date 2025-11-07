@@ -7,24 +7,31 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">September 28, 2024</time>
-          <h1 className="mt-2 mb-4">Growing Your Santa Cruz Business Without Burning Out</h1>
-          <p className="text-xl text-white/80">You want to grow. But you're already maxed out. Here's how local businesses are scaling sustainably.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>September 28, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Operations</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Growing Your Santa Cruz Business Without Burning Out</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>Santa Cruz businesses have a unique challenge: we want to grow, but we don't want to lose what makes us special. Big-company operations feel corporate and cold. But informal, "figure-it-out-as-we-go" operations don't scale.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">Santa Cruz businesses have a unique challenge: we want to grow, but we don't want to lose what makes us special. Big-company operations feel corporate and cold. But informal, "figure-it-out-as-we-go" operations don't scale.</p>
 
           <p>The businesses thriving here have found the middle ground: systems that create consistency without killing culture.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Santa Cruz Business Identity</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Santa Cruz Business Identity</h2>
+          </div>
           
           <p>Local businesses here share a common tension:</p>
 
@@ -36,7 +43,9 @@ export default function BlogPost() {
 
           <p>The answer isn't choosing between culture and operations. It's designing operations that protect your culture.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Common Operational Struggles Locally</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Common Operational Struggles Locally</h2>
+          </div>
           
           <p>Here's what I see in Santa Cruz businesses constantly:</p>
 
@@ -50,7 +59,9 @@ export default function BlogPost() {
 
           <p><strong>Reactive problem-solving.</strong> You're always putting out fires instead of preventing them. There's no time to improve because you're too busy surviving.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">What Good Operations Look Like Here</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">What Good Operations Look Like Here</h2>
+          </div>
           
           <p>Santa Cruz businesses that nail operations share these traits:</p>
 
@@ -64,7 +75,9 @@ export default function BlogPost() {
 
           <p><strong>They communicate consistently.</strong> Regular check-ins, clear expectations, feedback loops that actually work.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">How to Fix Operations Without Losing Your Soul</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">How to Fix Operations Without Losing Your Soul</h2>
+          </div>
           
           <p>Here's how to get started:</p>
 
@@ -78,7 +91,9 @@ export default function BlogPost() {
 
           <p><strong>5. Measure what matters.</strong> Pick 3-5 key metrics that show if things are working. Track them. Adjust when they drift.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Why This Matters for Santa Cruz</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Why This Matters for Santa Cruz</h2>
+          </div>
           
           <p>Our local economy depends on small businesses that can compete on experience, quality, and community connection. You can't do that consistently without good operations.</p>
 
@@ -92,6 +107,22 @@ export default function BlogPost() {
             <p className="font-semibold text-white mb-2">Need help with your business operations?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to identify your biggest operational opportunities.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/founder-cant-take-vacation" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Operations</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Founder Cant Take Vacation</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/micromanaging-without-realizing" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Operations</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Micromanaging Without Realizing</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

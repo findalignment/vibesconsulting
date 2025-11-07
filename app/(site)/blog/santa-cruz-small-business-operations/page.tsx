@@ -7,20 +7,25 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">November 01, 2024</time>
-          <h1 className="mt-2 mb-4">Why Santa Cruz Small Businesses Struggle With Operations (And How to Fix It)</h1>
-          <p className="text-xl text-white/80">Santa Cruz businesses are thriving creatively but drowning in operational chaos. Learn how local businesses are fixing their systems without losing their vibe.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>November 01, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Santa Cruz Business</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Why Santa Cruz Small Businesses Struggle With Operations (And How to Fix It)</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>Santa Cruz has incredible small businesses. Coffee roasters, surf shops, yoga studios, creative agencies, wellness centers. The creative energy here is unmatched.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">Santa Cruz has incredible small businesses. Coffee roasters, surf shops, yoga studios, creative agencies, wellness centers. The creative energy here is unmatched.</p>
 
           <p>But here's what we see behind the scenes: Spreadsheets everywhere. Client information scattered across email, text, and DMs. Onboarding that takes weeks. Staff asking the same questions repeatedly because nothing's documented.</p>
 
@@ -61,10 +66,36 @@ export default function BlogPost() {
 
           <p>These friction points are costing you hours every week. Fix them and you'll feel the difference immediately.</p>
 
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
-            <p className="font-semibold text-white mb-2">Need help identifying what to fix first?</p>
-            <p className="text-white/70 text-sm">Our Flow Check is a 2-week diagnostic specifically for Santa Cruz small businesses. We identify your biggest operational bottlenecks and give you a 90-day plan to fix them.</p>
-            <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+          <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div className="flex-1">
+                <p className="text-2xl font-bold text-white mb-3">Need help identifying what to fix first?</p>
+                <p className="text-white/80 text-lg">Our Flow Check is a 2-week diagnostic specifically for Santa Cruz small businesses. We identify your biggest operational bottlenecks and give you a 90-day plan to fix them.</p>
+              </div>
+              <Link 
+                href="/packages/flow-check" 
+                className="btn btn-primary whitespace-nowrap group"
+              >
+                Learn about Flow Check
+                <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+              </Link>
+            </div>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/creative-agencies-santa-cruz" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Creative Agencies Santa Cruz</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/santa-cruz-fitness-client-communication" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Fitness Client Communication</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

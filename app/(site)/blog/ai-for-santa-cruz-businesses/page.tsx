@@ -7,20 +7,25 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">October 11, 2024</time>
-          <h1 className="mt-2 mb-4">AI for Santa Cruz Businesses: A Practical Guide for Non-Technical Owners</h1>
-          <p className="text-xl text-white/80">Santa Cruz business owners are curious about AI but worried about complexity and cost. Here's how local businesses are adopting AI safely and practically.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>October 11, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Santa Cruz Business</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">AI for Santa Cruz Businesses: A Practical Guide for Non-Technical Owners</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>Every Santa Cruz business owner is hearing about AI. Some of your competitors are already using it. You're wondering if you're falling behind.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">Every Santa Cruz business owner is hearing about AI. Some of your competitors are already using it. You're wondering if you're falling behind.</p>
 
           <p>But you're also thinking: "I'm not technical. I don't have time to learn complicated tools. What if it exposes our data? What if it's expensive?"</p>
 
@@ -69,10 +74,36 @@ export default function BlogPost() {
 
           <p>The ROI is 5-10 hours saved per week. At your hourly rate, that pays for itself immediately.</p>
 
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
-            <p className="font-semibold text-white mb-2">Want help identifying which AI tools make sense for your business?</p>
-            <p className="text-white/70 text-sm">Our AI Integration service is built for Santa Cruz small businesses. We identify practical use cases, set up tools safely, and train your team.</p>
-            <Link href="/services/ai-integration" className="text-current-500 hover:underline text-sm">Learn about AI Integration →</Link>
+          <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div className="flex-1">
+                <p className="text-2xl font-bold text-white mb-3">Want help identifying which AI tools make sense for your business?</p>
+                <p className="text-white/80 text-lg">Our AI Integration service is built for Santa Cruz small businesses. We identify practical use cases, set up tools safely, and train your team.</p>
+              </div>
+              <Link 
+                href="/services/ai-integration" 
+                className="btn btn-primary whitespace-nowrap group"
+              >
+                Learn about AI Integration
+                <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+              </Link>
+            </div>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/santa-cruz-gym-membership-retention" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Gym Membership Retention</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/santa-cruz-wellness-business-intake" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Wellness Business Intake</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

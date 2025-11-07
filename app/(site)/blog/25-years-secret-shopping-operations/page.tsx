@@ -7,24 +7,31 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">August 08, 2024</time>
-          <h1 className="mt-2 mb-4">What 25 Years of Secret Shopping Taught Me About Operations</h1>
-          <p className="text-xl text-white/80">I've evaluated thousands of businesses. The same operational patterns show up everywhere. Here's what actually matters.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>August 08, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Secret Shopping Insights</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">What 25 Years of Secret Shopping Taught Me About Operations</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>I've spent 25 years walking into businesses pretending to be a customer. Fast food chains, retail stores, fitness centers, hotels, banks, and mom-and-pop shops. Thousands of evaluations across every imaginable industry.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">I've spent 25 years walking into businesses pretending to be a customer. Fast food chains, retail stores, fitness centers, hotels, banks, and mom-and-pop shops. Thousands of evaluations across every imaginable industry.</p>
 
           <p>And here's what I've learned: the same operational problems show up everywhere. The names change, the products differ, but the underlying issues are identical.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Big Three That Never Change</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Big Three That Never Change</h2>
+          </div>
           
           <p>No matter what industry I'm evaluating, three problems consistently surface:</p>
 
@@ -34,7 +41,9 @@ export default function BlogPost() {
 
           <p><strong>3. Communication breakdowns.</strong> Information doesn't flow. The morning shift doesn't know what happened overnight. Managers make decisions but don't tell the team. Policies change but nobody updates the staff. The result? Customers experience chaos disguised as service.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">What Separates Good from Great</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">What Separates Good from Great</h2>
+          </div>
           
           <p>The businesses that consistently score high in my evaluations aren't doing anything revolutionary. They're just executing the basics with discipline:</p>
 
@@ -46,7 +55,9 @@ export default function BlogPost() {
 
           <p><strong>They communicate deliberately.</strong> Shift changes include a handoff. Policy updates come with training. Questions get answered consistently because there's one source of truth.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Warning Signs I Look For</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Warning Signs I Look For</h2>
+          </div>
           
           <p>Within the first five minutes of an evaluation, I can usually tell if a business has operational flow or chaos. Here's what I'm watching:</p>
 
@@ -58,7 +69,9 @@ export default function BlogPost() {
             <li><strong>Whether the space is maintained during busy periods</strong> - Cleanliness under pressure reveals operational discipline</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Industry Doesn't Matter As Much As You Think</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Industry Doesn't Matter As Much As You Think</h2>
+          </div>
           
           <p>People assume that retail is different from healthcare, or that restaurants have unique challenges compared to gyms. And yes, there are industry-specific details.</p>
 
@@ -74,7 +87,9 @@ export default function BlogPost() {
 
           <p>Every business that fails in my evaluations is failing at one or more of these five steps. And every business that excels is doing all five consistently.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Employee Experience Connection</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Employee Experience Connection</h2>
+          </div>
           
           <p>Here's something most business owners miss: customer experience and employee experience are directly linked.</p>
 
@@ -82,7 +97,9 @@ export default function BlogPost() {
 
           <p>Good employees can't overcome broken operations. But when you fix the operations, suddenly your average employees start looking exceptional.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Small Fixes, Big Impact</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Small Fixes, Big Impact</h2>
+          </div>
           
           <p>The businesses that improve after my evaluations don't usually make massive overhauls. They make small, specific fixes:</p>
 
@@ -98,7 +115,9 @@ export default function BlogPost() {
 
           <p>These aren't complicated fixes. They're just disciplined ones.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">What 25 Years Taught Me</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">What 25 Years Taught Me</h2>
+          </div>
           
           <p>If I had to summarize everything I've learned from thousands of secret shopping evaluations, it would be this:</p>
 
@@ -114,6 +133,22 @@ export default function BlogPost() {
             <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/secret-shopper-reveals-training-gaps" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Secret Shopping Insights</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Secret Shopper Reveals Training Gaps</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/consistency-secret-shopper-perspective" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Secret Shopping Insights</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Consistency Secret Shopper Perspective</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

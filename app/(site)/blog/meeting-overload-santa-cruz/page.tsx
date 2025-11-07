@@ -7,20 +7,25 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">October 05, 2024</time>
-          <h1 className="mt-2 mb-4">Meeting Overload? How Santa Cruz Businesses Are Reclaiming Their Calendars</h1>
-          <p className="text-xl text-white/80">Santa Cruz teams are drowning in meetings. Here's how local businesses are cutting meeting time by 40% without losing alignment.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>October 05, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Santa Cruz Business</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Meeting Overload? How Santa Cruz Businesses Are Reclaiming Their Calendars</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>Your calendar is a nightmare. Back-to-back meetings. No time for actual work. Your team spends more time talking about work than doing work.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">Your calendar is a nightmare. Back-to-back meetings. No time for actual work. Your team spends more time talking about work than doing work.</p>
 
           <p>This is the reality for most Santa Cruz small businesses once they hit 5-10 people. Meetings multiply. Calendars fill up. Deep work disappears.</p>
 
@@ -59,10 +64,36 @@ export default function BlogPost() {
 
           <p>You'll find that 40% of your meetings can be eliminated or moved async immediately.</p>
 
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
-            <p className="font-semibold text-white mb-2">Need help redesigning your meeting cadence?</p>
-            <p className="text-white/70 text-sm">Our Meeting OS add-on audits your current meetings and builds a new cadence that actually works.</p>
-            <Link href="/packages/addons/meeting-os" className="text-current-500 hover:underline text-sm">Learn about Meeting OS →</Link>
+          <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div className="flex-1">
+                <p className="text-2xl font-bold text-white mb-3">Need help redesigning your meeting cadence?</p>
+                <p className="text-white/80 text-lg">Our Meeting OS add-on audits your current meetings and builds a new cadence that actually works.</p>
+              </div>
+              <Link 
+                href="/packages/addons/meeting-os" 
+                className="btn btn-primary whitespace-nowrap group"
+              >
+                Learn about Meeting OS
+                <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+              </Link>
+            </div>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/santa-cruz-gym-membership-retention" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Gym Membership Retention</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/santa-cruz-fitness-client-communication" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Fitness Client Communication</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

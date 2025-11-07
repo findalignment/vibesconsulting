@@ -7,24 +7,31 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">August 07, 2024</time>
-          <h1 className="mt-2 mb-4">Decision-Making in Small Teams: Why Everything Runs Through You</h1>
-          <p className="text-xl text-white/80">You're the bottleneck. Every decision waits for you. Here's how Santa Cruz business owners are delegating without losing control.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>August 07, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Team & Culture</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Decision-Making in Small Teams: Why Everything Runs Through You</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>You've built a team, but every decision still waits for you. Staff ask permission for things they should handle themselves. Projects stall until you weigh in. Nothing moves forward without your approval.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">You've built a team, but every decision still waits for you. Staff ask permission for things they should handle themselves. Projects stall until you weigh in. Nothing moves forward without your approval.</p>
 
           <p>This isn't because your team is incompetent. It's because you haven't built a system that empowers them to decide.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Why Everything Runs Through You</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Why Everything Runs Through You</h2>
+          </div>
           
           <p>The bottleneck problem usually stems from a few patterns:</p>
 
@@ -38,7 +45,9 @@ export default function BlogPost() {
 
           <p><strong>You actually like being needed.</strong> Honest question: does being the go-to person validate your role? If so, you're incentivizing dependency.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Cost of Being the Bottleneck</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Cost of Being the Bottleneck</h2>
+          </div>
           
           <p>This pattern has real costs:</p>
 
@@ -50,7 +59,9 @@ export default function BlogPost() {
             <li><strong>Weak succession planning</strong> - Nobody's learning to lead</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">How to Delegate Decision-Making</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">How to Delegate Decision-Making</h2>
+          </div>
           
           <p>Here's how to break the bottleneck:</p>
 
@@ -66,7 +77,9 @@ export default function BlogPost() {
 
           <p><strong>6. Let them fail small.</strong> Some decisions won't be perfect. That's how people learn. Protect them from catastrophic failures, not from small mistakes.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">What Good Delegation Looks Like</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">What Good Delegation Looks Like</h2>
+          </div>
           
           <p>In well-run small businesses, decision-making flows like this:</p>
 
@@ -76,7 +89,9 @@ export default function BlogPost() {
 
           <p><strong>Owners</strong> focus on strategic decisions: hiring key roles, major investments, long-term direction. They're consulted, not involved in daily operations.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Mindset Shift</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Mindset Shift</h2>
+          </div>
           
           <p>The hardest part isn't teaching your team to decide. It's letting go of control yourself.</p>
 
@@ -92,6 +107,22 @@ export default function BlogPost() {
             <p className="font-semibold text-white mb-2">Need help with your business operations?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to identify your biggest operational opportunities.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/team-working-late-accomplishing-less" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Team & Culture</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Team Working Late Accomplishing Less</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/team-asks-permission-everything" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Team & Culture</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Team Asks Permission Everything</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

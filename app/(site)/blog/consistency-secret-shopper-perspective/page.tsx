@@ -7,26 +7,33 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">October 24, 2024</time>
-          <h1 className="mt-2 mb-4">Consistency: The One Thing Every Great Business Gets Right</h1>
-          <p className="text-xl text-white/80">After 25 years evaluating businesses, consistency is the only thing that separates good from great. Here's how to build it.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>October 24, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Secret Shopping Insights</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Consistency: The One Thing Every Great Business Gets Right</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>I've evaluated luxury hotels and budget motels, Michelin restaurants and fast food joints, high-end boutiques and dollar stores. Twenty-five years, thousands of businesses.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">I've evaluated luxury hotels and budget motels, Michelin restaurants and fast food joints, high-end boutiques and dollar stores. Twenty-five years, thousands of businesses.</p>
 
           <p>And here's the single thing that separates the great ones from the rest: consistency.</p>
 
           <p>Not quality. Not friendliness. Not fancy systems. Consistency.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Why Consistency Matters More Than Excellence</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Why Consistency Matters More Than Excellence</h2>
+          </div>
           
           <p>Would you rather visit a business that's excellent 60% of the time, or one that's good 95% of the time?</p>
 
@@ -36,7 +43,9 @@ export default function BlogPost() {
 
           <p>Consistency builds trust. Trust builds loyalty. Loyalty drives repeat business.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">What Consistency Actually Means</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">What Consistency Actually Means</h2>
+          </div>
           
           <p>Consistency isn't about being robotic or scripted. It's about delivering your standard regardless of variables.</p>
 
@@ -52,7 +61,9 @@ export default function BlogPost() {
 
           <p>That's what consistency looks like. And it's rare.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Where Consistency Breaks Down</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Where Consistency Breaks Down</h2>
+          </div>
           
           <p>In my evaluations, I see the same consistency killers repeatedly:</p>
 
@@ -66,7 +77,9 @@ export default function BlogPost() {
 
           <p><strong>Selective enforcement.</strong> Rules apply to some employees but not others. This creates confusion and resentment, both of which destroy consistency.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">How to Build Consistency</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">How to Build Consistency</h2>
+          </div>
           
           <p>Based on 25 years of observing what works and what doesn't, here's how to create consistency:</p>
 
@@ -80,7 +93,9 @@ export default function BlogPost() {
 
           <p><strong>5. Update standards when needed.</strong> If a standard doesn't make sense anymore, change it. But change it officially, train everyone on the new way, and enforce the update.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Businesses That Get It Right</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Businesses That Get It Right</h2>
+          </div>
           
           <p>The businesses that score consistently high in my evaluations share a few traits:</p>
 
@@ -94,7 +109,9 @@ export default function BlogPost() {
 
           <p><strong>They reward consistency.</strong> The employees who follow standards reliably get recognized. Consistency becomes part of the culture.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Consistency Compounds</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Consistency Compounds</h2>
+          </div>
           
           <p>Here's what I've observed: businesses that achieve consistency in one area tend to achieve it everywhere.</p>
 
@@ -102,7 +119,9 @@ export default function BlogPost() {
 
           <p>It's a mindset, not a tactic. Once you commit to operating the same way every time, that discipline spreads through the entire organization.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Why Most Businesses Fail at This</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Why Most Businesses Fail at This</h2>
+          </div>
           
           <p>Consistency is boring. It's not sexy. It's not innovative. It's just showing up and doing the same thing the right way, day after day.</p>
 
@@ -110,7 +129,9 @@ export default function BlogPost() {
 
           <p>The basics need to be bulletproof. The customer-facing fundamentals need to be automatic. That's what creates the foundation for everything else.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Bottom Line</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Bottom Line</h2>
+          </div>
           
           <p>After 25 years, I can tell you with certainty: consistency beats excellence.</p>
 
@@ -124,6 +145,22 @@ export default function BlogPost() {
             <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/25-years-secret-shopping-operations" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Secret Shopping Insights</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">25 Years Secret Shopping Operations</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/secret-shopping-small-business-insights" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Secret Shopping Insights</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Secret Shopping Small Business Insights</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

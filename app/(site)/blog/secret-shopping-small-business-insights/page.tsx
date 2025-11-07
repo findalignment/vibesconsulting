@@ -7,24 +7,31 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">November 03, 2024</time>
-          <h1 className="mt-2 mb-4">Secret Shopping Small Businesses: What 25 Years Taught Me</h1>
-          <p className="text-xl text-white/80">Big chains get evaluated constantly. Small businesses rarely do. Here's what I learned evaluating thousands of them.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>November 03, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Secret Shopping Insights</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Secret Shopping Small Businesses: What 25 Years Taught Me</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>Big chains invest millions in secret shopping programs. They get evaluated monthly, sometimes weekly. Every detail gets measured, tracked, and optimized.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">Big chains invest millions in secret shopping programs. They get evaluated monthly, sometimes weekly. Every detail gets measured, tracked, and optimized.</p>
 
           <p>Small businesses? They almost never get evaluated. And that's exactly why I've spent 25 years doing it - because the insights are just as valuable, maybe more so.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Why Small Businesses Need Evaluation More</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Why Small Businesses Need Evaluation More</h2>
+          </div>
           
           <p>Chain stores have corporate oversight, standardized procedures, and layers of management. Small businesses have the owner and maybe one manager trying to do everything.</p>
 
@@ -39,7 +46,9 @@ export default function BlogPost() {
 
           <p>Small businesses can't afford to ignore these issues. But without evaluation, they don't even know the issues exist.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">What I Evaluate</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">What I Evaluate</h2>
+          </div>
           
           <p>When I walk into a small business as a secret shopper, I'm not looking for perfection. I'm looking for patterns.</p>
 
@@ -55,7 +64,9 @@ export default function BlogPost() {
 
           <p><strong>The checkout/close.</strong> How's the transaction handled? Is there an attempt to build relationship? Do I leave feeling valued?</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Patterns I See Repeatedly</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Patterns I See Repeatedly</h2>
+          </div>
           
           <p>After thousands of small business evaluations, the same issues show up constantly:</p>
 
@@ -69,7 +80,9 @@ export default function BlogPost() {
 
           <p><strong>No recovery process.</strong> When something goes wrong, there's no standard way to make it right. It depends entirely on who's working.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">What Separates the Best Small Businesses</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">What Separates the Best Small Businesses</h2>
+          </div>
           
           <p>The small businesses that score highest aren't necessarily the fanciest or the busiest. They're the ones that treat operations seriously:</p>
 
@@ -83,7 +96,9 @@ export default function BlogPost() {
 
           <p><strong>They seek feedback.</strong> They actively ask customers how they're doing and actually act on the information.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Value of an Outside Perspective</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Value of an Outside Perspective</h2>
+          </div>
           
           <p>Here's what owners often tell me after seeing my evaluation report: "I had no idea that was happening."</p>
 
@@ -98,7 +113,9 @@ export default function BlogPost() {
 
           <p>This isn't about catching staff doing something wrong. It's about identifying systemic issues that nobody realized existed.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Small Fixes, Big Impact</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Small Fixes, Big Impact</h2>
+          </div>
           
           <p>The beauty of evaluating small businesses is that fixes are usually simple:</p>
 
@@ -114,7 +131,9 @@ export default function BlogPost() {
 
           <p>None of these require massive investment. They require awareness and discipline.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">Why This Matters</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">Why This Matters</h2>
+          </div>
           
           <p>Small businesses compete on experience, not scale. You can't beat big chains on price or convenience, but you can absolutely beat them on personal service and attention to detail.</p>
 
@@ -128,6 +147,22 @@ export default function BlogPost() {
             <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/employee-experience-secret-shopper" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Secret Shopping Insights</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Employee Experience Secret Shopper</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/consistency-secret-shopper-perspective" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Secret Shopping Insights</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Consistency Secret Shopper Perspective</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

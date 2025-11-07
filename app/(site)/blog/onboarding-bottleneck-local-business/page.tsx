@@ -7,20 +7,25 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">September 04, 2024</time>
-          <h1 className="mt-2 mb-4">The Onboarding Bottleneck Killing Santa Cruz Business Growth</h1>
-          <p className="text-xl text-white/80">If onboarding new clients takes weeks, you're losing revenue. Here's how Santa Cruz businesses are fixing this friction point.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>September 04, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Operations</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">The Onboarding Bottleneck Killing Santa Cruz Business Growth</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>A new client signs up. They're excited. Then... crickets for a week. Forms get lost. Intake calls keep rescheduling. By the time they actually start, momentum is gone.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">A new client signs up. They're excited. Then... crickets for a week. Forms get lost. Intake calls keep rescheduling. By the time they actually start, momentum is gone.</p>
 
           <p>If your onboarding takes more than 3-5 days, you're leaving money on the table. And you're frustrating clients before they even get started.</p>
 
@@ -59,10 +64,36 @@ export default function BlogPost() {
             <li>Happier clients (they start seeing value immediately)</li>
           </ul>
 
-          <div className="bg-current-600/10 p-6 rounded-lg mt-8">
-            <p className="font-semibold text-white mb-2">Want to redesign your client onboarding?</p>
-            <p className="text-white/70 text-sm">Our Flow Rebuild service can tackle your onboarding process specifically - from intake to first delivery.</p>
-            <Link href="/packages/flow-rebuild" className="text-current-500 hover:underline text-sm">Learn about Flow Rebuild →</Link>
+          <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div className="flex-1">
+                <p className="text-2xl font-bold text-white mb-3">Want to redesign your client onboarding?</p>
+                <p className="text-white/80 text-lg">Our Flow Rebuild service can tackle your onboarding process specifically - from intake to first delivery.</p>
+              </div>
+              <Link 
+                href="/packages/flow-rebuild" 
+                className="btn btn-primary whitespace-nowrap group"
+              >
+                Learn about Flow Rebuild
+                <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
+              </Link>
+            </div>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/customer-experience-operations-disconnect" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Operations</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Customer Experience Operations Disconnect</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/busy-but-not-productive" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Operations</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Busy But Not Productive</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

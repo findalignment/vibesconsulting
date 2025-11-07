@@ -7,24 +7,31 @@ export const metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="pb-20 max-w-3xl">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
-        ← Back to Blog
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
       </Link>
 
-      <article>
-        <header className="mb-8">
-          <time className="text-white/60 text-sm">October 23, 2024</time>
-          <h1 className="mt-2 mb-4">What Secret Shopping Reveals About Employee Experience</h1>
-          <p className="text-xl text-white/80">Customer experience reflects employee experience. After 25 years, this pattern never changes.</p>
-        </header>
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>October 23, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Secret Shopping Insights</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">What Secret Shopping Reveals About Employee Experience</h1>
 
-        <div className="prose prose-invert max-w-none space-y-6 text-white/80">
-          <p>After 25 years of secret shopping, I can predict the customer experience before I even interact with staff. How? By watching how employees behave when they think nobody's paying attention.</p>
+        <div className="space-y-8">
+          {/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed first-letter:text-5xl first-letter:font-bold first-letter:text-current-500 first-letter:mr-2 first-letter:float-left">After 25 years of secret shopping, I can predict the customer experience before I even interact with staff. How? By watching how employees behave when they think nobody's paying attention.</p>
 
           <p>Customer experience and employee experience are inseparable. You cannot deliver a great customer experience if your employees are frustrated, confused, or burnt out.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Tell-Tale Signs</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Tell-Tale Signs</h2>
+          </div>
           
           <p>When I walk into a business, I'm watching body language, energy, and how staff interact with each other before I even say hello.</p>
 
@@ -36,7 +43,9 @@ export default function BlogPost() {
 
           <p><strong>High energy from some, low energy from others.</strong> Inconsistent engagement across a team usually means favoritism, unclear expectations, or burnout that's not being addressed.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">What Good Employee Experience Looks Like</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">What Good Employee Experience Looks Like</h2>
+          </div>
           
           <p>The businesses that score highest in my evaluations have employees who:</p>
 
@@ -50,7 +59,9 @@ export default function BlogPost() {
 
           <p>These behaviors don't happen by accident. They're the result of good systems, clear communication, proper training, and leadership that actually supports the team.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Broken Systems That Kill Morale</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Broken Systems That Kill Morale</h2>
+          </div>
           
           <p>I've seen the same morale killers across thousands of evaluations:</p>
 
@@ -64,7 +75,9 @@ export default function BlogPost() {
 
           <p><strong>No recognition.</strong> Good work goes unnoticed. Mistakes get immediate attention. Employees learn that effort doesn't matter.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Customer Pays the Price</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Customer Pays the Price</h2>
+          </div>
           
           <p>Here's what business owners often miss: you can't hide poor employee experience from customers.</p>
 
@@ -74,7 +87,9 @@ export default function BlogPost() {
 
           <p>And I've evaluated businesses where the product was average but the customer experience was exceptional - because the employees were happy, trained, and empowered.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">How to Improve Employee Experience (And Therefore Customer Experience)</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">How to Improve Employee Experience (And Therefore Customer Experience)</h2>
+          </div>
           
           <p>Based on 25 years of observations, here's what actually works:</p>
 
@@ -90,7 +105,9 @@ export default function BlogPost() {
 
           <p><strong>6. Fix broken processes.</strong> When staff complain about a procedure that doesn't make sense, listen. They're on the front lines and often know better than management.</p>
 
-          <h2 className="text-2xl font-semibold text-white mt-8 mb-4">The Pattern Never Changes</h2>
+          <div className="my-12 border-l-4 border-current-500 pl-6 py-2">
+            <h2 className="text-3xl font-bold text-white mb-4">The Pattern Never Changes</h2>
+          </div>
           
           <p>I've evaluated mom-and-pop shops and multi-million dollar operations. The size doesn't matter.</p>
 
@@ -104,6 +121,22 @@ export default function BlogPost() {
             <p className="font-semibold text-white mb-2">Want operational insights for your business?</p>
             <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to get an expert evaluation of your systems.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+          </div>
+        
+          <div className="mt-20 pt-12 border-t border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/blog/secret-shopper-reveals-training-gaps" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Secret Shopping Insights</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Secret Shopper Reveals Training Gaps</h4>
+                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+              </Link>
+              <Link href="/blog/25-years-secret-shopping-operations" className="card p-6 hover:border-current-500/50 transition-colors group">
+                <p className="text-sm text-current-500 mb-2">Secret Shopping Insights</p>
+                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">25 Years Secret Shopping Operations</h4>
+                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </article>

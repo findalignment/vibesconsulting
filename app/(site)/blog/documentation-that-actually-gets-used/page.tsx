@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">How to Create Business Documentation That Your Team Actually Uses</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Most SOPs sit in a folder untouched. Here's how to document processes in a way that actually helps your Santa Cruz team.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Building a Business That Lasts: Lessons From 25 Years</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">The businesses that survive have one thing in common: sustainable operations that don't depend on heroic effort.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

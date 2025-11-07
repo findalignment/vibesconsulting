@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">AI for Santa Cruz Businesses: A Practical Guide for Non-Technical Owners</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Santa Cruz business owners are curious about AI but worried about complexity and cost. Here\'s how local businesses are adopting AI safely and practically.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

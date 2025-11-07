@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Secret Shopping Insights</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Secret Shopping Small Businesses: What 25 Years Taught Me</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Big chains get evaluated constantly. Small businesses rarely do. Here's what I learned evaluating thousands of them.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

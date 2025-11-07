@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Secret Shopping Insights</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">What 25 Years of Secret Shopping Taught Me About Operations</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">I've evaluated thousands of businesses. The same operational patterns show up everywhere. Here's what actually matters.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

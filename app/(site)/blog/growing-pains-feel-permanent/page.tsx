@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">AI & Automation</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Growing Pains That Feel Permanent</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You thought these issues were temporary. But months pass and nothing improves. Growth doesn't fix bad systems.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

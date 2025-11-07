@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">What Santa Cruz Fitness Facilities Get Right (And Wrong) About Operations</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">From yoga studios to training centers, local fitness businesses face unique operational challenges. Insights from 25 years of evaluation.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

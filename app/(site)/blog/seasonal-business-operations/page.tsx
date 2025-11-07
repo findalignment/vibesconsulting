@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Operations for Seasonal Santa Cruz Businesses</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Summer slammed, winter's slow. How do you build systems when volume fluctuates? Lessons from local seasonal businesses.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

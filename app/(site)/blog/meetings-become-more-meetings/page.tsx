@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Meetings That Create More Meetings</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You meet to discuss. Then meet again to decide. Then meet to update. It never ends.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

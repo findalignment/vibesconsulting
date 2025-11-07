@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Team & Culture</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Quality Is Inconsistent Across Your Team</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Some team members deliver great work. Others need heavy revision. The issue is unclear standards.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

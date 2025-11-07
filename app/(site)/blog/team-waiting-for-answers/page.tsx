@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">AI & Automation</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Your Team Is Always Waiting for Answers From You</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Work stalls because you're in meetings. Your calendar is the bottleneck.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

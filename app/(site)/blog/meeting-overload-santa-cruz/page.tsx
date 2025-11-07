@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Meeting Overload? How Santa Cruz Businesses Are Reclaiming Their Calendars</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Santa Cruz teams are drowning in meetings. Here's how local businesses are cutting meeting time by 40% without losing alignment.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

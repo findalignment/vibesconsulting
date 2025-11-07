@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">When Feedback Loops Don't Exist</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You find out about problems too late. By the time you know, it's already a crisis.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

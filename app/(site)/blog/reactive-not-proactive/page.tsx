@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Your Business Runs on Reaction, Not Strategy</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You're always firefighting. Never get time to plan. This is a system problem, not a time problem.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

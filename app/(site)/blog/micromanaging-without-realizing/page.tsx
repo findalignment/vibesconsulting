@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Signs You're Micromanaging (Even If You Don't Think You Are)</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You hired people to help. But you're still reviewing everything. Here's what's actually happening.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">AI & Automation</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Data Privacy and AI: What Santa Cruz Business Owners Need to Know</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">AI tools are powerful but can expose your data. Here\'s how to adopt AI safely without putting your Santa Cruz business or clients at risk.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

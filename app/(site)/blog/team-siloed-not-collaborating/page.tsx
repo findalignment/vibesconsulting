@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Team & Culture</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Your Team Is Siloed and Not Collaborating</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Everyone works in their lane. Cross-functional work is painful. Structure creates these silos.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

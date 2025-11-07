@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Growing Your Santa Cruz Business Without Burning Out</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You want to grow. But you're already maxed out. Here's how local businesses are scaling sustainably.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

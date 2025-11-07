@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">How Santa Cruz Fitness Businesses Can Fix Client Communication</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Missed messages, unclear expectations, forgotten check-ins. Communication systems make or break fitness businesses.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

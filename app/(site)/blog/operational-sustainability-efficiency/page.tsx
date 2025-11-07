@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">AI & Automation</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Operational Sustainability: Doing More With Less</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Sustainable operations aren't about being green. They're about building systems that last without burning out your team.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

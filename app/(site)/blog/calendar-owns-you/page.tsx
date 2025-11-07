@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Your Calendar Owns You</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You react to whatever's on your calendar. You never get time for strategic work. This is fixable.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

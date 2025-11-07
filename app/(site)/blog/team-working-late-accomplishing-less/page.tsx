@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Team & Culture</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Your Team Works Late But Accomplishes Less</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Long hours don't equal productivity. When everyone's busy but output is low, look at your systems.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

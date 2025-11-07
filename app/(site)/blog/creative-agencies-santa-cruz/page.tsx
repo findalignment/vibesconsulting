@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Operations for Santa Cruz Creative Agencies: Creativity Needs Structure</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Creative agencies think structure kills creativity. But chaos kills delivery. Here\'s how Santa Cruz agencies are building systems that support great work.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

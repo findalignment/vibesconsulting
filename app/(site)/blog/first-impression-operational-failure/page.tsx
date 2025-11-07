@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">AI & Automation</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">When First Impressions Are Actually Operational Failures</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Bad first impressions aren't about personality. They're about broken systems. Insights from thousands of evaluations.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

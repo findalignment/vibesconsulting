@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">AI & Automation</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Sustainable Growth vs Growth at All Costs</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Santa Cruz businesses want to grow responsibly. But growth without systems creates chaos. Here's the sustainable path.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Secret Shopping Insights</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Consistency: The One Thing Every Great Business Gets Right</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">After 25 years evaluating businesses, consistency is the only thing that separates good from great. Here's how to build it.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

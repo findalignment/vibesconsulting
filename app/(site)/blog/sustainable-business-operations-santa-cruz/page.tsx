@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Sustainable Business Operations in Santa Cruz: More Than Just Green Marketing</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Santa Cruz businesses care about sustainability. But sustainable operations mean efficiency, not just eco-friendly products.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

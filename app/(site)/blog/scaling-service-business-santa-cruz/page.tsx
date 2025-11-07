@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Scaling a Service Business in Santa Cruz: From Solo to Team</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">You started solo. Now you have 5-10 people. Everything that used to work is breaking. Here\'s how to scale without losing what makes you special.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

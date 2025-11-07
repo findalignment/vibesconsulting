@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Why New Hires Take 3 Months to Get Up to Speed</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Onboarding shouldn't be shadowing someone for 12 weeks. Your knowledge needs a system.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

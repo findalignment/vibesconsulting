@@ -22,6 +22,8 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">When Client Information Lives in 5 Different Places</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Email, Slack, spreadsheets, your brain. Finding information shouldn't be a treasure hunt.</p>
+        </header>
 
         <div className="space-y-8">
           {/* Opening paragraph with drop cap effect */}

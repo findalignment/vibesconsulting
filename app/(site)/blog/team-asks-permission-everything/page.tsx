@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import BlogAccordion from '@/components/BlogAccordion'
 
 export const metadata = {
   title: "When Your Team Asks Permission for Everything",
@@ -6,36 +7,12 @@ export const metadata = {
 }
 
 export default function BlogPost() {
-  return (
-    <div className="pb-20">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
-        <span>←</span> Back to Blog
-      </Link>
-
-      <article className="max-w-3xl mx-auto">
-        <header className="mb-12 pb-8 border-b border-white/10">
-          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
-            <time>September 23, 2024</time>
-            <span>•</span>
-            <span>6 min read</span>
-            <span>•</span>
-            <span className="text-current-500">Team & Culture</span>
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">When Your Team Asks Permission for Everything</h1>
-          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Your team is capable but won't make decisions without you. The problem isn't your people - it's your system.</p>
-        </header>
-
-        <div className="space-y-12">
-          {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed">You've built a team, but every decision still waits for you. Staff ask permission for things they should handle themselves. Projects stall until you weigh in. Nothing moves forward without your approval.</p>
-
-          <p>This isn't because your team is incompetent. It's because you haven't built a system that empowers them to decide.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">Why Everything Runs Through You</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">The bottleneck problem usually stems from a few patterns:</p>
+  const sections = [
+    {
+      title: "Why Everything Runs Through You",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">The bottleneck problem usually stems from a few patterns:</p>
 
           <p><strong className="text-white">You haven't defined decision-making boundaries.</strong> Your team doesn't know what they're authorized to decide, so they ask about everything to be safe.</p>
 
@@ -46,12 +23,14 @@ export default function BlogPost() {
           <p><strong className="text-white">You move faster than they do.</strong> It's often quicker to ask you than to figure it out themselves, so they default to asking.</p>
 
           <p><strong className="text-white">You actually like being needed.</strong> Honest question: does being the go-to person validate your role? If so, you're incentivizing dependency.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">The Cost of Being the Bottleneck</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">This pattern has real costs:</p>
+        </>
+      )
+    },
+    {
+      title: "The Cost of Being the Bottleneck",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">This pattern has real costs:</p>
 
           <ul className="list-disc pl-8 space-y-3 my-6 text-white/80">
             <li><strong className="text-white">Slow response times</strong> - Customers wait while staff wait for you</li>
@@ -60,12 +39,14 @@ export default function BlogPost() {
             <li><strong className="text-white">Owner burnout</strong> - You can't scale if you're the only decision-maker</li>
             <li><strong className="text-white">Weak succession planning</strong> - Nobody's learning to lead</li>
           </ul>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">How to Delegate Decision-Making</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">Here's how to break the bottleneck:</p>
+        </>
+      )
+    },
+    {
+      title: "How to Delegate Decision-Making",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">Here's how to break the bottleneck:</p>
 
           <p><strong className="text-white">1. Define decision categories.</strong> Create three levels: decisions they own, decisions they recommend, decisions you own. Be explicit about what falls where.</p>
 
@@ -78,24 +59,28 @@ export default function BlogPost() {
           <p><strong className="text-white">5. Create feedback loops.</strong> Regular check-ins where they explain their reasoning. This builds judgment over time.</p>
 
           <p><strong className="text-white">6. Let them fail small.</strong> Some decisions won't be perfect. That's how people learn. Protect them from catastrophic failures, not from small mistakes.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">What Good Delegation Looks Like</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">In well-run small businesses, decision-making flows like this:</p>
+        </>
+      )
+    },
+    {
+      title: "What Good Delegation Looks Like",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">In well-run small businesses, decision-making flows like this:</p>
 
           <p><strong className="text-white">Front-line staff</strong> handle customer-facing decisions within established guidelines. They know when to escalate.</p>
 
           <p><strong className="text-white">Managers</strong> make operational decisions about schedules, processes, and resource allocation. They update the owner, but don't wait for approval.</p>
 
           <p><strong className="text-white">Owners</strong> focus on strategic decisions: hiring key roles, major investments, long-term direction. They're consulted, not involved in daily operations.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">The Mindset Shift</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">The hardest part isn't teaching your team to decide. It's letting go of control yourself.</p>
+        </>
+      )
+    },
+    {
+      title: "The Mindset Shift",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">The hardest part isn't teaching your team to decide. It's letting go of control yourself.</p>
 
           <p>Your job isn't to make every decision. Your job is to build a system where good decisions get made consistently, whether you're there or not.</p>
 
@@ -118,8 +103,41 @@ export default function BlogPost() {
               </Link>
             </div>
           </div>
-        
-          <div className="mt-24 pt-16 border-t border-white/10">
+        </>
+      )
+    },
+  ]
+
+  return (
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
+      </Link>
+
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>September 23, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Team & Culture</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">When Your Team Asks Permission for Everything</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Your team is capable but won't make decisions without you. The problem isn't your people - it's your system.</p>
+        </header>
+
+        <div className="space-y-12 mb-12">
+{/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed">You've built a team, but every decision still waits for you. Staff ask permission for things they should handle themselves. Projects stall until you weigh in. Nothing moves forward without your approval.</p>
+
+          <p>This isn't because your team is incompetent. It's because you haven't built a system that empowers them to decide.</p>
+        </div>
+
+        <BlogAccordion sections={sections} />
+
+        <div className="space-y-12 mt-12">
+<div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/team-siloed-not-collaborating" className="card p-6 hover:border-current-500/50 transition-colors group">

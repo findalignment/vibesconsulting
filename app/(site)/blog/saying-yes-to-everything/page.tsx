@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import BlogAccordion from '@/components/BlogAccordion'
 
 export const metadata = {
   title: "The Cost of Saying Yes to Everything",
@@ -6,34 +7,12 @@ export const metadata = {
 }
 
 export default function BlogPost() {
-  return (
-    <div className="pb-20">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
-        <span>←</span> Back to Blog
-      </Link>
-
-      <article className="max-w-3xl mx-auto">
-        <header className="mb-12 pb-8 border-b border-white/10">
-          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
-            <time>August 26, 2024</time>
-            <span>•</span>
-            <span>6 min read</span>
-            <span>•</span>
-            <span className="text-current-500">Operations</span>
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">The Cost of Saying Yes to Everything</h1>
-          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Your team can't say no. So they take on too much and deliver late.</p>
-        </header>
-
-        <div className="space-y-12">
-          {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed">This problem shows up in every small business at some point. It feels like something you should be able to fix with a quick conversation or a new policy. But it keeps happening because it's not an isolated issue - it's a symptom of a deeper operational gap.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">Why This Keeps Happening</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">The same operational problems repeat for predictable reasons:</p>
+  const sections = [
+    {
+      title: "Why This Keeps Happening",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">The same operational problems repeat for predictable reasons:</p>
 
           <p><strong className="text-white">No documented standard.</strong> If the "right way" only exists in your head, everyone will do it their own way.</p>
 
@@ -44,12 +23,14 @@ export default function BlogPost() {
           <p><strong className="text-white">No feedback loop.</strong> If people don't know they're doing something wrong, they'll keep doing it wrong.</p>
 
           <p><strong className="text-white">Competing priorities.</strong> If you reward speed over quality, people will prioritize speed even when you say you want quality.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">The Real Cost</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">These operational gaps have actual business costs:</p>
+        </>
+      )
+    },
+    {
+      title: "The Real Cost",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">These operational gaps have actual business costs:</p>
 
           <ul className="list-disc pl-8 space-y-3 my-6 text-white/80">
             <li><strong className="text-white">Wasted time</strong> - Rework, corrections, and repeated explanations eat hours every week</li>
@@ -58,12 +39,14 @@ export default function BlogPost() {
             <li><strong className="text-white">Slower growth</strong> - You can't scale operations that only work when you're directly involved</li>
             <li><strong className="text-white">Owner burnout</strong> - You become the bottleneck for everything</li>
           </ul>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">How to Actually Fix It</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">Here's the systematic approach that works:</p>
+        </>
+      )
+    },
+    {
+      title: "How to Actually Fix It",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">Here's the systematic approach that works:</p>
 
           <p><strong className="text-white">1. Document the standard.</strong> Write down exactly how this should work. Be specific. "Do it right" isn't a standard. Include visuals if helpful.</p>
 
@@ -76,24 +59,28 @@ export default function BlogPost() {
           <p><strong className="text-white">5. Give immediate feedback.</strong> When someone deviates from the standard, address it right away. Don't let it compound into a habit.</p>
 
           <p><strong className="text-white">6. Update when needed.</strong> If the standard doesn't make sense anymore, change it officially. Don't let informal workarounds become the new normal.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">Common Mistakes</h2>
-          </div>
-          
-          <p><strong className="text-white">Assuming once is enough.</strong> Telling people once doesn't create lasting change. You need repetition and reinforcement.</p>
+        </>
+      )
+    },
+    {
+      title: "Common Mistakes",
+      content: (
+        <>
+<p><strong className="text-white">Assuming once is enough.</strong> Telling people once doesn't create lasting change. You need repetition and reinforcement.</p>
 
           <p><strong className="text-white">Blaming individuals.</strong> If multiple people are doing it wrong, the problem is your system, not your people.</p>
 
           <p><strong className="text-white">Creating complexity.</strong> More rules and procedures aren't the answer. Clarity is the answer.</p>
 
           <p><strong className="text-white">Skipping the "why."</strong> People follow standards better when they understand the reasoning behind them.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">What Good Looks Like</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">When you fix operational gaps properly:</p>
+        </>
+      )
+    },
+    {
+      title: "What Good Looks Like",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">When you fix operational gaps properly:</p>
 
           <ul className="list-disc pl-8 space-y-3 my-6 text-white/80">
             <li>The same task gets done the same way regardless of who's doing it</li>
@@ -104,12 +91,14 @@ export default function BlogPost() {
           </ul>
 
           <p>That's the difference between businesses that struggle to grow and businesses that scale smoothly.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">Taking the First Step</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">Pick one operational problem that's costing you time or money. Just one. Document the standard. Train your team. Measure compliance. Give feedback.</p>
+        </>
+      )
+    },
+    {
+      title: "Taking the First Step",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">Pick one operational problem that's costing you time or money. Just one. Document the standard. Train your team. Measure compliance. Give feedback.</p>
 
           <p>Once you fix one thing properly, you'll see how the same approach works for everything else.</p>
 
@@ -130,8 +119,39 @@ export default function BlogPost() {
               </Link>
             </div>
           </div>
-        
-          <div className="mt-24 pt-16 border-t border-white/10">
+        </>
+      )
+    },
+  ]
+
+  return (
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
+      </Link>
+
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>August 26, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Operations</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">The Cost of Saying Yes to Everything</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Your team can't say no. So they take on too much and deliver late.</p>
+        </header>
+
+        <div className="space-y-12 mb-12">
+{/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed">This problem shows up in every small business at some point. It feels like something you should be able to fix with a quick conversation or a new policy. But it keeps happening because it's not an isolated issue - it's a symptom of a deeper operational gap.</p>
+        </div>
+
+        <BlogAccordion sections={sections} />
+
+        <div className="space-y-12 mt-12">
+<div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/path-of-least-resistance" className="card p-6 hover:border-current-500/50 transition-colors group">

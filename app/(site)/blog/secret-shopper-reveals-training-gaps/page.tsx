@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import BlogAccordion from '@/components/BlogAccordion'
 
 export const metadata = {
   title: "What Secret Shopping Reveals About Training Gaps",
@@ -6,34 +7,12 @@ export const metadata = {
 }
 
 export default function BlogPost() {
-  return (
-    <div className="pb-20">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
-        <span>←</span> Back to Blog
-      </Link>
-
-      <article className="max-w-3xl mx-auto">
-        <header className="mb-12 pb-8 border-b border-white/10">
-          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
-            <time>October 21, 2024</time>
-            <span>•</span>
-            <span>6 min read</span>
-            <span>•</span>
-            <span className="text-current-500">Secret Shopping Insights</span>
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">What Secret Shopping Reveals About Training Gaps</h1>
-          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Staff don't follow processes because they were never properly trained. 25 years of evaluation proves this pattern.</p>
-        </header>
-
-        <div className="space-y-12">
-          {/* Opening paragraph with drop cap effect */}
-          <p className="text-lg leading-relaxed">Over 25 years of evaluating businesses as a secret shopper, I've seen the same issue repeat across thousands of locations: staff who seem unmotivated, careless, or disengaged aren't the problem. The problem is that they were never properly trained.</p>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">The Pattern Is Consistent</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">When I walk into a business and experience poor service, inconsistent execution, or staff who clearly don't know the procedures, my first instinct isn't to blame the employee. It's to look at the training system.</p>
+  const sections = [
+    {
+      title: "The Pattern Is Consistent",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">When I walk into a business and experience poor service, inconsistent execution, or staff who clearly don't know the procedures, my first instinct isn't to blame the employee. It's to look at the training system.</p>
 
           <p className="text-lg leading-relaxed text-white/80">Here's what I've observed:</p>
           
@@ -67,12 +46,14 @@ export default function BlogPost() {
               </div>
             </div>
           </div>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">The Tell-Tale Signs of Training Gaps</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">When I'm evaluating a business, I can spot training issues within minutes:</p>
+        </>
+      )
+    },
+    {
+      title: "The Tell-Tale Signs of Training Gaps",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">When I'm evaluating a business, I can spot training issues within minutes:</p>
           
           <div className="grid gap-4 my-8">
             <div className="p-5 rounded-lg border-l-4 border-red-500/50 bg-red-500/5">
@@ -95,12 +76,14 @@ export default function BlogPost() {
               <p className="text-white/70 text-sm">If the morning crew is great and the evening crew is inconsistent, that's a training and management issue, not a staffing issue.</p>
             </div>
           </div>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">Why Training Fails</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80 italic">Most businesses <em className="text-white/90">think</em> they're training their staff. But what they're actually doing is:</p>
+        </>
+      )
+    },
+    {
+      title: "Why Training Fails",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80 italic">Most businesses <em className="text-white/90">think</em> they're training their staff. But what they're actually doing is:</p>
 
           <div className="space-y-4 my-8 pl-6 border-l-2 border-white/10">
             <p className="text-white/80"><span className="text-white font-semibold">Talking at people instead of teaching.</span> A verbal walkthrough on day one isn't training. Training requires demonstration, practice, feedback, and repetition.</p>
@@ -111,12 +94,14 @@ export default function BlogPost() {
 
             <p className="text-white/80"><span className="text-white font-semibold">Never updating the training.</span> Businesses evolve, but training materials don't. The result? Staff are trained on outdated processes.</p>
           </div>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">What Good Training Looks Like</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">The businesses that consistently score high in my evaluations have a few things in common:</p>
+        </>
+      )
+    },
+    {
+      title: "What Good Training Looks Like",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">The businesses that consistently score high in my evaluations have a few things in common:</p>
 
           <div className="grid md:grid-cols-2 gap-4 my-8">
             <div className="p-5 rounded-lg bg-green-500/10 border border-green-500/20">
@@ -140,12 +125,14 @@ export default function BlogPost() {
               <p className="text-white/60 text-sm">Managers observe, correct, and reinforce behaviors consistently</p>
             </div>
           </div>
-
-          <div className="my-16 border-l-4 border-current-500 pl-6 py-2">
-            <h2 className="text-3xl font-bold text-white mb-4">How to Fix Training Gaps</h2>
-          </div>
-          
-          <p className="text-lg leading-relaxed text-white/80">If you're seeing inconsistent execution in your business, here's where to start:</p>
+        </>
+      )
+    },
+    {
+      title: "How to Fix Training Gaps",
+      content: (
+        <>
+<p className="text-lg leading-relaxed text-white/80">If you're seeing inconsistent execution in your business, here's where to start:</p>
 
           <div className="space-y-6 my-8">
             <div className="flex gap-4">
@@ -216,7 +203,39 @@ export default function BlogPost() {
           </div>
 
           {/* Related Posts */}
-          <div className="mt-24 pt-16 border-t border-white/10">
+        </>
+      )
+    },
+  ]
+
+  return (
+    <div className="pb-20">
+      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+        <span>←</span> Back to Blog
+      </Link>
+
+      <article className="max-w-3xl mx-auto">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+            <time>October 21, 2024</time>
+            <span>•</span>
+            <span>6 min read</span>
+            <span>•</span>
+            <span className="text-current-500">Secret Shopping Insights</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">What Secret Shopping Reveals About Training Gaps</h1>
+          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Staff don't follow processes because they were never properly trained. 25 years of evaluation proves this pattern.</p>
+        </header>
+
+        <div className="space-y-12 mb-12">
+{/* Opening paragraph with drop cap effect */}
+          <p className="text-lg leading-relaxed">Over 25 years of evaluating businesses as a secret shopper, I've seen the same issue repeat across thousands of locations: staff who seem unmotivated, careless, or disengaged aren't the problem. The problem is that they were never properly trained.</p>
+        </div>
+
+        <BlogAccordion sections={sections} />
+
+        <div className="space-y-12 mt-12">
+<div className="mt-24 pt-16 border-t border-white/10">
             <h3 className="text-2xl font-bold text-white mb-8">More from the Secret Shopping Series</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/25-years-secret-shopping-operations" className="card p-6 hover:border-current-500/50 transition-colors group">

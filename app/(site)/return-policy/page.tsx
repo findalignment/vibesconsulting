@@ -74,7 +74,7 @@ export default function ReturnPolicyPage() {
           <h2 className="text-white text-xl font-semibold mb-4">Cancellation Process</h2>
           <p className="mb-2">To cancel or request a refund:</p>
           <ol className="list-decimal pl-6 space-y-2">
-            <li>Email us at <a href="mailto:hello@vibesconsulting.com" className="text-current-500 hover:underline">hello@vibesconsulting.com</a> with "Cancellation Request" in the subject line</li>
+            <li>Email us at <a href="mailto:hello@vibes.consulting" className="text-current-500 hover:underline">hello@vibes.consulting</a> with "Cancellation Request" in the subject line</li>
             <li>Include your name, service purchased, and reason for cancellation</li>
             <li>We will respond within 2 business days with next steps</li>
             <li>Approved refunds are processed within 10 business days</li>
@@ -119,7 +119,7 @@ export default function ReturnPolicyPage() {
           <div className="mt-4 card p-4 inline-block">
             <p><strong className="text-white">Vibes Consulting</strong></p>
             <p>Santa Cruz, CA</p>
-            <p>Email: <a href="mailto:hello@vibesconsulting.com" className="text-current-500 hover:underline">hello@vibesconsulting.com</a></p>
+            <p>Email: <a href="mailto:hello@vibes.consulting" className="text-current-500 hover:underline">hello@vibes.consulting</a></p>
           </div>
         </section>
       </div>

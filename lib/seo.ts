@@ -4,7 +4,7 @@ export function createMetadata(
   {
     title = 'Vibes Consulting',
     description = 'We fix the flow — TQM + human systems + safe AI for small businesses in Santa Cruz.',
-    url = 'https://vibesconsulting.com',
+    url = 'https://vibes.consulting',
     image = '/og-image.png'
   } = {}
 ): Metadata {

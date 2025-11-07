@@ -115,7 +115,7 @@ export default function PrivacyPolicyPage() {
           <div className="mt-4 card p-4 inline-block">
             <p><strong className="text-white">Vibes Consulting</strong></p>
             <p>Santa Cruz, CA</p>
-            <p>Email: <a href="mailto:hello@vibesconsulting.com" className="text-current-500 hover:underline">hello@vibesconsulting.com</a></p>
+            <p>Email: <a href="mailto:hello@vibes.consulting" className="text-current-500 hover:underline">hello@vibes.consulting</a></p>
           </div>
         </section>
       </div>

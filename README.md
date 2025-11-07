@@ -80,7 +80,7 @@ Replace the Formspree endpoint in `app/(site)/contact/page.tsx`:
 Get your ID at [formspree.io](https://formspree.io)
 
 ### 3. Update Domain URLs
-Replace `https://vibesconsulting.com` in:
+Replace `https://vibes.consulting` in:
 - `lib/seo.ts` - SEO metadata
 - `app/sitemap.ts` - Sitemap base URL
 - `app/robots.txt` - Sitemap reference
@@ -132,7 +132,7 @@ Works with Netlify, Railway, or any Node.js host.
 
 ## 📧 Contact
 
-Questions? hello@vibesconsulting.com
+Questions? hello@vibes.consulting
 
 ---
 

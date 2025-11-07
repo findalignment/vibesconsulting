@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex gap-6">
           <Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
           <Link href="/return-policy" className="hover:text-white">Return Policy</Link>
-          <a href="mailto:hello@vibesconsulting.com" className="hover:text-white">hello@vibesconsulting.com</a>
+          <a href="mailto:hello@vibes.consulting" className="hover:text-white">hello@vibes.consulting</a>
         </div>
       </div>
     </footer>

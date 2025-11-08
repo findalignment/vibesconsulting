@@ -14,8 +14,8 @@ export default function HomePage() {
             <a href="#how" className="btn btn-ghost">How it works</a>
           </div>
         </div>
-        <div className="card p-0 overflow-hidden">
-          <img src="/images/hero.jpg" alt="Flow" className="w-full h-full object-cover" />
+        <div className="card p-8 flex items-center justify-center bg-white/[0.02]">
+          <img src="/images/logo-mark.svg" alt="Vibes Consulting" className="w-full max-w-md" />
         </div>
       </section>
 

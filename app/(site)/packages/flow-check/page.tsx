@@ -13,10 +13,17 @@ export default function FlowCheckPage() {
         ← Back to Packages
       </Link>
 
-      <header className="mb-12">
+      <header className="mb-8">
         <h1 className="mb-4">The Flow Check</h1>
-        <p className="text-xl text-white/90 max-w-3xl">The low-risk diagnostic that shows you exactly where your business gets stuck - and how to fix it.</p>
+        <p className="text-xl text-white/90 max-w-3xl">The low-risk diagnostic that shows you exactly where your business gets stuck and how to fix it.</p>
       </header>
+
+      {/* Credibility intro */}
+      <div className="mb-16 pb-8 border-b border-white/10">
+        <p className="text-white/70 max-w-2xl">
+          Created by a consultant who's designed operational systems for three high-performing Santa Cruz brands. This isn't theory. It's a proven diagnostic built from real businesses that transformed friction into flow.
+        </p>
+      </div>
 
       <div className="grid md:grid-cols-3 gap-6 mb-16">
         <div className="card p-6">
@@ -33,8 +40,8 @@ export default function FlowCheckPage() {
         </div>
       </div>
 
-      <section className="mb-16">
-        <h2 className="mb-6">What You Get</h2>
+      <section className="mb-20">
+        <h2 className="mb-8">What You Get</h2>
         <div className="space-y-4">
           <Link 
             href="/packages/flow-check/whats-included/friction-audit"
@@ -71,8 +78,8 @@ export default function FlowCheckPage() {
         </div>
       </section>
 
-      <section className="mb-16">
-        <h2 className="mb-6">The Process</h2>
+      <section className="mb-20 card p-8 bg-white/[0.02]">
+        <h2 className="mb-8">The Process</h2>
         <div className="space-y-6">
           <div className="card p-6">
             <div className="flex items-start gap-4">
@@ -90,7 +97,7 @@ export default function FlowCheckPage() {
               <div className="text-3xl font-bold text-current-500">2</div>
               <div className="flex-1">
                 <h3 className="text-lg mb-2">Discovery Phase (Week 1)</h3>
-                <p className="text-white/70 text-sm mb-3">We conduct 5-7 team interviews (30 min each), observe operations for 3-4 hours, and review your existing documentation. You keep running your business - we work around your schedule.</p>
+                <p className="text-white/70 text-sm mb-3">We conduct 5-7 team interviews (30 min each), observe operations for 3-4 hours, and review your existing documentation. You keep running your business while we work around your schedule.</p>
                 <p className="text-white/60 text-sm italic">Your time: 30-minute interviews, optional observation participation</p>
               </div>
             </div>
@@ -120,8 +127,8 @@ export default function FlowCheckPage() {
         </div>
       </section>
 
-      <section className="mb-16">
-        <h2 className="mb-6">Who This Is For</h2>
+      <section className="mb-20">
+        <h2 className="mb-8">Who This Is For</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <Link 
             href="/packages/flow-check/who-this-is-for/growing-teams"
@@ -161,9 +168,9 @@ export default function FlowCheckPage() {
         </div>
       </section>
 
-      <section className="mb-16">
-        <h2 className="mb-6">What Happens After</h2>
-        <div className="card p-8">
+      <section className="mb-20">
+        <h2 className="mb-8">What Happens After</h2>
+        <div className="card p-8 bg-white/[0.02]">
           <p className="text-white/90 mb-6">You have three options:</p>
           
           <div className="space-y-4">
@@ -194,8 +201,8 @@ export default function FlowCheckPage() {
         </div>
       </section>
 
-      <section className="mb-16 card p-6">
-        <h2 className="mb-4">Common Questions</h2>
+      <section className="mb-20 card p-8">
+        <h2 className="mb-6">Common Questions</h2>
         <div className="space-y-4">
           <div>
             <h4 className="text-white font-medium mb-1 text-sm">Do we need to pause operations?</h4>
@@ -215,6 +222,26 @@ export default function FlowCheckPage() {
       <section className="card p-8 bg-current-600/10 text-center">
         <h2 className="mb-4">Ready to See Where You're Stuck?</h2>
         <p className="text-white/80 max-w-2xl mx-auto mb-6">Book a 30-minute intro call. We'll discuss your friction points and see if a Flow Check makes sense. No pressure, no sales pitch.</p>
+        
+        {/* Clear deliverables */}
+        <div className="max-w-lg mx-auto mb-8 text-left bg-white/5 rounded-lg p-6">
+          <p className="text-white/90 font-medium mb-3 text-sm uppercase tracking-wide text-center">What You'll Get:</p>
+          <ul className="space-y-2 text-white/80 text-sm">
+            <li className="flex items-start gap-2">
+              <span className="text-current-500 mt-0.5">✓</span>
+              <span>Identify your top 3 operational friction points</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-current-500 mt-0.5">✓</span>
+              <span>Receive a complete 90-day action plan</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-current-500 mt-0.5">✓</span>
+              <span>100% credit applied toward future consulting</span>
+            </li>
+          </ul>
+        </div>
+
         <CTAButton>Schedule Intro Call</CTAButton>
       </section>
     </div>

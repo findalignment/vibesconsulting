@@ -83,6 +83,13 @@ export default function Nav() {
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-6">
+          {/* Primary Nav Links */}
+          <nav className="flex gap-6 text-white/80">
+            {primaryLinks.map(l => (
+              <Link key={l.href} href={l.href} className={clsx('hover:text-white', pathname === l.href && 'text-white font-medium')}>{l.label}</Link>
+            ))}
+          </nav>
+
           {/* Hamburger Menu Button (Desktop) */}
           <div className="relative" ref={hamburgerRef}>
             <button 
@@ -99,7 +106,7 @@ export default function Nav() {
             
             {/* Hamburger Dropdown */}
             {hamburgerOpen && (
-              <div className="absolute top-full left-0 mt-2 w-48 bg-zinc-900 border border-white/10 rounded-lg shadow-lg overflow-hidden z-50 animate-fadeIn">
+              <div className="absolute top-full right-0 mt-2 w-48 bg-zinc-900 border border-white/10 rounded-lg shadow-lg overflow-hidden z-50 animate-fadeIn">
                 <nav className="py-2" role="menu">
                   {hamburgerLinks.map(l => (
                     <Link 
@@ -119,13 +126,6 @@ export default function Nav() {
               </div>
             )}
           </div>
-
-          {/* Primary Nav Links */}
-          <nav className="flex gap-6 text-white/80">
-            {primaryLinks.map(l => (
-              <Link key={l.href} href={l.href} className={clsx('hover:text-white', pathname === l.href && 'text-white font-medium')}>{l.label}</Link>
-            ))}
-          </nav>
         </div>
         
         {/* Mobile Menu Button */}

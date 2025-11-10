@@ -8,17 +8,17 @@ export default function PrivacyPolicyPage() {
     <div className="pb-20 max-w-4xl">
       <h1 className="mb-8">Privacy Policy</h1>
       
-      <div className="space-y-8 text-white/80">
+      <div className="space-y-8 text-brand-text/70">
         <section>
-          <p className="text-sm text-white/60 mb-6">Last Updated: January 2025</p>
+          <p className="text-sm text-brand-text/60 mb-6">Last Updated: January 2025</p>
           <p>Vibes Consulting ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you use our services or visit our website.</p>
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">Information We Collect</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">Information We Collect</h2>
           <div className="space-y-4">
             <div>
-              <h3 className="text-white text-lg mb-2">Information You Provide</h3>
+              <h3 className="text-brand-text text-lg mb-2">Information You Provide</h3>
               <p>When you contact us, book a consultation, or engage our services, we may collect:</p>
               <ul className="list-disc pl-6 mt-2 space-y-1">
                 <li>Name and contact information (email, phone number)</li>
@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
             </div>
 
             <div>
-              <h3 className="text-white text-lg mb-2">Automatically Collected Information</h3>
+              <h3 className="text-brand-text text-lg mb-2">Automatically Collected Information</h3>
               <p>When you visit our website, we may automatically collect:</p>
               <ul className="list-disc pl-6 mt-2 space-y-1">
                 <li>Browser type and version</li>
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">How We Use Your Information</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">How We Use Your Information</h2>
           <p className="mb-2">We use your information to:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Provide and deliver our consulting services</li>
@@ -56,7 +56,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">Information Sharing</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">Information Sharing</h2>
           <p className="mb-2">We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li><strong>Service Providers:</strong> With trusted third-party service providers who assist us in operating our website or conducting our business (e.g., email service providers, payment processors)</li>
@@ -67,12 +67,12 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">Data Security</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">Data Security</h2>
           <p>We implement reasonable security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">AI and Data Processing</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">AI and Data Processing</h2>
           <p className="mb-2">When we use AI tools as part of our services:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>We use business-grade AI accounts with data opt-out settings enabled</li>
@@ -83,12 +83,12 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">Cookies and Tracking</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">Cookies and Tracking</h2>
           <p>Our website may use cookies and similar tracking technologies to enhance your experience. You can control cookie settings through your browser preferences.</p>
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">Your Rights</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">Your Rights</h2>
           <p className="mb-2">You have the right to:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Access the personal information we hold about you</li>
@@ -100,20 +100,20 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">Children's Privacy</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">Children's Privacy</h2>
           <p>Our services are not directed to individuals under 18 years of age. We do not knowingly collect personal information from children.</p>
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">Changes to This Policy</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">Changes to This Policy</h2>
           <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new policy on this page and updating the "Last Updated" date.</p>
         </section>
 
         <section>
-          <h2 className="text-white text-xl font-semibold mb-4">Contact Us</h2>
+          <h2 className="text-brand-text text-xl font-semibold mb-4">Contact Us</h2>
           <p>If you have questions about this Privacy Policy or wish to exercise your privacy rights, please contact us:</p>
           <div className="mt-4 card p-4 inline-block">
-            <p><strong className="text-white">Vibes Consulting</strong></p>
+            <p><strong className="text-brand-text">Vibes Consulting</strong></p>
             <p>Santa Cruz, CA</p>
             <p>Email: <a href="mailto:info@vibes.consulting" className="text-current-500 hover:underline">info@vibes.consulting</a></p>
           </div>

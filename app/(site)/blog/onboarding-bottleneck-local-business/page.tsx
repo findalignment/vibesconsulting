@@ -31,11 +31,11 @@ export default function BlogPost() {
 <p>The best Santa Cruz businesses we work with onboard clients in 48-72 hours. Here's their system:</p>
 
           <ul className="space-y-2">
-            <li><strong className="text-white">Automated intake:</strong> Form submission triggers welcome email and scheduling link</li>
-            <li><strong className="text-white">Pre-populated templates:</strong> Client info flows into your system automatically</li>
-            <li><strong className="text-white">Self-service scheduling:</strong> Clients book their own kickoff call</li>
-            <li><strong className="text-white">Clear handoff protocol:</strong> Sales-to-delivery transition is documented</li>
-            <li><strong className="text-white">Async welcome packet:</strong> Video orientation clients can watch anytime</li>
+            <li><strong className="text-brand-text">Automated intake:</strong> Form submission triggers welcome email and scheduling link</li>
+            <li><strong className="text-brand-text">Pre-populated templates:</strong> Client info flows into your system automatically</li>
+            <li><strong className="text-brand-text">Self-service scheduling:</strong> Clients book their own kickoff call</li>
+            <li><strong className="text-brand-text">Clear handoff protocol:</strong> Sales-to-delivery transition is documented</li>
+            <li><strong className="text-brand-text">Async welcome packet:</strong> Video orientation clients can watch anytime</li>
           </ul>
         </>
       )
@@ -56,8 +56,8 @@ export default function BlogPost() {
           <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
               <div className="flex-1">
-                <p className="text-2xl font-bold text-white mb-3">Want to redesign your client onboarding?</p>
-                <p className="text-white/80 text-lg">Our Flow Rebuild service can tackle your onboarding process specifically - from intake to first delivery.</p>
+                <p className="text-2xl font-bold text-brand-text mb-3">Want to redesign your client onboarding?</p>
+                <p className="text-brand-text/70 text-lg">Our Flow Rebuild service can tackle your onboarding process specifically - from intake to first delivery.</p>
               </div>
               <Link 
                 href="/packages/flow-rebuild" 
@@ -75,13 +75,13 @@ export default function BlogPost() {
 
   return (
     <div className="pb-20">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+      <Link href="/blog" className="text-brand-text/60 hover:text-brand-text text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
         <span>←</span> Back to Blog
       </Link>
 
       <article className="max-w-3xl mx-auto">
         <header className="mb-12 pb-8 border-b border-white/10">
-          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+          <div className="flex items-center gap-3 text-sm text-brand-text/60 mb-4">
             <time>September 04, 2024</time>
             <span>•</span>
             <span>6 min read</span>
@@ -89,7 +89,7 @@ export default function BlogPost() {
             <span className="text-current-500">Operations</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">The Onboarding Bottleneck Killing Santa Cruz Business Growth</h1>
-          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">If onboarding new clients takes weeks, you're losing revenue. Here's how Santa Cruz businesses are fixing this friction point.</p>
+          <p className="text-xl md:text-2xl text-brand-text/70 leading-relaxed">If onboarding new clients takes weeks, you're losing revenue. Here's how Santa Cruz businesses are fixing this friction point.</p>
         </header>
 
         <div className="space-y-12 mb-12">
@@ -105,8 +105,8 @@ export default function BlogPost() {
 <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
               <div className="flex-1">
-                <p className="text-2xl font-bold text-white mb-3">Want to redesign your client onboarding?</p>
-                <p className="text-white/80 text-lg">Our Flow Rebuild service can tackle your onboarding process specifically - from intake to first delivery.</p>
+                <p className="text-2xl font-bold text-brand-text mb-3">Want to redesign your client onboarding?</p>
+                <p className="text-brand-text/70 text-lg">Our Flow Rebuild service can tackle your onboarding process specifically - from intake to first delivery.</p>
               </div>
               <Link 
                 href="/packages/flow-rebuild" 
@@ -119,17 +119,17 @@ export default function BlogPost() {
           </div>
         
           <div className="mt-24 pt-16 border-t border-white/10">
-            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <h3 className="text-2xl font-bold text-brand-text mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/customer-experience-operations-disconnect" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Operations</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Customer Experience Operations Disconnect</h4>
-                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Customer Experience Operations Disconnect</h4>
+                <p className="text-brand-text/70 text-sm">Practical insights on improving your business operations.</p>
               </Link>
               <Link href="/blog/busy-but-not-productive" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Operations</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Busy But Not Productive</h4>
-                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Busy But Not Productive</h4>
+                <p className="text-brand-text/70 text-sm">Learn how to build better systems and reduce friction.</p>
               </Link>
             </div>
           </div>

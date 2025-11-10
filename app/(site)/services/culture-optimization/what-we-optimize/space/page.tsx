@@ -5,19 +5,19 @@ export const metadata = { title: 'Physical & Digital Space - Culture & Environme
 export default function SpacePage() {
   return (
     <div className="pb-20 max-w-4xl">
-      <Link href="/services/culture-optimization" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
+      <Link href="/services/culture-optimization" className="text-brand-text/60 hover:text-brand-text text-sm mb-6 inline-block">
         ← Back to Culture & Environment Optimization
       </Link>
 
       <h1 className="mb-4">Physical & Digital Space Optimization</h1>
-      <p className="text-xl text-white/90 mb-8">Your environment shapes behavior. We optimize workspaces (physical and digital) to support focus, collaboration, and well-being.</p>
+      <p className="text-xl text-brand-text/90 mb-8">Your environment shapes behavior. We optimize workspaces (physical and digital) to support focus, collaboration, and well-being.</p>
 
       <div className="space-y-8">
         <section>
           <h2 className="mb-4">Why Space Matters</h2>
           <div className="card p-6 bg-white/5">
-            <p className="text-white/80 mb-3">Environment is culture made visible. A cluttered, loud, uncomfortable space signals chaos. A thoughtful, well-designed space signals care.</p>
-            <p className="text-white/70 text-sm">Most businesses don't think about space optimization until morale tanks. We help you design environments that support the behaviors you want to see.</p>
+            <p className="text-brand-text/70 mb-3">Environment is culture made visible. A cluttered, loud, uncomfortable space signals chaos. A thoughtful, well-designed space signals care.</p>
+            <p className="text-brand-text/70 text-sm">Most businesses don't think about space optimization until morale tanks. We help you design environments that support the behaviors you want to see.</p>
           </div>
         </section>
 
@@ -26,8 +26,8 @@ export default function SpacePage() {
           <div className="space-y-4">
             <div className="card p-6">
               <h3 className="text-lg mb-2">Layout & Flow</h3>
-              <p className="text-white/70 text-sm mb-3">Do people have space for focused work? Informal conversation? Collaboration? We assess and redesign.</p>
-              <div className="text-xs text-white/60 bg-white/5 p-3 rounded">
+              <p className="text-brand-text/70 text-sm mb-3">Do people have space for focused work? Informal conversation? Collaboration? We assess and redesign.</p>
+              <div className="text-xs text-brand-text/60 bg-white/5 p-3 rounded">
                 <p className="font-medium mb-1">Common improvements:</p>
                 <ul className="pl-3 space-y-1">
                   <li>• Create quiet zones for deep work (no talking, no pings)</li>
@@ -40,8 +40,8 @@ export default function SpacePage() {
 
             <div className="card p-6">
               <h3 className="text-lg mb-2">Noise & Acoustics</h3>
-              <p className="text-white/70 text-sm mb-3">Open offices can be productivity killers. We assess noise levels and recommend fixes.</p>
-              <div className="text-xs text-white/60 bg-white/5 p-3 rounded">
+              <p className="text-brand-text/70 text-sm mb-3">Open offices can be productivity killers. We assess noise levels and recommend fixes.</p>
+              <div className="text-xs text-brand-text/60 bg-white/5 p-3 rounded">
                 <p className="font-medium mb-1">Common solutions:</p>
                 <ul className="pl-3 space-y-1">
                   <li>• Sound-absorbing panels or plants</li>
@@ -54,8 +54,8 @@ export default function SpacePage() {
 
             <div className="card p-6">
               <h3 className="text-lg mb-2">Lighting & Comfort</h3>
-              <p className="text-white/70 text-sm mb-3">Bad lighting = bad morale. Uncomfortable furniture = distraction. We audit and optimize.</p>
-              <div className="text-xs text-white/60 bg-white/5 p-3 rounded">
+              <p className="text-brand-text/70 text-sm mb-3">Bad lighting = bad morale. Uncomfortable furniture = distraction. We audit and optimize.</p>
+              <div className="text-xs text-brand-text/60 bg-white/5 p-3 rounded">
                 <p className="font-medium mb-1">Common improvements:</p>
                 <ul className="pl-3 space-y-1">
                   <li>• Maximize natural light (remove barriers to windows)</li>
@@ -68,8 +68,8 @@ export default function SpacePage() {
 
             <div className="card p-6">
               <h3 className="text-lg mb-2">Visual Identity & Vibe</h3>
-              <p className="text-white/70 text-sm mb-3">Does your space reflect your values? Or is it generic corporate?</p>
-              <div className="text-xs text-white/60 bg-white/5 p-3 rounded">
+              <p className="text-brand-text/70 text-sm mb-3">Does your space reflect your values? Or is it generic corporate?</p>
+              <div className="text-xs text-brand-text/60 bg-white/5 p-3 rounded">
                 <p className="font-medium mb-1">Examples:</p>
                 <ul className="pl-3 space-y-1">
                   <li>• Display team work (projects, case studies)</li>
@@ -87,8 +87,8 @@ export default function SpacePage() {
           <div className="space-y-4">
             <div className="card p-6">
               <h3 className="text-lg mb-2">Tool Sprawl Reduction</h3>
-              <p className="text-white/70 text-sm mb-3">Too many tools = cognitive overload. We audit your digital stack and consolidate.</p>
-              <div className="text-xs text-white/60 bg-white/5 p-3 rounded">
+              <p className="text-brand-text/70 text-sm mb-3">Too many tools = cognitive overload. We audit your digital stack and consolidate.</p>
+              <div className="text-xs text-brand-text/60 bg-white/5 p-3 rounded">
                 <p className="font-medium mb-1">Common consolidations:</p>
                 <ul className="pl-3 space-y-1">
                   <li>• Replace 3 project tools with 1 (e.g., Notion or Asana)</li>
@@ -100,8 +100,8 @@ export default function SpacePage() {
 
             <div className="card p-6">
               <h3 className="text-lg mb-2">Information Architecture</h3>
-              <p className="text-white/70 text-sm mb-3">If people can't find what they need, they'll ask (or guess). We organize your digital workspace.</p>
-              <div className="text-xs text-white/60 bg-white/5 p-3 rounded">
+              <p className="text-brand-text/70 text-sm mb-3">If people can't find what they need, they'll ask (or guess). We organize your digital workspace.</p>
+              <div className="text-xs text-brand-text/60 bg-white/5 p-3 rounded">
                 <p className="font-medium mb-1">Examples:</p>
                 <ul className="pl-3 space-y-1">
                   <li>• Create centralized knowledge base (SOPs, templates, FAQs)</li>
@@ -114,8 +114,8 @@ export default function SpacePage() {
 
             <div className="card p-6">
               <h3 className="text-lg mb-2">Notification Management</h3>
-              <p className="text-white/70 text-sm mb-3">Constant pings kill focus. We help teams set norms around notifications.</p>
-              <div className="text-xs text-white/60 bg-white/5 p-3 rounded">
+              <p className="text-brand-text/70 text-sm mb-3">Constant pings kill focus. We help teams set norms around notifications.</p>
+              <div className="text-xs text-brand-text/60 bg-white/5 p-3 rounded">
                 <p className="font-medium mb-1">Strategies:</p>
                 <ul className="pl-3 space-y-1">
                   <li>• Define "urgent" vs. "can wait"</li>
@@ -128,8 +128,8 @@ export default function SpacePage() {
 
             <div className="card p-6">
               <h3 className="text-lg mb-2">Remote/Hybrid Setup</h3>
-              <p className="text-white/70 text-sm mb-3">If your team is distributed, the digital workspace IS the office. We optimize for async and sync work.</p>
-              <div className="text-xs text-white/60 bg-white/5 p-3 rounded">
+              <p className="text-brand-text/70 text-sm mb-3">If your team is distributed, the digital workspace IS the office. We optimize for async and sync work.</p>
+              <div className="text-xs text-brand-text/60 bg-white/5 p-3 rounded">
                 <p className="font-medium mb-1">Best practices:</p>
                 <ul className="pl-3 space-y-1">
                   <li>• Default to async documentation (don't rely on meetings)</li>
@@ -146,7 +146,7 @@ export default function SpacePage() {
 
         <section className="card p-6 bg-current-600/10">
           <h2 className="mb-4">Part of Culture Optimization</h2>
-          <p className="text-white/80">Physical and digital space optimization is a core part of our Culture & Environment Optimization work.</p>
+          <p className="text-brand-text/70">Physical and digital space optimization is a core part of our Culture & Environment Optimization work.</p>
           <Link href="/services/culture-optimization" className="text-current-500 hover:text-current-400 text-sm inline-block mt-4">Learn more →</Link>
         </section>
       </div>

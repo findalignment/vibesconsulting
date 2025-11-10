@@ -9,18 +9,18 @@ export const metadata = {
 export default function FlowCheckPage() {
   return (
     <div className="pb-20">
-      <Link href="/packages" className="text-white/60 hover:text-white text-sm mb-6 inline-block">
+      <Link href="/packages" className="text-brand-text/60 hover:text-brand-text text-sm mb-6 inline-block">
         ← Back to Packages
       </Link>
 
       <header className="mb-8">
         <h1 className="mb-4">The Flow Check</h1>
-        <p className="text-xl text-white/90 max-w-3xl">The low-risk diagnostic that shows you exactly where your business gets stuck and how to fix it.</p>
+        <p className="text-xl text-brand-text/90 max-w-3xl">The low-risk diagnostic that shows you exactly where your business gets stuck and how to fix it.</p>
       </header>
 
       {/* Credibility intro */}
       <div className="mb-16 pb-8 border-b border-white/10">
-        <p className="text-white/70 max-w-2xl">
+        <p className="text-brand-text/70 max-w-2xl">
           Created by a consultant who's designed operational systems for three high-performing Santa Cruz brands. This isn't theory. It's a proven diagnostic built from real businesses that transformed friction into flow.
         </p>
       </div>
@@ -28,15 +28,15 @@ export default function FlowCheckPage() {
       <div className="grid md:grid-cols-3 gap-6 mb-16">
         <div className="card p-6">
           <div className="text-3xl font-semibold text-current-500 mb-2">$2,500</div>
-          <p className="text-white/70 text-sm">One-time investment</p>
+          <p className="text-brand-text/70 text-sm">One-time investment</p>
         </div>
         <div className="card p-6">
           <div className="text-3xl font-semibold text-current-500 mb-2">2 weeks</div>
-          <p className="text-white/70 text-sm">From kickoff to final delivery</p>
+          <p className="text-brand-text/70 text-sm">From kickoff to final delivery</p>
         </div>
         <div className="card p-6">
           <div className="text-3xl font-semibold text-current-500 mb-2">100%</div>
-          <p className="text-white/70 text-sm">Credit toward Flow Rebuild</p>
+          <p className="text-brand-text/70 text-sm">Credit toward Flow Rebuild</p>
         </div>
       </div>
 
@@ -48,32 +48,32 @@ export default function FlowCheckPage() {
             className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
           >
             <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">Friction Audit Report</h3>
-            <p className="text-white/70 mb-3">Visual map of where work slows down in your business. We identify the 3-5 highest-impact friction points costing you time and momentum.</p>
-            <p className="text-white/60 text-sm">Includes: Process observation, team interviews, bottleneck analysis, root cause documentation</p>
+            <p className="text-brand-text/70 mb-3">Visual map of where work slows down in your business. We identify the 3-5 highest-impact friction points costing you time and momentum.</p>
+            <p className="text-brand-text/60 text-sm">Includes: Process observation, team interviews, bottleneck analysis, root cause documentation</p>
           </Link>
           <Link 
             href="/packages/flow-check/whats-included/flow-map"
             className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
           >
             <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">Flow Map (Current vs. Ideal)</h3>
-            <p className="text-white/70 mb-3">Side-by-side comparison showing how your workflows operate now versus how they should work. Clear gap analysis with decision rights matrix.</p>
-            <p className="text-white/60 text-sm">Includes: Current state diagram, ideal state design, implementation roadmap</p>
+            <p className="text-brand-text/70 mb-3">Side-by-side comparison showing how your workflows operate now versus how they should work. Clear gap analysis with decision rights matrix.</p>
+            <p className="text-brand-text/60 text-sm">Includes: Current state diagram, ideal state design, implementation roadmap</p>
           </Link>
           <Link 
             href="/packages/flow-check/whats-included/improvement-plan"
             className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
           >
             <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">90-Day Continuous Improvement Plan</h3>
-            <p className="text-white/70 mb-3">Phased action plan with quick wins (weeks 1-4), system redesign (weeks 5-8), and stabilization (weeks 9-12). Includes success metrics and accountability structure.</p>
-            <p className="text-white/60 text-sm">Includes: Prioritized improvements, timeline, owner assignments, measurement framework</p>
+            <p className="text-brand-text/70 mb-3">Phased action plan with quick wins (weeks 1-4), system redesign (weeks 5-8), and stabilization (weeks 9-12). Includes success metrics and accountability structure.</p>
+            <p className="text-brand-text/60 text-sm">Includes: Prioritized improvements, timeline, owner assignments, measurement framework</p>
           </Link>
           <Link 
             href="/packages/flow-check/whats-included/final-presentation"
             className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all block"
           >
             <h3 className="text-xl mb-2 group-hover:text-current-500 transition-colors">Final Presentation + Strategy Session</h3>
-            <p className="text-white/70 mb-3">60-minute presentation of findings with your leadership team. We walk through the report, answer questions, and help you decide next steps.</p>
-            <p className="text-white/60 text-sm">Plus: 30 days of email support for implementation questions</p>
+            <p className="text-brand-text/70 mb-3">60-minute presentation of findings with your leadership team. We walk through the report, answer questions, and help you decide next steps.</p>
+            <p className="text-brand-text/60 text-sm">Plus: 30 days of email support for implementation questions</p>
           </Link>
         </div>
       </section>
@@ -86,8 +86,8 @@ export default function FlowCheckPage() {
               <div className="text-3xl font-bold text-current-500">1</div>
               <div className="flex-1">
                 <h3 className="text-lg mb-2">Kickoff Call (Week 1, Day 1)</h3>
-                <p className="text-white/70 text-sm mb-3">90-minute session to understand your business model, current pain points, and what success looks like. We'll identify who to interview and which processes to observe.</p>
-                <p className="text-white/60 text-sm italic">Your time: 90 minutes</p>
+                <p className="text-brand-text/70 text-sm mb-3">90-minute session to understand your business model, current pain points, and what success looks like. We'll identify who to interview and which processes to observe.</p>
+                <p className="text-brand-text/60 text-sm italic">Your time: 90 minutes</p>
               </div>
             </div>
           </div>
@@ -97,8 +97,8 @@ export default function FlowCheckPage() {
               <div className="text-3xl font-bold text-current-500">2</div>
               <div className="flex-1">
                 <h3 className="text-lg mb-2">Discovery Phase (Week 1)</h3>
-                <p className="text-white/70 text-sm mb-3">We conduct 5-7 team interviews (30 min each), observe operations for 3-4 hours, and review your existing documentation. You keep running your business while we work around your schedule.</p>
-                <p className="text-white/60 text-sm italic">Your time: 30-minute interviews, optional observation participation</p>
+                <p className="text-brand-text/70 text-sm mb-3">We conduct 5-7 team interviews (30 min each), observe operations for 3-4 hours, and review your existing documentation. You keep running your business while we work around your schedule.</p>
+                <p className="text-brand-text/60 text-sm italic">Your time: 30-minute interviews, optional observation participation</p>
               </div>
             </div>
           </div>
@@ -108,8 +108,8 @@ export default function FlowCheckPage() {
               <div className="text-3xl font-bold text-current-500">3</div>
               <div className="flex-1">
                 <h3 className="text-lg mb-2">Analysis & Design (Week 2, Days 1-3)</h3>
-                <p className="text-white/70 text-sm mb-3">We synthesize findings, create visual flow maps, and draft the 90-day improvement plan. You'll see a preview of key insights before the final presentation.</p>
-                <p className="text-white/60 text-sm italic">Your time: 15-minute check-in call</p>
+                <p className="text-brand-text/70 text-sm mb-3">We synthesize findings, create visual flow maps, and draft the 90-day improvement plan. You'll see a preview of key insights before the final presentation.</p>
+                <p className="text-brand-text/60 text-sm italic">Your time: 15-minute check-in call</p>
               </div>
             </div>
           </div>
@@ -119,8 +119,8 @@ export default function FlowCheckPage() {
               <div className="text-3xl font-bold text-current-500">4</div>
               <div className="flex-1">
                 <h3 className="text-lg mb-2">Final Presentation (Week 2, Day 4-5)</h3>
-                <p className="text-white/70 text-sm mb-3">60-minute presentation with your leadership team. We walk through the Friction Audit, Flow Maps, and 90-Day Plan. You decide if you want to implement yourself or continue with Flow Rebuild.</p>
-                <p className="text-white/60 text-sm italic">Your time: 60 minutes</p>
+                <p className="text-brand-text/70 text-sm mb-3">60-minute presentation with your leadership team. We walk through the Friction Audit, Flow Maps, and 90-Day Plan. You decide if you want to implement yourself or continue with Flow Rebuild.</p>
+                <p className="text-brand-text/60 text-sm italic">Your time: 60 minutes</p>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@ export default function FlowCheckPage() {
             className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
           >
             <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">You're Growing (5-20 people)</h3>
-            <p className="text-white/70 text-sm mb-4">Things that used to "just work" now require coordination. You've outgrown informal systems but haven't built formal ones yet. Everyone's busy but nothing feels smooth.</p>
+            <p className="text-brand-text/70 text-sm mb-4">Things that used to "just work" now require coordination. You've outgrown informal systems but haven't built formal ones yet. Everyone's busy but nothing feels smooth.</p>
             <p className="text-current-500 text-sm font-medium">Perfect fit if: You can feel the friction but can't name it</p>
           </Link>
 
@@ -144,7 +144,7 @@ export default function FlowCheckPage() {
             className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
           >
             <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">You're the Bottleneck</h3>
-            <p className="text-white/70 text-sm mb-4">Every decision runs through you. Your team waits for your input. You work nights and weekends but the business still feels chaotic. You know this isn't sustainable.</p>
+            <p className="text-brand-text/70 text-sm mb-4">Every decision runs through you. Your team waits for your input. You work nights and weekends but the business still feels chaotic. You know this isn't sustainable.</p>
             <p className="text-current-500 text-sm font-medium">Perfect fit if: You need to delegate but don't know how</p>
           </Link>
 
@@ -153,7 +153,7 @@ export default function FlowCheckPage() {
             className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
           >
             <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">Processes Feel Broken</h3>
-            <p className="text-white/70 text-sm mb-4">Onboarding takes too long. Client projects have too many handoffs. Information gets lost. Simple tasks require too many meetings. You know it should be easier.</p>
+            <p className="text-brand-text/70 text-sm mb-4">Onboarding takes too long. Client projects have too many handoffs. Information gets lost. Simple tasks require too many meetings. You know it should be easier.</p>
             <p className="text-current-500 text-sm font-medium">Perfect fit if: Your gut says "there's a better way"</p>
           </Link>
 
@@ -162,7 +162,7 @@ export default function FlowCheckPage() {
             className="card p-6 group cursor-pointer hover:border-current-600/60 transition-all"
           >
             <h3 className="text-lg mb-3 group-hover:text-current-500 transition-colors">You Want Proof Before Investing</h3>
-            <p className="text-white/70 text-sm mb-4">You're not ready to commit to a full engagement without seeing the quality of work. You want a diagnostic that gives you value even if you implement it yourself.</p>
+            <p className="text-brand-text/70 text-sm mb-4">You're not ready to commit to a full engagement without seeing the quality of work. You want a diagnostic that gives you value even if you implement it yourself.</p>
             <p className="text-current-500 text-sm font-medium">Perfect fit if: You prefer "try before you buy"</p>
           </Link>
         </div>
@@ -171,30 +171,30 @@ export default function FlowCheckPage() {
       <section className="mb-20">
         <h2 className="mb-8">What Happens After</h2>
         <div className="card p-8 bg-white/[0.02]">
-          <p className="text-white/90 mb-6">You have three options:</p>
+          <p className="text-brand-text/90 mb-6">You have three options:</p>
           
           <div className="space-y-4">
             <div className="flex items-start gap-3">
               <div className="text-current-500 text-xl">→</div>
               <div>
-                <h4 className="text-white font-medium mb-1">Implement It Yourself</h4>
-                <p className="text-white/70 text-sm">Take the 90-Day Plan and run with it. We include 30 days of email support to answer questions. Some clients choose this path and it works great.</p>
+                <h4 className="text-brand-text font-medium mb-1">Implement It Yourself</h4>
+                <p className="text-brand-text/70 text-sm">Take the 90-Day Plan and run with it. We include 30 days of email support to answer questions. Some clients choose this path and it works great.</p>
               </div>
             </div>
 
             <div className="flex items-start gap-3">
               <div className="text-current-500 text-xl">→</div>
               <div>
-                <h4 className="text-white font-medium mb-1">Continue with Flow Rebuild</h4>
-                <p className="text-white/70 text-sm">We implement the plan with you over 6 weeks. The $2,500 Flow Check fee is fully credited, so you only pay $5,500 more ($8,000 total). Most clients choose this path.</p>
+                <h4 className="text-brand-text font-medium mb-1">Continue with Flow Rebuild</h4>
+                <p className="text-brand-text/70 text-sm">We implement the plan with you over 6 weeks. The $2,500 Flow Check fee is fully credited, so you only pay $5,500 more ($8,000 total). Most clients choose this path.</p>
               </div>
             </div>
 
             <div className="flex items-start gap-3">
               <div className="text-current-500 text-xl">→</div>
               <div>
-                <h4 className="text-white font-medium mb-1">Pause and Return Later</h4>
-                <p className="text-white/70 text-sm">Not ready to implement? That's fine. The credit stays active for 12 months. Come back when timing is better.</p>
+                <h4 className="text-brand-text font-medium mb-1">Pause and Return Later</h4>
+                <p className="text-brand-text/70 text-sm">Not ready to implement? That's fine. The credit stays active for 12 months. Come back when timing is better.</p>
               </div>
             </div>
           </div>
@@ -205,28 +205,28 @@ export default function FlowCheckPage() {
         <h2 className="mb-6">Common Questions</h2>
         <div className="space-y-4">
           <div>
-            <h4 className="text-white font-medium mb-1 text-sm">Do we need to pause operations?</h4>
-            <p className="text-white/70 text-sm">No. We work around your schedule. Most observation happens during normal hours.</p>
+            <h4 className="text-brand-text font-medium mb-1 text-sm">Do we need to pause operations?</h4>
+            <p className="text-brand-text/70 text-sm">No. We work around your schedule. Most observation happens during normal hours.</p>
           </div>
           <div>
-            <h4 className="text-white font-medium mb-1 text-sm">What if we're too small?</h4>
-            <p className="text-white/70 text-sm">If you have 3+ people and recurring friction, you're the right size.</p>
+            <h4 className="text-brand-text font-medium mb-1 text-sm">What if we're too small?</h4>
+            <p className="text-brand-text/70 text-sm">If you have 3+ people and recurring friction, you're the right size.</p>
           </div>
           <div>
-            <h4 className="text-white font-medium mb-1 text-sm">Can you work remotely?</h4>
-            <p className="text-white/70 text-sm">Yes. In-person is ideal for Santa Cruz / Bay Area, but we do video observation for remote teams.</p>
+            <h4 className="text-brand-text font-medium mb-1 text-sm">Can you work remotely?</h4>
+            <p className="text-brand-text/70 text-sm">Yes. In-person is ideal for Santa Cruz / Bay Area, but we do video observation for remote teams.</p>
           </div>
         </div>
       </section>
 
       <section className="card p-8 bg-current-600/10 text-center">
         <h2 className="mb-4">Ready to See Where You're Stuck?</h2>
-        <p className="text-white/80 max-w-2xl mx-auto mb-6">Book a 30-minute intro call. We'll discuss your friction points and see if a Flow Check makes sense. No pressure, no sales pitch.</p>
+        <p className="text-brand-text/70 max-w-2xl mx-auto mb-6">Book a 30-minute intro call. We'll discuss your friction points and see if a Flow Check makes sense. No pressure, no sales pitch.</p>
         
         {/* Clear deliverables */}
         <div className="max-w-lg mx-auto mb-8 text-left bg-white/5 rounded-lg p-6">
-          <p className="text-white/90 font-medium mb-3 text-sm uppercase tracking-wide text-center">What You'll Get:</p>
-          <ul className="space-y-2 text-white/80 text-sm">
+          <p className="text-brand-text/90 font-medium mb-3 text-sm uppercase tracking-wide text-center">What You'll Get:</p>
+          <ul className="space-y-2 text-brand-text/70 text-sm">
             <li className="flex items-start gap-2">
               <span className="text-current-500 mt-0.5">✓</span>
               <span>Identify your top 3 operational friction points</span>

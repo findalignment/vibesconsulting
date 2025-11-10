@@ -62,8 +62,8 @@ export default function BlogPost() {
           <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
               <div className="flex-1">
-                <p className="text-2xl font-bold text-white mb-3">Need help identifying what to fix first?</p>
-                <p className="text-white/80 text-lg">Our Flow Check is a 2-week diagnostic specifically for Santa Cruz small businesses. We identify your biggest operational bottlenecks and give you a 90-day plan to fix them.</p>
+                <p className="text-2xl font-bold text-brand-text mb-3">Need help identifying what to fix first?</p>
+                <p className="text-brand-text/70 text-lg">Our Flow Check is a 2-week diagnostic specifically for Santa Cruz small businesses. We identify your biggest operational bottlenecks and give you a 90-day plan to fix them.</p>
               </div>
               <Link 
                 href="/packages/flow-check" 
@@ -81,13 +81,13 @@ export default function BlogPost() {
 
   return (
     <div className="pb-20">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+      <Link href="/blog" className="text-brand-text/60 hover:text-brand-text text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
         <span>←</span> Back to Blog
       </Link>
 
       <article className="max-w-3xl mx-auto">
         <header className="mb-12 pb-8 border-b border-white/10">
-          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+          <div className="flex items-center gap-3 text-sm text-brand-text/60 mb-4">
             <time>November 01, 2024</time>
             <span>•</span>
             <span>6 min read</span>
@@ -95,7 +95,7 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Why Santa Cruz Small Businesses Struggle With Operations (And How to Fix It)</h1>
-          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Santa Cruz businesses are thriving creatively but drowning in operational chaos. Learn how local businesses are fixing their systems without losing their vibe.</p>
+          <p className="text-xl md:text-2xl text-brand-text/70 leading-relaxed">Santa Cruz businesses are thriving creatively but drowning in operational chaos. Learn how local businesses are fixing their systems without losing their vibe.</p>
         </header>
 
         <div className="space-y-12 mb-12">
@@ -111,8 +111,8 @@ export default function BlogPost() {
 <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
               <div className="flex-1">
-                <p className="text-2xl font-bold text-white mb-3">Need help identifying what to fix first?</p>
-                <p className="text-white/80 text-lg">Our Flow Check is a 2-week diagnostic specifically for Santa Cruz small businesses. We identify your biggest operational bottlenecks and give you a 90-day plan to fix them.</p>
+                <p className="text-2xl font-bold text-brand-text mb-3">Need help identifying what to fix first?</p>
+                <p className="text-brand-text/70 text-lg">Our Flow Check is a 2-week diagnostic specifically for Santa Cruz small businesses. We identify your biggest operational bottlenecks and give you a 90-day plan to fix them.</p>
               </div>
               <Link 
                 href="/packages/flow-check" 
@@ -125,17 +125,17 @@ export default function BlogPost() {
           </div>
         
           <div className="mt-24 pt-16 border-t border-white/10">
-            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <h3 className="text-2xl font-bold text-brand-text mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/creative-agencies-santa-cruz" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Creative Agencies Santa Cruz</h4>
-                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Creative Agencies Santa Cruz</h4>
+                <p className="text-brand-text/70 text-sm">Practical insights on improving your business operations.</p>
               </Link>
               <Link href="/blog/santa-cruz-fitness-client-communication" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Fitness Client Communication</h4>
-                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Fitness Client Communication</h4>
+                <p className="text-brand-text/70 text-sm">Learn how to build better systems and reduce friction.</p>
               </Link>
             </div>
           </div>

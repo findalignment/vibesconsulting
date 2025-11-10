@@ -13,7 +13,7 @@ export default function BlogPost() {
       content: (
         <>
           <p>Culture is the answer to these questions:</p>
-          <ul className="list-disc pl-6 space-y-2 text-white/80">
+          <ul className="list-disc pl-6 space-y-2 text-brand-text/70">
             <li>How do decisions get made around here?</li>
             <li>What happens when someone makes a mistake?</li>
             <li>Is it okay to say "I don't know" or "I need help"?</li>
@@ -32,7 +32,7 @@ export default function BlogPost() {
           <p>So businesses adopt Asana, then Monday, then ClickUp. They implement OKRs, then KPIs, then North Star Metrics. They buy standing desks, noise-canceling headphones, and meditation app subscriptions.</p>
           <p>And people are still exhausted.</p>
           <p>Because the problem isn't the tools. It's that your team is in 20 hours of meetings per week. It's that decisions take forever because no one knows who's actually empowered to make them. It's that people are scared to push back on unrealistic deadlines.</p>
-          <p><strong className="text-white">You can't tool your way out of a culture problem.</strong></p>
+          <p><strong className="text-brand-text">You can't tool your way out of a culture problem.</strong></p>
         </>
       )
     },
@@ -43,40 +43,40 @@ export default function BlogPost() {
           <p>If you want a team that's productive, engaged, and sustainable, focus on these five things:</p>
           <div className="space-y-6 mt-6">
             <div>
-              <h3 className="text-xl font-semibold text-white mb-3">1. Clarity Over Chaos</h3>
+              <h3 className="text-xl font-semibold text-brand-text mb-3">1. Clarity Over Chaos</h3>
               <p>People need to know: What they're responsible for, what success looks like, and what's actually urgent vs. what can wait. When everything feels urgent and priorities shift daily, people burn out from decision fatigue before they even start the real work.</p>
               <div className="card p-6 bg-white/5 my-4">
-                <p className="text-white/90 text-sm mb-2"><strong className="text-white">Quick fix:</strong></p>
-                <p className="text-white/70 text-sm">Every Monday, share the top 3 priorities for the week. Not 10. Not "everything is important." Three. This alone will reduce half the "urgent" Slack messages.</p>
+                <p className="text-brand-text/90 text-sm mb-2"><strong className="text-brand-text">Quick fix:</strong></p>
+                <p className="text-brand-text/70 text-sm">Every Monday, share the top 3 priorities for the week. Not 10. Not "everything is important." Three. This alone will reduce half the "urgent" Slack messages.</p>
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-3">2. Autonomy Within Structure</h3>
-              <p>People don't want to be micromanaged, but they also don't want to guess what's expected. The sweet spot: <strong className="text-white">Clear boundaries with freedom inside them.</strong></p>
+              <h3 className="text-xl font-semibold text-brand-text mb-3">2. Autonomy Within Structure</h3>
+              <p>People don't want to be micromanaged, but they also don't want to guess what's expected. The sweet spot: <strong className="text-brand-text">Clear boundaries with freedom inside them.</strong></p>
               <p>"You own client communication. Here's the tone we use and the two things that need approval. Everything else is yours."</p>
               <p>When people know where the guardrails are, they can move fast without constantly checking in. That's not just efficient - it's energizing.</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-3">3. Sustainable Rhythms</h3>
+              <h3 className="text-xl font-semibold text-brand-text mb-3">3. Sustainable Rhythms</h3>
               <p>If your team's default mode is "sprint," you're already in trouble. Sustainable businesses run on predictable rhythms:</p>
-              <ul className="list-disc pl-6 space-y-2 text-white/80 my-4">
+              <ul className="list-disc pl-6 space-y-2 text-brand-text/70 my-4">
                 <li>Weekly check-ins (not daily stand-ups unless you're actively firefighting)</li>
                 <li>Monthly retros to adjust what's not working</li>
                 <li>Quarterly planning to reset priorities</li>
                 <li>Protected focus time (no-meeting blocks)</li>
               </ul>
-              <p><strong className="text-white">If your culture rewards responsiveness over results, you're training people to be busy, not effective.</strong></p>
+              <p><strong className="text-brand-text">If your culture rewards responsiveness over results, you're training people to be busy, not effective.</strong></p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-3">4. Psychological Safety</h3>
+              <h3 className="text-xl font-semibold text-brand-text mb-3">4. Psychological Safety</h3>
               <p>This is the nerdy term for "can people speak up without fear?" When psychological safety is low, people don't flag problems, mistakes get hidden, and good ideas die. When it's high, problems surface early, people ask clarifying questions, and feedback flows both ways.</p>
               <div className="card p-6 bg-white/5 my-4">
-                <p className="text-white/90 text-sm mb-2"><strong className="text-white">How to build it:</strong></p>
-                <p className="text-white/70 text-sm">When someone admits a mistake or says "I don't know," reward it. Literally say, "Thank you for flagging that early." Do this consistently for 3 months and watch the culture shift.</p>
+                <p className="text-brand-text/90 text-sm mb-2"><strong className="text-brand-text">How to build it:</strong></p>
+                <p className="text-brand-text/70 text-sm">When someone admits a mistake or says "I don't know," reward it. Literally say, "Thank you for flagging that early." Do this consistently for 3 months and watch the culture shift.</p>
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-white mb-3">5. Recognition That Isn't Performative</h3>
+              <h3 className="text-xl font-semibold text-brand-text mb-3">5. Recognition That Isn't Performative</h3>
               <p>People don't need "Employee of the Month" awards. They need to feel like their work matters. Real recognition is specific, timely, and connected to impact.</p>
             </div>
           </div>
@@ -88,13 +88,13 @@ export default function BlogPost() {
       content: (
         <>
           <p>You probably already know if your culture is off. Here's what it looks like:</p>
-          <ul className="list-disc pl-6 space-y-2 text-white/80 my-4">
-            <li><strong className="text-white">High turnover:</strong> People leave not because of the work, but because of "the vibe"</li>
-            <li><strong className="text-white">Quiet quitting:</strong> Team members do the bare minimum and nothing more</li>
-            <li><strong className="text-white">Meeting overload:</strong> Everyone's calendar is packed but nothing gets decided</li>
-            <li><strong className="text-white">Constant firefighting:</strong> Every week feels like a crisis</li>
-            <li><strong className="text-white">Communication breakdowns:</strong> Things slip through the cracks regularly</li>
-            <li><strong className="text-white">Leadership as bottleneck:</strong> Every decision has to go through one person</li>
+          <ul className="list-disc pl-6 space-y-2 text-brand-text/70 my-4">
+            <li><strong className="text-brand-text">High turnover:</strong> People leave not because of the work, but because of "the vibe"</li>
+            <li><strong className="text-brand-text">Quiet quitting:</strong> Team members do the bare minimum and nothing more</li>
+            <li><strong className="text-brand-text">Meeting overload:</strong> Everyone's calendar is packed but nothing gets decided</li>
+            <li><strong className="text-brand-text">Constant firefighting:</strong> Every week feels like a crisis</li>
+            <li><strong className="text-brand-text">Communication breakdowns:</strong> Things slip through the cracks regularly</li>
+            <li><strong className="text-brand-text">Leadership as bottleneck:</strong> Every decision has to go through one person</li>
           </ul>
           <p>If three or more of these are true, you don't have a workflow problem. You have a culture problem.</p>
         </>
@@ -106,7 +106,7 @@ export default function BlogPost() {
         <>
           <p>Business owners often avoid culture work because it feels soft, vague, or hard to measure. But culture work isn't therapy. It's operational design.</p>
           <p>When you redesign your meeting cadence to respect people's time, that's culture work. When you clarify decision rights so people stop waiting for permission, that's culture work. When you create a feedback loop that surfaces problems early, that's culture work.</p>
-          <p>It's not about trust falls or vision boards. It's about <strong className="text-white">designing the systems that shape how work feels.</strong></p>
+          <p>It's not about trust falls or vision boards. It's about <strong className="text-brand-text">designing the systems that shape how work feels.</strong></p>
         </>
       )
     },
@@ -135,13 +135,13 @@ export default function BlogPost() {
 
   return (
     <div className="pb-20">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+      <Link href="/blog" className="text-brand-text/60 hover:text-brand-text text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
         <span>←</span> Back to Blog
       </Link>
 
       <article className="max-w-3xl mx-auto">
         <header className="mb-12 pb-8 border-b border-white/10">
-          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+          <div className="flex items-center gap-3 text-sm text-brand-text/60 mb-4">
             <time>October 28, 2024</time>
             <span>•</span>
             <span>6 min read</span>
@@ -149,36 +149,36 @@ export default function BlogPost() {
             <span className="text-current-500">Culture & Leadership</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Culture Is the Real Productivity Hack</h1>
-          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Why optimizing workflows won't fix burnout, disengagement, or turnover. And what will.</p>
+          <p className="text-xl md:text-2xl text-brand-text/70 leading-relaxed">Why optimizing workflows won't fix burnout, disengagement, or turnover. And what will.</p>
         </header>
 
         <div className="space-y-12 mb-12">
           <p className="text-lg leading-relaxed">You can have perfect processes, efficient workflows, and the latest tools. But if your culture is off, none of it matters.</p>
           <p>People will still burn out. They'll disengage. They'll leave. And you'll wonder why the business feels so hard when everything looks optimized on paper.</p>
-          <p>Here's what most business owners miss: <strong className="text-white">culture isn't perks or values posters. It's the operating system that determines whether people can actually do their best work.</strong></p>
+          <p>Here's what most business owners miss: <strong className="text-brand-text">culture isn't perks or values posters. It's the operating system that determines whether people can actually do their best work.</strong></p>
         </div>
 
         <BlogAccordion sections={sections} />
 
         <div className="space-y-12 mt-12">
           <div className="bg-current-600/10 p-6 rounded-lg">
-            <p className="font-semibold text-white mb-2">Want to Fix Your Culture?</p>
-            <p className="text-white/70 text-sm mb-4">We'll audit your team's rituals, communication patterns, and operating rhythms - then redesign them for sustainable flow.</p>
+            <p className="font-semibold text-brand-text mb-2">Want to Fix Your Culture?</p>
+            <p className="text-brand-text/70 text-sm mb-4">We'll audit your team's rituals, communication patterns, and operating rhythms - then redesign them for sustainable flow.</p>
             <Link href="/services/culture-optimization" className="text-current-500 hover:underline text-sm">Learn about Culture Optimization →</Link>
           </div>
 
           <div className="mt-24 pt-16 border-t border-white/10">
-            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <h3 className="text-2xl font-bold text-brand-text mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/team-siloed-not-collaborating" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Team & Culture</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Team Siloed Not Collaborating</h4>
-                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Team Siloed Not Collaborating</h4>
+                <p className="text-brand-text/70 text-sm">Practical insights on improving your business operations.</p>
               </Link>
               <Link href="/blog/team-working-late-accomplishing-less" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Team & Culture</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Team Working Late Accomplishing Less</h4>
-                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Team Working Late Accomplishing Less</h4>
+                <p className="text-brand-text/70 text-sm">Learn how to build better systems and reduce friction.</p>
               </Link>
             </div>
           </div>

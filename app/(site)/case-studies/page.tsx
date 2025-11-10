@@ -37,7 +37,7 @@ export default function CaseStudiesPage() {
     <div className="pb-20">
       <header className="mb-12">
         <h1 className="mb-3">Case Studies</h1>
-        <p className="text-white/80 max-w-2xl">Real results from real businesses. See how we've helped companies optimize flow, adopt AI, and create environments that support their teams.</p>
+        <p className="text-brand-text/70 max-w-2xl">Real results from real businesses. See how we've helped companies optimize flow, adopt AI, and create environments that support their teams.</p>
       </header>
       
       <div className="space-y-6">
@@ -55,13 +55,13 @@ export default function CaseStudiesPage() {
                 <div className="flex items-start justify-between mb-3">
                   <div>
                     <h2 className="text-2xl mb-1 group-hover:text-current-500 transition-colors">{study.title}</h2>
-                    <p className="text-white/80">{study.tagline}</p>
+                    <p className="text-brand-text/70">{study.tagline}</p>
                   </div>
-                  <span className="text-xs text-white/60 bg-white/5 px-3 py-1 rounded-full">{study.industry}</span>
+                  <span className="text-xs text-brand-text/60 bg-white/5 px-3 py-1 rounded-full">{study.industry}</span>
                 </div>
                 
                 <div className="mb-4">
-                  <p className="text-white/60 text-sm mb-2"><strong className="text-white/80">Challenge:</strong> {study.challenge}</p>
+                  <p className="text-brand-text/60 text-sm mb-2"><strong className="text-brand-text/70">Challenge:</strong> {study.challenge}</p>
                 </div>
 
                 <div className="flex flex-wrap gap-3 mb-4">
@@ -72,7 +72,7 @@ export default function CaseStudiesPage() {
                   ))}
                 </div>
 
-                <span className="text-white/60 text-sm group-hover:text-current-500 transition-colors">
+                <span className="text-brand-text/60 text-sm group-hover:text-current-500 transition-colors">
                   Read full case study →
                 </span>
               </div>
@@ -83,7 +83,7 @@ export default function CaseStudiesPage() {
 
       <section className="mt-16 card p-8 bg-current-600/10 text-center">
         <h2 className="mb-4">Ready for Your Own Success Story?</h2>
-        <p className="text-white/80 max-w-2xl mx-auto mb-6">Book a Flow Check to identify your biggest opportunities for improvement.</p>
+        <p className="text-brand-text/70 max-w-2xl mx-auto mb-6">Book a Flow Check to identify your biggest opportunities for improvement.</p>
         <Link href="/contact" className="btn btn-primary">Get Started</Link>
       </section>
     </div>

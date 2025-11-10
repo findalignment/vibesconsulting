@@ -15,11 +15,11 @@ export default function BlogPost() {
 <p>Forget the hype. Here's what's actually working for local businesses:</p>
 
           <ul className="space-y-2">
-            <li><strong className="text-white">Drafting client emails:</strong> AI writes the first draft, you add the personal touch</li>
-            <li><strong className="text-white">Meeting notes:</strong> AI transcribes and summarizes, you review and send</li>
-            <li><strong className="text-white">Social media posts:</strong> AI generates variations, you pick the best one</li>
-            <li><strong className="text-white">Client intake:</strong> AI processes form responses and populates your CRM</li>
-            <li><strong className="text-white">Follow-up reminders:</strong> AI drafts personalized check-ins automatically</li>
+            <li><strong className="text-brand-text">Drafting client emails:</strong> AI writes the first draft, you add the personal touch</li>
+            <li><strong className="text-brand-text">Meeting notes:</strong> AI transcribes and summarizes, you review and send</li>
+            <li><strong className="text-brand-text">Social media posts:</strong> AI generates variations, you pick the best one</li>
+            <li><strong className="text-brand-text">Client intake:</strong> AI processes form responses and populates your CRM</li>
+            <li><strong className="text-brand-text">Follow-up reminders:</strong> AI drafts personalized check-ins automatically</li>
           </ul>
 
           <p>These aren't theoretical. These are tools Santa Cruz training studios, consultancies, and retail spaces are using right now.</p>
@@ -68,8 +68,8 @@ export default function BlogPost() {
           <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
               <div className="flex-1">
-                <p className="text-2xl font-bold text-white mb-3">Want help identifying which AI tools make sense for your business?</p>
-                <p className="text-white/80 text-lg">Our AI Integration service is built for Santa Cruz small businesses. We identify practical use cases, set up tools safely, and train your team.</p>
+                <p className="text-2xl font-bold text-brand-text mb-3">Want help identifying which AI tools make sense for your business?</p>
+                <p className="text-brand-text/70 text-lg">Our AI Integration service is built for Santa Cruz small businesses. We identify practical use cases, set up tools safely, and train your team.</p>
               </div>
               <Link 
                 href="/services/ai-integration" 
@@ -87,13 +87,13 @@ export default function BlogPost() {
 
   return (
     <div className="pb-20">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+      <Link href="/blog" className="text-brand-text/60 hover:text-brand-text text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
         <span>←</span> Back to Blog
       </Link>
 
       <article className="max-w-3xl mx-auto">
         <header className="mb-12 pb-8 border-b border-white/10">
-          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+          <div className="flex items-center gap-3 text-sm text-brand-text/60 mb-4">
             <time>October 11, 2024</time>
             <span>•</span>
             <span>6 min read</span>
@@ -101,7 +101,7 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">AI for Santa Cruz Businesses: A Practical Guide for Non-Technical Owners</h1>
-          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Santa Cruz business owners are curious about AI but worried about complexity and cost. Here\'s how local businesses are adopting AI safely and practically.</p>
+          <p className="text-xl md:text-2xl text-brand-text/70 leading-relaxed">Santa Cruz business owners are curious about AI but worried about complexity and cost. Here\'s how local businesses are adopting AI safely and practically.</p>
         </header>
 
         <div className="space-y-12 mb-12">
@@ -119,8 +119,8 @@ export default function BlogPost() {
 <div className="bg-gradient-to-br from-current-600/20 to-current-800/30 p-8 md:p-10 rounded-xl border border-current-500/20 mt-16">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
               <div className="flex-1">
-                <p className="text-2xl font-bold text-white mb-3">Want help identifying which AI tools make sense for your business?</p>
-                <p className="text-white/80 text-lg">Our AI Integration service is built for Santa Cruz small businesses. We identify practical use cases, set up tools safely, and train your team.</p>
+                <p className="text-2xl font-bold text-brand-text mb-3">Want help identifying which AI tools make sense for your business?</p>
+                <p className="text-brand-text/70 text-lg">Our AI Integration service is built for Santa Cruz small businesses. We identify practical use cases, set up tools safely, and train your team.</p>
               </div>
               <Link 
                 href="/services/ai-integration" 
@@ -133,17 +133,17 @@ export default function BlogPost() {
           </div>
         
           <div className="mt-24 pt-16 border-t border-white/10">
-            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <h3 className="text-2xl font-bold text-brand-text mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/santa-cruz-gym-membership-retention" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Gym Membership Retention</h4>
-                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Gym Membership Retention</h4>
+                <p className="text-brand-text/70 text-sm">Practical insights on improving your business operations.</p>
               </Link>
               <Link href="/blog/santa-cruz-wellness-business-intake" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Wellness Business Intake</h4>
-                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Wellness Business Intake</h4>
+                <p className="text-brand-text/70 text-sm">Learn how to build better systems and reduce friction.</p>
               </Link>
             </div>
           </div>

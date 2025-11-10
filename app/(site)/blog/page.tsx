@@ -38,7 +38,7 @@ export default function BlogPage() {
     <div className="pb-20">
       <header className="mb-12">
         <h1>The Flow Report</h1>
-        <p className="mt-3 text-white/80 max-w-2xl">Practical insights on removing friction, building sustainable systems, and creating businesses that work with people instead of against them.</p>
+        <p className="mt-3 text-brand-text/70 max-w-2xl">Practical insights on removing friction, building sustainable systems, and creating businesses that work with people instead of against them.</p>
       </header>
 
       <div className="space-y-6">
@@ -50,12 +50,12 @@ export default function BlogPage() {
           >
             <div className="flex items-start justify-between gap-4 mb-3">
               <h2 className="text-2xl font-semibold group-hover:text-current-500 transition-colors">{p.title}</h2>
-              <span className="text-white/60 text-sm whitespace-nowrap">{p.readTime} read</span>
+              <span className="text-brand-text/60 text-sm whitespace-nowrap">{p.readTime} read</span>
             </div>
-            <p className="text-white/70 mb-4">{p.excerpt}</p>
+            <p className="text-brand-text/70 mb-4">{p.excerpt}</p>
             <div className="flex items-center justify-between">
-              <span className="text-white/60 text-sm">{new Date(p.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
-              <span className="text-white/60 text-sm group-hover:text-white transition-colors">Read more →</span>
+              <span className="text-brand-text/60 text-sm">{new Date(p.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+              <span className="text-brand-text/60 text-sm group-hover:text-brand-text transition-colors">Read more →</span>
             </div>
           </Link>
         ))}
@@ -63,7 +63,7 @@ export default function BlogPage() {
 
       <section className="mt-16 card p-8 bg-current-600/10">
         <h2 className="mb-4">Want these insights applied to your business?</h2>
-        <p className="text-white/80 mb-6 max-w-2xl">We can help you identify friction, redesign systems, and build a culture that actually supports flow.</p>
+        <p className="text-brand-text/70 mb-6 max-w-2xl">We can help you identify friction, redesign systems, and build a culture that actually supports flow.</p>
         <Link href="/contact" className="btn btn-primary">Schedule Intro Call</Link>
       </section>
     </div>

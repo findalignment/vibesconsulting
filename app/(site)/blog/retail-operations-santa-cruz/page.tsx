@@ -12,13 +12,13 @@ export default function BlogPost() {
       title: "The Santa Cruz Business Identity",
       content: (
         <>
-<p className="text-lg leading-relaxed text-white/80">Local businesses here share a common tension:</p>
+<p className="text-lg leading-relaxed text-brand-text/70">Local businesses here share a common tension:</p>
 
-          <p><strong className="text-white">We value relationships over transactions.</strong> But without process, relationships become inefficient and inconsistent.</p>
+          <p><strong className="text-brand-text">We value relationships over transactions.</strong> But without process, relationships become inefficient and inconsistent.</p>
 
-          <p><strong className="text-white">We pride ourselves on being flexible.</strong> But without structure, flexibility becomes chaos.</p>
+          <p><strong className="text-brand-text">We pride ourselves on being flexible.</strong> But without structure, flexibility becomes chaos.</p>
 
-          <p><strong className="text-white">We want to feel small and personal.</strong> But without systems, growth makes us messy, not bigger.</p>
+          <p><strong className="text-brand-text">We want to feel small and personal.</strong> But without systems, growth makes us messy, not bigger.</p>
 
           <p>The answer isn't choosing between culture and operations. It's designing operations that protect your culture.</p>
         </>
@@ -28,17 +28,17 @@ export default function BlogPost() {
       title: "Common Operational Struggles Locally",
       content: (
         <>
-<p className="text-lg leading-relaxed text-white/80">Here's what I see in Santa Cruz businesses constantly:</p>
+<p className="text-lg leading-relaxed text-brand-text/70">Here's what I see in Santa Cruz businesses constantly:</p>
 
-          <p><strong className="text-white">Informal onboarding.</strong> New hires learn by osmosis. Some figure it out, others struggle for months. Quality varies based on who trained whom.</p>
+          <p><strong className="text-brand-text">Informal onboarding.</strong> New hires learn by osmosis. Some figure it out, others struggle for months. Quality varies based on who trained whom.</p>
 
-          <p><strong className="text-white">Inconsistent customer experience.</strong> Your regulars love you because they know how things work. New customers feel confused because nothing's clearly explained.</p>
+          <p><strong className="text-brand-text">Inconsistent customer experience.</strong> Your regulars love you because they know how things work. New customers feel confused because nothing's clearly explained.</p>
 
-          <p><strong className="text-white">Owner dependency.</strong> The business runs great when you're there, falls apart when you're not. This isn't sustainable.</p>
+          <p><strong className="text-brand-text">Owner dependency.</strong> The business runs great when you're there, falls apart when you're not. This isn't sustainable.</p>
 
-          <p><strong className="text-white">Information silos.</strong> Critical knowledge lives in people's heads, not in accessible systems. When someone's out, things stop.</p>
+          <p><strong className="text-brand-text">Information silos.</strong> Critical knowledge lives in people's heads, not in accessible systems. When someone's out, things stop.</p>
 
-          <p><strong className="text-white">Reactive problem-solving.</strong> You're always putting out fires instead of preventing them. There's no time to improve because you're too busy surviving.</p>
+          <p><strong className="text-brand-text">Reactive problem-solving.</strong> You're always putting out fires instead of preventing them. There's no time to improve because you're too busy surviving.</p>
         </>
       )
     },
@@ -46,17 +46,17 @@ export default function BlogPost() {
       title: "What Good Operations Look Like Here",
       content: (
         <>
-<p className="text-lg leading-relaxed text-white/80">Santa Cruz businesses that nail operations share these traits:</p>
+<p className="text-lg leading-relaxed text-brand-text/70">Santa Cruz businesses that nail operations share these traits:</p>
 
-          <p><strong className="text-white">They document the essentials.</strong> Not everything, but the core processes that define quality. Simple, visual, accessible documentation.</p>
+          <p><strong className="text-brand-text">They document the essentials.</strong> Not everything, but the core processes that define quality. Simple, visual, accessible documentation.</p>
 
-          <p><strong className="text-white">They train with intention.</strong> New hires get structured onboarding that teaches your way of doing things, not just the basics.</p>
+          <p><strong className="text-brand-text">They train with intention.</strong> New hires get structured onboarding that teaches your way of doing things, not just the basics.</p>
 
-          <p><strong className="text-white">They build flexible systems.</strong> Clear frameworks that leave room for personality and judgment. Structure that enables creativity, not restricts it.</p>
+          <p><strong className="text-brand-text">They build flexible systems.</strong> Clear frameworks that leave room for personality and judgment. Structure that enables creativity, not restricts it.</p>
 
-          <p><strong className="text-white">They empower their teams.</strong> Staff can make decisions within clear boundaries. They don't need permission for everything.</p>
+          <p><strong className="text-brand-text">They empower their teams.</strong> Staff can make decisions within clear boundaries. They don't need permission for everything.</p>
 
-          <p><strong className="text-white">They communicate consistently.</strong> Regular check-ins, clear expectations, feedback loops that actually work.</p>
+          <p><strong className="text-brand-text">They communicate consistently.</strong> Regular check-ins, clear expectations, feedback loops that actually work.</p>
         </>
       )
     },
@@ -64,17 +64,17 @@ export default function BlogPost() {
       title: "How to Fix Operations Without Losing Your Soul",
       content: (
         <>
-<p className="text-lg leading-relaxed text-white/80">Here's how to get started:</p>
+<p className="text-lg leading-relaxed text-brand-text/70">Here's how to get started:</p>
 
-          <p><strong className="text-white">1. Document your non-negotiables.</strong> What absolutely must happen every time? Write those down. Everything else can stay flexible.</p>
+          <p><strong className="text-brand-text">1. Document your non-negotiables.</strong> What absolutely must happen every time? Write those down. Everything else can stay flexible.</p>
 
-          <p><strong className="text-white">2. Create a simple onboarding path.</strong> Week-by-week plan for new hires. Ensures everyone learns the same foundation.</p>
+          <p><strong className="text-brand-text">2. Create a simple onboarding path.</strong> Week-by-week plan for new hires. Ensures everyone learns the same foundation.</p>
 
-          <p><strong className="text-white">3. Build decision frameworks, not scripts.</strong> Give people principles to apply, not words to memorize. Trust their judgment within boundaries.</p>
+          <p><strong className="text-brand-text">3. Build decision frameworks, not scripts.</strong> Give people principles to apply, not words to memorize. Trust their judgment within boundaries.</p>
 
-          <p><strong className="text-white">4. Establish communication rhythms.</strong> Weekly check-ins, monthly reviews, clear channels for questions. Communication can't be random.</p>
+          <p><strong className="text-brand-text">4. Establish communication rhythms.</strong> Weekly check-ins, monthly reviews, clear channels for questions. Communication can't be random.</p>
 
-          <p><strong className="text-white">5. Measure what matters.</strong> Pick 3-5 key metrics that show if things are working. Track them. Adjust when they drift.</p>
+          <p><strong className="text-brand-text">5. Measure what matters.</strong> Pick 3-5 key metrics that show if things are working. Track them. Adjust when they drift.</p>
         </>
       )
     },
@@ -82,13 +82,13 @@ export default function BlogPost() {
       title: "Why This Matters for Santa Cruz",
       content: (
         <>
-<p className="text-lg leading-relaxed text-white/80">Our local economy depends on small businesses that can compete on experience, quality, and community connection. You can't do that consistently without good operations.</p>
+<p className="text-lg leading-relaxed text-brand-text/70">Our local economy depends on small businesses that can compete on experience, quality, and community connection. You can't do that consistently without good operations.</p>
 
           <p>But good operations here don't look like corporate operations. They look like systems designed by people who value culture as much as efficiency.</p>
 
           <p>That's the Santa Cruz way: professional without being corporate. Structured without being rigid. Scalable without losing soul.</p>
           
-          <p className="text-white/70 mt-6">Explore our <Link href="/services">consulting services</Link> or <Link href="/packages">packages</Link> for comprehensive support.</p>
+          <p className="text-brand-text/70 mt-6">Explore our <Link href="/services">consulting services</Link> or <Link href="/packages">packages</Link> for comprehensive support.</p>
         </>
       )
     },
@@ -96,13 +96,13 @@ export default function BlogPost() {
 
   return (
     <div className="pb-20">
-      <Link href="/blog" className="text-white/60 hover:text-white text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
+      <Link href="/blog" className="text-brand-text/60 hover:text-brand-text text-sm mb-8 inline-flex items-center gap-2 hover:gap-3 transition-all">
         <span>←</span> Back to Blog
       </Link>
 
       <article className="max-w-3xl mx-auto">
         <header className="mb-12 pb-8 border-b border-white/10">
-          <div className="flex items-center gap-3 text-sm text-white/60 mb-4">
+          <div className="flex items-center gap-3 text-sm text-brand-text/60 mb-4">
             <time>October 03, 2024</time>
             <span>•</span>
             <span>6 min read</span>
@@ -110,7 +110,7 @@ export default function BlogPost() {
             <span className="text-current-500">Santa Cruz Business</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Santa Cruz Retail Operations: Beyond the POS System</h1>
-          <p className="text-xl md:text-2xl text-white/70 leading-relaxed">Your POS handles transactions. But what about inventory, staff scheduling, and customer follow-up? Here's the full picture.</p>
+          <p className="text-xl md:text-2xl text-brand-text/70 leading-relaxed">Your POS handles transactions. But what about inventory, staff scheduling, and customer follow-up? Here's the full picture.</p>
         </header>
 
         <div className="space-y-12 mb-12">
@@ -124,23 +124,23 @@ export default function BlogPost() {
 
         <div className="space-y-12 mt-12">
 <div className="bg-current-600/10 p-6 rounded-lg mt-12">
-            <p className="font-semibold text-white mb-2">Need help with your business operations?</p>
-            <p className="text-white/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to identify your biggest operational opportunities.</p>
+            <p className="font-semibold text-brand-text mb-2">Need help with your business operations?</p>
+            <p className="text-brand-text/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to identify your biggest operational opportunities.</p>
             <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
           </div>
         
           <div className="mt-24 pt-16 border-t border-white/10">
-            <h3 className="text-2xl font-bold text-white mb-8">Related Articles</h3>
+            <h3 className="text-2xl font-bold text-brand-text mb-8">Related Articles</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/santa-cruz-wellness-business-intake" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Wellness Business Intake</h4>
-                <p className="text-white/70 text-sm">Practical insights on improving your business operations.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Santa Cruz Wellness Business Intake</h4>
+                <p className="text-brand-text/70 text-sm">Practical insights on improving your business operations.</p>
               </Link>
               <Link href="/blog/creative-agencies-santa-cruz" className="card p-6 hover:border-current-500/50 transition-colors group">
                 <p className="text-sm text-current-500 mb-2">Santa Cruz Business</p>
-                <h4 className="text-xl font-semibold text-white mb-3 group-hover:text-current-500 transition-colors">Creative Agencies Santa Cruz</h4>
-                <p className="text-white/70 text-sm">Learn how to build better systems and reduce friction.</p>
+                <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Creative Agencies Santa Cruz</h4>
+                <p className="text-brand-text/70 text-sm">Learn how to build better systems and reduce friction.</p>
               </Link>
             </div>
           </div>

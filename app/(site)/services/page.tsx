@@ -42,13 +42,13 @@ export default function ServicesPage() {
             className="card p-6 hover:border-current-600/50 transition-colors group"
           >
             <h3 className="mb-2 group-hover:text-current-500 transition-colors">{s.title}</h3>
-            <p className="text-white/60 text-sm mb-4">{s.description}</p>
-            <ul className="list-disc pl-5 text-white/80 space-y-2 text-sm mb-4">
+            <p className="text-brand-text/60 text-sm mb-4">{s.description}</p>
+            <ul className="list-disc pl-5 text-brand-text/70 space-y-2 text-sm mb-4">
               {s.bullets.map(b => <li key={b}>{b}</li>)}
             </ul>
             <div className="mt-auto pt-4 border-t border-white/10 flex items-center justify-between">
-              <span className="text-white/90 font-medium">{s.investment}</span>
-              <span className="text-white/60 text-sm group-hover:text-white transition-colors">Learn more →</span>
+              <span className="text-brand-text/90 font-medium">{s.investment}</span>
+              <span className="text-brand-text/60 text-sm group-hover:text-brand-text transition-colors">Learn more →</span>
             </div>
           </Link>
         ))}
@@ -56,7 +56,7 @@ export default function ServicesPage() {
 
       <section className="card p-8 mt-12">
         <h2 className="mb-4">Not sure which service fits?</h2>
-        <p className="text-white/80 mb-6 max-w-2xl">Book a 30-minute intro call. We'll ask about your biggest friction points and recommend the right starting place. No pressure, no sales pitch.</p>
+        <p className="text-brand-text/70 mb-6 max-w-2xl">Book a 30-minute intro call. We'll ask about your biggest friction points and recommend the right starting place. No pressure, no sales pitch.</p>
         <Link href="/contact" className="btn btn-primary">Schedule Intro Call</Link>
       </section>
     </div>

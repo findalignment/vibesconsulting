@@ -27,14 +27,14 @@ export default function BlogAccordion({ sections }: BlogAccordionProps) {
   return (
     <div className="space-y-6">
       {sections.map((section, index) => (
-        <div key={index} className="border border-white/10 rounded-lg overflow-hidden">
+        <div key={index} className="border border-brand-neutral rounded-xl overflow-hidden shadow-card bg-white">
           <button
             onClick={() => toggleSection(index)}
-            className="w-full flex items-center justify-between p-6 text-left bg-white/5 hover:bg-white/10 transition-colors border-l-4 border-current-500"
+            className="w-full flex items-center justify-between p-6 md:p-8 text-left hover:bg-brand-neutral/20 transition-colors border-l-4 border-brand-accent"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-white">{section.title}</h2>
+            <h2 className="text-2xl md:text-3xl font-extrabold text-brand-text">{section.title}</h2>
             <svg
-              className={`w-6 h-6 text-current-500 transition-transform duration-300 flex-shrink-0 ml-4 ${
+              className={`w-6 h-6 text-brand-accent transition-transform duration-300 flex-shrink-0 ml-4 ${
                 openSections.has(index) ? 'rotate-180' : ''
               }`}
               fill="none"
@@ -49,7 +49,7 @@ export default function BlogAccordion({ sections }: BlogAccordionProps) {
               openSections.has(index) ? 'max-h-[5000px] opacity-100' : 'max-h-0 opacity-0'
             }`}
           >
-            <div className="p-6 space-y-6">
+            <div className="p-6 md:p-8 space-y-6 bg-brand-base border-t border-brand-neutral">
               {section.content}
             </div>
           </div>

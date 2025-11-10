@@ -5,34 +5,28 @@ export default function HomePage() {
   return (
     <div className="pb-24">
       {/* Hero Section */}
-      <section className="mt-12 mb-32">
+      <section className="mt-8 mb-16">
         <div className="text-center max-w-5xl mx-auto">
-          <h1 className="mb-8 animate-fade-in">We fix the flow.</h1>
-          <p className="text-2xl md:text-3xl text-brand-text/70 mb-12 font-light max-w-3xl mx-auto animate-slide-up">Align your people, pull the data, execute with intelligence.</p>
-          
-          <div className="mb-16">
-            <div className="rounded-3xl overflow-hidden shadow-soft bg-brand-neutral/20">
-              <img src="/images/home-hero.png" alt="Business Flow Visualization" className="w-full h-auto" />
-            </div>
-          </div>
+          <h1 className="mb-6 animate-fade-in">We fix the flow.</h1>
+          <p className="text-2xl md:text-3xl text-brand-text/70 mb-10 font-light max-w-3xl mx-auto animate-slide-up">Align your people, pull the data, execute with intelligence.</p>
 
-          <div className="flex flex-col sm:flex-row gap-6 items-center justify-center mb-20">
+          <div className="flex flex-col sm:flex-row gap-6 items-center justify-center mb-12">
             <CTAButton>Start Your Flow Check</CTAButton>
             <a href="#how" className="text-brand-accent hover:text-brand-accent-dark transition-colors font-medium text-lg">How We Work →</a>
           </div>
 
           {/* Quick Value Proposition */}
-          <div className="grid md:grid-cols-3 gap-12 mb-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-10 mb-6 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-5xl mb-4">⚡</div>
+              <div className="text-5xl mb-3">⚡</div>
               <p className="text-brand-text font-semibold text-lg">Reduce friction</p>
             </div>
             <div className="text-center">
-              <div className="text-5xl mb-4">📈</div>
+              <div className="text-5xl mb-3">📈</div>
               <p className="text-brand-text font-semibold text-lg">Improve performance</p>
             </div>
             <div className="text-center">
-              <div className="text-5xl mb-4">🤖</div>
+              <div className="text-5xl mb-3">🤖</div>
               <p className="text-brand-text font-semibold text-lg">Leverage smart AI</p>
             </div>
           </div>
@@ -41,8 +35,8 @@ export default function HomePage() {
       </section>
 
       {/* Services Preview */}
-      <section className="mb-32">
-        <div className="text-center mb-16">
+      <section className="mb-20">
+        <div className="text-center mb-12">
           <h2 className="mb-4">What we do</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
@@ -79,8 +73,8 @@ export default function HomePage() {
       </section>
 
       {/* Case Study / Trust Section */}
-      <section className="mb-32 bg-brand-neutral/10 -mx-6 px-6 py-20 md:-mx-8 md:px-8 rounded-3xl">
-        <div className="text-center mb-16">
+      <section className="mb-20 bg-brand-neutral/10 -mx-6 px-6 py-16 md:-mx-8 md:px-8 rounded-3xl">
+        <div className="text-center mb-12">
           <h2 className="mb-4">Results that show up</h2>
         </div>
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -101,8 +95,8 @@ export default function HomePage() {
       </section>
 
       {/* Our Approach */}
-      <section id="how" className="mb-32">
-        <div className="text-center mb-16">
+      <section id="how" className="mb-20">
+        <div className="text-center mb-12">
           <h2 className="mb-6">Our approach</h2>
           <p className="text-brand-text/70 max-w-2xl mx-auto text-xl">Three steps to operational clarity</p>
         </div>

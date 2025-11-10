@@ -36,7 +36,18 @@ export default function Nav() {
   const pathname = usePathname()
   const [hamburgerOpen, setHamburgerOpen] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const hamburgerRef = useRef<HTMLDivElement>(null)
+
+  // Handle scroll effect for sticky nav
+  useEffect(() => {
+    function handleScroll() {
+      setScrolled(window.scrollY > 20)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   // Close hamburger menu when clicking outside or pressing Escape
   useEffect(() => {
@@ -74,19 +85,31 @@ export default function Nav() {
   }, [hamburgerOpen, mobileMenuOpen])
 
   return (
-    <header className="py-6">
+    <header className={clsx(
+      'sticky top-0 z-50 py-4 transition-all duration-300',
+      scrolled ? 'backdrop-blur-md bg-brand-base/95 shadow-sm border-b border-brand-neutral' : 'bg-transparent'
+    )}>
       <div className="flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 sm:gap-3">
-          <img src="/images/logo-mark.svg" alt="Vibes" className="h-7 w-7 sm:h-8 sm:w-8 flex-shrink-0" />
-          <span className="font-semibold tracking-wide text-sm sm:text-base truncate">Vibes Consulting</span>
+          <img src="/images/logo-mark.svg" alt="Vibes" className="h-8 w-8 sm:h-10 sm:w-10 flex-shrink-0" />
+          <span className="font-bold tracking-tight text-base sm:text-lg text-brand-text">Vibes Consulting</span>
         </Link>
         
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden md:flex items-center gap-8">
           {/* Primary Nav Links */}
-          <nav className="flex gap-6 text-white/80">
+          <nav className="flex gap-8 text-brand-text/70">
             {primaryLinks.map(l => (
-              <Link key={l.href} href={l.href} className={clsx('hover:text-white', pathname === l.href && 'text-white font-medium')}>{l.label}</Link>
+              <Link 
+                key={l.href} 
+                href={l.href} 
+                className={clsx(
+                  'hover:text-brand-accent transition-colors font-medium',
+                  pathname === l.href && 'text-brand-accent'
+                )}
+              >
+                {l.label}
+              </Link>
             ))}
           </nav>
 
@@ -94,7 +117,7 @@ export default function Nav() {
           <div className="relative" ref={hamburgerRef}>
             <button 
               onClick={() => setHamburgerOpen(!hamburgerOpen)}
-              className="text-white/80 hover:text-white p-2"
+              className="text-brand-text/70 hover:text-brand-accent transition-colors p-2"
               aria-label="More menu"
               aria-expanded={hamburgerOpen}
               aria-haspopup="true"
@@ -106,7 +129,7 @@ export default function Nav() {
             
             {/* Hamburger Dropdown */}
             {hamburgerOpen && (
-              <div className="absolute top-full right-0 mt-2 w-48 bg-zinc-900 border border-white/10 rounded-lg shadow-lg overflow-hidden z-50 animate-fadeIn">
+              <div className="absolute top-full right-0 mt-2 w-48 bg-white border border-brand-neutral rounded-lg shadow-card overflow-hidden z-50 animate-fadeIn">
                 <nav className="py-2" role="menu">
                   {hamburgerLinks.map(l => (
                     <Link 
@@ -114,8 +137,8 @@ export default function Nav() {
                       href={l.href}
                       onClick={() => setHamburgerOpen(false)}
                       className={clsx(
-                        'block px-4 py-2 text-sm text-white/80 hover:text-white hover:bg-white/5 transition-colors',
-                        pathname === l.href && 'text-white font-medium bg-white/5'
+                        'block px-4 py-2.5 text-sm text-brand-text/80 hover:text-brand-accent hover:bg-brand-accent/5 transition-colors',
+                        pathname === l.href && 'text-brand-accent font-medium bg-brand-accent/5'
                       )}
                       role="menuitem"
                     >
@@ -131,7 +154,7 @@ export default function Nav() {
         {/* Mobile Menu Button */}
         <button 
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden text-white p-2"
+          className="md:hidden text-brand-text p-2"
           aria-label="Toggle menu"
           aria-expanded={mobileMenuOpen}
           aria-controls="mobile-menu"
@@ -157,8 +180,8 @@ export default function Nav() {
               href={l.href} 
               onClick={() => setMobileMenuOpen(false)}
               className={clsx(
-                'text-white/80 hover:text-white py-2 transition-colors',
-                pathname === l.href && 'text-white font-medium'
+                'text-brand-text/80 hover:text-brand-accent py-2 transition-colors font-medium',
+                pathname === l.href && 'text-brand-accent'
               )}
             >
               {l.label}

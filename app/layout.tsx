@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="container">
           <Nav />
         </div>
-        <main className="mt-10 container">
+        <main className="mt-16 container">
           {children}
         </main>
         <div className="container">

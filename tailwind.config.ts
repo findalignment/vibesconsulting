@@ -8,29 +8,47 @@ export default {
   theme: {
     extend: {
       colors: {
-        ocean: {
-          950: '#0A1628',
-          900: '#0F1F3A',
-          800: '#1A3A52',
-          700: '#1E4A63',
-          600: '#2563A0'
-        },
-        current: {
-          600: '#0891B2', // cyan-600 - main accent (the current/flow)
-          500: '#06B6D4', // cyan-500
-          400: '#22D3EE', // cyan-400
-          300: '#67E8F9', // cyan-300
-          200: '#A5F3FC'  // cyan-200
-        },
-        depth: '#14B8A6', // teal-600 - secondary accent
-        mist: '#F0FDFA'   // teal-50 - light backgrounds
+        brand: {
+          base: '#F9FAFB',      // Off-white background
+          text: '#111827',       // Charcoal text
+          accent: '#1AC7A0',     // Teal accent
+          neutral: '#E5E7EB',    // Light grey
+          'accent-dark': '#15A083',  // Darker teal for hover
+          'accent-light': '#4FD8BA'  // Lighter teal
+        }
       },
-      borderRadius: {
-        '2xl': '1.25rem'
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      letterSpacing: {
+        button: '0.08em'  // +2px equivalent for buttons
+      },
+      maxWidth: {
+        'container': '1200px'
       },
       boxShadow: {
         soft: '0 10px 30px rgba(0,0,0,0.08)',
-        flow: '0 8px 24px rgba(8, 145, 178, 0.12)'
+        card: '0 4px 12px rgba(0,0,0,0.06)',
+        'card-hover': '0 12px 32px rgba(0,0,0,0.12)'
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.4s ease-out',
+        'slide-up': 'slideUp 0.5s ease-out',
+        'flow': 'flow 2s ease-in-out infinite'
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(10px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' }
+        },
+        slideUp: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' }
+        },
+        flow: {
+          '0%, 100%': { transform: 'translateX(0) translateY(0)' },
+          '50%': { transform: 'translateX(10px) translateY(-10px)' }
+        }
       }
     }
   },

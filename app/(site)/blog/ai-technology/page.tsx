@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'AI & Technology for Small Business | Practical AI Integration Guide',
   description: 'Learn how to integrate AI and technology into your small business without the hype. Practical guides for automation, tools, and staying human-centered.',
-  keywords: 'AI for small business, business automation, AI integration, technology adoption, CRM systems, business tools'
 })
 
 export default function AITechnologyHub() {

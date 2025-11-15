@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Building Local Loyalty to Offset Tourist Dependency in Santa Cruz',
   description: 'How to build a loyal local customer base that sustains your Santa Cruz business year-round. Strategies to reduce reliance on tourist revenue.',
-  keywords: 'local customer loyalty, santa cruz locals, reduce tourist dependency, year-round customers, community business santa cruz'
 })
 
 export default function BuildingLocalLoyalty() {

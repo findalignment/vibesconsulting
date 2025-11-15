@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Client Experience & Customer Retention Guide | Build Loyalty Through Operations',
   description: 'Learn how to create exceptional client experiences through operational excellence. Strategies for customer retention, consistency, and service quality.',
-  keywords: 'client experience, customer retention, customer service, client satisfaction, service quality, customer loyalty'
 })
 
 export default function ClientExperienceHub() {

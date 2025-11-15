@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Weekend vs Weekday Staffing Optimization for Santa Cruz Businesses',
   description: 'How to staff for weekend rush vs weekday consistency in Santa Cruz. Optimize labor costs while maintaining service quality across different demand patterns.',
-  keywords: 'weekend staffing, weekday operations, santa cruz staffing patterns, labor optimization, weekend rush'
 })
 
 export default function WeekendWeekdayStaffing() {

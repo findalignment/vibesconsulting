@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Maintaining Service Quality During Santa Cruz Summer Rush',
   description: 'How to deliver consistent, high-quality service during peak season chaos. Systems and strategies for Santa Cruz businesses handling summer crowds.',
-  keywords: 'summer service quality, santa cruz peak season, busy season operations, customer service summer, quality control high volume'
 })
 
 export default function MaintainingQualityDuringRush() {

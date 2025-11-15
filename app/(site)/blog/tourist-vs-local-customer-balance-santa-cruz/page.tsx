@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Balancing Tourist vs Local Customers in Santa Cruz | Business Strategy',
   description: 'How to serve both tourists and locals without alienating either. Pricing, marketing, and operational strategies for Santa Cruz businesses with mixed customer bases.',
-  keywords: 'santa cruz tourists vs locals, santa cruz business strategy, local customer loyalty, tourist pricing, santa cruz business balance'
 })
 
 export default function TouristVsLocalBalance() {

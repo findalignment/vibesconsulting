@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Managing Rent Costs During Slow Months in Santa Cruz | Commercial Lease Strategy',
   description: 'How to handle high Santa Cruz rent during off-season when revenue drops. Negotiation strategies, alternatives, and financial planning for seasonal businesses.',
-  keywords: 'santa cruz commercial rent, seasonal business rent, lease negotiation, managing rent costs, santa cruz real estate business'
 })
 
 export default function ManagingRentCosts() {

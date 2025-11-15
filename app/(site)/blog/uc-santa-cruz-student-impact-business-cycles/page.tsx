@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'UC Santa Cruz Student Population Impact on Business Cycles',
   description: 'How UCSC\'s 17,000 students affect Santa Cruz business revenue patterns. Plan for student arrival, breaks, and exodus to optimize operations.',
-  keywords: 'UCSC students business impact, santa cruz student population, college town business, student revenue cycles, UCSC calendar'
 })
 
 export default function UCSCStudentImpact() {

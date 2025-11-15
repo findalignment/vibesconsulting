@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Creating Year-Round Revenue Streams for Seasonal Santa Cruz Businesses',
   description: 'How to build revenue streams that work regardless of season. Strategies for Santa Cruz businesses to reduce dependence on peak season tourism.',
-  keywords: 'year-round revenue, seasonal business diversification, recurring revenue, santa cruz business strategy, revenue streams'
 })
 
 export default function YearRoundRevenueStreams() {

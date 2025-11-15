@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Staffing for Summer Peak Season in Santa Cruz Without Overhiring',
   description: 'How to scale your team for Santa Cruz summer rush without getting stuck with too many employees in winter. Seasonal staffing strategies that actually work.',
-  keywords: 'santa cruz summer staffing, seasonal hiring, peak season employees, summer rush staffing, temporary workers santa cruz'
 })
 
 export default function StaffingPeakSummer() {

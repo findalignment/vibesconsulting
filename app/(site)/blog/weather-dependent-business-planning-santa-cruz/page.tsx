@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Weather-Dependent Business Planning in Santa Cruz | Surf, Outdoor, Beach',
   description: 'How to plan operations for weather-dependent Santa Cruz businesses. Strategies for surf shops, outdoor recreation, and beach-related businesses to manage weather volatility.',
-  keywords: 'weather dependent business, santa cruz surf business, outdoor recreation planning, beach business santa cruz, weather impact business'
 })
 
 export default function WeatherDependentPlanning() {

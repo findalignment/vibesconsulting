@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Predicting Seasonal Demand for Inventory Planning | Santa Cruz Business',
   description: 'How to forecast seasonal demand and plan inventory for Santa Cruz businesses. Avoid overstocking in winter and stockouts in summer with smart planning.',
-  keywords: 'seasonal inventory planning, demand forecasting, santa cruz inventory, seasonal demand, stock planning'
 })
 
 export default function PredictingSeasonalDemand() {

@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Holiday Season Planning for Santa Cruz Retail & Restaurants | Nov-Dec Strategy',
   description: 'Navigate the unique holiday season dynamics in Santa Cruz. Strategies for retail and restaurant businesses to capitalize on local spending while managing slow tourist periods.',
-  keywords: 'santa cruz holiday season, holiday retail planning, restaurant holiday strategy, november december santa cruz, holiday business planning'
 })
 
 export default function HolidaySeasonPlanning() {

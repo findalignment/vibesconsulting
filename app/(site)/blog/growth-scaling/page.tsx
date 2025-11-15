@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Business Growth & Scaling Guide | Sustainable Growth Without Burnout',
   description: 'Learn how to scale your business sustainably. Strategies for growth without chaos, managing growing pains, and building businesses that last.',
-  keywords: 'business growth, scaling business, sustainable growth, business scaling strategy, growing pains, business expansion'
 })
 
 export default function GrowthScalingHub() {

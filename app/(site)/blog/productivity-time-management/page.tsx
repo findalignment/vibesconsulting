@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Productivity & Time Management for Business Owners | Work Smarter Systems',
   description: 'Stop being busy and start being productive. Learn time management strategies, meeting systems, and productivity frameworks for business owners.',
-  keywords: 'productivity, time management, business efficiency, meeting management, work-life balance, business owner time management'
 })
 
 export default function ProductivityTimeManagementHub() {

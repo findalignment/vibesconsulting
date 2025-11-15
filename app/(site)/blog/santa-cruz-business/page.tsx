@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Santa Cruz Business Operations Guide | Local Business Systems & Consulting',
   description: 'Comprehensive guide to improving operations for Santa Cruz businesses. From fitness studios to restaurants, discover proven strategies for local success.',
-  keywords: 'santa cruz business operations, santa cruz consulting, santa cruz fitness business, santa cruz restaurant operations, santa cruz retail systems'
 })
 
 export default function SantaCruzBusinessHub() {

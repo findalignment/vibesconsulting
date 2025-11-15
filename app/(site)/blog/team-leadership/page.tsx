@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Team Leadership & Management Guide | Building High-Performing Teams',
   description: 'Comprehensive guide to team leadership, delegation, and management for small business owners. Learn to build autonomous teams without micromanaging.',
-  keywords: 'team leadership, delegation, management, team autonomy, small business leadership, hiring, training'
 })
 
 export default function TeamLeadershipHub() {

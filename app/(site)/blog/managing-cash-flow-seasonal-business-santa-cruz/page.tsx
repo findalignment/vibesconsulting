@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Managing Cash Flow Between Tourist and Off-Season in Santa Cruz',
   description: 'Cash flow management strategies for seasonal Santa Cruz businesses. Learn to build reserves, manage expenses, and survive the transition between peak and slow seasons.',
-  keywords: 'seasonal cash flow, santa cruz business finance, off-season cash management, tourist season revenue, cash flow planning'
 })
 
 export default function ManagingSeasonalCashFlow() {

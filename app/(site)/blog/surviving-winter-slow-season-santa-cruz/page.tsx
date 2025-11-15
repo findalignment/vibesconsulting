@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'How to Survive the Winter Slow Season in Santa Cruz | Cash Flow Strategies',
   description: 'Practical strategies for Santa Cruz businesses to survive and thrive during the off-season. Cash flow management, staffing, and revenue diversification for seasonal businesses.',
-  keywords: 'santa cruz slow season, santa cruz business winter, seasonal business santa cruz, off-season revenue, santa cruz tourism'
 })
 
 export default function SurvivingWinterSlowSeason() {

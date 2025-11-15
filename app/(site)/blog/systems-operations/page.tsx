@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Business Systems & Operations Guide | Process Optimization & Efficiency',
   description: 'Complete guide to building business systems that scale. Learn process optimization, documentation, and operational efficiency for sustainable growth.',
-  keywords: 'business systems, operations management, process optimization, business efficiency, SOPs, operational systems'
 })
 
 export default function SystemsOperationsHub() {

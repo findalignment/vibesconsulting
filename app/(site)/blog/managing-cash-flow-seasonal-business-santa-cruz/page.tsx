@@ -1,6 +1,6 @@
 import Section from '@/components/Section'
 import BlogAccordion from '@/components/BlogAccordion'
-import { generateMetadata as generateMeta } from '@/lib/seo'
+import { createMetadata as generateMeta } from '@/lib/seo'
 
 export const metadata = generateMeta({
   title: 'Managing Cash Flow Between Tourist and Off-Season in Santa Cruz',

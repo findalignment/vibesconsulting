@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Section from '@/components/Section'
-import { generateMetadata as generateMeta } from '@/lib/seo'
+import { createMetadata as generateMeta } from '@/lib/seo'
 
 export const metadata = generateMeta({
   title: 'Santa Cruz Business Operations Guide | Local Business Systems & Consulting',

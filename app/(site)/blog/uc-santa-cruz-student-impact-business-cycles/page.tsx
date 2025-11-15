@@ -1,6 +1,6 @@
 import Section from '@/components/Section'
 import BlogAccordion from '@/components/BlogAccordion'
-import { generateMetadata as generateMeta } from '@/lib/seo'
+import { createMetadata as generateMeta } from '@/lib/seo'
 
 export const metadata = generateMeta({
   title: 'UC Santa Cruz Student Population Impact on Business Cycles',

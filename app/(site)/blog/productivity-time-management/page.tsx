@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Section from '@/components/Section'
-import { generateMetadata as generateMeta } from '@/lib/seo'
+import { createMetadata as generateMeta } from '@/lib/seo'
 
 export const metadata = generateMeta({
   title: 'Productivity & Time Management for Business Owners | Work Smarter Systems',

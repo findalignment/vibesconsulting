@@ -11,16 +11,16 @@ export default {
         brand: {
           base: '#F9FAFB',      // Off-white background
           text: '#111827',       // Charcoal text
-          accent: '#1AC7A0',     // Teal accent
+          accent: '#5A96B3',     // Primary accent (blue)
           neutral: '#E5E7EB',    // Light grey
-          'accent-dark': '#15A083',  // Darker teal for hover
-          'accent-light': '#4FD8BA'  // Lighter teal
+          'accent-dark': '#487B94',  // Darker blue for hover
+          'accent-light': '#7DB0C7'  // Lighter blue
         },
-        // Alias palette used throughout content classes like text-current-500, bg-current-600/10, etc.
+        // Alias palette used by classes like text-current-500, hover:text-current-400, bg-current-600/10
         current: {
-          400: '#26D3AB', // slightly lighter than brand.accent
-          500: '#1AC7A0', // matches brand.accent
-          600: '#159E82', // darker for contrast/overlays
+          400: '#7DB0C7',
+          500: '#5A96B3',
+          600: '#487B94',
         }
       },
       fontFamily: {

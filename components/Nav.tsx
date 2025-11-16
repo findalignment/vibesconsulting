@@ -91,7 +91,7 @@ export default function Nav() {
     )}>
       <div className="flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 sm:gap-3">
-          <img src="/images/logo-mark.svg" alt="Vibes" className="h-8 w-8 sm:h-10 sm:w-10 flex-shrink-0" />
+          <img src="/images/logo-mark.png" alt="Vibes Consulting logo" className="h-8 w-8 sm:h-10 sm:w-10 flex-shrink-0" />
           <span className="font-bold tracking-tight text-base sm:text-lg text-brand-text">Vibes Consulting</span>
         </Link>
         

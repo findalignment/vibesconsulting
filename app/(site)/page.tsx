@@ -10,13 +10,23 @@ export default function HomePage() {
           <h1 className="mb-6 animate-fade-in">We fix the flow.</h1>
           <p className="text-2xl md:text-3xl text-brand-text/70 mb-10 font-light max-w-3xl mx-auto animate-slide-up">Align your people, pull the data, execute with intelligence.</p>
 
-          <div className="flex flex-col sm:flex-row gap-6 items-center justify-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-6 items-center justify-center mb-8">
             <CTAButton>Start Your Flow Check</CTAButton>
             <a href="#how" className="text-brand-accent hover:text-brand-accent-dark transition-colors font-medium text-lg">How We Work →</a>
           </div>
 
+          {/* Hero Image */}
+          <div className="max-w-4xl mx-auto">
+            <img
+              src="/images/hero.png"
+              alt="Calm, bright Santa Cruz workspace representing flow and clarity"
+              className="w-full rounded-2xl shadow-card"
+              loading="eager"
+            />
+          </div>
+
           {/* Quick Value Proposition */}
-          <div className="grid md:grid-cols-3 gap-10 mb-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-10 mt-10 mb-6 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-5xl mb-3">⚡</div>
               <p className="text-brand-text font-semibold text-lg">Reduce friction</p>

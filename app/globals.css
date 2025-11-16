@@ -37,7 +37,7 @@ body {
 }
 
 .btn-primary { 
-  @apply bg-brand-accent text-white hover:bg-brand-accent-dark shadow-soft;
+  @apply bg-brand-accent-dark text-white hover:bg-brand-accent-darker shadow-soft;
 }
 
 .btn-ghost { 

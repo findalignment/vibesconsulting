@@ -4,7 +4,12 @@ import { createMetadata } from '@/lib/seo'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 
-export const metadata: Metadata = createMetadata()
+export const metadata: Metadata = {
+  ...createMetadata(),
+  icons: {
+    icon: '/images/flavicon.png'
+  }
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

@@ -258,7 +258,7 @@ export default function CultureOptimizationPage() {
 
         <div className="border-t border-white/10 pt-8">
           <h3 className="text-lg mb-4 text-brand-text">Ongoing: The Vibe Partnership (Quarterly Retainer)</h3>
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div className="flex flex-col items-center text-center gap-6">
             <div>
               <p className="text-3xl font-semibold text-brand-text mb-2">$3,500/month</p>
               <p className="text-brand-text/70">Quarterly Vibe Resets + ongoing culture coaching. Includes monthly pulse surveys, ritual tuning, and on-call support for culture decisions.</p>

@@ -19,7 +19,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto">
             <img
               src="/images/hero.png"
-              alt="Calm, bright Santa Cruz workspace representing flow and clarity"
+              alt="A bird on Seabright Beach in Santa Cruz"
               className="w-full rounded-2xl shadow-card"
               loading="eager"
             />

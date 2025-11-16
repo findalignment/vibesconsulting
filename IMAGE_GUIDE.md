@@ -260,3 +260,163 @@ When your site grows, consider:
 
 Keep this file in your project root for future reference!
 
+---
+
+## What Images To Add Now (Simple Checklist)
+
+Follow this list top-to-bottom. If a section doesn’t apply, skip it.
+
+### Site‑wide (brand core)
+- Logo (already done): `/public/images/logo-mark.svg`
+- Background pattern (already done): `/public/images/vibe-pattern.svg`
+- Open Graph (sharing): `/public/og-image.png` (Required)
+
+### Homepage
+- Hero: `/public/images/home-hero.jpg`
+  - 1600×900 desktop, 1200×1200 mobile crop (center subject)
+  - JPG/WebP, ≤ 400 KB
+- Trust strip (optional): `/public/images/trust-logos.png`
+  - Transparent PNG, ≤ 200 KB
+
+### Navigation/Footer
+- Favicon set (optional improvement):
+  - `/public/favicon.ico` (32×32)
+  - `/public/icon-192.png`, `/public/icon-512.png` (for PWA/meta)
+
+### Services (per top‑level service hub page)
+- Section banner: `/public/images/services/banner-<slug>.jpg`
+  - Example: `banner-business-flow.jpg`, `banner-ai-integration.jpg`, `banner-culture-optimization.jpg`
+  - 1600×600 desktop, 1200×900 mobile crop, ≤ 350 KB
+- 3–5 simple icons/illustrations (optional): `/public/images/services/icons/<name>.svg`
+
+### Packages (Flow Check / Flow Rebuild / Vibe Partnership)
+- Package card image: `/public/images/packages/<slug>-card.jpg`
+  - 800×600, ≤ 200 KB
+- Inline diagram (optional): `/public/images/packages/<slug>-diagram.png`
+  - 1200×800, transparent if needed, ≤ 250 KB
+
+### Case Studies
+- Cover image: `/public/images/case-studies/<case>-cover.jpg`
+  - 1400×900, ≤ 350 KB
+- 1–2 inline photos or charts: `/public/images/case-studies/<case>-inline-1.jpg`
+  - 1200×800, ≤ 250 KB each
+
+### Blog
+- Post hero (optional, only if it adds value): `/public/images/blog/<slug>-hero.jpg`
+  - 1400×900, ≤ 300 KB (use sparingly to keep pages fast)
+- Diagrams/figures (preferred over stock photos): `/public/images/blog/<slug>-figure-1.png`
+  - 1200×800, ≤ 250 KB
+- Category hub hero (1 per hub): `/public/images/blog/hubs/<hub>-hero.jpg`
+  - Example: `santa-cruz-business-hero.jpg`, `team-leadership-hero.jpg`
+  - 1600×600, ≤ 300 KB
+
+### About / Contact / FAQ (optional polish)
+- About banner: `/public/images/about-hero.jpg` (1600×600, ≤ 300 KB)
+- Headshot (if adding author credit later): `/public/images/author.jpg` (800×800, ≤ 150 KB)
+- Contact page illustration: `/public/images/contact-illustration.svg` (SVG preferred)
+
+---
+
+## Fast & Mobile‑First Defaults (Do this every time)
+- Resize before upload to the closest recommended size
+- Prefer JPG/WebP for photos; SVG/PNG for graphics
+- Keep each image ≤ 400 KB (most ≤ 250–300 KB)
+- Use descriptive names (no spaces): `santa-cruz-operations-hero.jpg`
+- Test on 3G throttling (Chrome DevTools → Network → Fast 3G)
+
+### Recommended free tools
+- Resize/compress: Squoosh.app
+- Batch compress: TinyPNG.com (JPG/PNG)
+- Quick edits/overlays: Canva or Figma
+
+---
+
+## Copy‑Paste Snippets (Simple)
+
+### Standard <img> (current setup)
+```tsx
+<img src="/images/home-hero.jpg" alt="Santa Cruz coastline representing flow and movement" width={1600} height={900} />
+```
+
+### Next.js <Image> (when you enable optimization)
+```tsx
+import Image from 'next/image'
+
+<Image
+  src="/images/home-hero.jpg"
+  alt="Santa Cruz coastline representing flow and movement"
+  width={1600}
+  height={900}
+  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1600px"
+  priority
+/>
+```
+
+Tip: For square mobile crops, save a second asset like `/images/home-hero-square.jpg` and switch it at small breakpoints if art‑direction matters.
+
+---
+
+## Minimal File Map (you can create these now)
+```
+/public/images/
+  logo-mark.svg
+  vibe-pattern.svg
+  home-hero.jpg
+  trust-logos.png            # optional
+
+  /services/
+    banner-business-flow.jpg
+    banner-ai-integration.jpg
+    banner-culture-optimization.jpg
+    icons/
+      flow-map.svg           # optional set of simple icons
+
+  /packages/
+    flow-check-card.jpg
+    flow-rebuild-card.jpg
+    vibe-partnership-card.jpg
+    flow-check-diagram.png   # optional
+
+  /case-studies/
+    consulting-collective-cover.jpg
+    consulting-collective-inline-1.jpg
+
+  /blog/
+    hubs/
+      santa-cruz-business-hero.jpg
+      team-leadership-hero.jpg
+      systems-operations-hero.jpg
+    # per-post optional assets
+    survive-winter-slow-season-santa-cruz-figure-1.png
+
+/og-image.png
+```
+
+---
+
+## Accessibility (so simple a kindergartner can use it)
+- Always add alt text that says what the image shows (not "image of…")
+- Avoid text baked into images; use real text for readability
+- Ensure sufficient contrast if an image sits behind text
+- Keep click/tap targets big (buttons ≥ 44×44px)
+
+---
+
+## Performance Tips (keep it snappy)
+- Lazy‑load below‑the‑fold images (Next/Image does this automatically)
+- Reuse assets across pages when possible (one hero can cover multiple pages)
+- Prefer one strong image over many small decorative ones
+- Consider using SVG for simple illustrations wherever possible
+
+---
+
+## Quick Starter List (print this)
+- [ ] Home hero
+- [ ] OG image (sharing)
+- [ ] Services banners (3)
+- [ ] Case study cover (+1 inline)
+- [ ] Blog hub hero(s) (pick the top 2 hubs you use)
+- [ ] Optional: 1 diagram for a high‑traffic blog post
+
+When in doubt, fewer, better images will make the site feel cleaner, faster, and more premium.
+

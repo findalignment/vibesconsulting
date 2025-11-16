@@ -13,11 +13,11 @@ export default {
           text: '#111827',       // Charcoal text
           accent: '#5A96B3',     // Primary accent (blue)
           neutral: '#E5E7EB',    // Light grey
-          'accent-dark': '#487B94',  // Darker blue for hover
-          'accent-darker': '#3B647A', // Even darker for hover/active
-          'accent-light': '#7DB0C7'  // Lighter blue
+          'accent-dark': '#487B94',   // Darker blue
+          'accent-darker': '#3B647A', // Even darker
+          'accent-deep': '#223C49',   // Deepest for active/hover
+          'accent-light': '#7DB0C7'   // Lighter blue
         },
-        // Alias palette used by classes like text-current-500, hover:text-current-400, bg-current-600/10
         current: {
           400: '#7DB0C7',
           500: '#5A96B3',
@@ -28,7 +28,7 @@ export default {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       letterSpacing: {
-        button: '0.08em'  // +2px equivalent for buttons
+        button: '0.08em'
       },
       maxWidth: {
         'container': '1200px'

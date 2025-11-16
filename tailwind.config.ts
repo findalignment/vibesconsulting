@@ -15,6 +15,12 @@ export default {
           neutral: '#E5E7EB',    // Light grey
           'accent-dark': '#15A083',  // Darker teal for hover
           'accent-light': '#4FD8BA'  // Lighter teal
+        },
+        // Alias palette used throughout content classes like text-current-500, bg-current-600/10, etc.
+        current: {
+          400: '#26D3AB', // slightly lighter than brand.accent
+          500: '#1AC7A0', // matches brand.accent
+          600: '#159E82', // darker for contrast/overlays
         }
       },
       fontFamily: {

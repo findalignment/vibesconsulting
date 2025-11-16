@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Competing with Tech Salaries for Santa Cruz Talent | Small Business Hiring',
   description: 'How small businesses in Santa Cruz compete with tech companies for quality employees without matching six-figure salaries. Alternative compensation strategies.',
-  keywords: 'santa cruz tech salaries, competing for talent, small business hiring, tech competition, employee compensation'
 })
 
 export default function CompetingTechSalaries() {

@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'New Competitor Opened Nearby in Santa Cruz | Response Strategy',
   description: 'How to respond when new competitor opens near your Santa Cruz business. Strategic analysis and action plan for competitive threats.',
-  keywords: 'new competitor, competitive threat, santa cruz business, market response, competitor strategy'
 })
 
 export default function NewCompetitorOpenedNearby() {

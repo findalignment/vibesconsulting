@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Work-Life Balance Expectations in Santa Cruz | Employee Culture Management',
   description: 'Navigate Santa Cruz\'s unique work-life balance expectations. Build workplace culture that attracts quality employees while maintaining operational needs.',
-  keywords: 'work life balance santa cruz, employee expectations, santa cruz work culture, lifestyle flexibility, surf flexibility'
 })
 
 export default function WorkLifeBalanceExpectations() {

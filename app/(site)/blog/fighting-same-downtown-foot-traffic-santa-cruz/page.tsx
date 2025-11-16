@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Fighting for Same Downtown Foot Traffic in Santa Cruz | Location Strategy',
   description: 'How Santa Cruz downtown businesses compete for limited foot traffic. Strategies to capture pedestrians and drive in-store visits.',
-  keywords: 'downtown santa cruz, foot traffic, location competition, retail strategy, pedestrian capture'
 })
 
 export default function FightingDowntownFootTraffic() {

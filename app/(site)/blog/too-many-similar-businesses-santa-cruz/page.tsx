@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Too Many Similar Businesses in Santa Cruz | Market Saturation Strategy',
   description: 'Navigate Santa Cruz market saturation when too many businesses offer similar products. Differentiation and positioning strategies for crowded markets.',
-  keywords: 'market saturation, too much competition, santa cruz business, differentiation strategy, crowded market'
 })
 
 export default function TooManySimilarBusinesses() {

@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Should I Hire Local vs Commuter Employees in Santa Cruz? | Staffing Strategy',
   description: 'Pros and cons of hiring Santa Cruz locals vs commuters from Watsonville, Scotts Valley, and over the hill. Strategic decision-making for sustainable staffing.',
-  keywords: 'santa cruz hiring, local employees, commuter workforce, staffing strategy, employee location'
 })
 
 export default function LocalsVsCommuters() {

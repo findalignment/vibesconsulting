@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Background Checks and Hiring Compliance in Santa Cruz | Legal Requirements',
   description: 'Navigate California employment law for background checks, compliance, and legal hiring practices in Santa Cruz. Protect your business while hiring fairly.',
-  keywords: 'background checks california, hiring compliance, employment law, santa cruz hiring, legal requirements'
 })
 
 export default function BackgroundChecksCompliance() {

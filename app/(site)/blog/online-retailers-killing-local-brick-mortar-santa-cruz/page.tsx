@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Online Retailers Killing Local Brick-and-Mortar in Santa Cruz | Survival Strategy',
   description: 'How Santa Cruz brick-and-mortar businesses compete with Amazon and online retailers. Leverage physical advantages against e-commerce.',
-  keywords: 'compete with amazon, online retail, brick and mortar strategy, santa cruz retail, e-commerce competition'
 })
 
 export default function OnlineRetailersKillingLocal() {

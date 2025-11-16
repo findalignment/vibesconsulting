@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Differentiating from Similar Competitors in Santa Cruz | Positioning Strategy',
   description: 'How to stand out when Santa Cruz competitors offer nearly identical products. Real differentiation strategies beyond generic claims.',
-  keywords: 'differentiation strategy, competitive positioning, santa cruz business, unique value proposition, market positioning'
 })
 
 export default function DifferentiatingFromCompetitors() {

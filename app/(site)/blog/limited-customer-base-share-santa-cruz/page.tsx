@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Limited Customer Base to Share in Santa Cruz | Small Market Strategy',
   description: 'Navigate Santa Cruz\'s small population when competing businesses share finite customers. Strategies for growth in limited markets.',
-  keywords: 'small market, limited customers, santa cruz population, market size, customer acquisition'
 })
 
 export default function LimitedCustomerBase() {

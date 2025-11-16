@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Housing Crisis Makes It Hard to Attract Talent in Santa Cruz | Recruitment Solutions',
   description: 'How Santa Cruz housing crisis prevents attracting quality candidates. Creative recruitment strategies when housing is your biggest obstacle.',
-  keywords: 'santa cruz housing crisis, talent attraction, recruitment challenges, workforce housing, hiring obstacles'
 })
 
 export default function HousingCrisisAttractingTalent() {

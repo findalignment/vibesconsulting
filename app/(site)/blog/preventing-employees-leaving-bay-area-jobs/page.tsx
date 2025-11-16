@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Preventing Employees from Leaving for Bay Area Jobs | Santa Cruz Retention',
   description: 'Why Santa Cruz employees leave for higher-paying Bay Area jobs and how to retain them. Strategies beyond just salary to keep quality staff.',
-  keywords: 'employee retention, bay area jobs, santa cruz staffing, preventing turnover, keeping employees'
 })
 
 export default function PreventingBayAreaDepartures() {

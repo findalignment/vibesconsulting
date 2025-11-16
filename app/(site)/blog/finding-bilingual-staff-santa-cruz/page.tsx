@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Finding Bilingual Staff in Santa Cruz | Spanish-English Employees',
   description: 'How to find and hire bilingual Spanish-English employees in Santa Cruz to better serve diverse customer base. Recruitment strategies and fair compensation.',
-  keywords: 'bilingual staff, spanish speaking employees, santa cruz hiring, diverse workforce, bilingual recruitment'
 })
 
 export default function BilingualStaff() {

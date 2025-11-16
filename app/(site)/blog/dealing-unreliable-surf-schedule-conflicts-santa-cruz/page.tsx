@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Managing Employee Surf Schedule Conflicts in Santa Cruz | Reliability Strategies',
   description: 'Balance surf culture flexibility with operational reliability. Practical systems for managing schedule conflicts in Santa Cruz\'s surf-obsessed workforce.',
-  keywords: 'surf schedule conflicts, santa cruz employees, workplace flexibility, surf flexibility, schedule reliability'
 })
 
 export default function SurfScheduleConflicts() {

@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Creating Competitive Benefits on Small Margins in Santa Cruz | Low-Cost Perks',
   description: 'Build attractive benefits packages for Santa Cruz employees without breaking budget. Creative low-cost perks that compete with larger employers.',
-  keywords: 'employee benefits, small business perks, affordable benefits, santa cruz employment, competitive compensation'
 })
 
 export default function CompetitiveBenefitsSmallMargins() {

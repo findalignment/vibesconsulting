@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Training High-Turnover Service Staff in Santa Cruz | Quick Onboarding Systems',
   description: 'Build efficient training systems for service industry staff in Santa Cruz where turnover is inevitable. Get new employees productive fast.',
-  keywords: 'service industry training, employee turnover, onboarding systems, santa cruz staffing, quick training'
 })
 
 export default function TrainingHighTurnoverStaff() {

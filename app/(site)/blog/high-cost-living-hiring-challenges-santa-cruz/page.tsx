@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Hiring Challenges from Santa Cruz High Cost of Living | Workforce Solutions',
   description: 'How Santa Cruz\'s high housing costs and cost of living create hiring challenges. Strategies to help employees afford to work for your business.',
-  keywords: 'santa cruz cost of living, hiring challenges, housing costs, employee affordability, living wage santa cruz'
 })
 
 export default function CostOfLivingHiring() {

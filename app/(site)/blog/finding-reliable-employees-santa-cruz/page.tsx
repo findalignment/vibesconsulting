@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Finding Reliable Employees in Santa Cruz | Hiring Strategies',
   description: 'How to find and hire reliable employees in Santa Cruz\'s competitive labor market. Strategies for attracting, vetting, and retaining quality staff.',
-  keywords: 'santa cruz hiring, finding employees, reliable staff, santa cruz labor market, hiring challenges'
 })
 
 export default function FindingReliableEmployees() {

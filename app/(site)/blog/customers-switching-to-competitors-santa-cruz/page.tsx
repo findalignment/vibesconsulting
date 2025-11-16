@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Customers Switching to Competitors in Santa Cruz | Win-Back Strategy',
   description: 'Why Santa Cruz customers leave for competitors and how to prevent churn. Retention and win-back strategies.',
-  keywords: 'customer retention, customer churn, win back customers, santa cruz business, customer loyalty'
 })
 
 export default function CustomersSwitchingCompetitors() {

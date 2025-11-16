@@ -5,7 +5,6 @@ import { createMetadata as generateMeta } from '@/lib/seo'
 export const metadata = generateMeta({
   title: 'Competing with Corporate Chains in Santa Cruz | Small Business Strategy',
   description: 'How Santa Cruz small businesses compete with corporate chains on limited budgets. Leverage local advantages against big box retailers and franchises.',
-  keywords: 'compete with chains, corporate competition, small business santa cruz, local business strategy, competing with big box'
 })
 
 export default function CompetingCorporateChains() {

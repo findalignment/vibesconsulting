@@ -230,7 +230,7 @@ export default function FoodHandlerCertificationsPage() {
           </p>
 
           <p>
-            Never get caught with expired certifications again. System > memory.
+            Never get caught with expired certifications again. System &gt; memory.
           </p>
 
         </div>

@@ -51,7 +51,7 @@ export default function CustomersSwitchingCompetitors() {
             <strong>3. Fix Problems Fast</strong>
           </p>
           <p className="mb-4">
-            Most customer loss happens after complaint mishandled. Address issues immediately with generosity. Cost of making it right < cost of losing customer.
+            Most customer loss happens after complaint mishandled. Address issues immediately with generosity. Cost of making it right &lt; cost of losing customer.
           </p>
 
           <p className="mb-6 mt-8">

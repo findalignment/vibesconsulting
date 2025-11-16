@@ -101,7 +101,7 @@ export default function WorkLifeBalanceExpectations() {
             <strong>2. Reduce Turnover</strong>
           </p>
           <p className="mb-4">
-            Employee stays 3 years with flexibility vs 8 months without. Training costs for 4 replacements >> costs of accommodation. Flexibility is cheaper than turnover.
+            Employee stays 3 years with flexibility vs 8 months without. Training costs for 4 replacements &gt;&gt; costs of accommodation. Flexibility is cheaper than turnover.
           </p>
 
           <p className="mb-4 mt-8">

@@ -286,7 +286,7 @@ export default function LimitedSpaceSolutionsPage() {
             <li>Converted office to dressing area (improved customer experience)</li>
             <li>Created compact "admin station" (25 sq ft vs. 100 sq ft office)</li>
             <li>Expanded sales floor from 300 to 475 sq ft</li>
-          </ul>
+          </ol>
 
           <p>
             <strong>Results after 6 months:</strong>

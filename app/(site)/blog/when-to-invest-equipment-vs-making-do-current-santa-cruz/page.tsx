@@ -208,7 +208,7 @@ export default function EquipmentInvestmentPage() {
           </p>
 
           <p>
-            <strong>Action:</strong> Calculate lost revenue. If annual lost revenue > equipment cost, invest immediately.
+            <strong>Action:</strong> Calculate lost revenue. If annual lost revenue &gt; equipment cost, invest immediately.
           </p>
 
           <p>

@@ -98,8 +98,8 @@ export default function WebsiteHostingCostsPage() {
           </p>
 
           <p>
-            <strong>Recommended tier for:</strong> Businesses with 1,000-10,000 monthly visitors, accepting online orders, need reliability</li>
-          </ul>
+            <strong>Recommended tier for:</strong> Businesses with 1,000-10,000 monthly visitors, accepting online orders, need reliability
+          </p>
 
           <h3>Tier 3: Cloud/VPS Hosting ($50-200/month)</h3>
 

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function AccessibilityElderly DisabledPage() {
+export default function AccessibilityElderlyDisabledPage() {
   return (
     <div className="bg-white text-zinc-900">
       <Section width="default" className="pt-32 pb-16">

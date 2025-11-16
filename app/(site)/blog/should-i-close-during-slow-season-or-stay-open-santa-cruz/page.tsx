@@ -306,8 +306,8 @@ export default function CloseOrStayOpenPage() {
           </ul>
 
           <p>
-            <strong>Best for:</strong> Weather-dependent businesses (beach gear, outdoor activities)</li>
-          </ul>
+            <strong>Best for:</strong> Weather-dependent businesses (beach gear, outdoor activities)
+          </p>
 
           <h2>The Non-Financial Factors to Consider</h2>
 

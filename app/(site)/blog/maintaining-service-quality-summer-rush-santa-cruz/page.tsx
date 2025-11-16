@@ -1,331 +1,144 @@
-import Section from '@/components/Section'
+import Link from 'next/link'
 import BlogAccordion from '@/components/BlogAccordion'
-import { createMetadata as generateMeta } from '@/lib/seo'
 
-export const metadata = generateMeta({
-  title: 'Maintaining Service Quality During Santa Cruz Summer Rush',
-  description: 'How to deliver consistent, high-quality service during peak season chaos. Systems and strategies for Santa Cruz businesses handling summer crowds.',
-})
+export const metadata = {
+  title: 'Maintaining Service Quality During Summer Rush | Santa Cruz | Vibes Consulting',
+  description: 'How to deliver consistent service quality when volume spikes. Systems for Santa Cruz businesses to handle peak season without quality decline.',
+}
 
-export default function MaintainingQualityDuringRush() {
+export default function BlogPost() {
   const sections = [
     {
-      title: 'The Quality-Volume Tradeoff',
-      content: (
-        <>
-          <p className="mb-4">
-            Summer in Santa Cruz means triple the customers with seasonal staff who've been working for you for two weeks. Lines out the door. Reservation books full. Phone ringing constantly. And somewhere in that chaos, your service quality starts to slip.
-          </p>
-          <p className="mb-4">
-            It's subtle at first. Orders take slightly longer. Details get missed. The personal touch that defines your brand gets replaced with assembly-line efficiency. Customers still get served, but the experience degrades from "exceptional" to "acceptable" to "disappointing." By August, you're getting reviews that say "used to be great, now it's rushed and chaotic."
-          </p>
-          <p className="mb-4">
-            The tragedy is this feels inevitable. Of course quality suffers when you're slammed, right? Wrong. The businesses that maintain quality during rush periods aren't magical—they've built systems that make high-quality service the default path even under pressure. They've designed operations where doing it right is actually easier than doing it wrong.
-          </p>
-        </>
-      )
+      title: "Why Quality Drops During Peak Season",
+      content: `Volume overwhelms systems designed for normal capacity. Your processes work fine when serving 50 customers daily but break down at 200. Staff who provide excellent service under normal conditions rush through interactions when lines form. Equipment that handles regular demand fails under sustained peak usage. The systems that work most of the year can't handle summer volume without intentional preparation.
+
+New seasonal staff lack the experience year-round employees have. Even with good training, new hires don't have the muscle memory and judgment that comes from repetition. They're slower, make more mistakes, and need more supervision. During your busiest period when quality matters most, you're operating with your least experienced team.
+
+The pressure to move fast conflicts with taking time for quality. When customers are waiting, the temptation to cut corners becomes overwhelming. Skipping quality checks, rushing service, or taking shortcuts feels necessary to manage volume. But these shortcuts create the poor experiences that damage reputation and lose repeat business—your most valuable customers.`
     },
     {
-      title: 'Why Quality Degrades Under Volume',
-      content: (
-        <>
-          <p className="mb-4">
-            Before you can maintain quality, you need to understand why it degrades. It's not because your staff stops caring—it's because pressure exposes every weakness in your operational systems.
-          </p>
+      title: "Pre-Season Quality System Design",
+      content: `Identify your quality bottlenecks before season starts. Where does quality break down under volume? Is it order accuracy, service speed, customer communication, or product consistency? Knowing failure points allows targeted solutions rather than generic "try harder" approaches that don't address actual problems.
 
-          <p className="mb-6 mt-6">
-            <strong>Common Quality Killers During Rush:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Unclear standards:</strong> Staff don't know what "good enough" looks like under pressure</li>
-            <li><strong>Missing checklists:</strong> Memory fails when moving fast, steps get skipped</li>
-            <li><strong>Poor communication:</strong> Information gets lost between team members</li>
-            <li><strong>Bottlenecks:</strong> One slow process backs up everything downstream</li>
-            <li><strong>Inadequate training:</strong> Seasonal staff never learned edge cases</li>
-            <li><strong>No quality checks:</strong> Mistakes leave the building before anyone catches them</li>
-            <li><strong>Rushed onboarding:</strong> New staff thrown into chaos without foundations</li>
-            <li><strong>Management overwhelm:</strong> Supervisors fighting fires instead of maintaining standards</li>
-          </ul>
+Build quality checkpoints into high-volume processes. If quality drops at specific steps, create verification points that catch errors before they reach customers. These checkpoints slow individual transactions slightly but prevent the service failures that cost far more in customer satisfaction and reputation.
 
-          <p className="mb-4 mt-6">
-            Notice what's missing from this list: caring, effort, work ethic. Quality problems during rush aren't motivation problems—they're systems problems. Your staff wants to deliver quality. Your operational systems make it impossible.
-          </p>
-        </>
-      )
+Create capacity buffers for your peak-within-peak moments. Not all summer hours are equal—Saturday afternoons are busier than Tuesday mornings. Having extra capacity (staff, equipment, or process efficiency) for the busiest hours prevents the complete quality breakdown that happens when you're maxed out during peak-peak times.`
     },
     {
-      title: 'Building Quality Into the Process',
-      content: (
-        <>
-          <p className="mb-4">
-            The secret to maintaining quality during volume isn't trying harder—it's building quality control into your processes so mistakes get caught and corrected before they reach customers.
-          </p>
+      title: "Scaling Operations Without Quality Loss",
+      content: `Simplify your offering during peak season rather than trying to maintain full complexity. Limited menus, focused product selection, or streamlined services during summer allow excellent execution of core offerings. Complexity is enemy of quality under volume—strategic simplification protects standards better than attempting everything poorly.
 
-          <p className="mb-6 mt-6">
-            <strong>Strategy 1: Checklists for Consistent Execution</strong>
-          </p>
-          <p className="mb-4">
-            When moving fast, memory fails. Checklists ensure critical steps don't get skipped even under pressure.
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Pre-service checklist:</strong> Everything that must be done before serving customer</li>
-            <li><strong>Order verification:</strong> Confirm details before fulfillment</li>
-            <li><strong>Pre-handoff inspection:</strong> Final check before customer receives product/service</li>
-            <li><strong>Post-service checklist:</strong> Cleanup and reset for next customer</li>
-          </ul>
+Create assembly-line efficiency for high-volume tasks. Breaking complex processes into specialized steps allows each person to master their station rather than everyone doing everything adequately. Specialization increases both speed and quality when designed well, though it requires enough volume to justify dedicated roles.
 
-          <p className="mb-6 mt-8">
-            <strong>Strategy 2: Visual Quality Standards</strong>
-          </p>
-          <p className="mb-4">
-            "Good enough" is subjective without visual references. Post photos of what correct looks like.
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Restaurants:</strong> Photos of properly plated dishes</li>
-            <li><strong>Retail:</strong> Photos of correct product displays and packaging</li>
-            <li><strong>Services:</strong> Before/after photos showing correct results</li>
-            <li><strong>Facilities:</strong> Photos of properly cleaned and organized spaces</li>
-          </ul>
-          <p className="mb-4">
-            When staff can compare their work to a photo, quality becomes objective. "Does it match the picture?" is easier to judge than "Is this good enough?"
-          </p>
-
-          <p className="mb-6 mt-8">
-            <strong>Strategy 3: Staged Quality Checks</strong>
-          </p>
-          <p className="mb-4">
-            Don't wait until completion to catch mistakes. Build quality checks throughout the process.
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Input check:</strong> Verify order/request is correctly recorded</li>
-            <li><strong>Mid-process check:</strong> Catch mistakes while still easy to fix</li>
-            <li><strong>Pre-delivery check:</strong> Final inspection before customer receives</li>
-            <li><strong>Post-delivery feedback:</strong> Customer confirmation everything's correct</li>
-          </ul>
-
-          <p className="mb-4 mt-6">
-            Each check is quick (10-30 seconds) but catches errors before they compound. Fixing a mistake in production takes minutes. Fixing it after customer complains takes 10x longer and costs reputation damage.
-          </p>
-        </>
-      )
+Implement quality scorecards visible to entire team. Real-time tracking of key quality metrics—customer wait times, order accuracy, complaint rates—makes quality objective rather than subjective. When everyone sees the numbers, quality becomes team responsibility rather than management nagging about vague "better service."`
     },
     {
-      title: 'Managing Capacity to Protect Quality',
-      content: (
-        <>
-          <p className="mb-4">
-            Sometimes maintaining quality means saying no to customers. If you accept more volume than your systems can handle well, quality collapse is guaranteed.
-          </p>
+      title: "Training for Quality Under Pressure",
+      content: `Drill high-volume scenarios during training before peak season arrives. Practice handling rushes, managing wait times, and maintaining quality under time pressure. Muscle memory developed during calm training transfers to stressful peak moments far better than expecting staff to figure it out during actual rushes.
 
-          <p className="mb-6 mt-6">
-            <strong>Know Your Quality Capacity:</strong>
-          </p>
-          <p className="mb-4">
-            Your capacity isn't "maximum number of customers we can physically fit." It's "maximum number we can serve while maintaining our quality standards."
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li>Track service quality metrics at different volume levels</li>
-            <li>Identify the point where quality starts degrading</li>
-            <li>Set capacity limits slightly below that threshold</li>
-            <li>Enforce those limits even when demand exceeds them</li>
-          </ul>
+Teach the "why" behind quality standards, not just the "what." Staff who understand why accuracy matters, why speed has limits, or why certain steps can't be skipped make better decisions under pressure. Rules without context get ignored when convenient—understanding creates judgment that maintains quality when circumstances vary.
 
-          <p className="mb-6 mt-8">
-            <strong>Capacity Management Tools:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Reservations required:</strong> Control flow instead of chaotic walk-ins</li>
-            <li><strong>Timed entry/tickets:</strong> Spread demand across available slots</li>
-            <li><strong>Extended hours:</strong> Serve same number over longer period</li>
-            <li><strong>Waitlist management:</strong> Set expectations for wait times</li>
-            <li><strong>Online booking:</strong> Prevent bottleneck at entry point</li>
-          </ul>
-
-          <p className="mb-4 mt-8">
-            <strong>The Counterintuitive Truth:</strong> Serving fewer customers excellently generates more revenue and loyalty than serving more customers poorly. Quality creates repeat business, referrals, and premium pricing power. Volume without quality creates one-time tourists who leave bad reviews.
-          </p>
-        </>
-      )
+Empower staff to slow down when quality requires it. If maintaining quality means longer wait times, staff need permission to prioritize quality over speed. When management signals that rushed poor service is acceptable, staff will deliver rushed poor service. Clear priority on quality gives permission to take necessary time.`
     },
     {
-      title: 'Communication Systems for Consistency',
-      content: (
-        <>
-          <p className="mb-4">
-            When you're slammed, information breaks down. Orders get confused. Special requests get forgotten. Allergies get missed. Communication failures cause quality problems.
-          </p>
+      title: "Managing Customer Expectations",
+      content: `Communicate wait times honestly and manage queue experience. Customers tolerate waits when expectations are set accurately. Unknown waits feel interminable while known waits are acceptable. Visibility into process, acknowledgment of presence, and accurate time estimates transform waiting from frustration to patience.
 
-          <p className="mb-6 mt-6">
-            <strong>Build Communication Systems:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Written order tracking:</strong> Never rely on verbal handoffs for critical details</li>
-            <li><strong>Color-coded urgency:</strong> Visual system shows priority at a glance</li>
-            <li><strong>Customer-facing confirmations:</strong> Repeat order back before fulfillment</li>
-            <li><strong>Standardized terminology:</strong> Everyone uses same words for same things</li>
-            <li><strong>Flag system for special needs:</strong> Allergies, modifications prominently marked</li>
-            <li><strong>End-of-transaction verification:</strong> "Is this everything you ordered?"</li>
-          </ul>
+Create premium options that segment customers by urgency. Express service, reservations, or pre-orders allow customers who value speed to pay for it while protecting service quality for regular service. This segmentation prevents rushing everyone to accommodate the few who can't wait.
 
-          <p className="mb-4 mt-6">
-            <strong>Example: Restaurant Ticket System</strong>
-          </p>
-          <p className="mb-4">
-            Instead of yelling orders, servers write tickets. Tickets go to kitchen in order. Kitchen follows ticket exactly. Expeditor checks completed dishes against ticket before running to table. Server verifies with customer. Simple system eliminates 90% of order errors.
-          </p>
-
-          <p className="mb-4 mt-6">
-            The faster you're moving, the more important written/systematic communication becomes. Verbal gets lost in chaos. Systems persist.
-          </p>
-        </>
-      )
+Educate customers about summer changes that protect quality. "We limit our menu in summer to ensure everything is excellent" or "We reserve tables to guarantee great service" frames limitations positively. Customers respect quality-focused decisions when framed as protecting their experience rather than business convenience.`
     },
     {
-      title: 'Empowering Staff to Maintain Standards',
-      content: (
-        <>
-          <p className="mb-4">
-            Your front-line staff see quality problems first. If they don't have authority to fix or flag them, problems reach customers.
-          </p>
+      title: "Staff Support and Morale",
+      content: `Peak season exhaustion destroys quality as much as volume does. Tired, burned-out staff can't deliver excellent service regardless of systems or training. Adequate scheduling, mandatory breaks, and sustainable pace preserve staff energy that maintains quality throughout season rather than starting strong and declining.
 
-          <p className="mb-6 mt-6">
-            <strong>Give Staff Authority To:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Stop the line:</strong> Refuse to send out substandard work</li>
-            <li><strong>Remake without permission:</strong> Fix mistakes immediately</li>
-            <li><strong>Comp or discount:</strong> Recover from errors proactively</li>
-            <li><strong>Flag systemic issues:</strong> Report recurring problems to management</li>
-            <li><strong>Slow down:</strong> Take extra time when quality requires it</li>
-          </ul>
+Celebrate quality wins during busy periods. When staff nail a huge rush or recover from a problem excellently, acknowledge it immediately. Positive reinforcement of quality under pressure encourages more of the same. Focus on what's working well, not just correcting what's wrong.
 
-          <p className="mb-4 mt-6">
-            <strong>Create a Quality-First Culture:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li>"We never serve something we wouldn't eat/buy ourselves"</li>
-            <li>Praise employees who catch mistakes before customer sees them</li>
-            <li>Never punish slowing down to maintain quality</li>
-            <li>Celebrate examples of going the extra step</li>
-            <li>Make quality everyone's responsibility, not just management's</li>
-          </ul>
-
-          <p className="mb-4 mt-6">
-            If your staff knows you prioritize volume over quality, they'll cut corners to move faster. If they know you prioritize quality over speed, they'll maintain standards even under pressure. Culture is set by what you measure and reward.
-          </p>
-        </>
-      )
+Provide tools and resources staff need for quality service. If quality breaks down because staff lack necessary supplies, information, or support, provide it. Don't blame staff for quality failures caused by inadequate resources. Invest in success through proper equipment, sufficient supplies, and adequate support.`
     },
     {
-      title: 'The Manager Role During Rush',
-      content: (
-        <>
-          <p className="mb-4">
-            During peak season, managers often jump into operations to help move customers through faster. This feels productive but it's usually counterproductive. You're adding one more pair of hands while removing the oversight that maintains quality.
-          </p>
+      title: "Real-Time Quality Monitoring",
+      content: `Implement mystery shopping or quality audits during peak periods. External perspective reveals actual customer experience better than internal assumptions. What management thinks is acceptable quality might not match customer perception. Regular objective assessment catches quality drift before it becomes reputation damage.
 
-          <p className="mb-6 mt-6">
-            <strong>Manager Priorities During Rush (In Order):</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>1. Quality oversight:</strong> Spot-check work, catch mistakes before customers</li>
-            <li><strong>2. Clear bottlenecks:</strong> Identify what's slowing everything down and fix it</li>
-            <li><strong>3. Support staff:</strong> Help with difficult situations, complex customer needs</li>
-            <li><strong>4. Communication:</strong> Keep team informed, maintain coordination</li>
-            <li><strong>5. Customer recovery:</strong> Handle complaints and service failures</li>
-            <li><strong>6. (Last resort) Jump in operationally:</strong> Only if quality is maintained and no other priorities need attention</li>
-          </ul>
+Track and respond to online reviews daily during summer. Reviews provide real-time quality feedback directly from customers. Rapid response to complaints and patterns in feedback allow quick corrections while season is active rather than discovering problems after summer ends.
 
-          <p className="mb-4 mt-6">
-            A manager making drinks serves 30 more customers per hour. A manager maintaining quality oversight prevents 50 service failures per hour. Which is more valuable?
-          </p>
-
-          <p className="mb-4 mt-6">
-            If you can't afford a manager who isn't working the line, you're understaffed. Add one more line worker and let the manager manage.
-          </p>
-        </>
-      )
+Conduct brief daily team debriefs about quality issues. Five-minute conversations about what went well and what needs improvement create continuous quality refinement. Staff suggestions often reveal quality solutions management wouldn't identify—front-line experience produces practical insights.`
     },
     {
-      title: 'Post-Rush Quality Debrief',
-      content: (
-        <>
-          <p className="mb-4">
-            Don't wait until end of season to analyze quality. Do short daily or weekly debriefs during peak season to catch and fix problems while they're happening.
-          </p>
+      title: "Building Long-Term Quality Culture",
+      content: `Make quality the primary metric ahead of speed or volume. What gets measured and rewarded gets done. If you measure and reward speed, you'll get fast poor service. If you measure and reward quality, staff optimize for quality even under volume pressure. Clear priorities drive behavior.
 
-          <p className="mb-6 mt-6">
-            <strong>5-Minute Daily Debrief Questions:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li>What quality issues did we see today?</li>
-            <li>What caused them?</li>
-            <li>What can we fix tomorrow?</li>
-            <li>Who needs additional training or support?</li>
-            <li>What worked well that we should continue?</li>
-          </ul>
+Document lessons learned each season for next year. Which quality systems worked? Which failed? What would we do differently? Institutional memory compounds—each season's learnings improve next season if captured and applied. Without documentation, you restart the learning process annually.
 
-          <p className="mb-4 mt-6">
-            Document these debriefs. Patterns emerge that show systemic problems. "We keep getting orders wrong at table 5" reveals poor lighting or confusing numbering. "Kitchen consistently behind on salads" reveals a process bottleneck.
-          </p>
-
-          <p className="mb-6 mt-8">
-            <strong>Weekly Deep Review:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li>Review customer feedback and reviews</li>
-            <li>Track quality metrics (errors, complaints, returns)</li>
-            <li>Identify recurring problems</li>
-            <li>Test solutions to biggest issues</li>
-            <li>Adjust processes based on what you're learning</li>
-          </ul>
-
-          <p className="mb-4 mt-6">
-            The businesses that maintain quality during rush aren't perfect from day one—they're getting 1% better every day by paying attention and adjusting.
-          </p>
-        </>
-      )
+Recognize that some customers aren't worth keeping at quality's expense. Customers who demand instant service regardless of impact on others or who won't accept quality-protecting wait times create problems for everyone. It's okay to lose problematic customers if it protects quality for valuable customers who appreciate excellence.`
     }
   ]
 
   return (
-    <Section>
-      <div className="max-w-4xl mx-auto">
-        <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-brand-text">
-            Maintaining Service Quality During Summer Rush
-          </h1>
-          <p className="text-xl text-brand-text/70 leading-relaxed">
-            Build systems that make high-quality service the default path even under peak season pressure. Stop sacrificing quality for volume.
+    <div className="min-h-screen py-16">
+      <article className="max-w-4xl mx-auto px-4">
+        <div className="mb-12">
+          <time className="text-sm text-current-500">March 16, 2025 • 8 min read</time>
+          <p className="text-sm text-current-500 mt-1">Seasonal Operations</p>
+          <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-brand-text">Maintaining Service Quality During Summer Rush</h1>
+          <p className="text-xl text-brand-text/70">Delivering excellence when Santa Cruz businesses hit peak volume</p>
+        </div>
+
+        <div className="prose prose-lg max-w-none mb-12">
+          <p className="text-lg leading-relaxed text-brand-text/80">
+            Summer volume in Santa Cruz brings the revenue you need—and the quality challenges you dread. Inexperienced seasonal staff, overwhelming customer volume, and pressure to move fast create perfect conditions for service quality to collapse. Here's how Santa Cruz businesses maintain consistent service excellence through peak season by designing scalable quality systems, training for volume pressure, and creating operational capacity that prevents the quality breakdowns that damage reputation and lose repeat customers.
           </p>
-        </header>
+        </div>
 
         <BlogAccordion sections={sections} />
 
-        <div className="mt-16 bg-brand-accent/5 border-2 border-brand-accent rounded-2xl p-8">
-          <h2 className="text-2xl font-extrabold text-brand-text mb-4">
-            Need Help Building Quality Control Systems?
-          </h2>
+        <div className="mt-16 p-8 bg-current-600/10 rounded-lg">
+          <h3 className="text-2xl font-bold text-brand-text mb-4">Quality Under Volume Requires Systematic Preparation</h3>
           <p className="text-brand-text/70 mb-6">
-            We help Santa Cruz businesses design operational systems that maintain quality under pressure. Our Business Flow Analysis identifies bottlenecks and creates systems that make excellence scalable.
+            Peak season revenue means nothing if quality damage loses the repeat customers who sustain your business year-round. Protecting quality protects long-term profitability.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <a 
-              href="/services/business-flow" 
-              className="inline-block bg-brand-accent text-white font-bold px-8 py-4 rounded-xl hover:bg-brand-accent-dark transition-colors text-center"
-            >
-              Learn About Business Flow Analysis
-            </a>
-            <a 
-              href="/contact" 
-              className="inline-block border-2 border-brand-accent text-brand-accent font-bold px-8 py-4 rounded-xl hover:bg-brand-accent/10 transition-colors text-center"
-            >
-              Discuss Your Quality Challenges
-            </a>
+          <p className="font-semibold text-brand-text mb-2">Need operational systems for quality at scale?</p>
+          <p className="text-brand-text/70 text-sm"><Link href="/packages/business-flow">Book a Business Flow package</Link> to build quality systems.</p>
+          <Link href="/packages/business-flow" className="text-current-500 hover:underline text-sm">Learn about Business Flow →</Link>
+        </div>
+      
+        {/* Hub Navigation */}
+        <div className="mt-16 pt-12 border-t border-white/10">
+          <Link href="/blog/santa-cruz-business-challenges" className="inline-flex items-center gap-2 text-current-500 hover:text-current-400 transition-colors mb-8">
+            <span>←</span> Santa Cruz Business Challenges Hub
+          </Link>
+        </div>
+
+        {/* Related Articles */}
+        <div className="mt-12">
+          <h3 className="text-2xl font-bold text-brand-text mb-8">Related Articles</h3>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Link href="/blog/staffing-peak-summer-tourist-season-santa-cruz" className="card p-6 hover:border-current-500/50 transition-colors group">
+              <p className="text-sm text-current-500 mb-2">Seasonal</p>
+              <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Peak Season Staffing</h4>
+              <p className="text-brand-text/70 text-sm">Hiring for summer volume.</p>
+            </Link>
+            <Link href="/blog/training-seasonal-employees-quickly-effectively-santa-cruz" className="card p-6 hover:border-current-500/50 transition-colors group">
+              <p className="text-sm text-current-500 mb-2">Training</p>
+              <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Training Seasonal Staff</h4>
+              <p className="text-brand-text/70 text-sm">Rapid onboarding systems.</p>
+            </Link>
+            <Link href="/blog/handling-difficult-customers-small-community-santa-cruz" className="card p-6 hover:border-current-500/50 transition-colors group">
+              <p className="text-sm text-current-500 mb-2">Customer Service</p>
+              <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Handling Difficult Customers</h4>
+              <p className="text-brand-text/70 text-sm">Service recovery strategies.</p>
+            </Link>
+          </div>
+
+          {/* Service CTA */}
+          <div className="mt-8 p-6 bg-current-600/10 rounded-lg">
+            <p className="font-semibold text-brand-text mb-2">Want quality systems that scale?</p>
+            <Link href="/packages/business-flow" className="text-current-500 hover:text-current-400 font-semibold inline-flex items-center gap-2">
+              Explore Business Flow Package <span>→</span>
+            </Link>
           </div>
         </div>
-      </div>
-    </Section>
+      </article>
+    </div>
   )
 }
-

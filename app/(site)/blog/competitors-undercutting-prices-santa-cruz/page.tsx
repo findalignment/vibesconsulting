@@ -1,408 +1,145 @@
-import Section from '@/components/Section'
+import Link from 'next/link'
 import BlogAccordion from '@/components/BlogAccordion'
-import { createMetadata as generateMeta } from '@/lib/seo'
+import Breadcrumb from '@/components/Breadcrumb'
 
-export const metadata = generateMeta({
-  title: 'Competitors Undercutting Your Prices in Santa Cruz | Pricing Strategy',
-  description: 'How to respond when Santa Cruz competitors undercut your pricing. Strategic alternatives to price wars that protect margins and profitability.',
-  keywords: 'price competition, undercutting prices, pricing strategy, santa cruz business, avoid price wars'
-})
+export const metadata = {
+  title: 'Competitors Undercutting Prices in Santa Cruz | Avoid Price Wars | Vibes Consulting',
+  description: 'How Santa Cruz businesses compete against low-price competitors without destroying margins. Value-based positioning and strategic pricing approaches.',
+}
 
-export default function CompetitorsUndercuttingPrices() {
+export default function BlogPost() {
   const sections = [
     {
-      title: 'The Race to the Bottom',
-      content: (
-        <>
-          <p className="mb-4">
-            Competitor drops prices 15%. You lose customers. You match their pricing. They drop another 10%. You match again. Now neither of you is profitable. Competitor goes out of business. You're so weakened you can't recover. Everyone loses. This is price war—and it's almost always wrong strategy.
-          </p>
-          <p className="mb-4">
-            When competitor undercuts you, instinct says match them. But price competition is trap that destroys value for everyone. The businesses that survive price competition aren't the ones who fight on price—they're the ones who refuse to play that game and compete on different dimensions entirely.
-          </p>
-        </>
-      )
+      title: "Why Price Competition Feels Inevitable",
+      content: `When a competitor charges significantly less, the pressure to match feels overwhelming. Customers ask why you're more expensive. Sales slow as price-sensitive segments shift. The fear of losing market share creates urgency to respond with price cuts that feel necessary but rarely solve the underlying problem.
+
+Santa Cruz's small market amplifies price competition visibility. Unlike larger metro areas where diverse customer segments support varied price points, our contained geography means every business competes for largely the same customer base. When one operator undercuts, everyone feels the impact immediately and directly.
+
+Low-price competitors often have different cost structures. They may be new and willing to operate at breakeven or loss to gain market share. They might have lower overhead from cheaper locations, minimal staffing, or reduced quality standards. Your costs reflect your choices about quality, service, and sustainability—matching their prices forces you to adopt their trade-offs.`
     },
     {
-      title: 'Why Competitors Undercut (And What It Means)',
-      content: (
-        <>
-          <p className="mb-4">
-            Understanding competitor motivation reveals whether their pricing is sustainable threat or temporary desperation.
-          </p>
+      title: "The True Cost of Competing on Price",
+      content: `Price cuts rarely recover through volume. The math seems simple: Lower prices attract more customers, and increased volume compensates for reduced margin. In reality, volume increases rarely match the margin loss. If you cut prices 20%, you need significantly more than 20% volume increase to maintain revenue—and you still haven't covered your fixed costs.
 
-          <p className="mb-6 mt-6">
-            <strong>Reasons for Price Undercutting:</strong>
-          </p>
+You attract price-sensitive customers who leave for the next discount. Customers who choose you primarily for price lack loyalty to your business. They'll leave when a competitor offers a better deal or when your prices inevitably rise. Building a customer base on price creates chronic instability rather than sustainable growth.
 
-          <p className="mb-4 mt-4">
-            <strong>1. Desperation/Cash Flow Crisis</strong>
-          </p>
-          <p className="mb-4">
-            They're struggling, need revenue immediately, willing to lose money per sale just to generate cash. Unsustainable. Don't match desperation pricing—wait them out.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>2. New Entrant Buying Market Share</strong>
-          </p>
-          <p className="mb-4">
-            New competitor using low pricing to establish presence, funded by outside capital or willing to lose money initially. May be sustainable medium-term. Requires strategic response, not knee-jerk matching.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>3. Lower Cost Structure</strong>
-          </p>
-          <p className="mb-4">
-            They genuinely have lower costs: cheaper rent, lower labor costs, different business model. Can sustain lower prices profitably. You cannot match without changing your model.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>4. Loss Leader Strategy</strong>
-          </p>
-          <p className="mb-4">
-            Undercutting on one product to attract customers, making profit on other items. Sophisticated strategy. Don't match loss leader pricing across everything.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>5. Don't Understand Their Costs</strong>
-          </p>
-          <p className="mb-4">
-            Naive pricing that doesn't account for true costs. Unsustainable but might take time for reality to hit. Don't follow them into ignorance.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>6. Different Value Proposition</strong>
-          </p>
-          <p className="mb-4">
-            They're budget option intentionally. You're premium option. Not actually competing for same customers. Matching their price abandons your positioning.
-          </p>
-        </>
-      )
+Price becomes your only differentiator. Once you compete primarily on price, other differentiators become secondary. Customers stop valuing your superior service, quality, or experience because you've trained them to focus on cost. Reversing this perception later—to support premium pricing—becomes exponentially harder than maintaining differentiation from the start.`
     },
     {
-      title: 'When NOT to Match Prices',
-      content: (
-        <>
-          <p className="mb-4">
-            Most times, matching competitor pricing is wrong move.
-          </p>
+      title: "Understanding Your Real Competition",
+      content: `Not every competitor actually competes for your customers. The business charging 30% less likely serves different segments with different values. Price-sensitive customers who choose the low-cost option wouldn't have become profitable, long-term customers for you anyway. Losing them doesn't hurt your business if they weren't your target market.
 
-          <p className="mb-6 mt-6">
-            <strong>Don't Match When:</strong>
-          </p>
+Identify customers who value what you deliver. Your best customers choose you despite available alternatives because they value specific aspects of your offering. Maybe it's your expertise, reliability, convenience, quality, or customer experience. These customers compare you against alternatives in their value calculation—and price is only one variable.
 
-          <p className="mb-4 mt-4">
-            <strong>1. You Provide Demonstrably Higher Value</strong>
-          </p>
-          <p className="mb-4">
-            Better quality, expert service, convenient location, superior experience. Customers paying premium for premium value. Dropping price signals your value isn't real.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>2. Matching Would Make You Unprofitable</strong>
-          </p>
-          <p className="mb-4">
-            If their price doesn't cover your costs plus reasonable margin, matching means losing money per sale. Revenue without profit is vanity metric. Better to lose sale than lose money.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>3. You're Targeting Different Customer Segment</strong>
-          </p>
-          <p className="mb-4">
-            Price-sensitive customers aren't your target. You serve quality-focused, convenience-focused, or service-focused customers. Let competitor have bargain hunters.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>4. Competitor Likely Unsustainable</strong>
-          </p>
-          <p className="mb-4">
-            Their pricing screams desperation or ignorance. Don't follow temporary pricing into permanent damage. Wait for them to fail or adjust.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>5. Your Differentiation Is Non-Price</strong>
-          </p>
-          <p className="mb-4">
-            Customers choose you for expertise, relationships, convenience, trust—not price. Matching price abandons your actual competitive advantage.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>6. Price War Benefits Neither Business</strong>
-          </p>
-          <p className="mb-4">
-            In small Santa Cruz market, race to bottom destroys both businesses. Better to maintain margins and share market than destroy profitability fighting.
-          </p>
-        </>
-      )
+Let the low-price competitor serve their segment. Every market has budget, mid-range, and premium segments. If a competitor chooses the budget position, they're actually defining themselves out of your market rather than competing within it. Focus on serving the segments that value what you deliver rather than fighting for the segment that values price above all else.`
     },
     {
-      title: 'Strategic Responses to Price Competition',
-      content: (
-        <>
-          <p className="mb-4">
-            Instead of matching price, change the game.
-          </p>
+      title: "Value-Based Positioning",
+      content: `Articulate what customers actually receive for your price. Most businesses assume customers understand the value provided. They don't. Make explicit what your price includes: expertise, quality materials, superior service, convenience, reliability, comprehensive solutions, or better outcomes. When value is clear, price becomes context rather than the decision factor.
 
-          <p className="mb-6 mt-6">
-            <strong>Non-Price Competitive Responses:</strong>
-          </p>
+Demonstrate the cost of cheaper alternatives. The low-price competitor cuts costs somewhere—reduced quality, limited service, corners cut, or essential elements excluded. Help customers understand these trade-offs without directly criticizing competitors. Position your pricing as the total cost of proper execution versus the initial price that requires additional investments later.
 
-          <p className="mb-4 mt-4">
-            <strong>1. Emphasize Value Differentiation</strong>
-          </p>
-          <p className="mb-4">
-            Make premium pricing justified: "We cost 20% more because: expert staff with 10+ years experience, lifetime warranty, local sourcing, free ongoing support." Transparent about why premium exists.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>2. Add Value Instead of Cutting Price</strong>
-          </p>
-          <p className="mb-4">
-            Keep price same, increase value: free services, extended warranty, bundled accessories, loyalty perks. Perceived value increases without margin destruction.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>3. Target Different Customer Segment</strong>
-          </p>
-          <p className="mb-4">
-            Explicitly position as premium option for customers who value quality over price. "If you're looking for cheapest option, we're not it. If you want best solution, we're here."
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>4. Create Price Tiers</strong>
-          </p>
-          <p className="mb-4">
-            Basic option at competitive price, premium option at higher price with more value. Lets price-sensitive customers buy while preserving premium for those who want it.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>5. Loyalty Program That Rewards Existing Customers</strong>
-          </p>
-          <p className="mb-4">
-            "Loyal customers get members-only pricing that beats competitor." Protects customer base without public price drop.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>6. Service and Experience Focus</strong>
-          </p>
-          <p className="mb-4">
-            Transform from product seller to solution provider. Consultation, custom fitting, ongoing support, community building. Relationship beats transaction on price.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>7. Guarantee That Eliminates Risk</strong>
-          </p>
-          <p className="mb-4">
-            "Satisfaction guaranteed or full refund." Removes purchase risk that might drive customers to cheaper option. Confidence beats lowest price.
-          </p>
-        </>
-      )
+Quantify outcomes rather than defending process. Customers don't value your time, overhead, or operational costs. They value results. If your approach delivers better outcomes—time saved, problems avoided, quality maintained, or goals achieved—quantify this value. A 20% price premium becomes reasonable when it delivers 50% better results or avoids 100% of common problems.`
     },
     {
-      title: 'When Selective Price Matching Makes Sense',
-      content: (
-        <>
-          <p className="mb-4">
-            Sometimes limited, strategic price matching is appropriate. But with rules.
-          </p>
+      title: "Strategic Pricing Responses",
+      content: `Create tiered pricing rather than universal discounts. If price sensitivity exists in your market, offer entry-level options that compete on price while maintaining premium tiers for customers seeking more. This captures price-sensitive segments without degrading your core offering or training customers to expect discounts.
 
-          <p className="mb-6 mt-6">
-            <strong>Smart Price Matching Strategy:</strong>
-          </p>
+Bundle and package to make price comparison difficult. When competitors undercut specific services, package them with complementary offerings that make direct comparison impossible. The competitor might charge less for item A, but your package includes items A, B, C, and D at a total value that's clearly superior.
 
-          <p className="mb-4 mt-4">
-            <strong>1. Match on Identical Commodity Products Only</strong>
-          </p>
-          <p className="mb-4">
-            If selling exact same brand/model as competitor, price matching removes objection. But: make money on accessories, services, and differentiated items.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>2. Match for Existing Customers Only</strong>
-          </p>
-          <p className="mb-4">
-            "We'll match competitor pricing for our loyal customers." Protects relationships without advertising lower price to everyone.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>3. Match With Value-Add Included</strong>
-          </p>
-          <p className="mb-4">
-            "We'll match their price AND include free setup/delivery/warranty." Same price, better total package.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>4. Require Proof and Be Specific</strong>
-          </p>
-          <p className="mb-4">
-            "Show us competitor's current advertised price on identical item, we'll match." Prevents abuse, ensures you're actually competing with real pricing.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>5. Time-Limited Matching</strong>
-          </p>
-          <p className="mb-4">
-            "We'll match competitor pricing during their sale period only." Protects long-term margins while being competitive during temporary promotions.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>6. Don't Advertise It Broadly</strong>
-          </p>
-          <p className="mb-4">
-            Train staff to offer price matching when customer mentions competitor, but don't promote widely. Selective tool, not positioning strategy.
-          </p>
-        </>
-      )
+Compete in different areas entirely. If the competitor wins on price, dominate on speed, convenience, quality, service, expertise, or comprehensiveness. Position your business in a category where price isn't the primary consideration. This requires operational excellence in your chosen dimension—you must deliver the superior value you claim.`
     },
     {
-      title: 'Communicating Higher Pricing',
-      content: (
-        <>
-          <p className="mb-4">
-            If you refuse to match competitors, you must effectively communicate why premium is justified.
-          </p>
+      title: "Communicating Value Without Defensiveness",
+      content: `Address price differences confidently. When customers compare prices, don't get defensive or apologetic. Acknowledge the difference directly and clearly explain what the price reflects. Confidence in your value proposition signals quality—defensiveness signals doubt.
 
-          <p className="mb-6 mt-6">
-            <strong>Premium Pricing Communication:</strong>
-          </p>
+Focus conversations on outcomes, not price. When price objections arise, redirect to results: "That makes sense that price matters. What's most important to you—finding the lowest initial cost, or ensuring this gets done right the first time?" This reframes the discussion around value and priorities rather than defending your numbers.
 
-          <p className="mb-4 mt-4">
-            <strong>1. Transparent Cost Breakdown</strong>
-          </p>
-          <p className="mb-4">
-            "Why we cost more: We pay living wages ($X more per item), source sustainably (adds Y%), provide expert service (trained staff cost), maintain inventory locally (no 2-week wait)." Make premium tangible.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>2. Total Cost of Ownership</strong>
-          </p>
-          <p className="mb-4">
-            "Cheap option: $100 but lasts 1 year = $100/year. Our option: $150 but lasts 5 years = $30/year. We're actually cheaper." Reframe comparison.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>3. Risk and Hassle Costs</strong>
-          </p>
-          <p className="mb-4">
-            "Competitor saves you $20. If product doesn't work, you'll spend $20 in gas and time returning it, plus frustration. We guarantee it works or immediate exchange." Hidden costs of cheap.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>4. Local Economic Impact</strong>
-          </p>
-          <p className="mb-4">
-            "Your $100 at competitor: $5 stays local, $95 goes to corporate HQ. Your $120 at us: $100 stays in Santa Cruz economy. Real difference for community." Values-based justification.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>5. Expertise and Results</strong>
-          </p>
-          <p className="mb-4">
-            "Competitor sells product. We solve your problem correctly first time. DIY failure costs more than paying expert." Expertise justification.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>6. Customer Success Stories</strong>
-          </p>
-          <p className="mb-4">
-            "Previous customer tried competitor first, wasn't happy, came to us. Now they're loyal." Social proof that premium is worth it.
-          </p>
-        </>
-      )
+Share customer stories that illustrate value. Past customers who initially questioned pricing but later appreciated the value provide powerful social proof. With permission, share stories of customers who chose the low-price option, experienced problems, and later switched to you. Let results speak louder than justification.`
     },
     {
-      title: 'Long-Term Positioning Strategy',
-      content: (
-        <>
-          <p className="mb-4">
-            Best defense against price competition is positioning where price isn't primary decision factor.
-          </p>
+      title: "When Price Adjustments Make Sense",
+      content: `Lower prices only if you've identified sustainable cost reductions. Permanent price cuts require permanent cost reductions or permanent volume increases—both difficult to achieve. Before cutting prices, identify specific operational improvements, overhead reductions, or efficiency gains that make lower prices sustainable rather than temporary tactics.
 
-          <p className="mb-6 mt-6">
-            <strong>Price-Resistant Positioning:</strong>
-          </p>
+Consider targeted promotions rather than across-the-board cuts. If you need to address price sensitivity, use time-limited offers or specific customer segments rather than reducing all prices permanently. This allows you to test price elasticity, attract new customers, and create urgency without degrading your overall price positioning.
 
-          <p className="mb-4 mt-4">
-            <strong>1. Specialization and Expertise</strong>
-          </p>
-          <p className="mb-4">
-            Become known expert in specific niche. Customers seek experts, not cheapest option. Expertise commands premium.
-          </p>
+Price adjustments work when value perception improved. If you've genuinely enhanced your offering—added services, improved quality, or strengthened outcomes—pricing changes become easier to justify. Increase value first, then adjust pricing if needed, rather than cutting prices and trying to maintain value.`
+    },
+    {
+      title: "Building Long-term Price Power",
+      content: `Cultivate customers who value quality over cost. Not every potential customer becomes a profitable long-term client. Focus marketing and sales efforts on segments that prioritize value drivers you excel at delivering. Building a customer base that values quality, service, or outcomes creates stability against price-based competition.
 
-          <p className="mb-4 mt-8">
-            <strong>2. Relationship-Based Business</strong>
-          </p>
-          <p className="mb-4">
-            Build deep customer relationships. They buy from you because they trust you personally, not because of price. Switching costs are emotional/relational.
-          </p>
+Strengthen operational efficiency to support pricing. The lower your costs relative to value delivered, the more pricing flexibility you have. Focus on operational improvements that reduce costs without reducing quality. This creates margin that allows occasional tactical pricing while maintaining profitability.
 
-          <p className="mb-4 mt-8">
-            <strong>3. Unique Products/Services</strong>
-          </p>
-          <p className="mb-4">
-            Offer things competitors cannot. If you're only source, price comparison impossible. Uniqueness eliminates price competition.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>4. Experience and Community</strong>
-          </p>
-          <p className="mb-4">
-            Create experience and community customers value beyond product. Third place, events, classes, social connection. Competing on experience, not price.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>5. Results Guarantee</strong>
-          </p>
-          <p className="mb-4">
-            Guarantee specific outcomes. "If you don't see X results, full refund." Outcome-based pricing beats hourly/product pricing comparison.
-          </p>
-
-          <p className="mb-4 mt-6">
-            <strong>Goal:</strong> Become so differentiated that price comparison feels irrelevant. You're not expensive—you're incomparable.
-          </p>
-        </>
-      )
+Establish brand strength through consistency and results. Businesses with strong reputations command price premiums because customers trust the value delivery. Build this reputation through consistent excellence, customer success stories, and community presence. Over time, your brand becomes the decision factor—price becomes secondary for your target market.`
     }
   ]
 
   return (
-    <Section>
-      <div className="max-w-4xl mx-auto">
-        <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-brand-text">
-            Competitors Undercutting Your Prices in Santa Cruz
-          </h1>
-          <p className="text-xl text-brand-text/70 leading-relaxed">
-            How to respond when competitors undercut pricing without destroying your margins. Strategic alternatives to price wars.
+    <div className="min-h-screen py-16">
+      <article className="max-w-4xl mx-auto px-4">
+        <div className="mb-12">
+          <time className="text-sm text-current-500">March 15, 2025 • 8 min read</time>
+          <p className="text-sm text-current-500 mt-1">Competition & Pricing</p>
+          <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-6 text-brand-text">Competitors Undercutting Prices: How to Compete Without Destroying Margins</h1>
+          <p className="text-xl text-brand-text/70">Value-based strategies for Santa Cruz businesses facing low-price competition</p>
+        </div>
+
+        <div className="prose prose-lg max-w-none mb-12">
+          <p className="text-lg leading-relaxed text-brand-text/80">
+            A competitor charges 20-30% less than you, and customers start asking questions. The pressure to match their prices feels intense, but price wars rarely end well. Here's how Santa Cruz businesses can compete against low-price operators without sacrificing margins, service quality, or long-term sustainability—by competing on value instead of cost alone.
           </p>
-        </header>
+        </div>
 
         <BlogAccordion sections={sections} />
 
-        <div className="mt-16 bg-brand-accent/5 border-2 border-brand-accent rounded-2xl p-8">
-          <h2 className="text-2xl font-extrabold text-brand-text mb-4">
-            Need Help With Pricing Strategy?
-          </h2>
+        <div className="mt-16 p-8 bg-current-600/10 rounded-lg">
+          <h3 className="text-2xl font-bold text-brand-text mb-4">Build Pricing Power Through Value</h3>
           <p className="text-brand-text/70 mb-6">
-            We help Santa Cruz businesses develop pricing strategies that protect margins while remaining competitive. Stop the race to the bottom.
+            The businesses that thrive long-term don't compete on price—they compete on value, outcomes, and customer experience that justifies premium positioning.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <a 
-              href="/services/business-flow" 
-              className="inline-block bg-brand-accent text-white font-bold px-8 py-4 rounded-xl hover:bg-brand-accent-dark transition-colors text-center"
-            >
-              Build Pricing Strategy
-            </a>
-            <a 
-              href="/contact" 
-              className="inline-block border-2 border-brand-accent text-brand-accent font-bold px-8 py-4 rounded-xl hover:bg-brand-accent/10 transition-colors text-center"
-            >
-              Discuss Competition Challenges
-            </a>
+          <p className="font-semibold text-brand-text mb-2">Struggling with pricing strategy?</p>
+          <p className="text-brand-text/70 text-sm"><Link href="/packages/flow-check">Book a Flow Check</Link> to develop value-based positioning and pricing strategies.</p>
+          <Link href="/packages/flow-check" className="text-current-500 hover:underline text-sm">Learn about Flow Check →</Link>
+        </div>
+      
+        {/* Hub Navigation */}
+        <div className="mt-16 pt-12 border-t border-white/10">
+          <Link href="/blog/santa-cruz-business" className="inline-flex items-center gap-2 text-current-500 hover:text-current-400 transition-colors mb-8">
+            <span>←</span> Back to Santa Cruz Business Hub
+          </Link>
+        </div>
+
+        {/* Related Articles */}
+        <div className="mt-12">
+          <h3 className="text-2xl font-bold text-brand-text mb-8">Related Articles</h3>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Link href="/blog/pricing-too-low-santa-cruz-cost-of-living" className="card p-6 hover:border-current-500/50 transition-colors group">
+              <p className="text-sm text-current-500 mb-2">Pricing</p>
+              <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Pricing Too Low</h4>
+              <p className="text-brand-text/70 text-sm">Setting sustainable prices.</p>
+            </Link>
+            <Link href="/blog/dont-understand-true-cost-per-service-product" className="card p-6 hover:border-current-500/50 transition-colors group">
+              <p className="text-sm text-current-500 mb-2">Financial</p>
+              <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Understanding True Costs</h4>
+              <p className="text-brand-text/70 text-sm">Cost-based pricing foundations.</p>
+            </Link>
+            <Link href="/blog/too-many-competitors-small-market-santa-cruz" className="card p-6 hover:border-current-500/50 transition-colors group">
+              <p className="text-sm text-current-500 mb-2">Competition</p>
+              <h4 className="text-xl font-semibold text-brand-text mb-3 group-hover:text-current-500 transition-colors">Crowded Market Competition</h4>
+              <p className="text-brand-text/70 text-sm">Strategic competitive positioning.</p>
+            </Link>
+          </div>
+
+          {/* Service CTA */}
+          <div className="mt-8 p-6 bg-current-600/10 rounded-lg">
+            <p className="font-semibold text-brand-text mb-2">Need pricing and positioning help?</p>
+            <Link href="/packages/flow-check" className="text-current-500 hover:text-current-400 font-semibold inline-flex items-center gap-2">
+              Explore Flow Check Package <span>→</span>
+            </Link>
           </div>
         </div>
-      </div>
-    </Section>
+      </article>
+    </div>
   )
 }
-

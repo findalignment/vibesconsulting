@@ -101,7 +101,7 @@ export default function BlogPost() {
       <article className="max-w-3xl mx-auto">
         <header className="mb-12 pb-8 border-b border-white/10">
           <div className="flex items-center gap-3 text-sm text-brand-text/60 mb-4">
-            <time>October 20, 2024</time>
+            <time>March 21, 2025</time>
             <span>•</span>
             <span>6 min read</span>
             <span>•</span>

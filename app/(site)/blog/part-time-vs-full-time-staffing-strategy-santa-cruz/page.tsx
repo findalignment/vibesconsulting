@@ -1,372 +1,541 @@
+import { Metadata } from 'next'
 import Section from '@/components/Section'
-import BlogAccordion from '@/components/BlogAccordion'
-import { createMetadata as generateMeta } from '@/lib/seo'
+import CTAButton from '@/components/CTAButton'
 
-export const metadata = generateMeta({
-  title: 'Part-Time vs Full-Time Staffing Strategy for Santa Cruz Businesses',
-  description: 'Strategic analysis of part-time vs full-time staffing models for Santa Cruz businesses. Balance cost, reliability, and flexibility.',
-  keywords: 'part-time vs full-time, staffing strategy, santa cruz employment, workforce planning, scheduling'
-})
-
-export default function PartTimeVsFullTimeStaffing() {
-  const sections = [
-    {
-      title: 'The Staffing Model Decision',
-      content: (
-        <>
-          <p className="mb-4">
-            Full-time employees: more commitment, higher costs, benefits expectations, but stable and invested. Part-time employees: flexible, lower cost, easier to find, but less reliable and committed. Which should you build around?
-          </p>
-          <p className="mb-4">
-            The answer isn't one-size-fits-all. Your optimal staffing model depends on business type, hours of operation, budget constraints, and Santa Cruz's specific labor market realities. Most successful businesses use intentional hybrid approach—some full-time core, supplemented by strategic part-time staff.
-          </p>
-        </>
-      )
-    },
-    {
-      title: 'Full-Time Staffing Model',
-      content: (
-        <>
-          <p className="mb-6 mt-4">
-            <strong>Advantages of Full-Time Staff:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Higher commitment:</strong> Full-time job = primary income = more invested in success</li>
-            <li><strong>Better training ROI:</strong> Worth investing heavily in training someone working 40 hours vs 15</li>
-            <li><strong>Consistency:</strong> Same people, every day, building expertise and relationships</li>
-            <li><strong>Accountability:</strong> Easier to hold full-time staff to high standards—it's their career</li>
-            <li><strong>Institutional knowledge:</strong> Full-time staff become experts in your operations</li>
-            <li><strong>Manager material:</strong> Leadership comes from full-time ranks</li>
-            <li><strong>Customer relationships:</strong> Regulars build connections with consistent staff</li>
-          </ul>
-
-          <p className="mb-6 mt-8">
-            <strong>Disadvantages of Full-Time Staff:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Higher cost:</strong> Full-time = healthcare, benefits, PTO, higher hourly expectations</li>
-            <li><strong>Harder to find in Santa Cruz:</strong> People need high wages for full-time commitment, which you might not afford</li>
-            <li><strong>Less flexibility:</strong> Can't easily cut hours when slow</li>
-            <li><strong>Harder to fire:</strong> Full-time termination feels more significant, creates more risk</li>
-            <li><strong>Benefit obligations:</strong> In California, 30+ hours triggers various benefit requirements</li>
-            <li><strong>Higher unemployment costs:</strong> Full-time terminations cost more in UI</li>
-          </ul>
-
-          <p className="mb-4 mt-6">
-            <strong>Full-Time Makes Sense When:</strong> You need deep expertise, have stable year-round demand, can afford benefits, and value institutional knowledge over flexibility.
-          </p>
-        </>
-      )
-    },
-    {
-      title: 'Part-Time Staffing Model',
-      content: (
-        <>
-          <p className="mb-6 mt-4">
-            <strong>Advantages of Part-Time Staff:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Lower cost:</strong> No benefits, fewer hours, more affordable</li>
-            <li><strong>Easier to find:</strong> Students, parents, retirees, people with other jobs—larger candidate pool</li>
-            <li><strong>Flexibility:</strong> Can adjust hours based on demand without guilt/commitment</li>
-            <li><strong>Multiple people = coverage:</strong> One person sick? Others can cover. Full-timer out = crisis</li>
-            <li><strong>Lower commitment risk:</strong> Hiring part-time feels less permanent, easier to test</li>
-            <li><strong>Diverse perspectives:</strong> Multiple people bring different skills/ideas</li>
-            <li><strong>Works with Santa Cruz lifestyle:</strong> Many people want part-time to maintain surf/life balance</li>
-          </ul>
-
-          <p className="mb-6 mt-8">
-            <strong>Disadvantages of Part-Time Staff:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Lower commitment:</strong> It's not their primary focus, just supplemental income</li>
-            <li><strong>Higher turnover:</strong> Easier to quit part-time job than full-time career</li>
-            <li><strong>Scheduling complexity:</strong> Coordinating 6-8 part-timers vs managing 2-3 full-timers</li>
-            <li><strong>Training burden:</strong> More people = more training, more onboarding</li>
-            <li><strong>Less expertise:</strong> 15 hours/week = slower skill development</li>
-            <li><strong>Availability conflicts:</strong> "I need this Saturday off" × 6 employees = scheduling nightmare</li>
-            <li><strong>Less invested:</strong> Don't identify with business success like full-timers do</li>
-          </ul>
-
-          <p className="mb-4 mt-6">
-            <strong>Part-Time Makes Sense When:</strong> You have variable demand, tight budget, need flexibility, and can handle higher turnover and scheduling complexity.
-          </p>
-        </>
-      )
-    },
-    {
-      title: 'The Hybrid Model (Most Common Success)',
-      content: (
-        <>
-          <p className="mb-4">
-            Most Santa Cruz businesses don't choose one or the other—they build strategic mix.
-          </p>
-
-          <p className="mb-6 mt-6">
-            <strong>Optimal Hybrid Structure:</strong>
-          </p>
-
-          <p className="mb-4 mt-4">
-            <strong>Full-Time Core Positions:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Owner/manager:</strong> Leadership requires full-time commitment</li>
-            <li><strong>Opening person:</strong> Needs to be there every day, reliable</li>
-            <li><strong>Key operational roles:</strong> Head chef, lead technician, core producer</li>
-            <li><strong>1-2 senior staff:</strong> Institutional knowledge holders</li>
-          </ul>
-
-          <p className="mb-4 mt-8">
-            <strong>Part-Time Flexible Positions:</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Weekend coverage:</strong> Students, people with other weekday jobs</li>
-            <li><strong>Peak time support:</strong> Lunch rush, dinner service, busy season</li>
-            <li><strong>Specialized roles:</strong> Once-weekly bookkeeping, monthly deep clean</li>
-            <li><strong>Variable demand positions:</strong> Scale up/down with business needs</li>
-          </ul>
-
-          <p className="mb-4 mt-8">
-            <strong>Example: Restaurant Hybrid Model</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li><strong>Full-time (3 people):</strong> Manager, head chef, lead server</li>
-            <li><strong>Part-time (6-8 people):</strong> Line cooks, servers, hosts, dishwashers</li>
-            <li><strong>Total labor:</strong> ~150-180 hours/week covered by mix</li>
-          </ul>
-
-          <p className="mb-4 mt-6">
-            Full-timers provide stability and expertise. Part-timers provide flexibility and coverage. Together = sustainable model.
-          </p>
-        </>
-      )
-    },
-    {
-      title: 'Converting Part-Time to Full-Time',
-      content: (
-        <>
-          <p className="mb-4">
-            Smart strategy: hire as part-time, promote best ones to full-time after proving themselves.
-          </p>
-
-          <p className="mb-6 mt-6">
-            <strong>Trial-to-Full-Time Pipeline:</strong>
-          </p>
-
-          <p className="mb-4 mt-4">
-            <strong>1. Start Everyone Part-Time</strong>
-          </p>
-          <p className="mb-4">
-            Lower commitment, lower risk. See who's actually reliable, skilled, culture fit. After 3-6 months, evaluate for full-time.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>2. Gradual Hour Increase</strong>
-          </p>
-          <p className="mb-4">
-            Top performers: offer more hours. 15 → 20 → 25 → 30 → 35. Shows growth path and tests their capacity before full-time commitment.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>3. Full-Time as Reward</strong>
-          </p>
-          <p className="mb-4">
-            "You've been excellent. We'd like to offer full-time position with benefits." Becomes aspiration instead of gamble. They've earned it.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>4. Selective Conversion</strong>
-          </p>
-          <p className="mb-4">
-            Not everyone wants or deserves full-time. Keep some roles part-time permanently. Only convert exceptional performers who want full-time commitment.
-          </p>
-        </>
-      )
-    },
-    {
-      title: 'Managing Part-Time Staff Effectively',
-      content: (
-        <>
-          <p className="mb-4">
-            Part-time staff require different management approach than full-time. Here's what works.
-          </p>
-
-          <p className="mb-6 mt-6">
-            <strong>Part-Time Management Best Practices:</strong>
-          </p>
-
-          <p className="mb-4 mt-4">
-            <strong>1. Consistent Scheduling</strong>
-          </p>
-          <p className="mb-4">
-            "You work every Tuesday 4-9pm and Saturday 11-5pm" = predictable. Changes weekly = chaos. Consistent schedule despite part-time status builds reliability.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>2. Minimum Hours Guarantee</strong>
-          </p>
-          <p className="mb-4">
-            "Minimum 12 hours/week" ensures income predictability. They can plan life around guaranteed base.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>3. Clear Communication Channels</strong>
-          </p>
-          <p className="mb-4">
-            Group chat, shift scheduling app, clear system for shift trades. Part-timers aren't there every day—need digital coordination.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>4. Proportional Respect</strong>
-          </p>
-          <p className="mb-4">
-            Don't treat part-timers as lesser. They're choosing to work for you. Respect their time and contributions equally.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>5. Team Integration</strong>
-          </p>
-          <p className="mb-4">
-            Include part-timers in team meetings, social events, decisions. Don't create two-tier culture. Inclusion builds commitment.
-          </p>
-        </>
-      )
-    },
-    {
-      title: 'Cost Analysis: Which Is Actually Cheaper?',
-      content: (
-        <>
-          <p className="mb-4">
-            Part-time seems cheaper but hidden costs exist. Full-time seems expensive but creates efficiencies. Do the real math.
-          </p>
-
-          <p className="mb-6 mt-6">
-            <strong>True Cost Comparison:</strong>
-          </p>
-
-          <p className="mb-4 mt-4">
-            <strong>Scenario: Need 80 hours/week of labor coverage</strong>
-          </p>
-
-          <p className="mb-4 mt-6">
-            <strong>Option A: 2 Full-Time Employees (40 hours each)</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li>Hourly: $22/hour × 80 hours = $1,760/week</li>
-            <li>Healthcare: $400/month per person = $200/week</li>
-            <li>PTO (2 weeks/year): $1,760/26 = $68/week</li>
-            <li>Payroll taxes/UI: ~11% = $194/week</li>
-            <li><strong>Total: $2,222/week</strong></li>
-          </ul>
-
-          <p className="mb-4 mt-8">
-            <strong>Option B: 5 Part-Time Employees (16 hours each)</strong>
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2">
-            <li>Hourly: $20/hour × 80 hours = $1,600/week</li>
-            <li>No benefits: $0</li>
-            <li>Payroll taxes/UI: ~9% (lower) = $144/week</li>
-            <li>Training costs: 5 people instead of 2 = +$100/week amortized</li>
-            <li>Scheduling management time: +$75/week</li>
-            <li><strong>Total: $1,919/week</strong></li>
-          </ul>
-
-          <p className="mb-4 mt-6">
-            <strong>Savings: $303/week with part-time model (~16% cheaper)</strong>
-          </p>
-
-          <p className="mb-4">
-            But: Full-time model has less turnover, better service quality, institutional knowledge, less management overhead. Part-time model has flexibility, easier hiring, spread risk.
-          </p>
-
-          <p className="mb-4">
-            Choose based on priorities, not just cost.
-          </p>
-        </>
-      )
-    },
-    {
-      title: 'California Legal Considerations',
-      content: (
-        <>
-          <p className="mb-4">
-            California has specific regulations around full-time vs part-time. Know what you're committing to.
-          </p>
-
-          <p className="mb-6 mt-6">
-            <strong>Key Legal Issues:</strong>
-          </p>
-
-          <p className="mb-4 mt-4">
-            <strong>1. ACA Healthcare Threshold: 30 Hours</strong>
-          </p>
-          <p className="mb-4">
-            If employee averages 30+ hours/week, you may need to offer health insurance (if over 50 employees total). Keep part-timers under 30 to avoid.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>2. California Predictive Scheduling Laws</strong>
-          </p>
-          <p className="mb-4">
-            Some cities require advance schedule posting and pay for last-minute changes. Know local requirements.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>3. Part-Time Rights</strong>
-          </p>
-          <p className="mb-4">
-            Part-time employees have same rights as full-time: minimum wage, meal breaks, sick leave, etc. Don't treat as lesser class legally.
-          </p>
-
-          <p className="mb-4 mt-8">
-            <strong>4. Misclassification Risk</strong>
-          </p>
-          <p className="mb-4">
-            If "part-time" staff consistently work 40 hours, they're effectively full-time. Can't avoid full-time obligations by calling them part-time.
-          </p>
-        </>
-      )
-    }
-  ]
-
-  return (
-    <Section>
-      <div className="max-w-4xl mx-auto">
-        <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-brand-text">
-            Part-Time vs Full-Time Staffing Strategy for Santa Cruz
-          </h1>
-          <p className="text-xl text-brand-text/70 leading-relaxed">
-            Strategic analysis of part-time and full-time staffing models. Build optimal workforce structure for your Santa Cruz business.
-          </p>
-        </header>
-
-        <BlogAccordion sections={sections} />
-
-        <div className="mt-16 bg-brand-accent/5 border-2 border-brand-accent rounded-2xl p-8">
-          <h2 className="text-2xl font-extrabold text-brand-text mb-4">
-            Need Help Designing Your Staffing Model?
-          </h2>
-          <p className="text-brand-text/70 mb-6">
-            We help Santa Cruz businesses analyze staffing needs and build optimal mix of full-time and part-time employees for sustainability and growth.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <a 
-              href="/services/business-flow" 
-              className="inline-block bg-brand-accent text-white font-bold px-8 py-4 rounded-xl hover:bg-brand-accent-dark transition-colors text-center"
-            >
-              Optimize Your Staffing
-            </a>
-            <a 
-              href="/contact" 
-              className="inline-block border-2 border-brand-accent text-brand-accent font-bold px-8 py-4 rounded-xl hover:bg-brand-accent/10 transition-colors text-center"
-            >
-              Discuss Your Workforce Needs
-            </a>
-          </div>
-        </div>
-      </div>
-    </Section>
-  )
+export const metadata: Metadata = {
+  title: 'Part-Time vs Full-Time Staffing Strategy | Santa Cruz Business Planning',
+  description: 'Build the right part-time vs full-time employee mix for your Santa Cruz business. Cost optimization, flexibility, and retention strategies for small business owners.',
+  keywords: 'part-time employees, full-time staffing, staffing strategy, labor cost optimization, employee scheduling, Santa Cruz hiring, workforce planning, flexible staffing',
+  openGraph: {
+    title: 'Part-Time vs Full-Time Staffing Strategy for Santa Cruz Businesses',
+    description: 'Optimize your workforce mix with strategic part-time and full-time employee planning.',
+    type: 'article',
+    publishedTime: '2025-08-12T00:00:00Z',
+    authors: ['Vibes Consulting'],
+    url: 'https://vibes.consulting/blog/part-time-vs-full-time-staffing-strategy-santa-cruz',
+  },
 }
 
+export default function PartTimeFullTimeStrategyPage() {
+  return (
+    <div className="bg-white text-zinc-900">
+      <Section width="default" className="pt-32 pb-16">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-zinc-900">
+          Part-Time vs. Full-Time Staffing Strategy
+        </h1>
+        <p className="text-xl text-zinc-600 mb-8">
+          How to build the optimal mix of part-time and full-time employees for your Santa Cruz business—balancing cost control, flexibility, and team stability.
+        </p>
+        <div className="w-16 h-1 bg-purple-600"></div>
+      </Section>
+
+      <Section width="default" className="py-8">
+        <div className="prose prose-lg max-w-none">
+          
+          <h2>The Staffing Mix Dilemma</h2>
+          
+          <p>
+            Your Santa Cruz business needs 120 hours of labor per week. You have three options:
+          </p>
+
+          <p>
+            <strong>Option A:</strong> Three full-time employees (40 hours each)<br />
+            <strong>Option B:</strong> Six part-time employees (20 hours each)<br />
+            <strong>Option C:</strong> Two full-time + four part-time employees
+          </p>
+
+          <p>
+            Each option has the same total hours, but dramatically different costs, flexibility, and operational impacts. Choose wrong and you either:
+          </p>
+
+          <ul>
+            <li>Overspend on labor (Option A might be too expensive)</li>
+            <li>Have scheduling chaos (Option B might be too fragmented)</li>
+            <li>Struggle with team cohesion and training</li>
+            <li>Face constant turnover</li>
+          </ul>
+
+          <p>
+            Most Santa Cruz business owners default to whatever feels easiest in the moment. But the right staffing mix is strategic—it should match your revenue patterns, budget constraints, and operational needs.
+          </p>
+
+          <p>
+            Here's how to get it right.
+          </p>
+
+          <h2>Understanding the True Costs: Part-Time vs. Full-Time</h2>
+
+          <h3>Full-Time Employee (40 hours/week) - Total Cost Breakdown:</h3>
+
+          <p>
+            <strong>Base wage:</strong> $20/hour × 40 hours = $800/week = $3,467/month
+          </p>
+
+          <p>
+            <strong>Additional costs:</strong>
+          </p>
+
+          <ul>
+            <li><strong>Employer payroll taxes:</strong> ~7.65% = $265/month</li>
+            <li><strong>Benefits (if offered):</strong> Health insurance ($300-600), PTO ($200), retirement match ($150) = $650-950/month</li>
+            <li><strong>Workers comp insurance:</strong> Varies by industry, ~$50-150/month</li>
+            <li><strong>Training/onboarding:</strong> Amortized ~$100/month first year</li>
+          </ul>
+
+          <p>
+            <strong>Total monthly cost:</strong> $4,532-5,032 ($26.16-29.03/hour true cost)
+          </p>
+
+          <h3>Part-Time Employee (20 hours/week) - Total Cost Breakdown:</h3>
+
+          <p>
+            <strong>Base wage:</strong> $20/hour × 20 hours = $400/week = $1,733/month
+          </p>
+
+          <p>
+            <strong>Additional costs:</strong>
+          </p>
+
+          <ul>
+            <li><strong>Employer payroll taxes:</strong> ~7.65% = $133/month</li>
+            <li><strong>Benefits:</strong> Usually none for part-time = $0</li>
+            <li><strong>Workers comp:</strong> ~$25-75/month</li>
+            <li><strong>Training/onboarding:</strong> Amortized ~$50/month first year</li>
+          </ul>
+
+          <p>
+            <strong>Total monthly cost:</strong> $1,941-2,091 ($22.36-24.08/hour true cost)
+          </p>
+
+          <h3>The Cost Comparison:</h3>
+
+          <p>
+            <strong>To get 120 hours/week of coverage:</strong>
+          </p>
+
+          <ul>
+            <li><strong>3 full-time employees:</strong> $13,596-15,096/month</li>
+            <li><strong>6 part-time employees:</strong> $11,646-12,546/month</li>
+            <li><strong>Savings with part-time:</strong> $1,950-2,550/month ($23,400-30,600/year)</li>
+          </ul>
+
+          <p>
+            <strong>But...</strong> cost isn't everything. Let's look at operational trade-offs.
+          </p>
+
+          <h2>When Full-Time Makes Sense</h2>
+
+          <h3>Scenario #1: Consistency and Expertise Are Critical</h3>
+
+          <p>
+            <strong>Business types:</strong> Professional services, skilled trades, management roles, technical positions
+          </p>
+
+          <p>
+            <strong>Why full-time works:</strong>
+          </p>
+
+          <ul>
+            <li>Deep expertise takes time to develop</li>
+            <li>Customers/clients expect consistency (same person handles their account)</li>
+            <li>Complex knowledge bases require full-time immersion</li>
+            <li>Quality control demands experienced staff</li>
+          </ul>
+
+          <p>
+            <strong>Example:</strong> Accounting firm needs full-time CPAs. Part-time accountants miss context, continuity suffers, client relationships weaken.
+          </p>
+
+          <h3>Scenario #2: Team Cohesion Is Essential</h3>
+
+          <p>
+            <strong>Business types:</strong> Creative agencies, healthcare, small offices, startups
+          </p>
+
+          <p>
+            <strong>Why full-time works:</strong>
+          </p>
+
+          <ul>
+            <li>Culture is built through daily interaction</li>
+            <li>Collaboration requires consistent presence</li>
+            <li>Team dynamics break down with constantly rotating part-timers</li>
+            <li>Communication suffers when people work different schedules</li>
+          </ul>
+
+          <h3>Scenario #3: Benefits Attract Better Talent</h3>
+
+          <p>
+            <strong>When competing for skilled workers:</strong>
+          </p>
+
+          <ul>
+            <li>Full-time + benefits package attracts higher-quality candidates</li>
+            <li>Retention dramatically improves (people stay for healthcare, PTO)</li>
+            <li>Investment in benefits pays back through lower turnover costs</li>
+          </ul>
+
+          <p>
+            <strong>Math example:</strong><br />
+            Spending $600/month on benefits keeps employee for 3+ years instead of 18 months.<br />
+            Training/recruitment costs saved: $5,000-10,000<br />
+            <strong>ROI on benefits: 200-400%</strong>
+          </p>
+
+          <h2>When Part-Time Makes Sense</h2>
+
+          <h3>Scenario #1: Variable or Seasonal Demand</h3>
+
+          <p>
+            <strong>Business types:</strong> Retail, restaurants, tourism, fitness, events
+          </p>
+
+          <p>
+            <strong>Why part-time works:</strong>
+          </p>
+
+          <ul>
+            <li>Match labor to fluctuating demand</li>
+            <li>Scale up for peak hours/seasons without over-committing</li>
+            <li>Avoid paying full-time wages during slow periods</li>
+          </ul>
+
+          <p>
+            <strong>Example:</strong> Café busy 7am-1pm. Hire part-timers for morning shift (6-7 hours), don't need full 40-hour coverage.
+          </p>
+
+          <h3>Scenario #2: Task-Based Work (Not Relationship-Based)</h3>
+
+          <p>
+            <strong>Business types:</strong> Cleaning, stocking, delivery, administrative support
+          </p>
+
+          <p>
+            <strong>Why part-time works:</strong>
+          </p>
+
+          <ul>
+            <li>Tasks are discrete (doesn't require deep context)</li>
+            <li>Multiple people can do same tasks without continuity loss</li>
+            <li>Efficiency comes from training, not tenure</li>
+          </ul>
+
+          <h3>Scenario #3: Budget Constraints</h3>
+
+          <p>
+            <strong>When you simply can't afford full-time costs:</strong>
+          </p>
+
+          <ul>
+            <li>Early-stage businesses</li>
+            <li>Tight margins industries</li>
+            <li>Seasonal revenue businesses</li>
+          </ul>
+
+          <p>
+            <strong>Reality:</strong> Part-time staff isn't ideal, but it's better than understaffing or going out of business. Start with part-time, grow to full-time as revenue stabilizes.
+          </p>
+
+          <h2>The Hybrid Model: Best of Both Worlds</h2>
+
+          <p>
+            <strong>Most successful Santa Cruz small businesses use a hybrid approach:</strong>
+          </p>
+
+          <h3>The 60/40 Model:</h3>
+
+          <p>
+            <strong>60% of hours: Full-time core team (2-3 people)</strong>
+          </p>
+
+          <ul>
+            <li>Handle complex work</li>
+            <li>Train part-timers</li>
+            <li>Provide continuity and culture</li>
+            <li>Cover management/supervisory roles</li>
+          </ul>
+
+          <p>
+            <strong>40% of hours: Part-time support team (3-5 people)</strong>
+          </p>
+
+          <ul>
+            <li>Cover peak hours</li>
+            <li>Provide scheduling flexibility</li>
+            <li>Handle routine/task-based work</li>
+            <li>Fill gaps during full-timer vacations/sick days</li>
+          </ul>
+
+          <p>
+            <strong>Benefits of hybrid:</strong>
+          </p>
+
+          <ul>
+            <li>Cost control (not paying full benefits for all hours)</li>
+            <li>Stability (core team provides consistency)</li>
+            <li>Flexibility (part-timers adapt to changing needs)</li>
+            <li>Depth (full-timers develop expertise, part-timers provide coverage)</li>
+          </ul>
+
+          <h3>Real Example - Santa Cruz Coffee Shop:</h3>
+
+          <p>
+            <strong>Total weekly hours needed: 140</strong>
+          </p>
+
+          <p>
+            <strong>Staff mix:</strong>
+          </p>
+
+          <ul>
+            <li><strong>2 full-time baristas (80 hours):</strong> Open/close, train others, manage inventory, ensure quality</li>
+            <li><strong>4 part-time baristas (60 hours):</strong> Cover peak morning rush (7-11am) and weekend shifts</li>
+          </ul>
+
+          <p>
+            <strong>Monthly labor cost:</strong>
+          </p>
+
+          <ul>
+            <li>2 full-time @ $4,800/month each = $9,600</li>
+            <li>4 part-time @ $1,400/month each = $5,600</li>
+            <li><strong>Total: $15,200/month</strong></li>
+          </ul>
+
+          <p>
+            <strong>vs. All full-time (3.5 FTE @ $4,800 each): $16,800/month</strong>
+          </p>
+
+          <p>
+            <strong>Savings: $1,600/month ($19,200/year) while maintaining quality and coverage.</strong>
+          </p>
+
+          <h2>California Law Considerations</h2>
+
+          <h3>What California Law Requires:</h3>
+
+          <p>
+            <strong>For ALL employees (part-time and full-time):</strong>
+          </p>
+
+          <ul>
+            <li>Minimum wage (currently $16/hour in CA, $17.50 in some Santa Cruz jurisdictions)</li>
+            <li>Overtime pay (over 8 hours/day or 40 hours/week)</li>
+            <li>Meal and rest breaks</li>
+            <li>Sick leave (1 hour earned per 30 hours worked)</li>
+            <li>Workers compensation insurance</li>
+          </ul>
+
+          <p>
+            <strong>For Full-time ONLY (typically defined as 30+ hours/week):</strong>
+          </p>
+
+          <ul>
+            <li>Health insurance (if company has 50+ employees under ACA)</li>
+            <li>Most companies voluntarily offer PTO, retirement for full-time</li>
+          </ul>
+
+          <p>
+            <strong>Important:</strong> Part-time employees have same basic rights as full-time under California law. You can't treat them as "lesser" employees legally.
+          </p>
+
+          <h2>Managing Part-Time Employees Successfully</h2>
+
+          <h3>Challenge #1: Scheduling Complexity</h3>
+
+          <p>
+            <strong>Solution:</strong> Use scheduling software (When I Work, 7shifts, Homebase)
+          </p>
+
+          <ul>
+            <li>Employees input availability</li>
+            <li>Software generates optimal schedules</li>
+            <li>Reduces conflicts and no-shows</li>
+            <li>Sends automatic shift reminders</li>
+          </ul>
+
+          <h3>Challenge #2: Limited Availability</h3>
+
+          <p>
+            <strong>Solution:</strong> Build a larger pool
+          </p>
+
+          <ul>
+            <li>Hire 6 part-timers instead of 4 (each works less, but you have more coverage options)</li>
+            <li>Cross-train so any part-timer can cover any shift</li>
+            <li>Create "on-call" list for emergency coverage</li>
+          </ul>
+
+          <h3>Challenge #3: Less Investment in Job</h3>
+
+          <p>
+            <strong>Solution:</strong> Treat part-timers well
+          </p>
+
+          <ul>
+            <li>Pay competitively (don't lowball because "they're just part-time")</li>
+            <li>Include in team meetings and events</li>
+            <li>Offer growth paths (part-time → full-time promotion)</li>
+            <li>Provide training and development</li>
+            <li>Show appreciation and recognition</li>
+          </ul>
+
+          <h3>Challenge #4: Higher Turnover</h3>
+
+          <p>
+            <strong>Solution:</strong> Accept it, plan for it
+          </p>
+
+          <ul>
+            <li>Build robust training systems (new hires get productive quickly)</li>
+            <li>Document everything (don't rely on institutional knowledge)</li>
+            <li>Always be recruiting (don't wait for someone to quit to start hiring)</li>
+            <li>Create referral bonuses (existing part-timers bring friends)</li>
+          </ul>
+
+          <h2>The Part-Time to Full-Time Pipeline</h2>
+
+          <p>
+            <strong>Smart strategy:</strong> Hire part-time as "audition" for full-time
+          </p>
+
+          <p>
+            <strong>How it works:</strong>
+          </p>
+
+          <ol>
+            <li>Hire new employees as part-time (20 hours/week)</li>
+            <li>Evaluate performance over 3-6 months</li>
+            <li>Promote best performers to full-time</li>
+            <li>Others remain part-time or churn out</li>
+          </ol>
+
+          <p>
+            <strong>Benefits:</strong>
+          </p>
+
+          <ul>
+            <li>Lower risk (not committing to full-time + benefits immediately)</li>
+            <li>Better selection (see performance before promoting)</li>
+            <li>Employee motivation (part-timers work hard to earn full-time spot)</li>
+            <li>Natural retention mechanism (good employees stay, underperformers leave)</li>
+          </ul>
+
+          <p>
+            <strong>Example promotion timeline:</strong>
+          </p>
+
+          <ul>
+            <li><strong>Month 0-3:</strong> Part-time (20 hours), $18/hour, no benefits</li>
+            <li><strong>Month 3 review:</strong> If performing well, increase to 30 hours</li>
+            <li><strong>Month 6 review:</strong> If excellent, promote to full-time (40 hours, $20/hour, benefits)</li>
+          </ul>
+
+          <h2>Financial Decision Framework</h2>
+
+          <h3>Calculate Your Break-Even on Full-Time:</h3>
+
+          <p>
+            <strong>Question:</strong> At what revenue level can you afford to convert part-time employees to full-time?
+          </p>
+
+          <p>
+            <strong>Formula:</strong><br />
+            Additional cost of full-time = (Full-time cost - Part-time cost) × number of employees
+          </p>
+
+          <p>
+            <strong>Example:</strong><br />
+            Converting 2 part-time (40 total hours) to 1 full-time (40 hours)
+          </p>
+
+          <ul>
+            <li>2 part-time costs: $3,882-4,182/month</li>
+            <li>1 full-time costs: $4,532-5,032/month</li>
+            <li><strong>Additional cost: $650-850/month</strong></li>
+          </ul>
+
+          <p>
+            <strong>Question:</strong> Will full-time employee generate $650-850+/month additional value through:
+          </p>
+
+          <ul>
+            <li>Better customer service → retention/upsells?</li>
+            <li>Reduced training costs → efficiency gains?</li>
+            <li>Improved consistency → reputation/referrals?</li>
+            <li>Ability to take on complex work → new revenue?</li>
+          </ul>
+
+          <p>
+            If yes, convert to full-time. If no, keep part-time structure.
+          </p>
+
+          <h2>The Bottom Line: Strategic Staffing Mix</h2>
+
+          <p>
+            Part-time vs. full-time isn't binary. The right answer is usually "both."
+          </p>
+
+          <p>
+            <strong>Recommended staffing evolution:</strong>
+          </p>
+
+          <p>
+            <strong>Phase 1 (Start-up, under $300k revenue):</strong>
+          </p>
+
+          <ul>
+            <li>Owner + all part-time employees</li>
+            <li>Focus: Minimize fixed costs, maximize flexibility</li>
+          </ul>
+
+          <p>
+            <strong>Phase 2 ($300k-$750k revenue):</strong>
+          </p>
+
+          <ul>
+            <li>1-2 full-time core + part-time support</li>
+            <li>Focus: Build stability while maintaining cost control</li>
+          </ul>
+
+          <p>
+            <strong>Phase 3 ($750k-$1.5M revenue):</strong>
+          </p>
+
+          <ul>
+            <li>3-5 full-time core + part-time for peaks/coverage</li>
+            <li>Focus: Expertise, consistency, culture</li>
+          </ul>
+
+          <p>
+            <strong>Phase 4 ($1.5M+ revenue):</strong>
+          </p>
+
+          <ul>
+            <li>Mostly full-time (80%+), strategic part-time for flex needs</li>
+            <li>Focus: Retention, benefits, career development</li>
+          </ul>
+
+          <p>
+            Don't force yourself into all-full-time too early (cash flow disaster). Don't stay all-part-time too long (quality/retention suffers).
+          </p>
+
+          <p>
+            Evolve your mix as your business grows. Strategic staffing is a competitive advantage.
+          </p>
+
+        </div>
+      </Section>
+
+      <Section width="default" className="py-16 bg-zinc-50">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4 text-zinc-900">Optimize Your Staffing Mix?</h2>
+          <p className="text-xl text-zinc-600 mb-8">
+            We help Santa Cruz businesses analyze labor costs, design optimal staffing models, and build teams that balance cost control with operational excellence.
+          </p>
+          <CTAButton href="/contact" text="Let's Design Your Staffing Strategy" />
+        </div>
+      </Section>
+    </div>
+  )
+}

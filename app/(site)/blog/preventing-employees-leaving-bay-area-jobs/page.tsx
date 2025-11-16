@@ -139,7 +139,7 @@ export default function PreventingBayAreaDepartures() {
       )
     },
     {
-      title: 'Counter-Offer Strategy (When They're Leaving)',
+      title: 'Counter-Offer Strategy (When They\'re Leaving)',
       content: (
         <>
           <p className="mb-4">
